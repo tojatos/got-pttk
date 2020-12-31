@@ -5,6 +5,9 @@
 #   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
+from django.contrib.auth.models import User
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 
 class Grupagorskaprzodownika(models.Model):
@@ -116,13 +119,21 @@ class Trasa(models.Model):
 
 
 class Uzytkownik(models.Model):
-    login = models.CharField(db_column='Login', max_length=255, primary_key=True)  # Field name made lowercase.
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     jestniepelnosprawny = models.BooleanField(db_column='JestNiepelnosprawny', blank=True, null=True)  # Field name made lowercase.
     dataurodzenia = models.DateField(db_column='DataUrodzenia', blank=True, null=True)  # Field name made lowercase. This field type is a guess.
-    imie = models.CharField(db_column='Imie', max_length=255)  # Field name made lowercase.
-    nazwisko = models.CharField(db_column='Nazwisko', max_length=255)  # Field name made lowercase.
     numerlegitymacji = models.CharField(db_column='NumerLegitymacji', max_length=255, blank=True, null=True)  # Field name made lowercase.
-    rola = models.ForeignKey(Rola, models.DO_NOTHING, db_column='Rola')  # Field name made lowercase.
+    rola = models.ForeignKey(Rola, models.DO_NOTHING, db_column='Rola', default='TURYSTA')  # Field name made lowercase.
 
     class Meta:
         db_table = 'Uzytkownik'
+
+# https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html#onetoone
+@receiver(post_save, sender=User)
+def create_user_uzytkownik(sender, instance, created, **kwargs):
+    if created:
+        Uzytkownik.objects.create(user=instance)
+
+@receiver(post_save, sender=User)
+def save_user_uzytkownik(sender, instance, **kwargs):
+    instance.uzytkownik.save()
