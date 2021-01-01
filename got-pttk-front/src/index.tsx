@@ -8,7 +8,15 @@ import { CssBaseline } from "@material-ui/core";
 
 const theme = createMuiTheme({
   palette: {
-    type: "dark",
+    primary: {
+      main: "#181818",
+    },
+    secondary: {
+      main: "#707070",
+    },
+    background: {
+      default: "black",
+    }
   },
 });
 
