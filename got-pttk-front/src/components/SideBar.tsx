@@ -1,24 +1,52 @@
-import { Drawer, List, ListItem, ListItemText } from "@material-ui/core";
+import { Box, Drawer, IconButton, List, ListItem, ListItemText } from "@material-ui/core";
 import React from "react";
+import MenuIcon from '@material-ui/icons/Menu';
 import { NavConfig } from "../constant/NavConfig";
 import { UserRoles } from "../constant/User";
-import { Link } from "react-router-dom";
+import makeStyles from "@material-ui/core/styles/makeStyles";
 
-const SideBar = () => {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    backgroundColor: theme.palette.primary.main
+  },
+  menuBox: {
+    paddingLeft: theme.spacing(3),
+    borderBottom: `solid 1px ${theme.palette.secondary.main}`,
+    borderRight: `solid 1px ${theme.palette.secondary.main}`,
+    minHeight: '64px',
+    display: 'flex',
+    alignItems: 'center'
+  },
+  listLabel: {
+    paddingLeft: theme.spacing(4),
+  }
+}));
+
+interface SideBarProps {
+  closeNav: () => void;
+  navIsOpen: boolean;
+}
+
+const SideBar = ({ closeNav, navIsOpen }: SideBarProps) => {
+  const classes = useStyles();
   const role =  UserRoles.LEADER//TODO: get role from store
+
 
   return (
     <nav>
-        <Drawer>
-            <List>
-            {NavConfig.find(e => e.user === role)?.routes.map(((route, i) => (
-                <Link to={route.path}>
-                <ListItem button key={i}>
-                    <ListItemText primary={route.label} />
-                </ListItem>
-                </Link>
+        <Drawer anchor="left" open={navIsOpen} classes={{paper: classes.root}}>
+          <Box className={classes.menuBox}>
+            <IconButton edge="start" color="inherit" aria-label="menu" onClick={closeNav}>
+              <MenuIcon />
+            </IconButton>
+          </Box>
+          <List>
+          {NavConfig.find(e => e.user === role)?.routes.map(((route, i) => (
+              <ListItem button component="a" href={route.path}>
+                <ListItemText primary={route.label} className={ classes.listLabel }/>
+              </ListItem>
             )))}
-            </List>
+          </List>
         </Drawer>
     </nav>
   );

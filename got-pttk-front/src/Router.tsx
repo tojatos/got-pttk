@@ -5,6 +5,7 @@ import HomePage from './screens/Home';
 import ManageRoutes from './screens/ManageRoutes';
 import ManageSegments from './screens/ManageSegments';
 import PlanRoute from './screens/PlanRoute';
+import VerifyRoute from './screens/VerifyRoute';
 
 const routes = [
     {
@@ -28,7 +29,7 @@ const routes = [
     {
         
         path: Routes.VERIFY_ROUTE,
-        component: PlanRoute,
+        component: VerifyRoute,
     }
 ];
 

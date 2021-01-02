@@ -16,13 +16,17 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-export default function MenuAppBar() {
+interface MenuAppBarProps {
+  openNav: () => void;
+}
+
+export default function MenuAppBar({ openNav }: MenuAppBarProps) {
     const classes = useStyles();
 
     return (
         <AppBar position="static" className={classes.root}>
           <Toolbar>
-            <IconButton edge="start" color="inherit" aria-label="menu">
+            <IconButton edge="start" color="inherit" aria-label="menu" onClick={openNav}>
               <MenuIcon />
             </IconButton>
             <img src={logoPTTK} alt="logo PTTK" className={classes.logo}/>
