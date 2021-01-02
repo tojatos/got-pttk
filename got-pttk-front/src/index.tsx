@@ -8,6 +8,7 @@ import Router from "./Router";
 
 const theme = createMuiTheme({
   palette: {
+    type: "dark",
     primary: {
       main: "#181818",
     },

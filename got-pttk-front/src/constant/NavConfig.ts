@@ -45,7 +45,7 @@ export const NavConfig: Array<NavItem> = [
         ]
     },
     {
-        user: UserRoles.TOURIST,
+        user: UserRoles.LEADER,
         routes: [
             {
                 path: Routes.HOME,
