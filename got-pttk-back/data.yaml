@@ -1,16 +1,3 @@
-- model: core.rola
-  pk: PRZODOWNIK
-  fields: {}
-- model: core.rola
-  pk: TURYSTA
-  fields: {}
-- model: core.uzytkownik
-  pk: 1
-  fields:
-    jestniepelnosprawny: null
-    dataurodzenia: null
-    numerlegitymacji: '234'
-    rola: PRZODOWNIK
 - model: auth.user
   pk: 1
   fields:
@@ -26,3 +13,16 @@
     date_joined: 2020-12-31 05:42:07.184672+00:00
     groups: []
     user_permissions: []
+- model: core.rola
+  pk: PRZODOWNIK
+  fields: {}
+- model: core.rola
+  pk: TURYSTA
+  fields: {}
+- model: core.uzytkownik
+  pk: 1
+  fields:
+    jestniepelnosprawny: null
+    dataurodzenia: null
+    numerlegitymacji: '234'
+    rola: PRZODOWNIK
