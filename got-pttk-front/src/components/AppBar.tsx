@@ -5,6 +5,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import React from 'react';
 import logoPTTK from '../assets/logoPTTK.png'
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from "react-router-dom";
+import { Routes } from '../constant/Routes';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -29,7 +31,9 @@ export default function MenuAppBar({ openNav }: MenuAppBarProps) {
             <IconButton edge="start" color="inherit" aria-label="menu" onClick={openNav}>
               <MenuIcon />
             </IconButton>
-            <img src={logoPTTK} alt="logo PTTK" className={classes.logo}/>
+            <Link to={Routes.HOME}>
+              <img src={logoPTTK} alt="logo PTTK" className={classes.logo}/>
+            </Link>
           </Toolbar>
         </AppBar>
     );

@@ -4,6 +4,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { NavConfig } from "../constant/NavConfig";
 import { UserRoles } from "../constant/User";
 import makeStyles from "@material-ui/core/styles/makeStyles";
+import { Link as RouterLink } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,7 +43,7 @@ const SideBar = ({ closeNav, navIsOpen }: SideBarProps) => {
           </Box>
           <List>
           {NavConfig.find(e => e.user === role)?.routes.map(((route, i) => (
-              <ListItem button component="a" href={route.path}>
+              <ListItem key={i} button component={RouterLink} to={route.path}>
                 <ListItemText primary={route.label} className={ classes.listLabel }/>
               </ListItem>
             )))}

@@ -1,5 +1,5 @@
 export enum Routes {
-    HOME = '/home',
+    HOME = '/',
     MANAGE_ROUTES = '/manage-routes',
     MANAGE_SEGMENTS = '/manage-segemnts',
     PLAN_ROUTE = '/plan-route',
