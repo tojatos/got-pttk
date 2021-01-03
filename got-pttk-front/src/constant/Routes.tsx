@@ -1,7 +1,7 @@
 export enum Routes {
-    HOME = '/',
-    MANAGE_ROUTES = '/manage-routes',
-    MANAGE_SEGMENTS = '/manage-segemnts',
-    PLAN_ROUTE = '/plan-route',
-    VERIFY_ROUTE = '/verification'
+  HOME = "/",
+  MANAGE_ROUTES = "/manage-routes",
+  MANAGE_SEGMENTS = "/manage-segemnts",
+  PLAN_ROUTE = "/plan-route",
+  VERIFY_ROUTE = "/verification",
 }

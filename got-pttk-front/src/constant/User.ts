@@ -1,6 +1,5 @@
 export enum UserRoles {
-    GUEST = 'guest',
-    TOURIST = 'tourist',
-    LEADER = 'leader'
+  GUEST = "guest",
+  TOURIST = "tourist",
+  LEADER = "leader",
 }
-
