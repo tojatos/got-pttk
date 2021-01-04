@@ -57,6 +57,7 @@ class Polaczenie(models.Model):
     punktydo = models.IntegerField(db_column='PunktyDo', blank=True, null=True)  # Field name made lowercase.
     nazwa = models.CharField(db_column='Nazwa', unique=True, max_length=255, blank=True, null=True)  # Field name made lowercase.
     grupagorska = models.ForeignKey(Grupagorska, models.DO_NOTHING, db_column='GrupaGorska')  # Field name made lowercase.
+    tworca = models.ForeignKey('Uzytkownik', models.DO_NOTHING, db_column='Tworca', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         db_table = 'Polaczenie'
@@ -96,6 +97,7 @@ class Punktpolaczenia(models.Model):
 
 class Punkttrasy(models.Model):
     nazwa = models.CharField(db_column='Nazwa', max_length=255, primary_key=True)  # Field name made lowercase.
+    tworca = models.ForeignKey('Uzytkownik', models.DO_NOTHING, db_column='Tworca', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         db_table = 'PunktTrasy'
@@ -113,6 +115,7 @@ class Trasa(models.Model):
     datarozpoczecia = models.DateField(db_column='DataRozpoczecia', blank=True, null=True)  # Field name made lowercase. This field type is a guess.
     datazakonczenia = models.DateField(db_column='DataZakonczenia', blank=True, null=True)  # Field name made lowercase. This field type is a guess.
     nazwa = models.CharField(db_column='Nazwa', max_length=255)  # Field name made lowercase.
+    turysta = models.ForeignKey('Uzytkownik', models.DO_NOTHING, db_column='Turysta')  # Field name made lowercase.
 
     class Meta:
         db_table = 'Trasa'
