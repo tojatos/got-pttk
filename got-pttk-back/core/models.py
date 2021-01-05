@@ -61,6 +61,7 @@ class Polaczenie(models.Model):
 
     class Meta:
         db_table = 'Polaczenie'
+        unique_together = ('nazwa', 'tworca')
 
 
 class Polaczenietrasy(models.Model):
@@ -96,11 +97,14 @@ class Punktpolaczenia(models.Model):
 
 
 class Punkttrasy(models.Model):
-    nazwa = models.CharField(db_column='Nazwa', max_length=255, primary_key=True)  # Field name made lowercase.
+    id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
+    nazwa = models.CharField(db_column='Nazwa', max_length=255)  # Field name made lowercase.
     tworca = models.ForeignKey('Uzytkownik', models.DO_NOTHING, db_column='Tworca', blank=True, null=True)  # Field name made lowercase.
+
 
     class Meta:
         db_table = 'PunktTrasy'
+        unique_together = ('nazwa', 'tworca')
 
 
 class Rola(models.Model):
