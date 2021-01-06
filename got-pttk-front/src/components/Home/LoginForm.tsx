@@ -16,16 +16,6 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(1),
     width: "25ch",
   },
-  link: {
-    color: theme.palette.common.white,
-    textDecoration: "none",
-    "&:visited": {
-      color: theme.palette.common.white,
-    },
-    "&:hover": {
-      textDecoration: "underline",
-    },
-  },
 }));
 
 interface IFormInput {
@@ -39,7 +29,6 @@ export default function LoginForm() {
 
   const onSubmit = ({ login, password }: IFormInput) => {
     //TODO: sign in user
-    console.log({ login, password });
   };
 
   return (
