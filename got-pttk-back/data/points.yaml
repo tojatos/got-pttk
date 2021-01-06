@@ -1,0 +1,8328 @@
+- fields:
+    nazwa: Ferdel (648 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1
+- fields:
+    nazwa: Schronisko PTTK Kochanówka Wodospad Szklarki (510 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 2
+- fields:
+    nazwa: Skała Józefa
+    tworca: null
+  model: core.punkttrasy
+  pk: 3
+- fields:
+    nazwa: ROHACKI BUFET/TATLIAKOVO JAZERO/CIERNA MLAKA (X C, Z) (1360 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 4
+- fields:
+    nazwa: Marczów
+    tworca: null
+  model: core.punkttrasy
+  pk: 5
+- fields:
+    nazwa: Szczytna (Wzgórza Kiełczańskie) (466 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 6
+- fields:
+    nazwa: Przełęcz Sulistrowicka (280 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 7
+- fields:
+    nazwa: RAZTOCKE SEDLO (1233 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 8
+- fields:
+    nazwa: PRED SOLANKOU (X, Ż/Z) (840 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 9
+- fields:
+    nazwa: Bacówka PTTK Jaworzec
+    tworca: null
+  model: core.punkttrasy
+  pk: 10
+- fields:
+    nazwa: Rogozowa (531 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 11
+- fields:
+    nazwa: ILANOVSKA DOLINA ZA VRATAMI (X, Ż/Z) (850 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 12
+- fields:
+    nazwa: Suchoń (964 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 13
+- fields:
+    nazwa: SEDLO (PRZEŁĘCZ) PRÍSLOP POD SUCHÝM (1202 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 14
+- fields:
+    nazwa: Zamek Gryf (447 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 15
+- fields:
+    nazwa: BUFET POD CHLEBOM (1415 m) (X N, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 16
+- fields:
+    nazwa: Dobšinská ľadová jaskyňa (969)
+    tworca: null
+  model: core.punkttrasy
+  pk: 17
+- fields:
+    nazwa: Krowia Góra (456 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 18
+- fields:
+    nazwa: Przełęcz Siodło (502 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 19
+- fields:
+    nazwa: Świerczyna (ok. 635 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 20
+- fields:
+    nazwa: DOLINA PARICHVOST RAZC. (X Z, N) (1125 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 21
+- fields:
+    nazwa: Grodziec (803 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 22
+- fields:
+    nazwa: SEDLO (PRZEŁĘCZ) BRESTOV (970 m) (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 23
+- fields:
+    nazwa: KŁAK (1352 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 24
+- fields:
+    nazwa: Purpurowe Jeziorko (560 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 25
+- fields:
+    nazwa: Romanowo Górne (pod Skaleczną)
+    tworca: null
+  model: core.punkttrasy
+  pk: 26
+- fields:
+    nazwa: Chełm 603 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 27
+- fields:
+    nazwa: Rozdroże pod Kokotem
+    tworca: null
+  model: core.punkttrasy
+  pk: 28
+- fields:
+    nazwa: Schronisko PTTK Orlica
+    tworca: null
+  model: core.punkttrasy
+  pk: 29
+- fields:
+    nazwa: Leszczyny
+    tworca: null
+  model: core.punkttrasy
+  pk: 30
+- fields:
+    nazwa: Biały Wierch (607 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 31
+- fields:
+    nazwa: Połoma (776 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 32
+- fields:
+    nazwa: Jaworki
+    tworca: null
+  model: core.punkttrasy
+  pk: 33
+- fields:
+    nazwa: Mrówczyniec (487 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 34
+- fields:
+    nazwa: Mrowiec (513 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 35
+- fields:
+    nazwa: Postawna (1111 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 36
+- fields:
+    nazwa: Jarmuta (773 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 37
+- fields:
+    nazwa: Przełęcz Puchaczówka (864 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 38
+- fields:
+    nazwa: SEDLO POD SKALKOU (1476 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 39
+- fields:
+    nazwa: Chełm nad Grybowem (780 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 40
+- fields:
+    nazwa: Schronisko PTTK Hala Rysianka (1290 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 41
+- fields:
+    nazwa: Babia Góra (387 m) Wzgórza nad Warzycami
+    tworca: null
+  model: core.punkttrasy
+  pk: 42
+- fields:
+    nazwa: GRZBIET GRANICZNY
+    tworca: null
+  model: core.punkttrasy
+  pk: 43
+- fields:
+    nazwa: Rozdroże pod Zawadą
+    tworca: null
+  model: core.punkttrasy
+  pk: 44
+- fields:
+    nazwa: Wieszczyna
+    tworca: null
+  model: core.punkttrasy
+  pk: 45
+- fields:
+    nazwa: Bukowiec (405 m) (Lisia Góra)
+    tworca: null
+  model: core.punkttrasy
+  pk: 46
+- fields:
+    nazwa: Polana Morgi
+    tworca: null
+  model: core.punkttrasy
+  pk: 47
+- fields:
+    nazwa: CERVENY KLASTOR (zespół zabytkowy) (458 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 48
+- fields:
+    nazwa: Baranie (754 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 49
+- fields:
+    nazwa: Matragona (990 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 50
+- fields:
+    nazwa: Wzgórze Kościuszki (ok. 398 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 51
+- fields:
+    nazwa: Przełęcz Pod Chłopkiem (733 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 52
+- fields:
+    nazwa: Klasztorzysko (631 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 53
+- fields:
+    nazwa: Taszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 54
+- fields:
+    nazwa: Karłówek
+    tworca: null
+  model: core.punkttrasy
+  pk: 55
+- fields:
+    nazwa: Skały Puchacza (730 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 56
+- fields:
+    nazwa: Młyńsko (991 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 57
+- fields:
+    nazwa: Smrek (1125 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 58
+- fields:
+    nazwa: Ceglana Góra (611 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 59
+- fields:
+    nazwa: BABIA HORA (BABIA GÓRA, DIABLAK) (1725 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 60
+- fields:
+    nazwa: Szafranówka (742 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 61
+- fields:
+    nazwa: Nowa Biała
+    tworca: null
+  model: core.punkttrasy
+  pk: 62
+- fields:
+    nazwa: Nižná záhrada (1086)
+    tworca: null
+  model: core.punkttrasy
+  pk: 63
+- fields:
+    nazwa: Sieniawa
+    tworca: null
+  model: core.punkttrasy
+  pk: 64
+- fields:
+    nazwa: KOTLISKA (1936 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 65
+- fields:
+    nazwa: Sępia Góra (828 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 66
+- fields:
+    nazwa: Sulowa Cyrhla
+    tworca: null
+  model: core.punkttrasy
+  pk: 67
+- fields:
+    nazwa: Wielka Rawka (1307 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 68
+- fields:
+    nazwa: Czerniawska Kopa (776 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 69
+- fields:
+    nazwa: HROMOVÉ (1636 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 70
+- fields:
+    nazwa: Danowa (840 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 71
+- fields:
+    nazwa: Michałowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 72
+- fields:
+    nazwa: Przełęcz Słupicka (320 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 73
+- fields:
+    nazwa: JAMNICKE SEDLO (X C, N) (1909 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 74
+- fields:
+    nazwa: Kowadło (989 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 75
+- fields:
+    nazwa: Wysoki Most
+    tworca: null
+  model: core.punkttrasy
+  pk: 76
+- fields:
+    nazwa: Jaworzyna (1047 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 77
+- fields:
+    nazwa: Haniak (540 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 78
+- fields:
+    nazwa: Dwoiśniak
+    tworca: null
+  model: core.punkttrasy
+  pk: 79
+- fields:
+    nazwa: Wysoki Wierch (899 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 80
+- fields:
+    nazwa: STRMY VRSTEK (809 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 81
+- fields:
+    nazwa: SEDLO POD CERVENYM GRUNOM (880 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 82
+- fields:
+    nazwa: Jasiel
+    tworca: null
+  model: core.punkttrasy
+  pk: 83
+- fields:
+    nazwa: Gozdnik (315 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 84
+- fields:
+    nazwa: Dębi Wierch (664 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 85
+- fields:
+    nazwa: Zadzierna (724 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 86
+- fields:
+    nazwa: Rozdroże pod Kamiennym Krzyżem
+    tworca: null
+  model: core.punkttrasy
+  pk: 87
+- fields:
+    nazwa: Mareszka (801 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 88
+- fields:
+    nazwa: Sokolia dolina, záver (1002)
+    tworca: null
+  model: core.punkttrasy
+  pk: 89
+- fields:
+    nazwa: Przełęcz Chrośnicka (538 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 90
+- fields:
+    nazwa: VAJSKOVSKA DOLINA CRMNE (640 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 91
+- fields:
+    nazwa: Kalinka (386 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 92
+- fields:
+    nazwa: Kalwaria Lanckorona (PKP)
+    tworca: null
+  model: core.punkttrasy
+  pk: 93
+- fields:
+    nazwa: Widna Góra (413 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 94
+- fields:
+    nazwa: Koskowa Góra (866 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 95
+- fields:
+    nazwa: Radziejowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 96
+- fields:
+    nazwa: Runek (1080 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 97
+- fields:
+    nazwa: Puławy Górne
+    tworca: null
+  model: core.punkttrasy
+  pk: 98
+- fields:
+    nazwa: NAD KOPCOVOU (X, Ż/N) (1040 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 99
+- fields:
+    nazwa: Grodzisko (618 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 100
+- fields:
+    nazwa: Ostry Dział (416 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 101
+- fields:
+    nazwa: HLADELSKE SEDLO
+    tworca: null
+  model: core.punkttrasy
+  pk: 102
+- fields:
+    nazwa: Frydman
+    tworca: null
+  model: core.punkttrasy
+  pk: 103
+- fields:
+    nazwa: SEDLO ZA LENIVOU (1378 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 104
+- fields:
+    nazwa: Czerwona Skała
+    tworca: null
+  model: core.punkttrasy
+  pk: 105
+- fields:
+    nazwa: Ziębice PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 106
+- fields:
+    nazwa: Wał Małacentowski (397 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 107
+- fields:
+    nazwa: Kłodzko
+    tworca: null
+  model: core.punkttrasy
+  pk: 108
+- fields:
+    nazwa: Przełęcz pod Gołębią (785 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 109
+- fields:
+    nazwa: Wyżnia Tomanowa Polana (1340 ÷ 1450 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 110
+- fields:
+    nazwa: Garbatka (797 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 111
+- fields:
+    nazwa: Kraszowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 112
+- fields:
+    nazwa: Wisła Czarne (skrzyżowanie)
+    tworca: null
+  model: core.punkttrasy
+  pk: 113
+- fields:
+    nazwa: Ślemień
+    tworca: null
+  model: core.punkttrasy
+  pk: 114
+- fields:
+    nazwa: NAD SEDLOM DURKOWEJ (X, C/Z 1730 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 115
+- fields:
+    nazwa: Kamień (831 m) - szczyt południowy
+    tworca: null
+  model: core.punkttrasy
+  pk: 116
+- fields:
+    nazwa: Góra św. Anny (647 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 117
+- fields:
+    nazwa: Moczarki
+    tworca: null
+  model: core.punkttrasy
+  pk: 118
+- fields:
+    nazwa: Zamek Cisy (350 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 119
+- fields:
+    nazwa: Przełęcz pod Bobrzakiem (808 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 120
+- fields:
+    nazwa: Przełęcz Obidza (Gromadzka) (931 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 121
+- fields:
+    nazwa: Gontowa (723 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 122
+- fields:
+    nazwa: Hala Pod Śnieżnikiem Schronisko PTTK (1218 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 123
+- fields:
+    nazwa: Kamieniec (442 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 124
+- fields:
+    nazwa: Żelaźniak (664 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 125
+- fields:
+    nazwa: Świny
+    tworca: null
+  model: core.punkttrasy
+  pk: 126
+- fields:
+    nazwa: Przełęcz Sokołowska ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 127
+- fields:
+    nazwa: KRALOVA STUDNA (1365 m) (X C, Z, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 128
+- fields:
+    nazwa: KRALOVA HOLA (1946 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 129
+- fields:
+    nazwa: Ostry Dział (723 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 130
+- fields:
+    nazwa: Gachowizna (758 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 131
+- fields:
+    nazwa: Łabiska (615 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 132
+- fields:
+    nazwa: Góra Gapa (ok. 470 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 133
+- fields:
+    nazwa: CIERNE PRI CADCI stacja kolejowa (X, N, Z) (450 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 134
+- fields:
+    nazwa: Grochowiec (432 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 135
+- fields:
+    nazwa: Leśniczówka Jedlinki
+    tworca: null
+  model: core.punkttrasy
+  pk: 136
+- fields:
+    nazwa: Kamionki
+    tworca: null
+  model: core.punkttrasy
+  pk: 137
+- fields:
+    nazwa: ZIARSKE SEDLO (X Z, Ż) (1917 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 138
+- fields:
+    nazwa: Krasna (658 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 139
+- fields:
+    nazwa: Łysica (704 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 140
+- fields:
+    nazwa: Rude Krzyże (1053 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 141
+- fields:
+    nazwa: Na Gratach ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 142
+- fields:
+    nazwa: Pańska Góra ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 143
+- fields:
+    nazwa: Margoń Wyżna (774 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 144
+- fields:
+    nazwa: Przełęcz pod Przysłopem
+    tworca: null
+  model: core.punkttrasy
+  pk: 145
+- fields:
+    nazwa: Lachów Groń (1048 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 146
+- fields:
+    nazwa: Pcim
+    tworca: null
+  model: core.punkttrasy
+  pk: 147
+- fields:
+    nazwa: Długosz (590 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 148
+- fields:
+    nazwa: Dubne (904 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 149
+- fields:
+    nazwa: TICHA DOLINA/RAZCESTIE POD KASPROVYM VRCHOM (X Ż, C) (1290 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 150
+- fields:
+    nazwa: Żółta Droga
+    tworca: null
+  model: core.punkttrasy
+  pk: 151
+- fields:
+    nazwa: Kopciowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 152
+- fields:
+    nazwa: Bucze (585 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 153
+- fields:
+    nazwa: Przełęcz między Jałowcami
+    tworca: null
+  model: core.punkttrasy
+  pk: 154
+- fields:
+    nazwa: Wilcze (506 m) (Patria)
+    tworca: null
+  model: core.punkttrasy
+  pk: 155
+- fields:
+    nazwa: Rezerwat Muszkowicki Las Bukowy
+    tworca: null
+  model: core.punkttrasy
+  pk: 156
+- fields:
+    nazwa: Szaflary
+    tworca: null
+  model: core.punkttrasy
+  pk: 157
+- fields:
+    nazwa: Siestrzochowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 158
+- fields:
+    nazwa: Iwaniacka Przełęcz (1459 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 159
+- fields:
+    nazwa: MALE NOCLAHY (1000 m)(X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 160
+- fields:
+    nazwa: Rozdroże pod Górką
+    tworca: null
+  model: core.punkttrasy
+  pk: 161
+- fields:
+    nazwa: Kamienica
+    tworca: null
+  model: core.punkttrasy
+  pk: 162
+- fields:
+    nazwa: Schronisko PTTK na Hali Boraczej (854 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 163
+- fields:
+    nazwa: Jagodnik
+    tworca: null
+  model: core.punkttrasy
+  pk: 164
+- fields:
+    nazwa: Uherec (707 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 165
+- fields:
+    nazwa: Lubomierz
+    tworca: null
+  model: core.punkttrasy
+  pk: 166
+- fields:
+    nazwa: Szybowisko (561 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 167
+- fields:
+    nazwa: Lanckorońska Góra (545 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 168
+- fields:
+    nazwa: Szczawno Zdrój
+    tworca: null
+  model: core.punkttrasy
+  pk: 169
+- fields:
+    nazwa: Żleb Kulczyńskiego
+    tworca: null
+  model: core.punkttrasy
+  pk: 170
+- fields:
+    nazwa: ÚŠUST (WYSOKI BESKID, OSZUS) (1155 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 171
+- fields:
+    nazwa: SEDLO MEDZIROZSUTCE (1200 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 172
+- fields:
+    nazwa: Łysa Góra (441 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 173
+- fields:
+    nazwa: Rozdroże pod Kopą (998 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 174
+- fields:
+    nazwa: Wambierzyce
+    tworca: null
+  model: core.punkttrasy
+  pk: 175
+- fields:
+    nazwa: Schronisko PTTK Komańcza-Letnisko
+    tworca: null
+  model: core.punkttrasy
+  pk: 176
+- fields:
+    nazwa: Przełęcz pod Wieżycą (280 m)(Schronisko)
+    tworca: null
+  model: core.punkttrasy
+  pk: 177
+- fields:
+    nazwa: Szpickiery
+    tworca: null
+  model: core.punkttrasy
+  pk: 178
+- fields:
+    nazwa: INNE
+    tworca: null
+  model: core.punkttrasy
+  pk: 179
+- fields:
+    nazwa: POLANA (979 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 180
+- fields:
+    nazwa: Góra Wszystkich Świętych (648 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 181
+- fields:
+    nazwa: Styr (460 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 182
+- fields:
+    nazwa: MALÝ KRIVÁŃ (1671 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 183
+- fields:
+    nazwa: Żeleźnica (912 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 184
+- fields:
+    nazwa: Strużnickie Skały
+    tworca: null
+  model: core.punkttrasy
+  pk: 185
+- fields:
+    nazwa: Kamesznica Złatna
+    tworca: null
+  model: core.punkttrasy
+  pk: 186
+- fields:
+    nazwa: Radochów PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 187
+- fields:
+    nazwa: Mraźnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 188
+- fields:
+    nazwa: STARE HORY (472 m) (X Z, N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 189
+- fields:
+    nazwa: Lipowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 190
+- fields:
+    nazwa: Przykrzec (741 m) (Przykiec)
+    tworca: null
+  model: core.punkttrasy
+  pk: 191
+- fields:
+    nazwa: Piotruś (728 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 192
+- fields:
+    nazwa: Wysokówka (412 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 193
+- fields:
+    nazwa: Rozdroże pod Hutniczą Kopą
+    tworca: null
+  model: core.punkttrasy
+  pk: 194
+- fields:
+    nazwa: POD CHABENCOM (X, C/N,) (1839 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 195
+- fields:
+    nazwa: Kyseľ, rázcestie (730)
+    tworca: null
+  model: core.punkttrasy
+  pk: 196
+- fields:
+    nazwa: Kiczora (1284 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 197
+- fields:
+    nazwa: Przełęcz Krzyżne (2114 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 198
+- fields:
+    nazwa: Przełęcz L. Różyciego
+    tworca: null
+  model: core.punkttrasy
+  pk: 199
+- fields:
+    nazwa: Staszkówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 200
+- fields:
+    nazwa: Gromnik (393 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 201
+- fields:
+    nazwa: SEDLO ZA KRAVIARSKÝM (1230 m) (X Z, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 202
+- fields:
+    nazwa: Macelak (856 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 203
+- fields:
+    nazwa: Zamek Czocha
+    tworca: null
+  model: core.punkttrasy
+  pk: 204
+- fields:
+    nazwa: Jasieniowa (521 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 205
+- fields:
+    nazwa: Świecie
+    tworca: null
+  model: core.punkttrasy
+  pk: 206
+- fields:
+    nazwa: Leszek (546 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 207
+- fields:
+    nazwa: Górki Wielkie
+    tworca: null
+  model: core.punkttrasy
+  pk: 208
+- fields:
+    nazwa: Łopień (951 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 209
+- fields:
+    nazwa: Łopiennik (1069 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 210
+- fields:
+    nazwa: Świnica (2301 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 211
+- fields:
+    nazwa: Kluczowska Góra (428 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 212
+- fields:
+    nazwa: Groń Jana Pawła II (890 m) - Schronisko PTTK Leskowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 213
+- fields:
+    nazwa: Panieńska Góra (331 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 214
+- fields:
+    nazwa: Jaworzyny Ochotnickie
+    tworca: null
+  model: core.punkttrasy
+  pk: 215
+- fields:
+    nazwa: Wielki Wierch (1007 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 216
+- fields:
+    nazwa: Ciechania
+    tworca: null
+  model: core.punkttrasy
+  pk: 217
+- fields:
+    nazwa: Międzylesie
+    tworca: null
+  model: core.punkttrasy
+  pk: 218
+- fields:
+    nazwa: Przeworno
+    tworca: null
+  model: core.punkttrasy
+  pk: 219
+- fields:
+    nazwa: Polana Izerska (965 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 220
+- fields:
+    nazwa: Spalona Strażnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 221
+- fields:
+    nazwa: Uroczysko pod Czechami (318 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 222
+- fields:
+    nazwa: Męcińska Góra (679 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 223
+- fields:
+    nazwa: Schronisko PTTK Strzecha Akademicka (1258 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 224
+- fields:
+    nazwa: Przełęcz Komarnicka (662 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 225
+- fields:
+    nazwa: Beskid Korbielowski (955 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 226
+- fields:
+    nazwa: Miejska Góra (426 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 227
+- fields:
+    nazwa: Wierch Czadeczka (Solowy Wierch (848 m))
+    tworca: null
+  model: core.punkttrasy
+  pk: 228
+- fields:
+    nazwa: Schronisko PTTK Stare Wierchy (980 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 229
+- fields:
+    nazwa: DEDOVKA (650 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 230
+- fields:
+    nazwa: Schronisko PTTK na Hali Miziowej (1330 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 231
+- fields:
+    nazwa: Mogiła (478 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 232
+- fields:
+    nazwa: Rosocha (464 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 233
+- fields:
+    nazwa: Rozdroże Kowarskie (787 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 234
+- fields:
+    nazwa: Przełęcz Białego (1306 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 235
+- fields:
+    nazwa: SKALISKO (1495 m) (X, N, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 236
+- fields:
+    nazwa: POD SMREKOVOM (700 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 237
+- fields:
+    nazwa: POD KRAKOVOU HOLOU (1730 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 238
+- fields:
+    nazwa: Jodłowa (715 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 239
+- fields:
+    nazwa: Wawrzka
+    tworca: null
+  model: core.punkttrasy
+  pk: 240
+- fields:
+    nazwa: Bryjarka (679 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 241
+- fields:
+    nazwa: HADLANKA (1129 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 242
+- fields:
+    nazwa: BRESTOVA (X C, N) (1934 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 243
+- fields:
+    nazwa: NOVÁ BYSTRICA (515 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 244
+- fields:
+    nazwa: Kopki (343 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 245
+- fields:
+    nazwa: Havrania skala (1153)
+    tworca: null
+  model: core.punkttrasy
+  pk: 246
+- fields:
+    nazwa: Kamienna Laworta (769 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 247
+- fields:
+    nazwa: TRI STUDNICKY (X C, Z, N) (1141 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 248
+- fields:
+    nazwa: JASENANSKA KYSLA (X, N/Ż) (690 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 249
+- fields:
+    nazwa: Rozdroże pod Suchawą
+    tworca: null
+  model: core.punkttrasy
+  pk: 250
+- fields:
+    nazwa: Kamień (618 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 251
+- fields:
+    nazwa: Przełęcz Tapadła (384 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 252
+- fields:
+    nazwa: Twardziel (358 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 253
+- fields:
+    nazwa: Gomoła (733 m)(Homole)
+    tworca: null
+  model: core.punkttrasy
+  pk: 254
+- fields:
+    nazwa: Cerekwica (555 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 255
+- fields:
+    nazwa: Radunia (Sępia Góra)(573 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 256
+- fields:
+    nazwa: SEDLO POLANY (1837 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 257
+- fields:
+    nazwa: Gęsia Góra (440 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 258
+- fields:
+    nazwa: Śnieżka (1602 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 259
+- fields:
+    nazwa: Przełęcz Sucha (1002 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 260
+- fields:
+    nazwa: DOLINA LESNICKY POTOK (X Z, N) (475 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 261
+- fields:
+    nazwa: Kamieniec Ząbkowski PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 262
+- fields:
+    nazwa: Lesista Wielka (851 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 263
+- fields:
+    nazwa: Wołosań (1071 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 264
+- fields:
+    nazwa: Jarząbczy Wierch (2137 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 265
+- fields:
+    nazwa: Polana Wały
+    tworca: null
+  model: core.punkttrasy
+  pk: 266
+- fields:
+    nazwa: Karłów
+    tworca: null
+  model: core.punkttrasy
+  pk: 267
+- fields:
+    nazwa: Rozstajne - Osada (PKS)
+    tworca: null
+  model: core.punkttrasy
+  pk: 268
+- fields:
+    nazwa: Eliaszówka (1023 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 269
+- fields:
+    nazwa: Sedlo Medvedia hlava (815)
+    tworca: null
+  model: core.punkttrasy
+  pk: 270
+- fields:
+    nazwa: Śnieżnik (1425 m) (TPG Śnieżnik Kłodzki)
+    tworca: null
+  model: core.punkttrasy
+  pk: 271
+- fields:
+    nazwa: SEDLO PRISLOP (1518 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 272
+- fields:
+    nazwa: Nad Tysowym (713 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 273
+- fields:
+    nazwa: Brańcowa (677 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 274
+- fields:
+    nazwa: Łupków
+    tworca: null
+  model: core.punkttrasy
+  pk: 275
+- fields:
+    nazwa: Prostredný Hámor (760)
+    tworca: null
+  model: core.punkttrasy
+  pk: 276
+- fields:
+    nazwa: Cisy
+    tworca: null
+  model: core.punkttrasy
+  pk: 277
+- fields:
+    nazwa: Bednarz (301 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 278
+- fields:
+    nazwa: Bielawska Polana (803 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 279
+- fields:
+    nazwa: Żuków (kota 724 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 280
+- fields:
+    nazwa: Solniska (849 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 281
+- fields:
+    nazwa: Wysoka Stóża (427 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 282
+- fields:
+    nazwa: Przełęcz Marcowa (712 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 283
+- fields:
+    nazwa: ZÁVOZY (912 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 284
+- fields:
+    nazwa: HRUBY VRCH (JARZĄBCZY WIERCH (2137 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 285
+- fields:
+    nazwa: Łysa Polana
+    tworca: null
+  model: core.punkttrasy
+  pk: 286
+- fields:
+    nazwa: Przełęcz Jugowska (805 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 287
+- fields:
+    nazwa: Brzeżanka
+    tworca: null
+  model: core.punkttrasy
+  pk: 288
+- fields:
+    nazwa: Jasmanice
+    tworca: null
+  model: core.punkttrasy
+  pk: 289
+- fields:
+    nazwa: Magurka Wiślańska (1140 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 290
+- fields:
+    nazwa: VRÍĆANSKÉ SEDLO I (950 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 291
+- fields:
+    nazwa: Obrovský vodopád, mostik (705)
+    tworca: null
+  model: core.punkttrasy
+  pk: 292
+- fields:
+    nazwa: Głuszyca PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 293
+- fields:
+    nazwa: Muńcuł (1165 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 294
+- fields:
+    nazwa: POLUDÑOVÝ GRÚÑ (1460 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 295
+- fields:
+    nazwa: TRASY PÓŁNOCNE
+    tworca: null
+  model: core.punkttrasy
+  pk: 296
+- fields:
+    nazwa: Przełęcz Szopka (779 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 297
+- fields:
+    nazwa: Dzięgielów - Zamek
+    tworca: null
+  model: core.punkttrasy
+  pk: 298
+- fields:
+    nazwa: Połonina Wetlińska (1255 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 299
+- fields:
+    nazwa: Ostry (712 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 300
+- fields:
+    nazwa: TURISTICKA CHATA ANDREJCOVA (1410 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 301
+- fields:
+    nazwa: Góra Lipiec (511 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 302
+- fields:
+    nazwa: Kałków
+    tworca: null
+  model: core.punkttrasy
+  pk: 303
+- fields:
+    nazwa: Schronisko PTTK Odrodzenie Przełęcz Karkonoska (1236 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 304
+- fields:
+    nazwa: Kota nad Paniszczowem (584 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 305
+- fields:
+    nazwa: Złoty Las
+    tworca: null
+  model: core.punkttrasy
+  pk: 306
+- fields:
+    nazwa: Góra Parkowa (741 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 307
+- fields:
+    nazwa: Zielona Dolina
+    tworca: null
+  model: core.punkttrasy
+  pk: 308
+- fields:
+    nazwa: Bukowina Tatrzańska - Klin
+    tworca: null
+  model: core.punkttrasy
+  pk: 309
+- fields:
+    nazwa: Runek (1005 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 310
+- fields:
+    nazwa: Czerniec (891 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 311
+- fields:
+    nazwa: Wieżyca (384 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 312
+- fields:
+    nazwa: Kończyce
+    tworca: null
+  model: core.punkttrasy
+  pk: 313
+- fields:
+    nazwa: Przełęcz Salmopolska (934 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 314
+- fields:
+    nazwa: Jakubowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 315
+- fields:
+    nazwa: Chojniak (627 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 316
+- fields:
+    nazwa: Groń (801 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 317
+- fields:
+    nazwa: Radzimowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 318
+- fields:
+    nazwa: Wapniki (509, 501 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 319
+- fields:
+    nazwa: Chełmowa (351 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 320
+- fields:
+    nazwa: Czerniawa Sucha (1060 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 321
+- fields:
+    nazwa: Gródek (582 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 322
+- fields:
+    nazwa: Grodziec Kościół
+    tworca: null
+  model: core.punkttrasy
+  pk: 323
+- fields:
+    nazwa: Schronisko PTTK Tuł (621 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 324
+- fields:
+    nazwa: Przełęcz pod Wawrzyniakiem (568 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 325
+- fields:
+    nazwa: Gubałówka (1126 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 326
+- fields:
+    nazwa: Przełęcz Woliborska (711 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 327
+- fields:
+    nazwa: GRZBIET GŁÓWNY
+    tworca: null
+  model: core.punkttrasy
+  pk: 328
+- fields:
+    nazwa: MUTPANSKÉ SEDLO (PRZEŁĘCZ SZEROKI KAMIEŃ) (922 m) (X N/Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 329
+- fields:
+    nazwa: Solna Jama
+    tworca: null
+  model: core.punkttrasy
+  pk: 330
+- fields:
+    nazwa: Osiedle Piątkowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 331
+- fields:
+    nazwa: Skalniak (915 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 332
+- fields:
+    nazwa: Przełęcz Borek (1009 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 333
+- fields:
+    nazwa: Kopacz (536 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 334
+- fields:
+    nazwa: Pusta Wielka (1061 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 335
+- fields:
+    nazwa: Jaworze (882 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 336
+- fields:
+    nazwa: Przełęcz Kondracka (1725 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 337
+- fields:
+    nazwa: Przełęcz Słopnicka (766 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 338
+- fields:
+    nazwa: Przełęcz Walimska (755 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 339
+- fields:
+    nazwa: Banica
+    tworca: null
+  model: core.punkttrasy
+  pk: 340
+- fields:
+    nazwa: Dziwiszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 341
+- fields:
+    nazwa: Ciechanowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 342
+- fields:
+    nazwa: Czernicka Góra (514 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 343
+- fields:
+    nazwa: Wigancicka Polana (780 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 344
+- fields:
+    nazwa: Sokolica (1367 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 345
+- fields:
+    nazwa: Schronisko PTTK Wielka Racza (1236 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 346
+- fields:
+    nazwa: Giebułtów Augustów
+    tworca: null
+  model: core.punkttrasy
+  pk: 347
+- fields:
+    nazwa: Kamień
+    tworca: null
+  model: core.punkttrasy
+  pk: 348
+- fields:
+    nazwa: Letanovský mlyn (513)
+    tworca: null
+  model: core.punkttrasy
+  pk: 349
+- fields:
+    nazwa: Schronisko PTTK Klimczok (1034 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 350
+- fields:
+    nazwa: Przełęcz pod Grzebieniem (610 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 351
+- fields:
+    nazwa: Przykrzec (602 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 352
+- fields:
+    nazwa: SALATIN (1630 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 353
+- fields:
+    nazwa: Tołsta (749 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 354
+- fields:
+    nazwa: Schronisko PTTK Hala Lipowska (1290 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 355
+- fields:
+    nazwa: Kużnice
+    tworca: null
+  model: core.punkttrasy
+  pk: 356
+- fields:
+    nazwa: Słonecznik (1423 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 357
+- fields:
+    nazwa: Skalna Furta
+    tworca: null
+  model: core.punkttrasy
+  pk: 358
+- fields:
+    nazwa: Pisana Hala (1044 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 359
+- fields:
+    nazwa: Veľké a Malé Zajfy (818)
+    tworca: null
+  model: core.punkttrasy
+  pk: 360
+- fields:
+    nazwa: Krępiec (645 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 361
+- fields:
+    nazwa: SEDLO MAJBIKOVÁ (990 m) (X N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 362
+- fields:
+    nazwa: Przełęcz Przełączka
+    tworca: null
+  model: core.punkttrasy
+  pk: 363
+- fields:
+    nazwa: Niżnia Kominiarska Polana (1110 ÷ 1170 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 364
+- fields:
+    nazwa: Łapsze Wyżne
+    tworca: null
+  model: core.punkttrasy
+  pk: 365
+- fields:
+    nazwa: ROVNA HOLA (1723 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 366
+- fields:
+    nazwa: Piątkowa (715 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 367
+- fields:
+    nazwa: Maślana Góra (753 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 368
+- fields:
+    nazwa: Romanowo
+    tworca: null
+  model: core.punkttrasy
+  pk: 369
+- fields:
+    nazwa: Bogaczów
+    tworca: null
+  model: core.punkttrasy
+  pk: 370
+- fields:
+    nazwa: Trupina
+    tworca: null
+  model: core.punkttrasy
+  pk: 371
+- fields:
+    nazwa: Polana pod Dębami
+    tworca: null
+  model: core.punkttrasy
+  pk: 372
+- fields:
+    nazwa: Mikuszowice Śląskie
+    tworca: null
+  model: core.punkttrasy
+  pk: 373
+- fields:
+    nazwa: Ostry Wierch (938 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 374
+- fields:
+    nazwa: Rozdroże pod Uboczem
+    tworca: null
+  model: core.punkttrasy
+  pk: 375
+- fields:
+    nazwa: Bukowe Berdo (1312 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 376
+- fields:
+    nazwa: Jurgów
+    tworca: null
+  model: core.punkttrasy
+  pk: 377
+- fields:
+    nazwa: Schronisko PTTK Andrzejówka (796 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 378
+- fields:
+    nazwa: Ostrysz (707 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 379
+- fields:
+    nazwa: Malé Zajfy (900)
+    tworca: null
+  model: core.punkttrasy
+  pk: 380
+- fields:
+    nazwa: CHRAPAKY ROZC. (ok. 1400 m) (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 381
+- fields:
+    nazwa: Słodna (790 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 382
+- fields:
+    nazwa: TPG Duszniki Zdrój
+    tworca: null
+  model: core.punkttrasy
+  pk: 383
+- fields:
+    nazwa: Dział (455 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 384
+- fields:
+    nazwa: Stróżek (517 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 385
+- fields:
+    nazwa: Wyżnia Kira Miętusia
+    tworca: null
+  model: core.punkttrasy
+  pk: 386
+- fields:
+    nazwa: VYŠNY TAJCH (843 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 387
+- fields:
+    nazwa: Potrójna (883 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 388
+- fields:
+    nazwa: PREDNA POLUDNICA (1491 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 389
+- fields:
+    nazwa: Sucha Góra (585 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 390
+- fields:
+    nazwa: Słowiec (438 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 391
+- fields:
+    nazwa: Sularzówka (617 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 392
+- fields:
+    nazwa: Gontowa (377 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 393
+- fields:
+    nazwa: Zamkowa Góra ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 394
+- fields:
+    nazwa: Lajkonik
+    tworca: null
+  model: core.punkttrasy
+  pk: 395
+- fields:
+    nazwa: Kláštorisko, chata (784)
+    tworca: null
+  model: core.punkttrasy
+  pk: 396
+- fields:
+    nazwa: Czertezik (772 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 397
+- fields:
+    nazwa: Bukowiec (898 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 398
+- fields:
+    nazwa: SOKOL (1024 m) – ścieżka edukacyjna
+    tworca: null
+  model: core.punkttrasy
+  pk: 399
+- fields:
+    nazwa: DERESE (2003 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 400
+- fields:
+    nazwa: Filipowski Wierch (705 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 401
+- fields:
+    nazwa: Tylawa
+    tworca: null
+  model: core.punkttrasy
+  pk: 402
+- fields:
+    nazwa: STREDNÁ POLANA (1255 m) (X Z, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 403
+- fields:
+    nazwa: CHATA POD BORISOVOM (1300 m) (X C, Z, Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 404
+- fields:
+    nazwa: Leszczyniec (736 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 405
+- fields:
+    nazwa: Karpacz Górny (Wang)
+    tworca: null
+  model: core.punkttrasy
+  pk: 406
+- fields:
+    nazwa: Huta Polańska
+    tworca: null
+  model: core.punkttrasy
+  pk: 407
+- fields:
+    nazwa: Chuda Przełączka (ok. 1850 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 408
+- fields:
+    nazwa: Izby
+    tworca: null
+  model: core.punkttrasy
+  pk: 409
+- fields:
+    nazwa: Borowa (701 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 410
+- fields:
+    nazwa: Lisia Przełęcz (790 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 411
+- fields:
+    nazwa: Dolina Pięciu Stawów Spiskich, masyw Łomnicy i Lodowego
+    tworca: null
+  model: core.punkttrasy
+  pk: 412
+- fields:
+    nazwa: Przełęcz Trzech Granic (1111 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 413
+- fields:
+    nazwa: Jasienina (667 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 414
+- fields:
+    nazwa: Starorobociańska Rówień
+    tworca: null
+  model: core.punkttrasy
+  pk: 415
+- fields:
+    nazwa: Suliła (759 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 416
+- fields:
+    nazwa: Klasztor
+    tworca: null
+  model: core.punkttrasy
+  pk: 417
+- fields:
+    nazwa: Przełęcz pod Uboczem
+    tworca: null
+  model: core.punkttrasy
+  pk: 418
+- fields:
+    nazwa: Wrzeszczyn
+    tworca: null
+  model: core.punkttrasy
+  pk: 419
+- fields:
+    nazwa: Halicz (1333 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 420
+- fields:
+    nazwa: Suchań (448 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 421
+- fields:
+    nazwa: SEDLO VRÁTA (1462 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 422
+- fields:
+    nazwa: Przełęcz Wilcza (532 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 423
+- fields:
+    nazwa: Ćwilin (1072 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 424
+- fields:
+    nazwa: Czarna Góra (447 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 425
+- fields:
+    nazwa: Wincentówka (448 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 426
+- fields:
+    nazwa: Jeleniowaty (907 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 427
+- fields:
+    nazwa: Rozdroże pod Kamienicą
+    tworca: null
+  model: core.punkttrasy
+  pk: 428
+- fields:
+    nazwa: Janowa Góra (710-840 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 429
+- fields:
+    nazwa: Unisław Śląski
+    tworca: null
+  model: core.punkttrasy
+  pk: 430
+- fields:
+    nazwa: MENGUSOVSKA DOLINA RAZC. (X N, C) (1620 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 431
+- fields:
+    nazwa: Budniki
+    tworca: null
+  model: core.punkttrasy
+  pk: 432
+- fields:
+    nazwa: Łężyce
+    tworca: null
+  model: core.punkttrasy
+  pk: 433
+- fields:
+    nazwa: Jański Wierch (697 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 434
+- fields:
+    nazwa: Czudec
+    tworca: null
+  model: core.punkttrasy
+  pk: 435
+- fields:
+    nazwa: DOJŚCIA W REJONIE MAGISTRALI
+    tworca: null
+  model: core.punkttrasy
+  pk: 436
+- fields:
+    nazwa: Ptasznica (605 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 437
+- fields:
+    nazwa: Dział (1148 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 438
+- fields:
+    nazwa: Łężyckie Skałki (750-790 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 439
+- fields:
+    nazwa: Dursztyn
+    tworca: null
+  model: core.punkttrasy
+  pk: 440
+- fields:
+    nazwa: Jakuszowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 441
+- fields:
+    nazwa: SEDLO CERTOVICA (1238 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 442
+- fields:
+    nazwa: Moszna (771 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 443
+- fields:
+    nazwa: Przełęcz Spalona Schronisko PTTK (800 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 444
+- fields:
+    nazwa: Czernik (832 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 445
+- fields:
+    nazwa: Grodziszcze
+    tworca: null
+  model: core.punkttrasy
+  pk: 446
+- fields:
+    nazwa: SEDLO SPUŠTIAK (1095 m) (X N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 447
+- fields:
+    nazwa: Przełęcz Dujawa (Beskidek)
+    tworca: null
+  model: core.punkttrasy
+  pk: 448
+- fields:
+    nazwa: Mostowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 449
+- fields:
+    nazwa: Przełęcz Dębowe Góry
+    tworca: null
+  model: core.punkttrasy
+  pk: 450
+- fields:
+    nazwa: Śnieżnica (1006 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 451
+- fields:
+    nazwa: Trawna Góra (426 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 452
+- fields:
+    nazwa: Bukowina (ok. 560 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 453
+- fields:
+    nazwa: Bielskie Rozdroże
+    tworca: null
+  model: core.punkttrasy
+  pk: 454
+- fields:
+    nazwa: Przełęcz między Sidziną a Zubrzycą Górną (757 m) (Nad Wąwozem)
+    tworca: null
+  model: core.punkttrasy
+  pk: 455
+- fields:
+    nazwa: Radomierz
+    tworca: null
+  model: core.punkttrasy
+  pk: 456
+- fields:
+    nazwa: Borówkowa (900 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 457
+- fields:
+    nazwa: TPG Zieleniec
+    tworca: null
+  model: core.punkttrasy
+  pk: 458
+- fields:
+    nazwa: Schronisko PTTK Markowe Szczawiny (1180 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 459
+- fields:
+    nazwa: Babia Przełęcz (646 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 460
+- fields:
+    nazwa: Przełęcz Strażnicze Naroże (649 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 461
+- fields:
+    nazwa: FAĆKOVSKÉ SEDLO (802 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 462
+- fields:
+    nazwa: Iłowiec (477 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 463
+- fields:
+    nazwa: TLSTA (1373 m) (X N, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 464
+- fields:
+    nazwa: VYSNE DIELY RAZCESTIE (X N, Ż) (1100 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 465
+- fields:
+    nazwa: Polica (1369 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 466
+- fields:
+    nazwa: CHATA ZVEROVKA (X) (1037 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 467
+- fields:
+    nazwa: Róg (715 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 468
+- fields:
+    nazwa: CHOĆ
+    tworca: null
+  model: core.punkttrasy
+  pk: 469
+- fields:
+    nazwa: Zamek Bolczów (561 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 470
+- fields:
+    nazwa: Nad Podleskom (700)
+    tworca: null
+  model: core.punkttrasy
+  pk: 471
+- fields:
+    nazwa: Kotoń (857 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 472
+- fields:
+    nazwa: Wielki Rogacz (1182 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 473
+- fields:
+    nazwa: Przełęcz Kubalonka (761 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 474
+- fields:
+    nazwa: Przełęcz Kozia (653 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 475
+- fields:
+    nazwa: VELKÍ KRIVÁŃ (1709 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 476
+- fields:
+    nazwa: ZNIEV (985 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 477
+- fields:
+    nazwa: Mszana
+    tworca: null
+  model: core.punkttrasy
+  pk: 478
+- fields:
+    nazwa: Rozdroże nad Glinikiem Starym
+    tworca: null
+  model: core.punkttrasy
+  pk: 479
+- fields:
+    nazwa: Przełęcz pod Borową (660 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 480
+- fields:
+    nazwa: Góry Lisie
+    tworca: null
+  model: core.punkttrasy
+  pk: 481
+- fields:
+    nazwa: Zagórze Śląskie
+    tworca: null
+  model: core.punkttrasy
+  pk: 482
+- fields:
+    nazwa: SLIVKULA (718 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 483
+- fields:
+    nazwa: Rozdroże pod Bielcem (779 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 484
+- fields:
+    nazwa: Pająków Wierch (934 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 485
+- fields:
+    nazwa: Dominiczna Góra (468 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 486
+- fields:
+    nazwa: kota nad Wydrną (459 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 487
+- fields:
+    nazwa: Szalone (832 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 488
+- fields:
+    nazwa: Rykowisko (948 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 489
+- fields:
+    nazwa: Przełęcz Przysłup Caryński (785 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 490
+- fields:
+    nazwa: Rozdroże Trzech Buków
+    tworca: null
+  model: core.punkttrasy
+  pk: 491
+- fields:
+    nazwa: Wysota (784 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 492
+- fields:
+    nazwa: Sałasz (909 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 493
+- fields:
+    nazwa: Miejska Górka (650 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 494
+- fields:
+    nazwa: Młynarz (573 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 495
+- fields:
+    nazwa: Marmurowa Dolina
+    tworca: null
+  model: core.punkttrasy
+  pk: 496
+- fields:
+    nazwa: Okrzeszyn
+    tworca: null
+  model: core.punkttrasy
+  pk: 497
+- fields:
+    nazwa: Łysocina (1188 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 498
+- fields:
+    nazwa: Słowianka (856 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 499
+- fields:
+    nazwa: Bucza Góra (Góry Lisie) (671 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 500
+- fields:
+    nazwa: Kopce ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 501
+- fields:
+    nazwa: Lubań (1211 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 502
+- fields:
+    nazwa: Schronisko PTTK Nad Łomniczką (1002 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 503
+- fields:
+    nazwa: Hrabušice (548)
+    tworca: null
+  model: core.punkttrasy
+  pk: 504
+- fields:
+    nazwa: Orłowa (813 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 505
+- fields:
+    nazwa: Przyszop (601 m) (Klimczaki)
+    tworca: null
+  model: core.punkttrasy
+  pk: 506
+- fields:
+    nazwa: Białka
+    tworca: null
+  model: core.punkttrasy
+  pk: 507
+- fields:
+    nazwa: Krzemienna (937 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 508
+- fields:
+    nazwa: ŹIAR
+    tworca: null
+  model: core.punkttrasy
+  pk: 509
+- fields:
+    nazwa: Tworylczyk
+    tworca: null
+  model: core.punkttrasy
+  pk: 510
+- fields:
+    nazwa: Lubogoszcz (968 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 511
+- fields:
+    nazwa: Przełęcz Jaworowa (707 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 512
+- fields:
+    nazwa: Paszowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 513
+- fields:
+    nazwa: MINĆOL (1364 m) (X Ż, C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 514
+- fields:
+    nazwa: SEDLO ZAMOSTKIEJ HOLE (1591 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 515
+- fields:
+    nazwa: Rogatka (490 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 516
+- fields:
+    nazwa: Dział (603 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 517
+- fields:
+    nazwa: RYBOVSKE SEDLO (1317 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 518
+- fields:
+    nazwa: Rachowiec (954 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 519
+- fields:
+    nazwa: Rybnica ruiny zamku
+    tworca: null
+  model: core.punkttrasy
+  pk: 520
+- fields:
+    nazwa: Jaworek Górny
+    tworca: null
+  model: core.punkttrasy
+  pk: 521
+- fields:
+    nazwa: Nowa Polana (840 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 522
+- fields:
+    nazwa: Schronisko PTTK na Połoninie Wetlińskiej (1228 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 523
+- fields:
+    nazwa: Góra św. Jerzego (Krzyżowa) (353 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 524
+- fields:
+    nazwa: Krzesanica (2122 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 525
+- fields:
+    nazwa: Szczebel (976 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 526
+- fields:
+    nazwa: Gołaczów
+    tworca: null
+  model: core.punkttrasy
+  pk: 527
+- fields:
+    nazwa: Krempna
+    tworca: null
+  model: core.punkttrasy
+  pk: 528
+- fields:
+    nazwa: JALOVSKA DOLINA USTIE (X) (800 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 529
+- fields:
+    nazwa: SEDLO RAKYTIE (712 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 530
+- fields:
+    nazwa: SEDLO POD BESKYDOM (PRZEŁĘCZ PÓŁGÓRSKA) (X Ż, N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 531
+- fields:
+    nazwa: Wilczna
+    tworca: null
+  model: core.punkttrasy
+  pk: 532
+- fields:
+    nazwa: Igliczna (845 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 533
+- fields:
+    nazwa: HORSKY HOTEL SMREKOVICA (1325) (X Z, N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 534
+- fields:
+    nazwa: Łazy w Paśmie Iwaniskim (330 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 535
+- fields:
+    nazwa: Kopa Kondracka (2005 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 536
+- fields:
+    nazwa: POD ORLOU SKALOU (1450 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 537
+- fields:
+    nazwa: CHLEB (1646 m) (X Z, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 538
+- fields:
+    nazwa: Wodogrzmoty Mickiewicza
+    tworca: null
+  model: core.punkttrasy
+  pk: 539
+- fields:
+    nazwa: Góra Zielonka (701 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 540
+- fields:
+    nazwa: Przełęcz św. Justa (400 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 541
+- fields:
+    nazwa: Złota Góra (757 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 542
+- fields:
+    nazwa: Skrzyżowanie pod Zuzanką
+    tworca: null
+  model: core.punkttrasy
+  pk: 543
+- fields:
+    nazwa: Zubrzyca Górna
+    tworca: null
+  model: core.punkttrasy
+  pk: 544
+- fields:
+    nazwa: PRZEŁĘCZ MIĘDZY DRABIROVCEM A RABĆOVOU KYKULOU (ok. 930 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 545
+- fields:
+    nazwa: Kościelna Góra
+    tworca: null
+  model: core.punkttrasy
+  pk: 546
+- fields:
+    nazwa: Czerwone Wzgórze (456 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 547
+- fields:
+    nazwa: Makowica (948 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 548
+- fields:
+    nazwa: Przełęcz pod Trzeboniem (679 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 549
+- fields:
+    nazwa: LIPTOVSKA TEPLICKA (920 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 550
+- fields:
+    nazwa: BYSTRA (570 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 551
+- fields:
+    nazwa: Srebrny Potok
+    tworca: null
+  model: core.punkttrasy
+  pk: 552
+- fields:
+    nazwa: Przesieka - Złoty Widok
+    tworca: null
+  model: core.punkttrasy
+  pk: 553
+- fields:
+    nazwa: Dziewiącielska Góra (385 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 554
+- fields:
+    nazwa: SEDLO POD HLINICKOU KÝĆEROU (1028 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 555
+- fields:
+    nazwa: VLKOLINSKE LUKY (880 m)(X N, Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 556
+- fields:
+    nazwa: HORNÉ Chotárna dolka (880)
+    tworca: null
+  model: core.punkttrasy
+  pk: 557
+- fields:
+    nazwa: SEDLO STRUNGOVÝ PRÍSLOP (1150 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 558
+- fields:
+    nazwa: Jałowa Kiczera (579 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 559
+- fields:
+    nazwa: PASMO MAGURY WITOWSKIEJ I BUCZNIKA MAGURA WITOWSKA (1232 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 560
+- fields:
+    nazwa: Nieszkowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 561
+- fields:
+    nazwa: Tokarnia (692 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 562
+- fields:
+    nazwa: Kudłoń (1276 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 563
+- fields:
+    nazwa: Na Płonnem (822 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 564
+- fields:
+    nazwa: TRI KOPCE (824 m) (X, C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 565
+- fields:
+    nazwa: Chłodnik (370 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 566
+- fields:
+    nazwa: Borowiec Mały (412 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 567
+- fields:
+    nazwa: Starościńskie Skały
+    tworca: null
+  model: core.punkttrasy
+  pk: 568
+- fields:
+    nazwa: Jeziorka Duszatyńskie
+    tworca: null
+  model: core.punkttrasy
+  pk: 569
+- fields:
+    nazwa: SEDLO POD ORLOM (X Z/C) (1064 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 570
+- fields:
+    nazwa: ZA LIESKOVOU (X C, Z) (800 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 571
+- fields:
+    nazwa: Głaziska Janowickie (646 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 572
+- fields:
+    nazwa: Stary Książ
+    tworca: null
+  model: core.punkttrasy
+  pk: 573
+- fields:
+    nazwa: Podlesok (545)
+    tworca: null
+  model: core.punkttrasy
+  pk: 574
+- fields:
+    nazwa: BUKOVINA (1069 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 575
+- fields:
+    nazwa: Przełęcz pod Brzeźnikiem
+    tworca: null
+  model: core.punkttrasy
+  pk: 576
+- fields:
+    nazwa: Skrzyżowanie z Drogą Dzikiej Świni
+    tworca: null
+  model: core.punkttrasy
+  pk: 577
+- fields:
+    nazwa: Witosza (484 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 578
+- fields:
+    nazwa: Pielgrzym
+    tworca: null
+  model: core.punkttrasy
+  pk: 579
+- fields:
+    nazwa: Kobylarz (1800 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 580
+- fields:
+    nazwa: Lądek Zdrój
+    tworca: null
+  model: core.punkttrasy
+  pk: 581
+- fields:
+    nazwa: Draboż (465 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 582
+- fields:
+    nazwa: Siekierzyn
+    tworca: null
+  model: core.punkttrasy
+  pk: 583
+- fields:
+    nazwa: CHATY NA RACI (X Z, N) (935 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 584
+- fields:
+    nazwa: Łysa Góra (378 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 585
+- fields:
+    nazwa: Klimczok (1117 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 586
+- fields:
+    nazwa: POLANA OHNISTE (PREDNA POLANA) (X, Ż/Z) (1440 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 587
+- fields:
+    nazwa: SEDLO POD SVITKOVOU (940 m) (Przełęcz Przyslop)
+    tworca: null
+  model: core.punkttrasy
+  pk: 588
+- fields:
+    nazwa: Czerwona Przełęcz (1301 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 589
+- fields:
+    nazwa: Grabówka (528 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 590
+- fields:
+    nazwa: Prusicka Góra (402 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 591
+- fields:
+    nazwa: SVORAD (915 m) (X N, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 592
+- fields:
+    nazwa: Polana
+    tworca: null
+  model: core.punkttrasy
+  pk: 593
+- fields:
+    nazwa: Nowoleska Kopa (383 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 594
+- fields:
+    nazwa: Szczepanowski Grzbiet
+    tworca: null
+  model: core.punkttrasy
+  pk: 595
+- fields:
+    nazwa: Czupel (933 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 596
+- fields:
+    nazwa: Przełęcz Wierch Młynne (750 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 597
+- fields:
+    nazwa: Wierzchowina (466 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 598
+- fields:
+    nazwa: Krucza Ściana
+    tworca: null
+  model: core.punkttrasy
+  pk: 599
+- fields:
+    nazwa: Zębalowa (859 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 600
+- fields:
+    nazwa: Rogacz (684 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 601
+- fields:
+    nazwa: Schronisko PTTK Przełęcz Okraj (1046 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 602
+- fields:
+    nazwa: Wykus
+    tworca: null
+  model: core.punkttrasy
+  pk: 603
+- fields:
+    nazwa: Stromiec (551 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 604
+- fields:
+    nazwa: Przełęcz Widok (Kapella) (592 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 605
+- fields:
+    nazwa: Dzwonkówka (983 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 606
+- fields:
+    nazwa: Różańcowa (380 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 607
+- fields:
+    nazwa: Łazek (713 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 608
+- fields:
+    nazwa: Bacówka Brzanka
+    tworca: null
+  model: core.punkttrasy
+  pk: 609
+- fields:
+    nazwa: Żołobina (780 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 610
+- fields:
+    nazwa: kota nad Kosztową i Laskówką ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 611
+- fields:
+    nazwa: Słonny Wierch (zachód) (667 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 612
+- fields:
+    nazwa: Czuba (660 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 613
+- fields:
+    nazwa: Kamieńczyk (341 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 614
+- fields:
+    nazwa: Słonny Wierch (wschód) (668 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 615
+- fields:
+    nazwa: Stróża (636 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 616
+- fields:
+    nazwa: Rozdroże pod Działem Izerskim
+    tworca: null
+  model: core.punkttrasy
+  pk: 617
+- fields:
+    nazwa: Trzemeska Góra (390 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 618
+- fields:
+    nazwa: Kiczory (989 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 619
+- fields:
+    nazwa: Kałużówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 620
+- fields:
+    nazwa: SEDLO POD ÚPLAZOM (988 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 621
+- fields:
+    nazwa: Końska (813 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 622
+- fields:
+    nazwa: Góra Godzisz (505 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 623
+- fields:
+    nazwa: BYSTRA DOLINA TALE (650 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 624
+- fields:
+    nazwa: OBLAZY, RÁZC. (800 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 625
+- fields:
+    nazwa: Trójgarb (778, 757 i 738 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 626
+- fields:
+    nazwa: Wysokie Bereście (894 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 627
+- fields:
+    nazwa: Kamionna (802 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 628
+- fields:
+    nazwa: Przełęcz Klekociny (864 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 629
+- fields:
+    nazwa: Przełęcz Beskid (785 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 630
+- fields:
+    nazwa: GABOROVE SEDLO (X C, Z) (RACZKOWA PRZEŁĘCZ, 1938 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 631
+- fields:
+    nazwa: CHABZDOVÁ (1230 m) (X N, Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 632
+- fields:
+    nazwa: Wernejówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 633
+- fields:
+    nazwa: Przełęcz Tylicka (683 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 634
+- fields:
+    nazwa: Lackowa (997 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 635
+- fields:
+    nazwa: Bartne - Bacówka PTTK
+    tworca: null
+  model: core.punkttrasy
+  pk: 636
+- fields:
+    nazwa: Kotoń Zachodni (773 m) (Groń)
+    tworca: null
+  model: core.punkttrasy
+  pk: 637
+- fields:
+    nazwa: Przełęcz Przegibek (663 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 638
+- fields:
+    nazwa: Hala Kamińskiego (1114 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 639
+- fields:
+    nazwa: Piekielna Dolina
+    tworca: null
+  model: core.punkttrasy
+  pk: 640
+- fields:
+    nazwa: Łysica (666 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 641
+- fields:
+    nazwa: Kamienna
+    tworca: null
+  model: core.punkttrasy
+  pk: 642
+- fields:
+    nazwa: Łysiec (Święty Krzyż) (595 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 643
+- fields:
+    nazwa: Miejski Lasek
+    tworca: null
+  model: core.punkttrasy
+  pk: 644
+- fields:
+    nazwa: Barutka (614 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 645
+- fields:
+    nazwa: Rozdroże pod Zwaliskiem (1005 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 646
+- fields:
+    nazwa: Pośrednica (569 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 647
+- fields:
+    nazwa: Cisowa Skała (685 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 648
+- fields:
+    nazwa: Schronisko PTTK Skrzyczne (1257 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 649
+- fields:
+    nazwa: Ostry Kamień (527 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 650
+- fields:
+    nazwa: Rabe
+    tworca: null
+  model: core.punkttrasy
+  pk: 651
+- fields:
+    nazwa: Gruchacz (306 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 652
+- fields:
+    nazwa: Góra Ludwiki (653 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 653
+- fields:
+    nazwa: Schronisko PTTK Jaworzyna Krynicka (1114 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 654
+- fields:
+    nazwa: DOLINA BYSTRA/RAZCESTIE "POD HRADKOM" (X C, Ż) (POLANA POD SKAŁKĄ, 965
+      m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 655
+- fields:
+    nazwa: Wiśnicz Nowy
+    tworca: null
+  model: core.punkttrasy
+  pk: 656
+- fields:
+    nazwa: Bogaria (645 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 657
+- fields:
+    nazwa: Białowodzka Góra (616 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 658
+- fields:
+    nazwa: Tarnawa Wyżna
+    tworca: null
+  model: core.punkttrasy
+  pk: 659
+- fields:
+    nazwa: Niedźwiadki (604, 623 629 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 660
+- fields:
+    nazwa: Przełęcz Żłób
+    tworca: null
+  model: core.punkttrasy
+  pk: 661
+- fields:
+    nazwa: Święta Góra (701 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 662
+- fields:
+    nazwa: CHATA GEN. M. R. STEFANIKA (1740 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 663
+- fields:
+    nazwa: Stary Groń (792 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 664
+- fields:
+    nazwa: Jawornik Mały (756 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 665
+- fields:
+    nazwa: Kalwaria (582 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 666
+- fields:
+    nazwa: SEDLO TABLICKI (X, Z/N) (1060 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 667
+- fields:
+    nazwa: STOH (1607 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 668
+- fields:
+    nazwa: Barnasiówka (566 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 669
+- fields:
+    nazwa: Działowe Siodło (1008 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 670
+- fields:
+    nazwa: Kozia Przełęcz (2137 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 671
+- fields:
+    nazwa: PLOSKA (1532 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 672
+- fields:
+    nazwa: Góra Truskolas ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 673
+- fields:
+    nazwa: Bosaczka (455 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 674
+- fields:
+    nazwa: Przełęcz między Gaikami (809 m) a Groniczkami (839 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 675
+- fields:
+    nazwa: VELKA CHOCHULA (1753 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 676
+- fields:
+    nazwa: Paproć (645 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 677
+- fields:
+    nazwa: Suchá Belá, záver (955)
+    tworca: null
+  model: core.punkttrasy
+  pk: 678
+- fields:
+    nazwa: Szeroka (827 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 679
+- fields:
+    nazwa: Boracza (600 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 680
+- fields:
+    nazwa: Przełęcz Żebrak (816 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 681
+- fields:
+    nazwa: Borowa (Czarna) (854 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 682
+- fields:
+    nazwa: Rafaczyńska Grapa (973 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 683
+- fields:
+    nazwa: Schronisko PTTK na Hali Gąsienicowej (1500 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 684
+- fields:
+    nazwa: Rozdroże pod Kamiennym Garbem
+    tworca: null
+  model: core.punkttrasy
+  pk: 685
+- fields:
+    nazwa: Dział (Hruń) (830 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 686
+- fields:
+    nazwa: Romanka (1366 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 687
+- fields:
+    nazwa: Nowy Łupków (PKP)
+    tworca: null
+  model: core.punkttrasy
+  pk: 688
+- fields:
+    nazwa: Wołowiec (776 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 689
+- fields:
+    nazwa: Grodziec (389 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 690
+- fields:
+    nazwa: Radogost (398 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 691
+- fields:
+    nazwa: Długa Góra (635 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 692
+- fields:
+    nazwa: Boguszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 693
+- fields:
+    nazwa: Schronisko PTTK Szwajcarka (520 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 694
+- fields:
+    nazwa: Skalny Stół (1281 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 695
+- fields:
+    nazwa: Rososznica
+    tworca: null
+  model: core.punkttrasy
+  pk: 696
+- fields:
+    nazwa: RAZCESTIE (X Z, N) (900 m) / CIERNA VODA RAZC. (X N, Ż) (880 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 697
+- fields:
+    nazwa: Dłużec (867 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 698
+- fields:
+    nazwa: Bolesławiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 699
+- fields:
+    nazwa: Jezioro w dolinie Wapiennicy
+    tworca: null
+  model: core.punkttrasy
+  pk: 700
+- fields:
+    nazwa: Jaworzynka (869 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 701
+- fields:
+    nazwa: LUBOCHNIANSKE SEDNO (762 m) (X N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 702
+- fields:
+    nazwa: Wołowiec (2064 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 703
+- fields:
+    nazwa: Przełęcz Mokra (940 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 704
+- fields:
+    nazwa: Kamień (714 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 705
+- fields:
+    nazwa: VYŠEHRAD (829 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 706
+- fields:
+    nazwa: RYCIEROVA HORA (1226 m) (Wielka Rycerzowa)
+    tworca: null
+  model: core.punkttrasy
+  pk: 707
+- fields:
+    nazwa: Gorc (1228 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 708
+- fields:
+    nazwa: LYSEC (1381 m) (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 709
+- fields:
+    nazwa: Niemcowa (1001 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 710
+- fields:
+    nazwa: Jaworzynka (936 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 711
+- fields:
+    nazwa: Brzanka (508 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 712
+- fields:
+    nazwa: Laskówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 713
+- fields:
+    nazwa: Pobiedna
+    tworca: null
+  model: core.punkttrasy
+  pk: 714
+- fields:
+    nazwa: Kotarz (985 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 715
+- fields:
+    nazwa: Czantoria Wielka (995 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 716
+- fields:
+    nazwa: Durbaszka (934 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 717
+- fields:
+    nazwa: Przełęcz pod Śmielcem (1390 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 718
+- fields:
+    nazwa: Kocoń
+    tworca: null
+  model: core.punkttrasy
+  pk: 719
+- fields:
+    nazwa: SEDLO PRIEHYB (1462 m) (X C, N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 720
+- fields:
+    nazwa: Wielki Dział (934 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 721
+- fields:
+    nazwa: Góra św. Marcina (384 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 722
+- fields:
+    nazwa: ROZCESTÍ W DOLINIE VONŹOVCA (783 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 723
+- fields:
+    nazwa: Stara Łomnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 724
+- fields:
+    nazwa: Kobyla Kopa (851 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 725
+- fields:
+    nazwa: Starczówek
+    tworca: null
+  model: core.punkttrasy
+  pk: 726
+- fields:
+    nazwa: Marcinków (Skowronia Góra (839 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 727
+- fields:
+    nazwa: Geravy (1027)
+    tworca: null
+  model: core.punkttrasy
+  pk: 728
+- fields:
+    nazwa: Grobla
+    tworca: null
+  model: core.punkttrasy
+  pk: 729
+- fields:
+    nazwa: Trojak (766 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 730
+- fields:
+    nazwa: Soszów Wielki (884 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 731
+- fields:
+    nazwa: Łamana Skała (Madohora - 929 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 732
+- fields:
+    nazwa: Cierniowa Kopa (384 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 733
+- fields:
+    nazwa: Wielka Polana (794 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 734
+- fields:
+    nazwa: Rozdroże pod Porębkiem
+    tworca: null
+  model: core.punkttrasy
+  pk: 735
+- fields:
+    nazwa: Bukowiec (530 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 736
+- fields:
+    nazwa: Szpiglasowa Przełęcz (2110 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 737
+- fields:
+    nazwa: Popowe Wierchy (684 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 738
+- fields:
+    nazwa: Przełęcz Rudawska (740 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 739
+- fields:
+    nazwa: Twardota (383 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 740
+- fields:
+    nazwa: Polana Mniszkowska (711 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 741
+- fields:
+    nazwa: Bacówka na Jamnej (490 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 742
+- fields:
+    nazwa: Olszany
+    tworca: null
+  model: core.punkttrasy
+  pk: 743
+- fields:
+    nazwa: Nowa Wieś
+    tworca: null
+  model: core.punkttrasy
+  pk: 744
+- fields:
+    nazwa: Rosochatka (753 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 745
+- fields:
+    nazwa: Krzyżowa Góra (654 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 746
+- fields:
+    nazwa: Cieplice Zdrój
+    tworca: null
+  model: core.punkttrasy
+  pk: 747
+- fields:
+    nazwa: Przełęcz pod Średnicą (595 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 748
+- fields:
+    nazwa: Gabrów Wierch (742 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 749
+- fields:
+    nazwa: Sokolica (747 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 750
+- fields:
+    nazwa: VYHLIADKA (TARGOV 675 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 751
+- fields:
+    nazwa: KRUPOVA HOLA (1922 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 752
+- fields:
+    nazwa: Świnicka Przełęcz (2050 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 753
+- fields:
+    nazwa: Jelenia Góra
+    tworca: null
+  model: core.punkttrasy
+  pk: 754
+- fields:
+    nazwa: Mieroszowskie Ściany (638-664 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 755
+- fields:
+    nazwa: Gęsia Szyja (1489 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 756
+- fields:
+    nazwa: Janiłówka (817 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 757
+- fields:
+    nazwa: SEDLO CERLA (603 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 758
+- fields:
+    nazwa: POLANA PALENICA (X, Z/Ż) (1080 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 759
+- fields:
+    nazwa: Schronisko PTTK Równica (884 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 760
+- fields:
+    nazwa: Równia
+    tworca: null
+  model: core.punkttrasy
+  pk: 761
+- fields:
+    nazwa: Kobyła (603 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 762
+- fields:
+    nazwa: Płoszczynka
+    tworca: null
+  model: core.punkttrasy
+  pk: 763
+- fields:
+    nazwa: Schronisko PTTK Pasterka (700 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 764
+- fields:
+    nazwa: Średniak (782 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 765
+- fields:
+    nazwa: Dział (665 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 766
+- fields:
+    nazwa: Narożnik (851 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 767
+- fields:
+    nazwa: Miejska Góra (634 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 768
+- fields:
+    nazwa: Ostra (780 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 769
+- fields:
+    nazwa: Trzy Jawory (676 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 770
+- fields:
+    nazwa: Kalenica (964 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 771
+- fields:
+    nazwa: Przełęcz Dział (922 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 772
+- fields:
+    nazwa: Bobrowe Skały (699 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 773
+- fields:
+    nazwa: Przełęcz między Cichoniem a Ostrą (820 m) (Przełęcz Pod Ostrą)
+    tworca: null
+  model: core.punkttrasy
+  pk: 774
+- fields:
+    nazwa: Droga "Pod Reglami"
+    tworca: null
+  model: core.punkttrasy
+  pk: 775
+- fields:
+    nazwa: Kozia Dolinka
+    tworca: null
+  model: core.punkttrasy
+  pk: 776
+- fields:
+    nazwa: Kopylec
+    tworca: null
+  model: core.punkttrasy
+  pk: 777
+- fields:
+    nazwa: Przełęcz Zawrat (2159 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 778
+- fields:
+    nazwa: Pustelnia (395 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 779
+- fields:
+    nazwa: Przełęcz Glinne (809 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 780
+- fields:
+    nazwa: Kurek (547 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 781
+- fields:
+    nazwa: Bacówka PTTK Krawców Wierch (1038 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 782
+- fields:
+    nazwa: Przełęcz Przysłop Miętusi (1189 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 783
+- fields:
+    nazwa: Opawa
+    tworca: null
+  model: core.punkttrasy
+  pk: 784
+- fields:
+    nazwa: Przełęcz pod Kiczerką (836 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 785
+- fields:
+    nazwa: Zajęcznik (595 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 786
+- fields:
+    nazwa: Jańska Góra (253 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 787
+- fields:
+    nazwa: Łomnica Zdrój
+    tworca: null
+  model: core.punkttrasy
+  pk: 788
+- fields:
+    nazwa: Przełęcz pod Zamkową Górą (508 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 789
+- fields:
+    nazwa: Schronisko Czartak
+    tworca: null
+  model: core.punkttrasy
+  pk: 790
+- fields:
+    nazwa: ZADNA DOLINA. POD KOSARISKOM (1120 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 791
+- fields:
+    nazwa: Marianówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 792
+- fields:
+    nazwa: RAZCESTIE pod VYS. ROHACKIM PLESOM (X N, Z) (1586 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 793
+- fields:
+    nazwa: Polana Kudów
+    tworca: null
+  model: core.punkttrasy
+  pk: 794
+- fields:
+    nazwa: Betlejem
+    tworca: null
+  model: core.punkttrasy
+  pk: 795
+- fields:
+    nazwa: Domaszków
+    tworca: null
+  model: core.punkttrasy
+  pk: 796
+- fields:
+    nazwa: Eliaszówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 797
+- fields:
+    nazwa: kota (898 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 798
+- fields:
+    nazwa: SUCHÝ (1468 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 799
+- fields:
+    nazwa: Grudza
+    tworca: null
+  model: core.punkttrasy
+  pk: 800
+- fields:
+    nazwa: Dobšinská Ľadová Jaskyňa (850)
+    tworca: null
+  model: core.punkttrasy
+  pk: 801
+- fields:
+    nazwa: Tarczynka (422 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 802
+- fields:
+    nazwa: Wajdów Groń (677 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 803
+- fields:
+    nazwa: Przełęcz pod Puchaczem (1090 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 804
+- fields:
+    nazwa: Ropki
+    tworca: null
+  model: core.punkttrasy
+  pk: 805
+- fields:
+    nazwa: Jelenia Góra PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 806
+- fields:
+    nazwa: Krucza Kopa (723 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 807
+- fields:
+    nazwa: SEDLO JAVORINA (980 m) (X C, Z, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 808
+- fields:
+    nazwa: Grześ (1653 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 809
+- fields:
+    nazwa: Przyborowiec (882 m) (Czulów Groń)
+    tworca: null
+  model: core.punkttrasy
+  pk: 810
+- fields:
+    nazwa: STANISOVSKE SEDLO (1100 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 811
+- fields:
+    nazwa: Rabia Skala (1170 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 812
+- fields:
+    nazwa: Krzeszowskie Wzgórza
+    tworca: null
+  model: core.punkttrasy
+  pk: 813
+- fields:
+    nazwa: Krąglica (943 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 814
+- fields:
+    nazwa: Magura Wątkowska (846 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 815
+- fields:
+    nazwa: Olczyska Polana
+    tworca: null
+  model: core.punkttrasy
+  pk: 816
+- fields:
+    nazwa: Mniszek (711 i 704 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 817
+- fields:
+    nazwa: Ostre (808 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 818
+- fields:
+    nazwa: Litacz (652 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 819
+- fields:
+    nazwa: Berdo (890 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 820
+- fields:
+    nazwa: Młynik (686 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 821
+- fields:
+    nazwa: Przełęcz Pośródka (605 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 822
+- fields:
+    nazwa: Piecky, vrch (940)
+    tworca: null
+  model: core.punkttrasy
+  pk: 823
+- fields:
+    nazwa: Orle (825 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 824
+- fields:
+    nazwa: Raczyce
+    tworca: null
+  model: core.punkttrasy
+  pk: 825
+- fields:
+    nazwa: Przełęcz Leszczynowa (605 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 826
+- fields:
+    nazwa: Hrdlo Hornádu (530)
+    tworca: null
+  model: core.punkttrasy
+  pk: 827
+- fields:
+    nazwa: Ożary
+    tworca: null
+  model: core.punkttrasy
+  pk: 828
+- fields:
+    nazwa: VELKE BIELE PLESO (X N, Z, C) (1615 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 829
+- fields:
+    nazwa: Skrajny Granat (2225 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 830
+- fields:
+    nazwa: Osty Wierch (Wapienica) (504 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 831
+- fields:
+    nazwa: TPG Cigelka (805 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 832
+- fields:
+    nazwa: Bacówka PTTK na Rycerzowej (1120 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 833
+- fields:
+    nazwa: Słoneczna Kopa (713 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 834
+- fields:
+    nazwa: Rozdroże pod Kozią Szyją
+    tworca: null
+  model: core.punkttrasy
+  pk: 835
+- fields:
+    nazwa: Łyska (640 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 836
+- fields:
+    nazwa: ZDIARSKA DOLINA. BUDNARKA (X, Ż/N) (1220 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 837
+- fields:
+    nazwa: Trzebina
+    tworca: null
+  model: core.punkttrasy
+  pk: 838
+- fields:
+    nazwa: Okole (718 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 839
+- fields:
+    nazwa: Krowiarka
+    tworca: null
+  model: core.punkttrasy
+  pk: 840
+- fields:
+    nazwa: Zamek Leśna
+    tworca: null
+  model: core.punkttrasy
+  pk: 841
+- fields:
+    nazwa: Suchy Obycz (618 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 842
+- fields:
+    nazwa: Schronisko PTTK Prehyba (1175 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 843
+- fields:
+    nazwa: Makowica (skrzyżowanie szlaków)
+    tworca: null
+  model: core.punkttrasy
+  pk: 844
+- fields:
+    nazwa: Okrąglik (1101 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 845
+- fields:
+    nazwa: Czarny Dział ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 846
+- fields:
+    nazwa: Schronisko PTTK Przysłop
+    tworca: null
+  model: core.punkttrasy
+  pk: 847
+- fields:
+    nazwa: TRASY POŁUDNIOWE
+    tworca: null
+  model: core.punkttrasy
+  pk: 848
+- fields:
+    nazwa: Łysina (891 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 849
+- fields:
+    nazwa: Działek (600 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 850
+- fields:
+    nazwa: Roztoki Górne
+    tworca: null
+  model: core.punkttrasy
+  pk: 851
+- fields:
+    nazwa: Lipnica Wielka - Kaczory
+    tworca: null
+  model: core.punkttrasy
+  pk: 852
+- fields:
+    nazwa: Trzydniowiański Wierch (1758 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 853
+- fields:
+    nazwa: Kamesznica Dolna
+    tworca: null
+  model: core.punkttrasy
+  pk: 854
+- fields:
+    nazwa: Rozdroże nad Sadami
+    tworca: null
+  model: core.punkttrasy
+  pk: 855
+- fields:
+    nazwa: Galicowa Grapa (980 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 856
+- fields:
+    nazwa: Szeroka (844 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 857
+- fields:
+    nazwa: Jeziorko Daisy (483 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 858
+- fields:
+    nazwa: Glinka
+    tworca: null
+  model: core.punkttrasy
+  pk: 859
+- fields:
+    nazwa: Wilczak (637 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 860
+- fields:
+    nazwa: Wąwóz Myśliborski - zachód
+    tworca: null
+  model: core.punkttrasy
+  pk: 861
+- fields:
+    nazwa: Przełęcz Grochowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 862
+- fields:
+    nazwa: Domaradz
+    tworca: null
+  model: core.punkttrasy
+  pk: 863
+- fields:
+    nazwa: Kidałki
+    tworca: null
+  model: core.punkttrasy
+  pk: 864
+- fields:
+    nazwa: Łopusze (661 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 865
+- fields:
+    nazwa: Michałkowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 866
+- fields:
+    nazwa: Rozdroże pod Świerkowcem
+    tworca: null
+  model: core.punkttrasy
+  pk: 867
+- fields:
+    nazwa: Kiczera Wielka (694 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 868
+- fields:
+    nazwa: Urówka (823 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 869
+- fields:
+    nazwa: Gaik (ok. 508 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 870
+- fields:
+    nazwa: SEDLO MEDZIHOLIE (1185 m) (X N, Z, C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 871
+- fields:
+    nazwa: Wąwóz Siedmicy - zachód
+    tworca: null
+  model: core.punkttrasy
+  pk: 872
+- fields:
+    nazwa: Batorów
+    tworca: null
+  model: core.punkttrasy
+  pk: 873
+- fields:
+    nazwa: Krąglak (692 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 874
+- fields:
+    nazwa: Chmiel
+    tworca: null
+  model: core.punkttrasy
+  pk: 875
+- fields:
+    nazwa: Góra Skalica (501 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 876
+- fields:
+    nazwa: Błędne Skały (853 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 877
+- fields:
+    nazwa: Czarnówka (592 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 878
+- fields:
+    nazwa: Durna (979 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 879
+- fields:
+    nazwa: Łysa Góra (805 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 880
+- fields:
+    nazwa: Jaworynki (Sołtys - 756 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 881
+- fields:
+    nazwa: Osiecznik (633 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 882
+- fields:
+    nazwa: Bucznik (434 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 883
+- fields:
+    nazwa: Przełęcz Przysłopy (847 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 884
+- fields:
+    nazwa: Rozdroże pod Bukówką
+    tworca: null
+  model: core.punkttrasy
+  pk: 885
+- fields:
+    nazwa: Ciecień (829 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 886
+- fields:
+    nazwa: Jaskinia Radochowska
+    tworca: null
+  model: core.punkttrasy
+  pk: 887
+- fields:
+    nazwa: Pastewnik (Przełęcz pod Długotką) (621 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 888
+- fields:
+    nazwa: Roztoka
+    tworca: null
+  model: core.punkttrasy
+  pk: 889
+- fields:
+    nazwa: Chrośnickie Kopy (Lastek) (638 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 890
+- fields:
+    nazwa: Wyżka (Łyżka) (807 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 891
+- fields:
+    nazwa: Przełęcz Polskie Wrota (660 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 892
+- fields:
+    nazwa: KOJŠOVA (743 m) (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 893
+- fields:
+    nazwa: Prełuki
+    tworca: null
+  model: core.punkttrasy
+  pk: 894
+- fields:
+    nazwa: Wał (523 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 895
+- fields:
+    nazwa: Sichowskie Wzgórza (273 m, 269 m, 276 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 896
+- fields:
+    nazwa: Kamieńczyk (TPG Kamieńczyk)
+    tworca: null
+  model: core.punkttrasy
+  pk: 897
+- fields:
+    nazwa: Kłodzka Góra (765 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 898
+- fields:
+    nazwa: Przełęcz pod Tokarnią (778 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 899
+- fields:
+    nazwa: Cierniak (592 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 900
+- fields:
+    nazwa: Góra Koziniec (461 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 901
+- fields:
+    nazwa: Chłopski Wierch (660 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 902
+- fields:
+    nazwa: Falowa (968 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 903
+- fields:
+    nazwa: Jaworne (992 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 904
+- fields:
+    nazwa: Żelazny Mostek
+    tworca: null
+  model: core.punkttrasy
+  pk: 905
+- fields:
+    nazwa: NIEZNAKOWANE TRASY POZA PARKIEM NARODOWYM
+    tworca: null
+  model: core.punkttrasy
+  pk: 906
+- fields:
+    nazwa: Moklik (675 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 907
+- fields:
+    nazwa: Lubomir (904 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 908
+- fields:
+    nazwa: Stóg Izerski (1105 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 909
+- fields:
+    nazwa: Beskidy (794 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 910
+- fields:
+    nazwa: Regetów Niżny
+    tworca: null
+  model: core.punkttrasy
+  pk: 911
+- fields:
+    nazwa: Dziady (647 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 912
+- fields:
+    nazwa: Dolina za Mnichem (1785 ÷ 2100 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 913
+- fields:
+    nazwa: KOSARISKO (1694 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 914
+- fields:
+    nazwa: Maguryczne (884 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 915
+- fields:
+    nazwa: Terpiak (745 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 916
+- fields:
+    nazwa: Pred Čuntavou (1166)
+    tworca: null
+  model: core.punkttrasy
+  pk: 917
+- fields:
+    nazwa: Sokołowiec Dolny
+    tworca: null
+  model: core.punkttrasy
+  pk: 918
+- fields:
+    nazwa: Gruszka (583 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 919
+- fields:
+    nazwa: Medvedia hlava (903)
+    tworca: null
+  model: core.punkttrasy
+  pk: 920
+- fields:
+    nazwa: CHATA W DOLINIE KÚRU (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 921
+- fields:
+    nazwa: Przełęcz Sklarska (886 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 922
+- fields:
+    nazwa: RAZCESTIE ZRAZ (820 m) (X Z, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 923
+- fields:
+    nazwa: CHATA „MARTINSKE HOLE” (ok. 1260 m) (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 924
+- fields:
+    nazwa: FAKLOVKA (934 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 925
+- fields:
+    nazwa: Siwa Przełęcz (1812 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 926
+- fields:
+    nazwa: Radoszowa (880 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 927
+- fields:
+    nazwa: Dwernik-Kamień (1004 m) (Holica)
+    tworca: null
+  model: core.punkttrasy
+  pk: 928
+- fields:
+    nazwa: Przełęcz Sucha (708 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 929
+- fields:
+    nazwa: Grab
+    tworca: null
+  model: core.punkttrasy
+  pk: 930
+- fields:
+    nazwa: Stara Kamienica
+    tworca: null
+  model: core.punkttrasy
+  pk: 931
+- fields:
+    nazwa: GRÚÑ Stratená (805)
+    tworca: null
+  model: core.punkttrasy
+  pk: 932
+- fields:
+    nazwa: Nieznajowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 933
+- fields:
+    nazwa: Sopotnia Wielka - Kolonia
+    tworca: null
+  model: core.punkttrasy
+  pk: 934
+- fields:
+    nazwa: Karpniki
+    tworca: null
+  model: core.punkttrasy
+  pk: 935
+- fields:
+    nazwa: Siklawa
+    tworca: null
+  model: core.punkttrasy
+  pk: 936
+- fields:
+    nazwa: POD DEMIANOVSKOU HOROU (X, Z/Ż) (1150 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 937
+- fields:
+    nazwa: Łączyna
+    tworca: null
+  model: core.punkttrasy
+  pk: 938
+- fields:
+    nazwa: Chełmanka ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 939
+- fields:
+    nazwa: Wielki Stożek (841 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 940
+- fields:
+    nazwa: Prusice
+    tworca: null
+  model: core.punkttrasy
+  pk: 941
+- fields:
+    nazwa: ZÁBLATNÉ, CHATA (580 m) (X Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 942
+- fields:
+    nazwa: Grodziszcze (427 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 943
+- fields:
+    nazwa: Sępik (365 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 944
+- fields:
+    nazwa: Bukowina Obidowska (1040 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 945
+- fields:
+    nazwa: GRÚÑ CHATA (989 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 946
+- fields:
+    nazwa: Widełki (1016 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 947
+- fields:
+    nazwa: Krzyżówka BHP
+    tworca: null
+  model: core.punkttrasy
+  pk: 948
+- fields:
+    nazwa: Obycz (788 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 949
+- fields:
+    nazwa: Przełęcz Kolędówka (809 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 950
+- fields:
+    nazwa: ZBIEG DOLIN RAJECKOLESNIANSKEJ I ŠIROKEJ (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 951
+- fields:
+    nazwa: ZADNA HOLA (1619 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 952
+- fields:
+    nazwa: Jaworzynka - Trzycatek
+    tworca: null
+  model: core.punkttrasy
+  pk: 953
+- fields:
+    nazwa: Sarnica (551 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 954
+- fields:
+    nazwa: Janiłówka (ZB.07)
+    tworca: null
+  model: core.punkttrasy
+  pk: 955
+- fields:
+    nazwa: Bukowinka
+    tworca: null
+  model: core.punkttrasy
+  pk: 956
+- fields:
+    nazwa: Włochy (427 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 957
+- fields:
+    nazwa: Śliwnik (620 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 958
+- fields:
+    nazwa: Rozdroże pod Bieścem
+    tworca: null
+  model: core.punkttrasy
+  pk: 959
+- fields:
+    nazwa: TPG Łączna
+    tworca: null
+  model: core.punkttrasy
+  pk: 960
+- fields:
+    nazwa: CHATA POD SUCHÝM (ok. 1075 m) (X C, Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 961
+- fields:
+    nazwa: Jałowiec (1111 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 962
+- fields:
+    nazwa: Jastrzębica (758 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 963
+- fields:
+    nazwa: Skalna
+    tworca: null
+  model: core.punkttrasy
+  pk: 964
+- fields:
+    nazwa: Kozia Hala (700 do 740 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 965
+- fields:
+    nazwa: Smrek (TPG Stóg Izerski) (1124 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 966
+- fields:
+    nazwa: Kota nad Gogołowem (454 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 967
+- fields:
+    nazwa: Polana Gronie (809 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 968
+- fields:
+    nazwa: Obidowa - PKS Rdzawka II
+    tworca: null
+  model: core.punkttrasy
+  pk: 969
+- fields:
+    nazwa: Kopystańka Zachodnia (504 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 970
+- fields:
+    nazwa: Psia Trawka
+    tworca: null
+  model: core.punkttrasy
+  pk: 971
+- fields:
+    nazwa: Wapienica (394 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 972
+- fields:
+    nazwa: KLAK (1394 m) (X C, Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 973
+- fields:
+    nazwa: Regetów Wyżny
+    tworca: null
+  model: core.punkttrasy
+  pk: 974
+- fields:
+    nazwa: Budzyń (Sucha Góra) (396 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 975
+- fields:
+    nazwa: Brzeźnica (Kozie Chrapy) (429 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 976
+- fields:
+    nazwa: Mała Borówkowa (786 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 977
+- fields:
+    nazwa: Markowska (748 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 978
+- fields:
+    nazwa: Rataj (350 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 979
+- fields:
+    nazwa: Wąwóz Lipa
+    tworca: null
+  model: core.punkttrasy
+  pk: 980
+- fields:
+    nazwa: Babica Zachodnia (634 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 981
+- fields:
+    nazwa: Meszna
+    tworca: null
+  model: core.punkttrasy
+  pk: 982
+- fields:
+    nazwa: Pogwizdów
+    tworca: null
+  model: core.punkttrasy
+  pk: 983
+- fields:
+    nazwa: Żurawnica (724 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 984
+- fields:
+    nazwa: Wolarz (852 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 985
+- fields:
+    nazwa: SMUTNE SEDLO (X N, C) (1962 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 986
+- fields:
+    nazwa: KRPACOVO H. BIOTIKA (770 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 987
+- fields:
+    nazwa: Rozdroże pod Bobrzakiem (743 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 988
+- fields:
+    nazwa: Jaworzyna (1052 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 989
+- fields:
+    nazwa: Klauzy (630)
+    tworca: null
+  model: core.punkttrasy
+  pk: 990
+- fields:
+    nazwa: Sromowce Niżne
+    tworca: null
+  model: core.punkttrasy
+  pk: 991
+- fields:
+    nazwa: Rokitna ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 992
+- fields:
+    nazwa: Łomnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 993
+- fields:
+    nazwa: Pila, Piecky (585)
+    tworca: null
+  model: core.punkttrasy
+  pk: 994
+- fields:
+    nazwa: Rozdroże pod Piekiełkiem
+    tworca: null
+  model: core.punkttrasy
+  pk: 995
+- fields:
+    nazwa: Poronin
+    tworca: null
+  model: core.punkttrasy
+  pk: 996
+- fields:
+    nazwa: Wzgórze Gedymina (532 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 997
+- fields:
+    nazwa: HORNÁ LÚKA (1299 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 998
+- fields:
+    nazwa: Pilsko (1557 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 999
+- fields:
+    nazwa: Krysowa (840 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1000
+- fields:
+    nazwa: Skała
+    tworca: null
+  model: core.punkttrasy
+  pk: 1001
+- fields:
+    nazwa: Podskale
+    tworca: null
+  model: core.punkttrasy
+  pk: 1002
+- fields:
+    nazwa: Przełęcz Krab (1853 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1003
+- fields:
+    nazwa: GRÚNIKY (KRAWCÓW WIERCH) (1080 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1004
+- fields:
+    nazwa: Złotoryja
+    tworca: null
+  model: core.punkttrasy
+  pk: 1005
+- fields:
+    nazwa: Mała Czantoria (864 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1006
+- fields:
+    nazwa: SEDLO PRIEHYBKA (1468 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1007
+- fields:
+    nazwa: Czernica (1083 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1008
+- fields:
+    nazwa: Pstrążna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1009
+- fields:
+    nazwa: Świdnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1010
+- fields:
+    nazwa: SEDLO POD SUCHÝM (ok. 1300 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1011
+- fields:
+    nazwa: Schronisko PTTK na Kudłaczach (730 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1012
+- fields:
+    nazwa: Polana (651 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1013
+- fields:
+    nazwa: STOHOVÉ SEDLO (1230 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1014
+- fields:
+    nazwa: Kopki (Skalista) (ok. 458 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1015
+- fields:
+    nazwa: Magura Stuposiańska (1016 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1016
+- fields:
+    nazwa: Kosarzyska
+    tworca: null
+  model: core.punkttrasy
+  pk: 1017
+- fields:
+    nazwa: Modyń (1028 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1018
+- fields:
+    nazwa: Czatoża
+    tworca: null
+  model: core.punkttrasy
+  pk: 1019
+- fields:
+    nazwa: Grzbiet Otrytu
+    tworca: null
+  model: core.punkttrasy
+  pk: 1020
+- fields:
+    nazwa: Ostróg (627 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1021
+- fields:
+    nazwa: Słona Góra (403 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1022
+- fields:
+    nazwa: Mały Śnieżnik (1337 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1023
+- fields:
+    nazwa: BANIKOV (X C, Z) (2178 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1024
+- fields:
+    nazwa: SNILOVSKÉ SEDLO (1524 m) (X N, C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1025
+- fields:
+    nazwa: Starorobociański Wierch (2176 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1026
+- fields:
+    nazwa: PRIEHYBOK (słupek graniczny III 158) (1226 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1027
+- fields:
+    nazwa: Rozdroże pod Stolną
+    tworca: null
+  model: core.punkttrasy
+  pk: 1028
+- fields:
+    nazwa: Krempachy
+    tworca: null
+  model: core.punkttrasy
+  pk: 1029
+- fields:
+    nazwa: Błotnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1030
+- fields:
+    nazwa: Mędralowa (1169 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1031
+- fields:
+    nazwa: Modliszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1032
+- fields:
+    nazwa: SEDLO POD OSTRYM (890 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1033
+- fields:
+    nazwa: TPG Sowia Przełęcz (1164 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1034
+- fields:
+    nazwa: Dzikowiec Mały (696 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1035
+- fields:
+    nazwa: Barania Góra (1220 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1036
+- fields:
+    nazwa: Studzionki
+    tworca: null
+  model: core.punkttrasy
+  pk: 1037
+- fields:
+    nazwa: Przełęcz Łaszczowa (585 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1038
+- fields:
+    nazwa: Chresty (998 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1039
+- fields:
+    nazwa: Olszak (453 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1040
+- fields:
+    nazwa: Płoniec (771 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1041
+- fields:
+    nazwa: Orlica (1084 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1042
+- fields:
+    nazwa: Magurka Radziechowska (1108 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1043
+- fields:
+    nazwa: Nosalowa (365 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1044
+- fields:
+    nazwa: DEMANOVSKE JASKYNIE.RAZCESTIE POD REPISKAMI (X, Ż/N/Z) (831 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1045
+- fields:
+    nazwa: Góra Parkowa (451 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1046
+- fields:
+    nazwa: Baków (766 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1047
+- fields:
+    nazwa: Pisarzowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1048
+- fields:
+    nazwa: Rycerki (Janczykowe)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1049
+- fields:
+    nazwa: Jasień (TPG Jodłów) (936 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1050
+- fields:
+    nazwa: Kapliczka Świętego Mikołaja (535 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1051
+- fields:
+    nazwa: Igrzyczna (358 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1052
+- fields:
+    nazwa: Bacówka PTTK nad Wierchomlą (895 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1053
+- fields:
+    nazwa: Dedinky (795)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1054
+- fields:
+    nazwa: MALOFATRANSKÉ MÚZEUM (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1055
+- fields:
+    nazwa: Kobyla Góra (391 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1056
+- fields:
+    nazwa: SVIDOVSKE SEDLO (1133 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1057
+- fields:
+    nazwa: Jezioro Złotnickie - ośrodek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1058
+- fields:
+    nazwa: Smerek (1222 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1059
+- fields:
+    nazwa: Schronisko PTTK w Dolinie Pięciu Stawów Polskich (1671 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1060
+- fields:
+    nazwa: Przełęcz Smyczka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1061
+- fields:
+    nazwa: Wapniarka (532 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1062
+- fields:
+    nazwa: Przełęcz Siodło (1276 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1063
+- fields:
+    nazwa: Zachełmie
+    tworca: null
+  model: core.punkttrasy
+  pk: 1064
+- fields:
+    nazwa: Lipowiec (370 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1065
+- fields:
+    nazwa: Predný Hýľ (1045)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1066
+- fields:
+    nazwa: LIPTOVSKY JAN KUPELE. HOTEL DUMBIER (X, Ż/C/N) (660 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1067
+- fields:
+    nazwa: Hoczew
+    tworca: null
+  model: core.punkttrasy
+  pk: 1068
+- fields:
+    nazwa: Miłek (569, 596, 573 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1069
+- fields:
+    nazwa: Rogowiec (870 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1070
+- fields:
+    nazwa: Balnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1071
+- fields:
+    nazwa: Przełęcz Kołowrót (770 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1072
+- fields:
+    nazwa: Rozdroże nad Skalnymi Wrotami
+    tworca: null
+  model: core.punkttrasy
+  pk: 1073
+- fields:
+    nazwa: RAZCESTIE JAMNICKA/RACKOVA DOLINA (NIZNA LUKA) (X N, Z, Ż) (968 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1074
+- fields:
+    nazwa: Inne
+    tworca: null
+  model: core.punkttrasy
+  pk: 1075
+- fields:
+    nazwa: DOLNÉ DIERY (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1076
+- fields:
+    nazwa: Przełęcz Jałowiecka (998 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1077
+- fields:
+    nazwa: Bukowski Groń (767 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1078
+- fields:
+    nazwa: Przełęcz Krzyżowa (768 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1079
+- fields:
+    nazwa: SEDLO POD RADIĆINOU (1040 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1080
+- fields:
+    nazwa: Mogielnica (1171 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1081
+- fields:
+    nazwa: Ostra Góra (362 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1082
+- fields:
+    nazwa: JARABINA (1313 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1083
+- fields:
+    nazwa: Gorzeszowskie Skałki (538 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1084
+- fields:
+    nazwa: BYSTRE SEDLO (1953 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1085
+- fields:
+    nazwa: VAZECKY CHRBAT I KOZIE CHRBTY
+    tworca: null
+  model: core.punkttrasy
+  pk: 1086
+- fields:
+    nazwa: Jasło
+    tworca: null
+  model: core.punkttrasy
+  pk: 1087
+- fields:
+    nazwa: Góra Wapienna (Rezerwat Skałki Stoleckie) (398 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1088
+- fields:
+    nazwa: Kopa (1187 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1089
+- fields:
+    nazwa: Wąwóz Pogródki
+    tworca: null
+  model: core.punkttrasy
+  pk: 1090
+- fields:
+    nazwa: DOLINA DVE VODY (750 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1091
+- fields:
+    nazwa: Wysoka (816 m) (Niedźwiednik)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1092
+- fields:
+    nazwa: Chryszczata (997 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1093
+- fields:
+    nazwa: Witka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1094
+- fields:
+    nazwa: Bożkowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1095
+- fields:
+    nazwa: Radłówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1096
+- fields:
+    nazwa: Wietrznik (482 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1097
+- fields:
+    nazwa: Frankowa Góra (873 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1098
+- fields:
+    nazwa: JASKINIE
+    tworca: null
+  model: core.punkttrasy
+  pk: 1099
+- fields:
+    nazwa: Zagrodzki Groń (668 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1100
+- fields:
+    nazwa: Korbania (894 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1101
+- fields:
+    nazwa: Dynów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1102
+- fields:
+    nazwa: Zatwarnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1103
+- fields:
+    nazwa: HLÁSNA SKALA (680 m) (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1104
+- fields:
+    nazwa: Kanasiówka (823 m) (Baba)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1105
+- fields:
+    nazwa: Sieradowska Góra (390 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1106
+- fields:
+    nazwa: Przełęcz Kowarska (727 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1107
+- fields:
+    nazwa: Rozdroże pod Kierzną
+    tworca: null
+  model: core.punkttrasy
+  pk: 1108
+- fields:
+    nazwa: Schronisko PTTK Szyndzielnia (1001 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1109
+- fields:
+    nazwa: Garb Średni (625 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1110
+- fields:
+    nazwa: Przełęcz pomiędzy Beskidem Korbielowskim i Beskidem Krzyżanowskim (854
+      m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1111
+- fields:
+    nazwa: Kamiennik (827 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1112
+- fields:
+    nazwa: Jawor (741 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1113
+- fields:
+    nazwa: Bukowina Tatrzańska Dolna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1114
+- fields:
+    nazwa: Hyrlata (1103 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1115
+- fields:
+    nazwa: Przełęcz pod Szeroką (741 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1116
+- fields:
+    nazwa: Przełęcz pod Wilkowyją (724 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1117
+- fields:
+    nazwa: Wisła Czarne DW PTTK
+    tworca: null
+  model: core.punkttrasy
+  pk: 1118
+- fields:
+    nazwa: PILSKO (1557 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1119
+- fields:
+    nazwa: SEDLO LATIBORSKIEJ HOLE (1547 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1120
+- fields:
+    nazwa: Przełęcz Dębowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 1121
+- fields:
+    nazwa: Przełęcz Lądecka (TPG Lutynia) (605 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1122
+- fields:
+    nazwa: Hulskie
+    tworca: null
+  model: core.punkttrasy
+  pk: 1123
+- fields:
+    nazwa: Żurawica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1124
+- fields:
+    nazwa: Przełęcz Knurowska (846 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1125
+- fields:
+    nazwa: Świątek (331 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1126
+- fields:
+    nazwa: Przełęcz pod Świerkami
+    tworca: null
+  model: core.punkttrasy
+  pk: 1127
+- fields:
+    nazwa: Wieżyca (415 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1128
+- fields:
+    nazwa: Rozdroże Holtei
+    tworca: null
+  model: core.punkttrasy
+  pk: 1129
+- fields:
+    nazwa: SIVY VRCH (X C, Z) (1805 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1130
+- fields:
+    nazwa: Waligóra (936 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1131
+- fields:
+    nazwa: PRZEŁĘCZ TEPLICE (945 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1132
+- fields:
+    nazwa: Kroacka Studzienka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1133
+- fields:
+    nazwa: Piława Dolna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1134
+- fields:
+    nazwa: Wesołówka (468 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1135
+- fields:
+    nazwa: SEDLO PRIEHYBA (1190 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1136
+- fields:
+    nazwa: Ptasi Szczyt (535 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1137
+- fields:
+    nazwa: Sucha Góra (1040 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1138
+- fields:
+    nazwa: Różanka (628 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1139
+- fields:
+    nazwa: Rudawiec (1112 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1140
+- fields:
+    nazwa: Rozdroże pod Rozłogiem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1141
+- fields:
+    nazwa: Kwaśniak ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1142
+- fields:
+    nazwa: Potaczkowa (746 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1143
+- fields:
+    nazwa: Długota (457 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1144
+- fields:
+    nazwa: Góra Skowron (389 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1145
+- fields:
+    nazwa: Kornuty (637 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1146
+- fields:
+    nazwa: Butorowy Wierch (1160 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1147
+- fields:
+    nazwa: BANIKOVSKE SEDLO (X) (2040 m) (Przełęcz Banikovska)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1148
+- fields:
+    nazwa: Palenica Kościeliska (1183 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1149
+- fields:
+    nazwa: Łysula (554 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1150
+- fields:
+    nazwa: Podlesie
+    tworca: null
+  model: core.punkttrasy
+  pk: 1151
+- fields:
+    nazwa: Polana Strążyska
+    tworca: null
+  model: core.punkttrasy
+  pk: 1152
+- fields:
+    nazwa: Pasikoń (561 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1153
+- fields:
+    nazwa: Goliniec (524 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1154
+- fields:
+    nazwa: Schronisko PTTK na Hali Ornak (1100 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1155
+- fields:
+    nazwa: Źródło św. Wolfganga
+    tworca: null
+  model: core.punkttrasy
+  pk: 1156
+- fields:
+    nazwa: Sołtysia Kopa (896 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1157
+- fields:
+    nazwa: Klonowa Góra (534 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1158
+- fields:
+    nazwa: LUKY NA JAMNE (960 m) (X Z, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1159
+- fields:
+    nazwa: Harbutowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1160
+- fields:
+    nazwa: Przełęcz Kozie Siodło (885 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1161
+- fields:
+    nazwa: Krzeszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1162
+- fields:
+    nazwa: kota nad Nienadową ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1163
+- fields:
+    nazwa: Ostrysz (635 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1164
+- fields:
+    nazwa: Lodowe Źródło
+    tworca: null
+  model: core.punkttrasy
+  pk: 1165
+- fields:
+    nazwa: Bukowiec (359 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1166
+- fields:
+    nazwa: Lutomia Dolna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1167
+- fields:
+    nazwa: Muszynka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1168
+- fields:
+    nazwa: Zielony Kopiec (1152 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1169
+- fields:
+    nazwa: Bojanicka Struga
+    tworca: null
+  model: core.punkttrasy
+  pk: 1170
+- fields:
+    nazwa: Luboń Mały przystanek PKS
+    tworca: null
+  model: core.punkttrasy
+  pk: 1171
+- fields:
+    nazwa: VELKÁ LÚKA (1476 m) (X N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1172
+- fields:
+    nazwa: Palenica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1173
+- fields:
+    nazwa: Smerekowiec (835 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1174
+- fields:
+    nazwa: Kamienna Góra
+    tworca: null
+  model: core.punkttrasy
+  pk: 1175
+- fields:
+    nazwa: Szybenica (496 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1176
+- fields:
+    nazwa: Przymiarki (Kopa) (640 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1177
+- fields:
+    nazwa: Wroczeń (498 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1178
+- fields:
+    nazwa: Orli Kamień (518 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1179
+- fields:
+    nazwa: OSTREDOK (1592 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1180
+- fields:
+    nazwa: Rozdroże Zamkowe (698 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1181
+- fields:
+    nazwa: Karpiak
+    tworca: null
+  model: core.punkttrasy
+  pk: 1182
+- fields:
+    nazwa: Wielka Rycerzowa (1226 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1183
+- fields:
+    nazwa: Myślenice Zarabie
+    tworca: null
+  model: core.punkttrasy
+  pk: 1184
+- fields:
+    nazwa: Owcza Góra (361 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1185
+- fields:
+    nazwa: Siwakowska Dolina (689 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1186
+- fields:
+    nazwa: Schronisko PTTK na Hali Łabowskiej (1061 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1187
+- fields:
+    nazwa: Szpilówka (Śpilówka) (516 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1188
+- fields:
+    nazwa: Tarnawka (dolina Wisłoczka)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1189
+- fields:
+    nazwa: Lubawka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1190
+- fields:
+    nazwa: Mioduszyna (632 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1191
+- fields:
+    nazwa: Ożenna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1192
+- fields:
+    nazwa: Grodziec skrzyżowanie
+    tworca: null
+  model: core.punkttrasy
+  pk: 1193
+- fields:
+    nazwa: Wielka Sowa (1015 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1194
+- fields:
+    nazwa: Schronisko pod Biskupią Kopą (850 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1195
+- fields:
+    nazwa: Skamieniałe Miasto
+    tworca: null
+  model: core.punkttrasy
+  pk: 1196
+- fields:
+    nazwa: Sędzisz (498 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1197
+- fields:
+    nazwa: SMRECINSKE SEDLO (1442 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1198
+- fields:
+    nazwa: Kozińce (775 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1199
+- fields:
+    nazwa: BACUSSKE SEDLO (1319 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1200
+- fields:
+    nazwa: Przełęcz w Grzybowcu (1311 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1201
+- fields:
+    nazwa: Mała Rawka (1272 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1202
+- fields:
+    nazwa: Rozdroże pod Jańską Górą
+    tworca: null
+  model: core.punkttrasy
+  pk: 1203
+- fields:
+    nazwa: Obidowiec (1106 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1204
+- fields:
+    nazwa: Sowiniec (675 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1205
+- fields:
+    nazwa: Gilowa Góra (506 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1206
+- fields:
+    nazwa: Paczyn
+    tworca: null
+  model: core.punkttrasy
+  pk: 1207
+- fields:
+    nazwa: Dział (668 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1208
+- fields:
+    nazwa: RAZCESTIE KRALICKA (1710 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1209
+- fields:
+    nazwa: VYSNE SIPRUNSKE SEDLO (1385 m) (X Z, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1210
+- fields:
+    nazwa: Nidzica Zamek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1211
+- fields:
+    nazwa: KUMSTOVE SEDLO (1549 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1212
+- fields:
+    nazwa: Stratenský kanon (815)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1213
+- fields:
+    nazwa: Dołżyca
+    tworca: null
+  model: core.punkttrasy
+  pk: 1214
+- fields:
+    nazwa: Podgórzyn Dolny
+    tworca: null
+  model: core.punkttrasy
+  pk: 1215
+- fields:
+    nazwa: Włodzicka Góra (758 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1216
+- fields:
+    nazwa: Jawornik Wielki (870 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1217
+- fields:
+    nazwa: Bukowy Garb (428 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1218
+- fields:
+    nazwa: Wilkołak (Wilcza Góra) (367 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1219
+- fields:
+    nazwa: Rochów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1220
+- fields:
+    nazwa: Wierzchosławice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1221
+- fields:
+    nazwa: Szczytniak (554 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1222
+- fields:
+    nazwa: Wojkowa (503 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1223
+- fields:
+    nazwa: Rozdroże pod Chochołem Małym
+    tworca: null
+  model: core.punkttrasy
+  pk: 1224
+- fields:
+    nazwa: Schronisko PTTK na Hali Kondratowej
+    tworca: null
+  model: core.punkttrasy
+  pk: 1225
+- fields:
+    nazwa: Sędek - Szabach (419 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1226
+- fields:
+    nazwa: Przełęcz pod Jaworową Kopą (864 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1227
+- fields:
+    nazwa: Przełęcz u Trzech Granic (1109 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1228
+- fields:
+    nazwa: Rzepiennik Biskupi
+    tworca: null
+  model: core.punkttrasy
+  pk: 1229
+- fields:
+    nazwa: Szczeliniec Wielki (919 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1230
+- fields:
+    nazwa: Wąwóz Szczawienka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1231
+- fields:
+    nazwa: Wysoki Groń (905 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1232
+- fields:
+    nazwa: Schronisko PTTK Hala Krupowa (1152 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1233
+- fields:
+    nazwa: Wąwóz Homole
+    tworca: null
+  model: core.punkttrasy
+  pk: 1234
+- fields:
+    nazwa: Schronisko PTTK Hala Szrenicka (1195 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1235
+- fields:
+    nazwa: Ostra (834 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1236
+- fields:
+    nazwa: Wielka Zabawa (823 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1237
+- fields:
+    nazwa: Schronisko PTTK pod Muflonem (740 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1238
+- fields:
+    nazwa: Przełęcz Glisne (634 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1239
+- fields:
+    nazwa: Rotunda (776 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1240
+- fields:
+    nazwa: Rozdroże pod Basztami
+    tworca: null
+  model: core.punkttrasy
+  pk: 1241
+- fields:
+    nazwa: Jawornik (761 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1242
+- fields:
+    nazwa: Barwinek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1243
+- fields:
+    nazwa: Góra Grodna (506 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1244
+- fields:
+    nazwa: Pustki (446 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1245
+- fields:
+    nazwa: Mała Babia Góra (1515 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1246
+- fields:
+    nazwa: Kiełek (960 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1247
+- fields:
+    nazwa: Wołek (878 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1248
+- fields:
+    nazwa: Malá polana, rázcestie (990)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1249
+- fields:
+    nazwa: Chełm (648 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1250
+- fields:
+    nazwa: Glac, bývalá horáreň (990)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1251
+- fields:
+    nazwa: Mlecznik ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1252
+- fields:
+    nazwa: Skorodne
+    tworca: null
+  model: core.punkttrasy
+  pk: 1253
+- fields:
+    nazwa: Czartowska Skała (463 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1254
+- fields:
+    nazwa: Czarcia Ambona (1490 m) (Śnieżne Kotły)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1255
+- fields:
+    nazwa: Grojec (612 m) (BZ.02)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1256
+- fields:
+    nazwa: Jasień (1052 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1257
+- fields:
+    nazwa: BARANEC (2184 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1258
+- fields:
+    nazwa: Bukowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 1259
+- fields:
+    nazwa: Przełęcz Płaszczyna (817 m)(TPG Nowa Morawa)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1260
+- fields:
+    nazwa: BOBROVECKA VAPENICA Parking/Schronisko Mnich (750 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1261
+- fields:
+    nazwa: Skrzyżowania pod Grzybowcem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1262
+- fields:
+    nazwa: Voniarky (915)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1263
+- fields:
+    nazwa: SEDLO POD KUPELOM (1131 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1264
+- fields:
+    nazwa: Poręba (671 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1265
+- fields:
+    nazwa: Cergowa (716 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1266
+- fields:
+    nazwa: Lwówek Śląski
+    tworca: null
+  model: core.punkttrasy
+  pk: 1267
+- fields:
+    nazwa: Czeska Góra (321 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1268
+- fields:
+    nazwa: CHOPOK (2023 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1269
+- fields:
+    nazwa: Dzikie Zbocze
+    tworca: null
+  model: core.punkttrasy
+  pk: 1270
+- fields:
+    nazwa: Toporowa Cyrhla
+    tworca: null
+  model: core.punkttrasy
+  pk: 1271
+- fields:
+    nazwa: Bolków
+    tworca: null
+  model: core.punkttrasy
+  pk: 1272
+- fields:
+    nazwa: Ponice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1273
+- fields:
+    nazwa: Biskupia Kopa (889 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1274
+- fields:
+    nazwa: Biskupske chyžky (1004)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1275
+- fields:
+    nazwa: Kalwaria
+    tworca: null
+  model: core.punkttrasy
+  pk: 1276
+- fields:
+    nazwa: DRAPÁĆ (1150 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1277
+- fields:
+    nazwa: Zapadliska (766 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1278
+- fields:
+    nazwa: Wysoki Kamień (1058 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1279
+- fields:
+    nazwa: Polana Biały Potok
+    tworca: null
+  model: core.punkttrasy
+  pk: 1280
+- fields:
+    nazwa: PODOLINA (Obšívanka) (600 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1281
+- fields:
+    nazwa: Dedinky, vlak (800)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1282
+- fields:
+    nazwa: Kozi Wierch (2291 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1283
+- fields:
+    nazwa: Różana
+    tworca: null
+  model: core.punkttrasy
+  pk: 1284
+- fields:
+    nazwa: Przełęcz Mielnicka (405 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1285
+- fields:
+    nazwa: Hala Redykalna (ok. 1070 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1286
+- fields:
+    nazwa: Jaszkowa Dolna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1287
+- fields:
+    nazwa: Dziamera (756 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1288
+- fields:
+    nazwa: Kiełków (452 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1289
+- fields:
+    nazwa: Młada Hora (1003 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1290
+- fields:
+    nazwa: Sokol, horáreň (610)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1291
+- fields:
+    nazwa: Bacówka PTTK Hon w Cisnej
+    tworca: null
+  model: core.punkttrasy
+  pk: 1292
+- fields:
+    nazwa: Pasterskie Skały (590 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1293
+- fields:
+    nazwa: Góra Dziób (693 i 686 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1294
+- fields:
+    nazwa: HORNÉ DIERY (Podziar) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1295
+- fields:
+    nazwa: TATRANSKA MAGISTRALA
+    tworca: null
+  model: core.punkttrasy
+  pk: 1296
+- fields:
+    nazwa: VETERNÉ (1466 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1297
+- fields:
+    nazwa: Skałka (677 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1298
+- fields:
+    nazwa: Babia Góra - (1725 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1299
+- fields:
+    nazwa: Leśniczówka Kolonia Lesica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1300
+- fields:
+    nazwa: Marciszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1301
+- fields:
+    nazwa: Łomnicka Równia (898 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1302
+- fields:
+    nazwa: Ślęża (718 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1303
+- fields:
+    nazwa: Czarny Staw nad Morskim Okiem (1583 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1304
+- fields:
+    nazwa: Rozdroże pod Ostrzycą
+    tworca: null
+  model: core.punkttrasy
+  pk: 1305
+- fields:
+    nazwa: Polany Surowiczne
+    tworca: null
+  model: core.punkttrasy
+  pk: 1306
+- fields:
+    nazwa: Przełęcz Koniakowska (732 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1307
+- fields:
+    nazwa: Przełęcz pod Śnieżką (TPG Śląski Dom) (1389 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1308
+- fields:
+    nazwa: Liwocz (562 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1309
+- fields:
+    nazwa: Hucisko
+    tworca: null
+  model: core.punkttrasy
+  pk: 1310
+- fields:
+    nazwa: Przednia Kopa (467 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1311
+- fields:
+    nazwa: Góra Świerki ( m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1312
+- fields:
+    nazwa: Schronisko PTTK Luboń Wielki (1022 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1313
+- fields:
+    nazwa: VELKÝ ROZSUTEC (1610 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1314
+- fields:
+    nazwa: Zameczek (595 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1315
+- fields:
+    nazwa: Wierchy (635 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1316
+- fields:
+    nazwa: Cisówka (Złatne) (777 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1317
+- fields:
+    nazwa: Bór (704 m) (Przełęcz Graniczne)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1318
+- fields:
+    nazwa: Nasiczne
+    tworca: null
+  model: core.punkttrasy
+  pk: 1319
+- fields:
+    nazwa: SEDLO PRISLOP (935 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1320
+- fields:
+    nazwa: STARY HRAD (X C, N) (ok. 400 m) (Podhradske)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1321
+- fields:
+    nazwa: Skawa PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 1322
+- fields:
+    nazwa: KIKULA (1087 )
+    tworca: null
+  model: core.punkttrasy
+  pk: 1323
+- fields:
+    nazwa: Radocyna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1324
+- fields:
+    nazwa: Pasmo Bostowskie (351 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1325
+- fields:
+    nazwa: Kortunał (675 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1326
+- fields:
+    nazwa: Krzyżowa (508 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1327
+- fields:
+    nazwa: Sokolia dolina, ústie (569)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1328
+- fields:
+    nazwa: Wierchomla Wielka-wodospad
+    tworca: null
+  model: core.punkttrasy
+  pk: 1329
+- fields:
+    nazwa: SEDLO POD VELKYM BOKOM (1479 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1330
+- fields:
+    nazwa: VRESCOVSKE SEDLO (755 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1331
+- fields:
+    nazwa: Schronisko PTTK Hala pod Łabskim Szczytem (1168 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1332
+- fields:
+    nazwa: Polana Pisana
+    tworca: null
+  model: core.punkttrasy
+  pk: 1333
+- fields:
+    nazwa: Rozdroże pod Grzybowcem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1334
+- fields:
+    nazwa: VIDLICA (1466 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1335
+- fields:
+    nazwa: Rzepiska
+    tworca: null
+  model: core.punkttrasy
+  pk: 1336
+- fields:
+    nazwa: PROSIECKA DOLINA (640 m) (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1337
+- fields:
+    nazwa: Kalnica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1338
+- fields:
+    nazwa: Przełęcz Wierzbanowska (596 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1339
+- fields:
+    nazwa: Radziejowa (1266 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1340
+- fields:
+    nazwa: POLSKY HREBEN (X Z, Ż) (2200 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1341
+- fields:
+    nazwa: Szczyrzyc
+    tworca: null
+  model: core.punkttrasy
+  pk: 1342
+- fields:
+    nazwa: Przełęcz Pod Kobylnicą
+    tworca: null
+  model: core.punkttrasy
+  pk: 1343
+- fields:
+    nazwa: POD KRCAHOVOM (X, Z/C) (1050 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1344
+- fields:
+    nazwa: Kiełek (BZ.07) (960 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1345
+- fields:
+    nazwa: Wał Okmiański (282 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1346
+- fields:
+    nazwa: kota (847 m) (TPG Niedamirów)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1347
+- fields:
+    nazwa: Soblówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1348
+- fields:
+    nazwa: Przełęcz Rędzińska (727 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1349
+- fields:
+    nazwa: Bednarów Beskid (1093 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1350
+- fields:
+    nazwa: Holnica (762 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1351
+- fields:
+    nazwa: Klasztorne Wzgórze (Kozia Góra) (316 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1352
+- fields:
+    nazwa: Dolina Bystrego Potoku
+    tworca: null
+  model: core.punkttrasy
+  pk: 1353
+- fields:
+    nazwa: Schronisko PTTK Chojnik
+    tworca: null
+  model: core.punkttrasy
+  pk: 1354
+- fields:
+    nazwa: Lisi Kamień (613m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1355
+- fields:
+    nazwa: Stryb (1011 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1356
+- fields:
+    nazwa: Rusinowa Polana (1170 ÷ 1300 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1357
+- fields:
+    nazwa: Szlachtowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 1358
+- fields:
+    nazwa: Schronisko PTTK Zieleniec (850 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1359
+- fields:
+    nazwa: Petrovka (Hutniczy Grzbiet)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1360
+- fields:
+    nazwa: Lubań
+    tworca: null
+  model: core.punkttrasy
+  pk: 1361
+- fields:
+    nazwa: TRASY SPACEROWE I EDUKACYJNE
+    tworca: null
+  model: core.punkttrasy
+  pk: 1362
+- fields:
+    nazwa: Łąka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1363
+- fields:
+    nazwa: Schronisko PTTK na Przełęczy Przegibek (1000 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1364
+- fields:
+    nazwa: Jaźwina (361 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1365
+- fields:
+    nazwa: Schronisko PTTK na Turbaczu
+    tworca: null
+  model: core.punkttrasy
+  pk: 1366
+- fields:
+    nazwa: Jarnołtówek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1367
+- fields:
+    nazwa: Kasprowy Wierch (1987 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1368
+- fields:
+    nazwa: Żar
+    tworca: null
+  model: core.punkttrasy
+  pk: 1369
+- fields:
+    nazwa: Nad Wetliną
+    tworca: null
+  model: core.punkttrasy
+  pk: 1370
+- fields:
+    nazwa: Żar (Branisko 879 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1371
+- fields:
+    nazwa: Bojanice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1372
+- fields:
+    nazwa: Schronisko "Lasek"
+    tworca: null
+  model: core.punkttrasy
+  pk: 1373
+- fields:
+    nazwa: SEDLO PRÍSLOP (916 m) (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1374
+- fields:
+    nazwa: Wiecha (471 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1375
+- fields:
+    nazwa: Błonie (478 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1376
+- fields:
+    nazwa: MALÁ BABIA HORA (CYL, MAŁA BABIA) (1517 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1377
+- fields:
+    nazwa: Szrenica (1362 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1378
+- fields:
+    nazwa: Przełęcz pod Kopą (711 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1379
+- fields:
+    nazwa: Jugów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1380
+- fields:
+    nazwa: Wielka Polana w Dolinie Małej Łąki
+    tworca: null
+  model: core.punkttrasy
+  pk: 1381
+- fields:
+    nazwa: Gomoła Jesionowska (696 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1382
+- fields:
+    nazwa: Poręba Wielka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1383
+- fields:
+    nazwa: Chełm Wschodni (581 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1384
+- fields:
+    nazwa: Rozdroże pod Łysociną
+    tworca: null
+  model: core.punkttrasy
+  pk: 1385
+- fields:
+    nazwa: Czernica
+    tworca: null
+  model: core.punkttrasy
+  pk: 1386
+- fields:
+    nazwa: Dzielec (534 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1387
+- fields:
+    nazwa: Magura (1073 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1388
+- fields:
+    nazwa: Oleszna Podgórska zach.
+    tworca: null
+  model: core.punkttrasy
+  pk: 1389
+- fields:
+    nazwa: Rabska Góra (783 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1390
+- fields:
+    nazwa: Schronisko Perła Zachodu
+    tworca: null
+  model: core.punkttrasy
+  pk: 1391
+- fields:
+    nazwa: Bordiów Wierch (755 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1392
+- fields:
+    nazwa: Rozdroże pod Lelkową (720 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1393
+- fields:
+    nazwa: POLHORA ROZCESTÍ (759 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1394
+- fields:
+    nazwa: Bucze Małe (451 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1395
+- fields:
+    nazwa: BELA DULICE (495 m) (X Z, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1396
+- fields:
+    nazwa: Kozie Żebro (847 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1397
+- fields:
+    nazwa: CHATA POD KLAĆIANSKOU MAGUROU (ok. 1120 m) (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1398
+- fields:
+    nazwa: KRIZSKE SEDLO (1775 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1399
+- fields:
+    nazwa: Przełęcz Kocierska (718 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1400
+- fields:
+    nazwa: Rozdroże pod Zrubaniem (749 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1401
+- fields:
+    nazwa: Przełęcz pod Konikiem (500 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1402
+- fields:
+    nazwa: Chełmiec (869 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1403
+- fields:
+    nazwa: Cupel (887 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1404
+- fields:
+    nazwa: Cyl Hala Śmietanowa (1298 m) (Kiczorka)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1405
+- fields:
+    nazwa: Baraniec (723 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1406
+- fields:
+    nazwa: Szwedzkie Szańce
+    tworca: null
+  model: core.punkttrasy
+  pk: 1407
+- fields:
+    nazwa: Ożna (952 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1408
+- fields:
+    nazwa: Przełęcz Trzy Buki (628 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1409
+- fields:
+    nazwa: Prządki
+    tworca: null
+  model: core.punkttrasy
+  pk: 1410
+- fields:
+    nazwa: Gilów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1411
+- fields:
+    nazwa: Kinczyk Bukowski (1251 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1412
+- fields:
+    nazwa: Kota nad Gwoździanką (445 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1413
+- fields:
+    nazwa: Bijakowa (533 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1414
+- fields:
+    nazwa: Sucha Góra (pomnik AK)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1415
+- fields:
+    nazwa: SEDLO ORAVCOVA (1426 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1416
+- fields:
+    nazwa: SEDLO NA KONI (1170 m) (X Z, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1417
+- fields:
+    nazwa: Schronisko PTTK Błatnia (891 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1418
+- fields:
+    nazwa: Poręba Wysoka (618 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1419
+- fields:
+    nazwa: Kozia Góra (686 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1420
+- fields:
+    nazwa: Golińsk
+    tworca: null
+  model: core.punkttrasy
+  pk: 1421
+- fields:
+    nazwa: Moczarne (1307 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1422
+- fields:
+    nazwa: Kopka (405 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1423
+- fields:
+    nazwa: Bruśnik
+    tworca: null
+  model: core.punkttrasy
+  pk: 1424
+- fields:
+    nazwa: Wisła - Jurzyków
+    tworca: null
+  model: core.punkttrasy
+  pk: 1425
+- fields:
+    nazwa: Kostrza (730 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1426
+- fields:
+    nazwa: Czerteż (511 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1427
+- fields:
+    nazwa: Kopystańka (541 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1428
+- fields:
+    nazwa: Rozdroże pod Marcińcem (Czarci Zagajnik) (565 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1429
+- fields:
+    nazwa: SEDLO POD KRÁLOVOU (790 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1430
+- fields:
+    nazwa: Zakręt Śmierci (775 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1431
+- fields:
+    nazwa: Twarogi (845 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1432
+- fields:
+    nazwa: Przełęcz pod Kobyłą (ok. 590 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1433
+- fields:
+    nazwa: SOKOLIE (1178 m) (X Z, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1434
+- fields:
+    nazwa: ZVOLEN (1402 m) (X Ż, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1435
+- fields:
+    nazwa: Trohaniec (939 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1436
+- fields:
+    nazwa: Rozdroże pod Osówką
+    tworca: null
+  model: core.punkttrasy
+  pk: 1437
+- fields:
+    nazwa: Siedlecin-Bóbr
+    tworca: null
+  model: core.punkttrasy
+  pk: 1438
+- fields:
+    nazwa: Dolina Wielicka i Batyżowiecka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1439
+- fields:
+    nazwa: Kasina Wielka (PKP)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1440
+- fields:
+    nazwa: Jaworz (921 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1441
+- fields:
+    nazwa: Magurka nad Suchą (872 m) (Borsucza)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1442
+- fields:
+    nazwa: CZĘŚĆ WSCHODNIA
+    tworca: null
+  model: core.punkttrasy
+  pk: 1443
+- fields:
+    nazwa: Magurka Wilkowicka (909 m) - Schronisko PTTK
+    tworca: null
+  model: core.punkttrasy
+  pk: 1444
+- fields:
+    nazwa: Rozdroże pod Żmijowcem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1445
+- fields:
+    nazwa: Hutniczy Grzbiet
+    tworca: null
+  model: core.punkttrasy
+  pk: 1446
+- fields:
+    nazwa: HVIEZDOSLAVOVA HORÁREP (MUZEUM PAVLA ORSZAGHA HVIEZDOSLAVA) (ok. 900 m)
+      (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1447
+- fields:
+    nazwa: Przełęcz Chełmska (571 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1448
+- fields:
+    nazwa: Przełęcz Srebrna (586 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1449
+- fields:
+    nazwa: Kamienna Góra (643 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1450
+- fields:
+    nazwa: Kamień (717 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1451
+- fields:
+    nazwa: Las Kaoliński
+    tworca: null
+  model: core.punkttrasy
+  pk: 1452
+- fields:
+    nazwa: Turzec (684 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1453
+- fields:
+    nazwa: DÚBRAVY NAD CHATĄ FATRANKA (X Ż, Z) (545 m) (Pod Jedlovinou)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1454
+- fields:
+    nazwa: Głodówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1455
+- fields:
+    nazwa: Tokarnia (828 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1456
+- fields:
+    nazwa: Olszówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1457
+- fields:
+    nazwa: Biedrzychowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1458
+- fields:
+    nazwa: Wysoka (Wysokie Skałki) (1050 m) -
+    tworca: null
+  model: core.punkttrasy
+  pk: 1459
+- fields:
+    nazwa: SEDLO PRÍSLOP NAD BIELOU (810 m) (X C, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1460
+- fields:
+    nazwa: Wilcza Poręba
+    tworca: null
+  model: core.punkttrasy
+  pk: 1461
+- fields:
+    nazwa: Głębock
+    tworca: null
+  model: core.punkttrasy
+  pk: 1462
+- fields:
+    nazwa: Srebrna Łąka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1463
+- fields:
+    nazwa: Zamczysko (422 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1464
+- fields:
+    nazwa: Myscowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 1465
+- fields:
+    nazwa: Turbacz (1310 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1466
+- fields:
+    nazwa: Srebrna Przełęcz) (586 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1467
+- fields:
+    nazwa: Berdo (1041 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1468
+- fields:
+    nazwa: Przełęcz Polanka (683 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1469
+- fields:
+    nazwa: Przełęcz Gierałtowska (684m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1470
+- fields:
+    nazwa: Schronisko na Bereśniku (843 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1471
+- fields:
+    nazwa: ORAVICE (X Z, N, C) (790 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1472
+- fields:
+    nazwa: Kondratów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1473
+- fields:
+    nazwa: Trzy Korony (982 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1474
+- fields:
+    nazwa: LÁZKY (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1475
+- fields:
+    nazwa: JALOVECKÉ SEDLO (PRZEŁĘCZ JAŁOWIECKA) (997 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1476
+- fields:
+    nazwa: Kokocz (434 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1477
+- fields:
+    nazwa: Jordanów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1478
+- fields:
+    nazwa: Mszana (Muchowskie Wzgórza) (475 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1479
+- fields:
+    nazwa: Malinowska Skala (1152 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1480
+- fields:
+    nazwa: Glinno
+    tworca: null
+  model: core.punkttrasy
+  pk: 1481
+- fields:
+    nazwa: Truszowskie (677 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1482
+- fields:
+    nazwa: Wał (365 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1483
+- fields:
+    nazwa: NIZNE SIPRUNSKE SEDLO (1327 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1484
+- fields:
+    nazwa: Przełęcz nad Porębą (690 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1485
+- fields:
+    nazwa: Przysłop (944 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1486
+- fields:
+    nazwa: Nowe Jaroszowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1487
+- fields:
+    nazwa: CZĘŚĆ ZACHODNIA
+    tworca: null
+  model: core.punkttrasy
+  pk: 1488
+- fields:
+    nazwa: Żdanka (ok. 530 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1489
+- fields:
+    nazwa: Markowa
+    tworca: null
+  model: core.punkttrasy
+  pk: 1490
+- fields:
+    nazwa: Kryształowa (198 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1491
+- fields:
+    nazwa: Łysa Góra (554 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1492
+- fields:
+    nazwa: CHATY POD OBRSTINOM (X, Z/C) (580 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1493
+- fields:
+    nazwa: Szczawnica PKS
+    tworca: null
+  model: core.punkttrasy
+  pk: 1494
+- fields:
+    nazwa: Nowy Żmigród
+    tworca: null
+  model: core.punkttrasy
+  pk: 1495
+- fields:
+    nazwa: Słoneczne Skały
+    tworca: null
+  model: core.punkttrasy
+  pk: 1496
+- fields:
+    nazwa: Dzielec (792 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1497
+- fields:
+    nazwa: Magura Witowska TPG (1232 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1498
+- fields:
+    nazwa: Słup (667 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1499
+- fields:
+    nazwa: Rówień Waksmundzka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1500
+- fields:
+    nazwa: KÛTNIKOV KOPEC, SEDLO (960 m) (X Ż, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1501
+- fields:
+    nazwa: Kołodziej (448 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1502
+- fields:
+    nazwa: Czepiel (901 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1503
+- fields:
+    nazwa: Wielkie Rozdroże
+    tworca: null
+  model: core.punkttrasy
+  pk: 1504
+- fields:
+    nazwa: Strzyżowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 1505
+- fields:
+    nazwa: Rozdroże pod Cichą Równią
+    tworca: null
+  model: core.punkttrasy
+  pk: 1506
+- fields:
+    nazwa: Polanki
+    tworca: null
+  model: core.punkttrasy
+  pk: 1507
+- fields:
+    nazwa: Młyńsko (777 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1508
+- fields:
+    nazwa: Łysa Góra (708 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1509
+- fields:
+    nazwa: Górzec (445 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1510
+- fields:
+    nazwa: Kiczora (838 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1511
+- fields:
+    nazwa: Mików
+    tworca: null
+  model: core.punkttrasy
+  pk: 1512
+- fields:
+    nazwa: Czerszla (877 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1513
+- fields:
+    nazwa: STRBSKE PLESO (X Z,C,N,Ż (1346 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1514
+- fields:
+    nazwa: Płasza (1162 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1515
+- fields:
+    nazwa: Jeżów Sudecki
+    tworca: null
+  model: core.punkttrasy
+  pk: 1516
+- fields:
+    nazwa: Czorsztyn
+    tworca: null
+  model: core.punkttrasy
+  pk: 1517
+- fields:
+    nazwa: Polana Huciska
+    tworca: null
+  model: core.punkttrasy
+  pk: 1518
+- fields:
+    nazwa: Lipska Góra (631 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1519
+- fields:
+    nazwa: Jaworniki (908 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1520
+- fields:
+    nazwa: Przełęcz Krowiarki (1012 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1521
+- fields:
+    nazwa: Magierów (477 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1522
+- fields:
+    nazwa: Różanka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1523
+- fields:
+    nazwa: LOPUSNA DOLINA (X, Ż/Z) (770 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1524
+- fields:
+    nazwa: Tylnia Dębowa Góra (334 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1525
+- fields:
+    nazwa: Przełęcz Zdżar (550 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1526
+- fields:
+    nazwa: Czarna Góra (1205 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1527
+- fields:
+    nazwa: Ucisana (Hucisko) (347 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1528
+- fields:
+    nazwa: DIEL (820 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1529
+- fields:
+    nazwa: Przełęcz Lewińska (525 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1530
+- fields:
+    nazwa: Wisła - Gościejów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1531
+- fields:
+    nazwa: Sokołowsko
+    tworca: null
+  model: core.punkttrasy
+  pk: 1532
+- fields:
+    nazwa: Dolina Kacza, Czeska i okolice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1533
+- fields:
+    nazwa: Batorówek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1534
+- fields:
+    nazwa: Kapliczka św. Anny
+    tworca: null
+  model: core.punkttrasy
+  pk: 1535
+- fields:
+    nazwa: Cisowa Przełęcz  (795 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1536
+- fields:
+    nazwa: Lubrza (666 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1537
+- fields:
+    nazwa: Rozdroże pod Lesieńcem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1538
+- fields:
+    nazwa: Królewska Góra (554 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1539
+- fields:
+    nazwa: Zamek Książ
+    tworca: null
+  model: core.punkttrasy
+  pk: 1540
+- fields:
+    nazwa: Piekielna Góra (Skrzyżowanie 505 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1541
+- fields:
+    nazwa: Przełęcz Jaworzyca (576)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1542
+- fields:
+    nazwa: Dworek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1543
+- fields:
+    nazwa: Straconka (611 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1544
+- fields:
+    nazwa: Jaskinia Niedźwiedzia
+    tworca: null
+  model: core.punkttrasy
+  pk: 1545
+- fields:
+    nazwa: Opacz (741 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1546
+- fields:
+    nazwa: Čingov (494)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1547
+- fields:
+    nazwa: Wielka Kopa (871 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1548
+- fields:
+    nazwa: Wielka Puszcza - leśniczówka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1549
+- fields:
+    nazwa: Przełęcz Bukowska (1107 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1550
+- fields:
+    nazwa: Schronisko PTTK na Polanie Chochołowskiej (1146 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1551
+- fields:
+    nazwa: Olchówka (457 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1552
+- fields:
+    nazwa: Kaczmarowa (407 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1553
+- fields:
+    nazwa: Muszyna-Złockie
+    tworca: null
+  model: core.punkttrasy
+  pk: 1554
+- fields:
+    nazwa: Schronisko PTTK Stożek (978 m) TPG
+    tworca: null
+  model: core.punkttrasy
+  pk: 1555
+- fields:
+    nazwa: MONKOVA DOLINA TANAP (940 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1556
+- fields:
+    nazwa: Trupielec (476 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1557
+- fields:
+    nazwa: Pieskowy Wierch (983 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1558
+- fields:
+    nazwa: Trzy Kopce Wiślańskie (810 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1559
+- fields:
+    nazwa: Ostra Góra Płn. (459 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1560
+- fields:
+    nazwa: Tomášovský výhľad (650)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1561
+- fields:
+    nazwa: Przełęcz Karkoszonka (729 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1562
+- fields:
+    nazwa: Wołowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 1563
+- fields:
+    nazwa: Żar (527 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1564
+- fields:
+    nazwa: Pełkowe Wzgórze
+    tworca: null
+  model: core.punkttrasy
+  pk: 1565
+- fields:
+    nazwa: VELKY CHOĆ (1607 m) (X C, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1566
+- fields:
+    nazwa: Kozub (1105 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1567
+- fields:
+    nazwa: Pasika (Wielki Bukowiec) (848 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1568
+- fields:
+    nazwa: Biely potok, ústie (510)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1569
+- fields:
+    nazwa: Hłocza (774 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1570
+- fields:
+    nazwa: Kobylica (pomnik J. Eichendorfa)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1571
+- fields:
+    nazwa: Maciejowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 1572
+- fields:
+    nazwa: Drogosz (681 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1573
+- fields:
+    nazwa: Jagodna (977 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1574
+- fields:
+    nazwa: Flasza
+    tworca: null
+  model: core.punkttrasy
+  pk: 1575
+- fields:
+    nazwa: Żegiestów (wieś)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1576
+- fields:
+    nazwa: Płóczki Dolne
+    tworca: null
+  model: core.punkttrasy
+  pk: 1577
+- fields:
+    nazwa: Jaroszowicka Góra (544 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1578
+- fields:
+    nazwa: Hrobacza Łąka (830 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1579
+- fields:
+    nazwa: Borowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1580
+- fields:
+    nazwa: SEDLO BUBLEN (1510 m) (X C, Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1581
+- fields:
+    nazwa: Bujakowski Groń (749 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1582
+- fields:
+    nazwa: Sedlo Čertova hlava (1051)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1583
+- fields:
+    nazwa: Čingov, Ďurkovec (565)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1584
+- fields:
+    nazwa: Żmijowa Polana (685 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1585
+- fields:
+    nazwa: Stożek (696 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1586
+- fields:
+    nazwa: Koniaków
+    tworca: null
+  model: core.punkttrasy
+  pk: 1587
+- fields:
+    nazwa: Łącznik (1066 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1588
+- fields:
+    nazwa: Zamkowa Góra (449 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1589
+- fields:
+    nazwa: Otoczenie doliny Mięguszowieckiej
+    tworca: null
+  model: core.punkttrasy
+  pk: 1590
+- fields:
+    nazwa: Grojec (612 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1591
+- fields:
+    nazwa: Majdan (512 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1592
+- fields:
+    nazwa: Jedlina Zdrój PKP
+    tworca: null
+  model: core.punkttrasy
+  pk: 1593
+- fields:
+    nazwa: Sucha Góra (611 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1594
+- fields:
+    nazwa: SEDLO VRCHPODŹIAR (745 m) (X Z, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1595
+- fields:
+    nazwa: Jaworzyna Konieczniańska (881 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1596
+- fields:
+    nazwa: Rezerwat archeologiczny
+    tworca: null
+  model: core.punkttrasy
+  pk: 1597
+- fields:
+    nazwa: Košiarny briežok (526)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1598
+- fields:
+    nazwa: Skalnik (945 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1599
+- fields:
+    nazwa: Olchowiec
+    tworca: null
+  model: core.punkttrasy
+  pk: 1600
+- fields:
+    nazwa: BRTKOVICA (1050 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1601
+- fields:
+    nazwa: Przełęcz Dukielska (500 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1602
+- fields:
+    nazwa: Dyszowa (719 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1603
+- fields:
+    nazwa: Szkolnikowe Rozstaje
+    tworca: null
+  model: core.punkttrasy
+  pk: 1604
+- fields:
+    nazwa: Pod Ondrejiskom (1150)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1605
+- fields:
+    nazwa: Zbylut (353 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1606
+- fields:
+    nazwa: Myślibórz
+    tworca: null
+  model: core.punkttrasy
+  pk: 1607
+- fields:
+    nazwa: Sucha Homola (707 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1608
+- fields:
+    nazwa: Gliniczek (653 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1609
+- fields:
+    nazwa: Radoszyce
+    tworca: null
+  model: core.punkttrasy
+  pk: 1610
+- fields:
+    nazwa: Tylicz
+    tworca: null
+  model: core.punkttrasy
+  pk: 1611
+- fields:
+    nazwa: Rębiszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1612
+- fields:
+    nazwa: Wisła - Jawornik
+    tworca: null
+  model: core.punkttrasy
+  pk: 1613
+- fields:
+    nazwa: VYŠEHRADSKÉ SEDLO II (681 m) (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1614
+- fields:
+    nazwa: Schronisko PTTK nad Morskim Okiem (1410 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1615
+- fields:
+    nazwa: Na Opalonym (570 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1616
+- fields:
+    nazwa: Babica (728 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1617
+- fields:
+    nazwa: Ostrysz (507 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1618
+- fields:
+    nazwa: Wartowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1619
+- fields:
+    nazwa: PRZEŁĘCZ GLINKA (UJSOLSKA) (847 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1620
+- fields:
+    nazwa: Bacówka PTTK Maciejowa (852 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1621
+- fields:
+    nazwa: Rozdroże pod Śmielcem i Jaworem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1622
+- fields:
+    nazwa: Nosal (1486 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1623
+- fields:
+    nazwa: Rozdroże pod Dębem
+    tworca: null
+  model: core.punkttrasy
+  pk: 1624
+- fields:
+    nazwa: Horbek
+    tworca: null
+  model: core.punkttrasy
+  pk: 1625
+- fields:
+    nazwa: Szklarska Poręba Dolna
+    tworca: null
+  model: core.punkttrasy
+  pk: 1626
+- fields:
+    nazwa: SEDLO PODÚŠUST (PRZEŁĘCZ PODOSZUS) (946 m) (X N, Ż)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1627
+- fields:
+    nazwa: Adam i Ewa
+    tworca: null
+  model: core.punkttrasy
+  pk: 1628
+- fields:
+    nazwa: Kamienna (465 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1629
+- fields:
+    nazwa: LEŚNICZÓWKA KAPUSTISKO (X, Z/N) (910 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1630
+- fields:
+    nazwa: Hulskie (846 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1631
+- fields:
+    nazwa: Kacwin
+    tworca: null
+  model: core.punkttrasy
+  pk: 1632
+- fields:
+    nazwa: Witostowice
+    tworca: null
+  model: core.punkttrasy
+  pk: 1633
+- fields:
+    nazwa: Przysłup
+    tworca: null
+  model: core.punkttrasy
+  pk: 1634
+- fields:
+    nazwa: Przełęcz Orłowicza (1099 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1635
+- fields:
+    nazwa: Granicznik (801 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1636
+- fields:
+    nazwa: Młynarka (539 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1637
+- fields:
+    nazwa: Przełączka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1638
+- fields:
+    nazwa: Połonina Caryńska (1297 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1639
+- fields:
+    nazwa: Mieroszów
+    tworca: null
+  model: core.punkttrasy
+  pk: 1640
+- fields:
+    nazwa: STRUHARSKE SEDLO (1355 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1641
+- fields:
+    nazwa: Bystrzyca Kłodzka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1642
+- fields:
+    nazwa: VELKA RACA (X, Z, C, Ż) (1236 m) (Wielka Racza)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1643
+- fields:
+    nazwa: Klatka
+    tworca: null
+  model: core.punkttrasy
+  pk: 1644
+- fields:
+    nazwa: PANSKE SEDLO (1006 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1645
+- fields:
+    nazwa: MALÝ ROZSUTEC (1344 m) (X C, N)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1646
+- fields:
+    nazwa: Glacká cesta (895)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1647
+- fields:
+    nazwa: Przełęcz Staromorawska (794 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1648
+- fields:
+    nazwa: HORNÉ GLUCHAĆKY (GŁUCHACZKI GÓRNE) (910 m) (X Z, N, C)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1649
+- fields:
+    nazwa: Krzemieniec (1221 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1650
+- fields:
+    nazwa: Magura Małastowska (813 m) Schronisko PTTK
+    tworca: null
+  model: core.punkttrasy
+  pk: 1651
+- fields:
+    nazwa: Złoty Potok
+    tworca: null
+  model: core.punkttrasy
+  pk: 1652
+- fields:
+    nazwa: Ptasznik (719 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1653
+- fields:
+    nazwa: Wisła Nowa Osada
+    tworca: null
+  model: core.punkttrasy
+  pk: 1654
+- fields:
+    nazwa: Harniaków Wierch (768 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1655
+- fields:
+    nazwa: Sokolik (642 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1656
+- fields:
+    nazwa: Szeroki Wierch (1268 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1657
+- fields:
+    nazwa: MALATINSKÁ ROVEÑ (985 m) (X Ż, Z)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1658
+- fields:
+    nazwa: SEDLO HOMOLKA (1570 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1659
+- fields:
+    nazwa: Czulnia (576 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1660
+- fields:
+    nazwa: Huzary (864 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1661
+- fields:
+    nazwa: SEDLO MACHNATE (1540 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1662
+- fields:
+    nazwa: Grzbiet Hyrowej (694 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1663
+- fields:
+    nazwa: Huta
+    tworca: null
+  model: core.punkttrasy
+  pk: 1664
+- fields:
+    nazwa: POD MARTOŠOU (759 m)
+    tworca: null
+  model: core.punkttrasy
+  pk: 1665

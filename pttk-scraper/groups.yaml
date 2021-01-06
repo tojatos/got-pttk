@@ -1,0 +1,165 @@
+- fields: {}
+  model: core.grupagorska
+  pk: Tatry Wysokie
+- fields: {}
+  model: core.grupagorska
+  pk: Tatry Zachodnie
+- fields: {}
+  model: core.grupagorska
+  pk: Podtatrze
+- fields: {}
+  model: core.grupagorska
+  pk: Zapadne Tatry - (Tatry Zachodnie - Słowacja)
+- fields: {}
+  model: core.grupagorska
+  pk: Vysoke Tatry - (Tatry Wysokie - Słowacja)
+- fields: {}
+  model: core.grupagorska
+  pk: Belanske Tatry - (Tatry Bielskie - Słowacja)
+- fields: {}
+  model: core.grupagorska
+  pk: Tatry Słowackie - szlaki z przewodnikiem
+- fields: {}
+  model: core.grupagorska
+  pk: Niske Tatry - (Niskie Tatry - Słowacja
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Śląski
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Żywiecki
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Mały
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Średni
+- fields: {}
+  model: core.grupagorska
+  pk: Gorce
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Wyspowy
+- fields: {}
+  model: core.grupagorska
+  pk: Orawa
+- fields: {}
+  model: core.grupagorska
+  pk: Spisz i Pieniny
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Sądecki
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Wielickie
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Wiśnickie
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Rożnowskie
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Ciężkowic
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Niski część zachodnia
+- fields: {}
+  model: core.grupagorska
+  pk: Beskid Niski część wschodnia
+- fields: {}
+  model: core.grupagorska
+  pk: Bieszczady
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Strzyżowsko-Dynowskie
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Przemyskie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Świętokrzyskie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Izerskie
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Izerskie
+- fields: {}
+  model: core.grupagorska
+  pk: Karkonosze
+- fields: {}
+  model: core.grupagorska
+  pk: Kotlina Jeleniogórska
+- fields: {}
+  model: core.grupagorska
+  pk: Rudawy Janowickie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Kaczawskie
+- fields: {}
+  model: core.grupagorska
+  pk: Pogórze Kaczawskie
+- fields: {}
+  model: core.grupagorska
+  pk: Kotlina Kamiennogórska
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Kamienne
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Sowie, Wzgórza Włodzickie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Bardzkie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Stołowe, Wzgórza Lewińskie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Orlickie, Góry Bystrzyckie
+- fields: {}
+  model: core.grupagorska
+  pk: Kotlina Kłodzka, Rów Górnej Nysy
+- fields: {}
+  model: core.grupagorska
+  pk: Masyw Śnieżnika, Góry Bialskie
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Złote
+- fields: {}
+  model: core.grupagorska
+  pk: Góry Opawskie
+- fields: {}
+  model: core.grupagorska
+  pk: Wzgórza Strzegomskie
+- fields: {}
+  model: core.grupagorska
+  pk: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+- fields: {}
+  model: core.grupagorska
+  pk: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+- fields: {}
+  model: core.grupagorska
+  pk: Słowacki Raj
+- fields: {}
+  model: core.grupagorska
+  pk: Mała Fatra - Vrátna
+- fields: {}
+  model: core.grupagorska
+  pk: Mała Fatra - Martinské hole
+- fields: {}
+  model: core.grupagorska
+  pk: Veľká Fatra i Choć
+- fields: {}
+  model: core.grupagorska
+  pk: Kysucke Beskydy - Grzbiet Graniczny
+- fields: {}
+  model: core.grupagorska
+  pk: Oravské Beskydy - Słowacja
+- fields: {}
+  model: core.grupagorska
+  pk: Pieniny - Słowacja

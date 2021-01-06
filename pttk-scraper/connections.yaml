@@ -1,0 +1,4855 @@
+- from: Gęsia Szyja (1489 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '4'
+  pointsTo: '1'
+  to: Rusinowa Polana (1170 ÷ 1300 m)
+- from: Schronisko PTTK nad Morskim Okiem (1410 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '8'
+  pointsTo: '5'
+  to: Wodogrzmoty Mickiewicza
+- from: Czarny Staw nad Morskim Okiem (1583 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Schronisko PTTK nad Morskim Okiem (1410 m)
+- from: Dolina za Mnichem (1785 ÷ 2100 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '6'
+  pointsTo: '2'
+  to: Schronisko PTTK nad Morskim Okiem (1410 m)
+- from: Schronisko PTTK w Dolinie Pięciu Stawów Polskich (1671 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '9'
+  pointsTo: '5'
+  to: Schronisko PTTK nad Morskim Okiem (1410 m)
+- from: Siklawa
+  mount_group: Tatry Wysokie
+  pointsFrom: 10
+  pointsTo: 4
+  to: Wodogrzmoty Mickiewicza
+- from: Świnica (2301 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Zawrat (2159 m)
+- from: Świnica (2301 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '4'
+  pointsTo: '1'
+  to: Świnicka Przełęcz (2050 m)
+- from: Przełęcz Krzyżne (2114 m)
+  mount_group: Tatry Wysokie
+  pointsFrom: '9'
+  pointsTo: '4'
+  to: Schronisko PTTK w Dolinie Pięciu Stawów Polskich (1671 m)
+- from: Dwoiśniak
+  mount_group: Tatry Wysokie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Schronisko PTTK na Hali Gąsienicowej (1500 m)
+- from: Droga "Pod Reglami"
+  mount_group: Tatry Zachodnie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Polana Biały Potok
+- from: Polana Huciska
+  mount_group: Tatry Zachodnie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Polana Biały Potok
+- from: Niżnia Kominiarska Polana (1110 ÷ 1170 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Polana Biały Potok
+- from: Niżnia Kominiarska Polana (1110 ÷ 1170 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Wyżnia Kira Miętusia
+- from: Niżnia Kominiarska Polana (1110 ÷ 1170 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Polana Huciska
+- from: Jarząbczy Wierch (2137 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '9'
+  pointsTo: '8'
+  to: Wołowiec (2064 m)
+- from: Grześ (1653 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '8'
+  pointsTo: '3'
+  to: Schronisko PTTK na Polanie Chochołowskiej (1146 m)
+- from: Starorobociańska Rówień
+  mount_group: Tatry Zachodnie
+  pointsFrom: '2'
+  pointsTo: '7'
+  to: Siwa Przełęcz (1812 m)
+- from: Iwaniacka Przełęcz (1459 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Schronisko PTTK na Hali Ornak (1100 m)
+- from: Lodowe Źródło
+  mount_group: Tatry Zachodnie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Wyżnia Kira Miętusia
+- from: Polana Pisana
+  mount_group: Tatry Zachodnie
+  pointsFrom: 3
+  pointsTo: 2
+  to: Lodowe Źródło
+- from: Wyżnia Tomanowa Polana (1340 ÷ 1450 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Schronisko PTTK na Hali Ornak (1100 m)
+- from: Wyżnia Tomanowa Polana (1340 ÷ 1450 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '3'
+  pointsTo: '7'
+  to: Chuda Przełączka (ok. 1850 m)
+- from: Chuda Przełączka (ok. 1850 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '13'
+  pointsTo: '4'
+  to: Wyżnia Kira Miętusia
+- from: Przełęcz Przysłop Miętusi (1189 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Wyżnia Kira Miętusia
+- from: Przełęcz Przysłop Miętusi (1189 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Wielka Polana w Dolinie Małej Łąki
+- from: Kobylarz (1800 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '9'
+  pointsTo: '3'
+  to: Przełęcz Przysłop Miętusi (1189 m)
+- from: Wielka Polana w Dolinie Małej Łąki
+  mount_group: Tatry Zachodnie
+  pointsFrom: '3'
+  pointsTo: '8'
+  to: Przełęcz Kondracka (1725 m)
+- from: Kopa Kondracka (2005 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '4'
+  pointsTo: '1'
+  to: Przełęcz Kondracka (1725 m)
+- from: Przełęcz Kondracka (1725 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '7'
+  pointsTo: '2'
+  to: Przełęcz w Grzybowcu (1311 m)
+- from: Przełęcz Kondracka (1725 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '6'
+  pointsTo: '2'
+  to: Schronisko PTTK na Hali Miziowej (1330 m)
+- from: Przełęcz w Grzybowcu (1311 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Wielka Polana w Dolinie Małej Łąki
+- from: Przełęcz w Grzybowcu (1311 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Polana Strążyska
+- from: Czerwona Przełęcz (1301 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '4'
+  pointsTo: '1'
+  to: Polana Strążyska
+- from: Kasprowy Wierch (1987 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '6'
+  pointsTo: '2'
+  to: Dwoiśniak
+- from: Schronisko PTTK na Hali Gąsienicowej (1500 m)
+  mount_group: Tatry Zachodnie
+  pointsFrom: '1'
+  pointsTo: '2'
+  to: Dwoiśniak
+- from: Butorowy Wierch (1160 m)
+  mount_group: Podtatrze
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Palenica Kościeliska (1183 m)
+- from: Gubałówka (1126 m)
+  mount_group: Podtatrze
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Butorowy Wierch (1160 m)
+- from: Gubałówka (1126 m)
+  mount_group: Podtatrze
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Eliaszówka
+- from: Rafaczyńska Grapa (973 m)
+  mount_group: Podtatrze
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Eliaszówka
+- from: Rafaczyńska Grapa (973 m)
+  mount_group: Podtatrze
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Poronin
+- from: Poronin
+  mount_group: Podtatrze
+  pointsFrom: '7'
+  pointsTo: '9'
+  to: Toporowa Cyrhla
+- from: Galicowa Grapa (980 m)
+  mount_group: Podtatrze
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Poronin
+- from: Galicowa Grapa (980 m)
+  mount_group: Podtatrze
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Bukowina Tatrzańska - Klin
+- from: Bukowina Tatrzańska - Klin
+  mount_group: Podtatrze
+  pointsFrom: '4'
+  pointsTo: '6'
+  to: Głodówka
+- from: BANIKOVSKE SEDLO (X) (2040 m) (Przełęcz Banikovska)
+  mount_group: Zapadne Tatry - (Tatry Zachodnie - Słowacja)
+  pointsFrom: '1'
+  pointsTo: '2'
+  to: BANIKOV (X C, Z) (2178 m)
+- from: ROHACKI BUFET/TATLIAKOVO JAZERO/CIERNA MLAKA (X C, Z) (1360 m)
+  mount_group: Zapadne Tatry - (Tatry Zachodnie - Słowacja)
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Przełęcz Zawrat (2159 m)
+- from: SEDLO LATIBORSKIEJ HOLE (1547 m)
+  mount_group: Niske Tatry - (Niskie Tatry - Słowacja
+  pointsFrom: '9'
+  pointsTo: '4'
+  to: Magura (1073 m)
+- from: Jasieniowa (521 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Dzięgielów - Zamek
+- from: Schronisko PTTK Tuł (621 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Jasieniowa (521 m)
+- from: Ostry (712 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Schronisko PTTK Tuł (621 m)
+- from: Mała Czantoria (864 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Schronisko PTTK Tuł (621 m)
+- from: Mała Czantoria (864 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Ostry (712 m)
+- from: Czantoria Wielka (995 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Mała Czantoria (864 m)
+- from: Czantoria Wielka (995 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz Beskid (785 m)
+- from: Wisła - Jawornik
+  mount_group: Beskid Śląski
+  pointsFrom: '2'
+  pointsTo: '4'
+  to: Przełęcz Beskid (785 m)
+- from: Soszów Wielki (884 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Beskid (785 m)
+- from: Wisła - Jurzyków
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '12'
+  to: Schronisko PTTK Stożek (978 m) TPG
+- from: Wisła Nowa Osada
+  mount_group: Beskid Śląski
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Wisła Czarne DW PTTK
+- from: Kozińce (775 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz Kubalonka (761 m)
+- from: Przełęcz Kubalonka (761 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Wisła Czarne (skrzyżowanie)
+- from: Przełęcz Kubalonka (761 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '4'
+  pointsTo: '5'
+  to: Mraźnica
+- from: Kiczory (989 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Mraźnica
+- from: Wierch Czadeczka (Solowy Wierch (848 m))
+  mount_group: Beskid Śląski
+  pointsFrom: '11'
+  pointsTo: '8'
+  to: Jaworzynka - Trzycatek
+- from: Łączyna
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '9'
+  to: Schronisko PTTK Przysłop
+- from: Kamesznica Złatna
+  mount_group: Beskid Śląski
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Kamesznica Dolna
+- from: Schronisko PTTK Przysłop
+  mount_group: Beskid Śląski
+  pointsFrom: '9'
+  pointsTo: '9'
+  to: Przełęcz Koniakowska (732 m)
+- from: Wisła Czarne (skrzyżowanie)
+  mount_group: Beskid Śląski
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wisła Czarne DW PTTK
+- from: Barania Góra (1220 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Magurka Wiślańska (1140 m)
+- from: Magurka Wiślańska (1140 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Magurka Radziechowska (1108 m)
+- from: Magurka Wiślańska (1140 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '15'
+  pointsTo: '9'
+  to: Kamesznica Dolna
+- from: Zielony Kopiec (1152 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Magurka Wiślańska (1140 m)
+- from: Zielony Kopiec (1152 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Malinowska Skala (1152 m)
+- from: Malinowska Skala (1152 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przełęcz Salmopolska (934 m)
+- from: Smerekowiec (835 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '9'
+  pointsTo: '7'
+  to: Wisła Nowa Osada
+- from: Smerekowiec (835 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '11'
+  pointsTo: '7'
+  to: Wisła - Gościejów
+- from: Smerekowiec (835 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Trzy Kopce Wiślańskie (810 m)
+- from: Trzy Kopce Wiślańskie (810 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '8'
+  pointsTo: '8'
+  to: Orłowa (813 m)
+- from: Górki Wielkie
+  mount_group: Beskid Śląski
+  pointsFrom: '5'
+  pointsTo: '8'
+  to: Łazek (713 m)
+- from: Schronisko PTTK Błatnia (891 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '9'
+  pointsTo: '6'
+  to: Jezioro w dolinie Wapiennicy
+- from: Przełęcz Salmopolska (934 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Trzy Kopce Wiślańskie (810 m)
+- from: Kotarz (985 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przełęcz Karkoszonka (729 m)
+- from: Klimczok (1117 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz Karkoszonka (729 m)
+- from: Klimczok (1117 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Schronisko PTTK Klimczok (1034 m)
+- from: Klimczok (1117 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Schronisko PTTK Błatnia (891 m)
+- from: Klimczok (1117 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Schronisko PTTK Szyndzielnia (1001 m)
+- from: Klimczok (1117 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz Kołowrót (770 m)
+- from: Schronisko PTTK Klimczok (1034 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Schronisko PTTK Szyndzielnia (1001 m)
+- from: Schronisko PTTK Szyndzielnia (1001 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Schronisko PTTK Błatnia (891 m)
+- from: Schronisko PTTK Szyndzielnia (1001 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Przełęcz Kołowrót (770 m)
+- from: Mikuszowice Śląskie
+  mount_group: Beskid Śląski
+  pointsFrom: '4'
+  pointsTo: '6'
+  to: Kozia Góra (686 m)
+- from: Przełęcz Kołowrót (770 m)
+  mount_group: Beskid Śląski
+  pointsFrom: '1'
+  pointsTo: '3'
+  to: Schronisko PTTK Szyndzielnia (1001 m)
+- from: Bór (704 m) (Przełęcz Graniczne)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '8'
+  to: Magura (1073 m)
+- from: Ożna (952 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Łysica (704 m)
+- from: Schronisko PTTK Wielka Racza (1236 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '7'
+  to: Magura (1073 m)
+- from: Schronisko PTTK na Przełęczy Przegibek (1000 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Rycerki (Janczykowe)
+- from: Schronisko PTTK na Przełęczy Przegibek (1000 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '7'
+  to: Bacówka PTTK na Rycerzowej (1120 m)
+- from: Rycerki (Janczykowe)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '6'
+  to: Schronisko PTTK na Przełęczy Przegibek (1000 m)
+- from: Młada Hora (1003 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '7'
+  to: Soblówka
+- from: Urówka (823 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '7'
+  pointsTo: '9'
+  to: Młada Hora (1003 m)
+- from: Wielka Rycerzowa (1226 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '8'
+  pointsTo: '6'
+  to: Schronisko PTTK na Przełęczy Przegibek (1000 m)
+- from: Bacówka PTTK na Rycerzowej (1120 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '10'
+  pointsTo: '6'
+  to: Soblówka
+- from: Muńcuł (1165 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '10'
+  pointsTo: '6'
+  to: Soblówka
+- from: Bednarów Beskid (1093 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '4'
+  to: Soblówka
+- from: Jaworzyna (1052 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Soblówka
+- from: Jaworzyna (1052 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '7'
+  to: Przełęcz Glinne (809 m)
+- from: Soblówka
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '9'
+  to: Przełęcz Przysłopy (847 m)
+- from: Glinka
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '6'
+  to: Przełęcz Glinne (809 m)
+- from: Bacówka PTTK Krawców Wierch (1038 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Glinne (809 m)
+- from: Hala Redykalna (ok. 1070 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Schronisko PTTK na Hali Boraczej (854 m)
+- from: Sucha Góra (1040 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Schronisko PTTK na Hali Boraczej (854 m)
+- from: Schronisko PTTK Hala Lipowska (1290 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Hala Redykalna (ok. 1070 m)
+- from: Schronisko PTTK Hala Lipowska (1290 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '6'
+  to: Schronisko PTTK na Hali Boraczej (854 m)
+- from: Schronisko PTTK Hala Rysianka (1290 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Schronisko PTTK Hala Lipowska (1290 m)
+- from: Schronisko PTTK Hala Rysianka (1290 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '10'
+  pointsTo: '6'
+  to: Słowianka (856 m)
+- from: Romanka (1366 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Schronisko PTTK Hala Rysianka (1290 m)
+- from: Romanka (1366 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '8'
+  pointsTo: '4'
+  to: Słowianka (856 m)
+- from: Sopotnia Wielka - Kolonia
+  mount_group: Beskid Żywiecki
+  pointsFrom: '7'
+  pointsTo: '10'
+  to: Schronisko PTTK Hala Rysianka (1290 m)
+- from: Kiczora (838 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '4'
+  pointsTo: '5'
+  to: Słowianka (856 m)
+- from: Pilsko (1557 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Schronisko PTTK na Hali Miziowej (1330 m)
+- from: Pilsko (1557 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '12'
+  pointsTo: '6'
+  to: Przełęcz Glinne (809 m)
+- from: Schronisko PTTK na Hali Miziowej (1330 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '10'
+  pointsTo: '5'
+  to: Sopotnia Wielka - Kolonia
+- from: Schronisko PTTK na Hali Miziowej (1330 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '5'
+  to: Przełęcz Przysłopy (847 m)
+- from: Schronisko PTTK na Hali Miziowej (1330 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '10'
+  pointsTo: '6'
+  to: Przełęcz Glinne (809 m)
+- from: Kamienna
+  mount_group: Beskid Żywiecki
+  pointsFrom: '7'
+  pointsTo: '14'
+  to: Schronisko PTTK na Hali Miziowej (1330 m)
+- from: Przełęcz Glinne (809 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '4'
+  to: Beskid Korbielowski (955 m)
+- from: Przełęcz pomiędzy Beskidem Korbielowskim i Beskidem Krzyżanowskim (854 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Beskid Korbielowski (955 m)
+- from: Przyborowiec (882 m) (Czulów Groń)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '8'
+  pointsTo: '9'
+  to: Moczarki
+- from: Mędralowa (1169 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Hala Kamińskiego (1114 m)
+- from: Mędralowa (1169 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Jałowiecka (998 m)
+- from: Hala Kamińskiego (1114 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Jałowiecka (998 m)
+- from: Hala Kamińskiego (1114 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Klekociny (864 m)
+- from: Przełęcz Klekociny (864 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Czerniawa Sucha (1060 m)
+- from: Lachów Groń (1048 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Czerniawa Sucha (1060 m)
+- from: Jałowiec (1111 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Czerniawa Sucha (1060 m)
+- from: Jałowiec (1111 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Przełęcz Kolędówka (809 m)
+- from: Magurka nad Suchą (872 m) (Borsucza)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '9'
+  pointsTo: '9'
+  to: Przełęcz Kolędówka (809 m)
+- from: Markowa
+  mount_group: Beskid Żywiecki
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Lajkonik
+- from: Markowa
+  mount_group: Beskid Żywiecki
+  pointsFrom: '2'
+  pointsTo: '4'
+  to: Sulowa Cyrhla
+- from: Babia Góra - (1725 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '7'
+  pointsTo: '3'
+  to: Sokolica (1367 m)
+- from: Sulowa Cyrhla
+  mount_group: Beskid Żywiecki
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Lajkonik
+- from: Przełęcz Krowiarki (1012 m)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '11'
+  pointsTo: '8'
+  to: Zubrzyca Górna
+- from: Cyl Hala Śmietanowa (1298 m) (Kiczorka)
+  mount_group: Beskid Żywiecki
+  pointsFrom: '12'
+  pointsTo: '6'
+  to: Lajkonik
+- from: Hrobacza Łąka (830 m)
+  mount_group: Beskid Mały
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Bujakowski Groń (749 m)
+- from: Hrobacza Łąka (830 m)
+  mount_group: Beskid Mały
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Przełęcz między Gaikami (809 m) a Groniczkami (839 m)
+- from: Przełęcz Przegibek (663 m)
+  mount_group: Beskid Mały
+  pointsFrom: '2'
+  pointsTo: 3 
+  to: Przełęcz między Gaikami (809 m) a Groniczkami (839 m)
+- from: Przełęcz Przegibek (663 m)
+  mount_group: Beskid Mały
+  pointsFrom: '3'
+  pointsTo: 5 
+  to: Magurka Wilkowicka (909 m) - Schronisko PTTK
+- from: Magurka Wilkowicka (909 m) - Schronisko PTTK
+  mount_group: Beskid Mały
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Czupel (933 m)
+- from: Cisowa Przełęcz  (795 m)
+  mount_group: Beskid Mały
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Wielka Puszcza - leśniczówka
+- from: Cisowa Przełęcz  (795 m)
+  mount_group: Beskid Mały
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Przełęcz Kocierska (718 m)
+- from: Przełęcz Kocierska (718 m)
+  mount_group: Beskid Mały
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Wielka Puszcza - leśniczówka
+- from: Złota Góra (757 m)
+  mount_group: Beskid Mały
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Bukowski Groń (767 m)
+- from: Złota Góra (757 m)
+  mount_group: Beskid Mały
+  pointsFrom: '8'
+  pointsTo: '7'
+  to: Przełęcz Kocierska (718 m)
+- from: Bukowski Groń (767 m)
+  mount_group: Beskid Mały
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Wielka Puszcza - leśniczówka
+- from: Potrójna (883 m)
+  mount_group: Beskid Mały
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Przełęcz Kocierska (718 m)
+- from: Łamana Skała (Madohora - 929 m)
+  mount_group: Beskid Mały
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Potrójna (883 m)
+- from: Łamana Skała (Madohora - 929 m)
+  mount_group: Beskid Mały
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Na Płonnem (822 m)
+- from: Groń Jana Pawła II (890 m) - Schronisko PTTK Leskowiec
+  mount_group: Beskid Mały
+  pointsFrom: '11'
+  pointsTo: '8'
+  to: Osty Wierch (Wapienica) (504 m)
+- from: Baków (766 m)
+  mount_group: Beskid Średni
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Gachowizna (758 m)
+- from: Solniska (849 m)
+  mount_group: Beskid Średni
+  pointsFrom: '8'
+  pointsTo: '5'
+  to: Zagrodzki Groń (668 m)
+- from: Lipska Góra (631 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '4'
+  to: Żurawnica (724 m)
+- from: Mioduszyna (632 m)
+  mount_group: Beskid Średni
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Osiedle Piątkowa
+- from: Ostrysz (707 m)
+  mount_group: Beskid Średni
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Osiedle Piątkowa
+- from: Ostrysz (707 m)
+  mount_group: Beskid Średni
+  pointsFrom: '5'
+  pointsTo: '6'
+  to: Koskowa Góra (866 m)
+- from: Żar (527 m)
+  mount_group: Beskid Średni
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Kalwaria Lanckorona (PKP)
+- from: Lanckorońska Góra (545 m)
+  mount_group: Beskid Średni
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Kalwaria Lanckorona (PKP)
+- from: Chełm 603 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Chełm Wschodni (581 m)
+- from: Babica Zachodnia (634 m)
+  mount_group: Beskid Średni
+  pointsFrom: '8'
+  pointsTo: '5'
+  to: Harbutowice
+- from: Cisy
+  mount_group: Beskid Średni
+  pointsFrom: '5'
+  pointsTo: '6'
+  to: Babica Zachodnia (634 m)
+- from: Harbutowice
+  mount_group: Beskid Średni
+  pointsFrom: '6'
+  pointsTo: '8'
+  to: Babica (728 m)
+- from: Babica (728 m)
+  mount_group: Beskid Średni
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Babica Zachodnia (634 m)
+- from: Babica (728 m)
+  mount_group: Beskid Średni
+  pointsFrom: '8'
+  pointsTo: '7'
+  to: Sularzówka (617 m)
+- from: Babica (728 m)
+  mount_group: Beskid Średni
+  pointsFrom: '6'
+  pointsTo: '7'
+  to: Koskowa Góra (866 m)
+- from: Sularzówka (617 m)
+  mount_group: Beskid Średni
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Barnasiówka (566 m)
+- from: Koskowa Góra (866 m)
+  mount_group: Beskid Średni
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Babica (728 m)
+- from: Koskowa Góra (866 m)
+  mount_group: Beskid Średni
+  pointsFrom: '10'
+  pointsTo: '9'
+  to: Kotoń Zachodni (773 m) (Groń)
+- from: Koskowa Góra (866 m)
+  mount_group: Beskid Średni
+  pointsFrom: '11'
+  pointsTo: '10'
+  to: Polana Gronie (809 m)
+- from: Przykrzec (741 m) (Przykiec)
+  mount_group: Beskid Średni
+  pointsFrom: '2'
+  pointsTo: '5'
+  to: Polana Gronie (809 m)
+- from: Kotoń Zachodni (773 m) (Groń)
+  mount_group: Beskid Średni
+  pointsFrom: '9'
+  pointsTo: '7'
+  to: Sularzówka (617 m)
+- from: Pcim
+  mount_group: Beskid Średni
+  pointsFrom: '6'
+  pointsTo: '9'
+  to: Działek (600 m)
+- from: Chełm (648 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Śliwnik (620 m)
+- from: Schronisko PTTK na Kudłaczach (730 m)
+  mount_group: Beskid Średni
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Działek (600 m)
+- from: Schronisko PTTK na Kudłaczach (730 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Sucha (708 m)
+- from: Łysina (891 m)
+  mount_group: Beskid Średni
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Schronisko PTTK na Kudłaczach (730 m)
+- from: Łysina (891 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Przełęcz Sucha (708 m)
+- from: Lubomir (904 m)
+  mount_group: Beskid Średni
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Łysina (891 m)
+- from: Lubomir (904 m)
+  mount_group: Beskid Średni
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz Wierzbanowska (596 m)
+- from: Kamiennik (827 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Sucha (708 m)
+- from: Ostrysz (507 m)
+  mount_group: Beskid Średni
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Trupielec (476 m)
+- from: Rabska Góra (783 m)
+  mount_group: Gorce
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Sieniawa
+- from: Rabska Góra (783 m)
+  mount_group: Gorce
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Obidowa - PKS Rdzawka II
+- from: Rabska Góra (783 m)
+  mount_group: Gorce
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Piątkowa (715 m)
+- from: Obidowa - PKS Rdzawka II
+  mount_group: Gorce
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Sieniawa
+- from: Bacówka PTTK Maciejowa (852 m)
+  mount_group: Gorce
+  pointsFrom: '10'
+  pointsTo: 6 
+  to: Olszówka
+- from: Schronisko PTTK Stare Wierchy (980 m)
+  mount_group: Gorce
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Obidowa - PKS Rdzawka II
+- from: Schronisko PTTK Stare Wierchy (980 m)
+  mount_group: Gorce
+  pointsFrom: '13'
+  pointsTo: 8 
+  to: Olszówka
+- from: Obidowiec (1106 m)
+  mount_group: Gorce
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Schronisko PTTK Stare Wierchy (980 m)
+- from: Turbacz (1310 m)
+  mount_group: Gorce
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Obidowiec (1106 m)
+- from: Schronisko PTTK na Turbaczu
+  mount_group: Gorce
+  pointsFrom: '1'
+  pointsTo: 1 
+  to: Turbacz (1310 m)
+- from: Schronisko PTTK na Turbaczu
+  mount_group: Gorce
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Obidowiec (1106 m)
+- from: Schronisko PTTK na Turbaczu
+  mount_group: Gorce
+  pointsFrom: '7'
+  pointsTo: 4 
+  to: Przełęcz Borek (1009 m)
+- from: Kudłoń (1276 m)
+  mount_group: Gorce
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Przełęcz Borek (1009 m)
+- from: Kudłoń (1276 m)
+  mount_group: Gorce
+  pointsFrom: '13'
+  pointsTo: 7 
+  to: Lubomierz
+- from: Kiczora (1284 m)
+  mount_group: Gorce
+  pointsFrom: '10'
+  pointsTo: 6 
+  to: Przełęcz Knurowska (846 m)
+- from: Jaworzyny Ochotnickie
+  mount_group: Gorce
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Polana Kudów
+- from: Lubań (1211 m)
+  mount_group: Gorce
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Jaworzyny Ochotnickie
+- from: Lubań (1211 m)
+  mount_group: Gorce
+  pointsFrom: '11'
+  pointsTo: 5 
+  to: Przełęcz Kozia (653 m)
+- from: Gorc (1228 m)
+  mount_group: Gorce
+  pointsFrom: '8'
+  pointsTo: 4 
+  to: Nowa Polana (840 m)
+- from: Gorc (1228 m)
+  mount_group: Gorce
+  pointsFrom: '7'
+  pointsTo: 4 
+  to: Przełęcz Wierch Młynne (750 m)
+- from: Gorc (1228 m)
+  mount_group: Gorce
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Przełęcz pod Przysłopem
+- from: Przełęcz Wierch Młynne (750 m)
+  mount_group: Gorce
+  pointsFrom: '8'
+  pointsTo: 5 
+  to: Kamienica
+- from: Twarogi (845 m)
+  mount_group: Gorce
+  pointsFrom: '8'
+  pointsTo: 5 
+  to: Kamienica
+- from: Twarogi (845 m)
+  mount_group: Gorce
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Przełęcz Wierch Młynne (750 m)
+- from: Nowa Polana (840 m)
+  mount_group: Gorce
+  pointsFrom: '4'
+  pointsTo: 6 
+  to: Wielki Wierch (1007 m)
+- from: Potaczkowa (746 m)
+  mount_group: Gorce
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Olszówka
+- from: Poręba Wielka
+  mount_group: Gorce
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Olszówka
+- from: Schronisko PTTK Luboń Wielki (1022 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '6'
+  pointsTo: 2 
+  to: Przełęcz Glisne (634 m)
+- from: Luboń Mały przystanek PKS
+  mount_group: Beskid Wyspowy
+  pointsFrom: '7'
+  pointsTo: 10 
+  to: Schronisko PTTK Luboń Wielki (1022 m)
+- from: Szczebel (976 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Przełęcz Glisne (634 m)
+- from: Zapadliska (766 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '3'
+  pointsTo: 6 
+  to: Lubogoszcz (968 m)
+- from: Lubogoszcz (968 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '9'
+  pointsTo: 5 
+  to: Kasina Wielka (PKP)
+- from: Ciecień (829 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '8'
+  pointsTo: 4 
+  to: Szczyrzyc
+- from: Ciecień (829 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '10'
+  pointsTo: 7 
+  to: Kasina Wielka (PKP)
+- from: Śnieżnica (1006 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '7'
+  pointsTo: 3 
+  to: Kasina Wielka (PKP)
+- from: Jasień (1052 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '11'
+  pointsTo: 8 
+  to: Ostra (780 m)
+- from: Jasień (1052 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Polana Wały
+- from: Jasień (1052 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '9'
+  pointsTo: 5 
+  to: Lubomierz
+- from: Mogielnica (1171 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '6'
+  pointsTo: 5 
+  to: Polana Wały
+- from: Mogielnica (1171 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '10'
+  pointsTo: 8 
+  to: Łopień (951 m)
+- from: Mogielnica (1171 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '10'
+  pointsTo: 6 
+  to: Przełęcz Słopnicka (766 m)
+- from: Przełęcz między Cichoniem a Ostrą (820 m) (Przełęcz Pod Ostrą)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '9'
+  pointsTo: 7 
+  to: Wyżka (Łyżka) (807 m)
+- from: Przełęcz między Cichoniem a Ostrą (820 m) (Przełęcz Pod Ostrą)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Przełęcz Słopnicka (766 m)
+- from: Modyń (1028 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '12'
+  pointsTo: 6 
+  to: Kamienica
+- from: Wyżka (Łyżka) (807 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Siekierzyn
+- from: Łopusze (661 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Kobyła (603 m)
+- from: Sałasz (909 m)
+  mount_group: Beskid Wyspowy
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Jaworz (921 m)
+- from: Przełęcz między Sidziną a Zubrzycą Górną (757 m) (Nad Wąwozem)
+  mount_group: Orawa
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Zubrzyca Górna
+- from: Beskidy (794 m)
+  mount_group: Orawa
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Przełęcz między Sidziną a Zubrzycą Górną (757 m) (Nad Wąwozem)
+- from: Żeleźnica (912 m)
+  mount_group: Orawa
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Łysa Góra (805 m)
+- from: Janiłówka (817 m)
+  mount_group: Orawa
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Sieniawa
+- from: Cisowa Skała (685 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Krempachy
+- from: Nowa Biała
+  mount_group: Spisz i Pieniny
+  pointsFrom: '7'
+  pointsTo: 7 
+  to: Frydman
+- from: Białka
+  mount_group: Spisz i Pieniny
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Bukowina Tatrzańska Dolna
+- from: Jurgów
+  mount_group: Spisz i Pieniny
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Bukowina Tatrzańska Dolna
+- from: Krempachy
+  mount_group: Spisz i Pieniny
+  pointsFrom: '6'
+  pointsTo: 6 
+  to: Frydman
+- from: Dursztyn
+  mount_group: Spisz i Pieniny
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Krempachy
+- from: Łapsze Wyżne
+  mount_group: Spisz i Pieniny
+  pointsFrom: '6'
+  pointsTo: 8 
+  to: Rzepiska
+- from: Kopylec
+  mount_group: Spisz i Pieniny
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Pieskowy Wierch (983 m)
+- from: Żar (Branisko 879 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Cisówka (Złatne) (777 m)
+- from: Cisówka (Złatne) (777 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Dursztyn
+- from: Czorsztyn
+  mount_group: Spisz i Pieniny
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Przełęcz Kozia (653 m)
+- from: Czorsztyn
+  mount_group: Spisz i Pieniny
+  pointsFrom: '4'
+  pointsTo: 7 
+  to: Macelak (856 m)
+- from: Przełęcz Szopka (779 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '3'
+  pointsTo: 4 
+  to: Macelak (856 m)
+- from: Przełęcz Szopka (779 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Czertezik (772 m)
+- from: Sromowce Niżne
+  mount_group: Spisz i Pieniny
+  pointsFrom: '9'
+  pointsTo: 12 
+  to: Czertezik (772 m)
+- from: Trzy Korony (982 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '3'
+  pointsTo: 1 
+  to: Przełęcz Szopka (779 m)
+- from: Trzy Korony (982 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '8'
+  pointsTo: 5 
+  to: Czertezik (772 m)
+- from: Czertezik (772 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Sokolica (747 m)
+- from: Sokolica (747 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '5'
+  pointsTo: 2 
+  to: Schronisko PTTK Orlica
+- from: Schronisko PTTK Orlica
+  mount_group: Spisz i Pieniny
+  pointsFrom: '2'
+  pointsTo: 3 
+  to: Szafranówka (742 m)
+- from: Szafranówka (742 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Szczawnica PKS
+- from: Jarmuta (773 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Szczawnica PKS
+- from: Jarmuta (773 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Szafranówka (742 m)
+- from: Wysoki Wierch (899 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Szafranówka (742 m)
+- from: Durbaszka (934 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Wysoki Wierch (899 m)
+- from: Durbaszka (934 m)
+  mount_group: Spisz i Pieniny
+  pointsFrom: '9'
+  pointsTo: 7 
+  to: Jarmuta (773 m)
+- from: Dzwonkówka (983 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Schronisko na Bereśniku (843 m)
+- from: Schronisko na Bereśniku (843 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '1'
+  pointsTo: 2 
+  to: Bryjarka (679 m)
+- from: Schronisko PTTK Prehyba (1175 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '9'
+  pointsTo: 7 
+  to: Dzwonkówka (983 m)
+- from: Schronisko PTTK Prehyba (1175 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 5 
+  to: Radziejowa
+- from: Wielki Rogacz (1182 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Przełęcz Obidza (Gromadzka) (931 m)
+- from: Wielki Rogacz (1182 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Niemcowa (1001 m)
+- from: Eliaszówka (1023 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Przełęcz Obidza (Gromadzka) (931 m)
+- from: Niemcowa (1001 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '9'
+  pointsTo: 3 
+  to: Kosarzyska
+- from: Makowica (skrzyżowanie szlaków)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Ostra (834 m)
+- from: Makowica (948 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Makowica (skrzyżowanie szlaków)
+- from: Pisana Hala (1044 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Makowica (948 m)
+- from: Schronisko PTTK na Hali Łabowskiej (1061 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Pisana Hala (1044 m)
+- from: Schronisko PTTK na Hali Łabowskiej (1061 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '10'
+  pointsTo: 5 
+  to: Wierchomla Wielka-wodospad
+- from: Runek (1080 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '7'
+  pointsTo: 7 
+  to: Schronisko PTTK na Hali Łabowskiej (1061 m)
+- from: Runek (1080 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Przysłop (944 m)
+- from: Runek (1080 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '15'
+  pointsTo: 9 
+  to: Muszyna-Złockie
+- from: Runek (1080 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Bacówka PTTK nad Wierchomlą (895 m)
+- from: Pusta Wielka (1061 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Bacówka PTTK nad Wierchomlą (895 m)
+- from: Pusta Wielka (1061 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '9'
+  pointsTo: 4 
+  to: Wierchomla Wielka-wodospad
+- from: Schronisko PTTK Jaworzyna Krynicka (1114 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Runek (1080 m)
+- from: Przełęcz Tylicka (683 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Muszynka
+- from: Tylicz
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 5 
+  to: Muszynka
+- from: Przysłop (944 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Jaworzynka (869 m)
+- from: Przysłop (944 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Bukowinka
+- from: Kopciowa
+  mount_group: Beskid Sądecki
+  pointsFrom: '2'
+  pointsTo: 4 
+  to: Jaworzynka (869 m)
+- from: Kopciowa
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 7 
+  to: Huzary (864 m)
+- from: Huzary (864 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Góra Parkowa (741 m)
+- from: Szalone (832 m)
+  mount_group: Beskid Sądecki
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Góra Parkowa (741 m)
+- from: Dominiczna Góra (468 m)
+  mount_group: Pogórze Wiśnickie
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Szpilówka (Śpilówka) (516 m)
+- from: Rogozowa (531 m)
+  mount_group: Pogórze Wiśnickie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Dominiczna Góra (468 m)
+- from: Rogozowa (531 m)
+  mount_group: Pogórze Wiśnickie
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Szpilówka (Śpilówka) (516 m)
+- from: Dział (455 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '4'
+  pointsTo: 5 
+  to: Przełęcz Pod Kobylnicą
+- from: Majdan (512 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '12'
+  pointsTo: 11 
+  to: Bacówka na Jamnej (490 m)
+- from: Bukowiec (530 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Bacówka na Jamnej (490 m)
+- from: Bukowiec (530 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '7'
+  pointsTo: 5 
+  to: Siekierzyn
+- from: Bacówka na Jamnej (490 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Siekierzyn
+- from: Styr (460 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '9'
+  pointsTo: 7 
+  to: Budzyń (Sucha Góra) (396 m)
+- from: Budzyń (Sucha Góra) (396 m)
+  mount_group: Pogórze Rożnowskie
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Sucha Góra (pomnik AK)
+- from: Trzemeska Góra (390 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '10'
+  pointsTo: 10 
+  to: Góra św. Marcina (384 m)
+- from: Gilowa Góra (506 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '7'
+  pointsTo: 7 
+  to: Ostry Kamień (527 m)
+- from: Gilowa Góra (506 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '11'
+  pointsTo: 10 
+  to: Kokocz (434 m)
+- from: Liwocz (562 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '17'
+  pointsTo: 16 
+  to: Gilowa Góra (506 m)
+- from: Ostry Kamień (527 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Brzanka (508 m)
+- from: Brzanka (508 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '8'
+  pointsTo: 6 
+  to: Rzepiennik Biskupi
+- from: Brzanka (508 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Polana Morgi
+- from: Bacówka Brzanka
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Polana Morgi
+- from: Polana Morgi
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Nosalowa (365 m)
+- from: Rzepiennik Biskupi
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '8'
+  pointsTo: 9 
+  to: Skamieniałe Miasto
+- from: Bucze (585 m)
+  mount_group: Pogórze Ciężkowic
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Łysa Góra (441 m)
+- from: Czerszla (877 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '1'
+  pointsTo: 1 
+  to: Tokarnia (828 m)
+- from: Przełęcz pod Uboczem
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '3'
+  pointsTo: 4 
+  to: Czerszla (877 m)
+- from: Hłocza (774 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '6'
+  pointsTo: 6 
+  to: Jaworynki (Sołtys - 756 m)
+- from: Kiczera Wielka (694 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Chłopski Wierch (660 m)
+- from: Harniaków Wierch (768 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Chłopski Wierch (660 m)
+- from: Dzielec (792 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '10'
+  pointsTo: 9 
+  to: Przełęcz Tylicka (683 m)
+- from: Muszynka
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '2'
+  pointsTo: 3 
+  to: Przełęcz Tylicka (683 m)
+- from: Lackowa (997 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '9'
+  pointsTo: 7 
+  to: Dzielec (792 m)
+- from: Lackowa (997 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '6'
+  pointsTo: 5 
+  to: Ostry Wierch (938 m)
+- from: Ostry Wierch (938 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: TPG Cigelka (805 m)
+- from: Bordiów Wierch (755 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Ropki
+- from: Sucha Homola (707 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Flasza
+- from: Wysota (784 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Obycz (788 m)
+- from: Jaworzynka (869 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Obycz (788 m)
+- from: Jaworzynka (869 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Wysota (784 m)
+- from: Jaworzynka (869 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Kozie Żebro (847 m)
+- from: Jaworzyna Konieczniańska (881 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '11'
+  pointsTo: 7 
+  to: Przełęcz Dujawa (Beskidek)
+- from: Przełęcz Dujawa (Beskidek)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Radocyna
+- from: Miejska Góra (634 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Przełęcz Zdżar (550 m)
+- from: Magura Małastowska (813 m) Schronisko PTTK
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '13'
+  pointsTo: 11 
+  to: Przełęcz Zdżar (550 m)
+- from: Magura Małastowska (813 m) Schronisko PTTK
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '10'
+  pointsTo: 7 
+  to: Leszczyny
+- from: Kornuty (637 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Ferdel (648 m)
+- from: Kornuty (637 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '10'
+  pointsTo: 9 
+  to: Męcińska Góra (679 m)
+- from: Magura Wątkowska (846 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Kornuty (637 m)
+- from: Dębi Wierch (664 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Radocyna
+- from: Radocyna
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '6'
+  pointsTo: 5 
+  to: Nieznajowa
+- from: Grab
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '9'
+  pointsTo: 9 
+  to: Nieznajowa
+- from: Grab
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Rozstajne - Osada (PKS)
+- from: Wołowiec
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Nieznajowa
+- from: Mareszka (801 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '8'
+  pointsTo: 6 
+  to: Nieznajowa
+- from: Nieznajowa
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Rozstajne - Osada (PKS)
+- from: Uherec (707 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Rozstajne - Osada (PKS)
+- from: Ostrysz (635 m)
+  mount_group: Beskid Niski część zachodnia
+  pointsFrom: '8'
+  pointsTo: 9 
+  to: Kamień (714 m)
+- from: Mszana
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '6'
+  pointsTo: 7 
+  to: Olchowiec
+- from: Cergowa (716 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Osiecznik (633 m)
+- from: Przymiarki (Kopa) (640 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '7'
+  pointsTo: 7 
+  to: Osiecznik (633 m)
+- from: Piotruś (728 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Osiecznik (633 m)
+- from: Tokarnia (692 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Jałowa Kiczera (579 m)
+- from: Barwinek
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Przełęcz Dukielska (500 m)
+- from: Pasika (Wielki Bukowiec) (848 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Danowa (840 m)
+- from: Garb Średni (625 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '9'
+  pointsTo: 6 
+  to: Radoszyce
+- from: Dołżyca
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Radoszyce
+- from: Siwakowska Dolina (689 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '8'
+  pointsTo: 8 
+  to: Radoszyce
+- from: Terpiak (745 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '7'
+  pointsTo: 5 
+  to: Radoszyce
+- from: Dział (668 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '9'
+  pointsTo: 6 
+  to: Tarnawka (dolina Wisłoczka)
+- from: Jawornik (761 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Dział (668 m)
+- from: Jawornik (761 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '10'
+  pointsTo: 9 
+  to: Osiecznik (633 m)
+- from: Jawornik (761 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '12'
+  pointsTo: 8 
+  to: Tarnawka (dolina Wisłoczka)
+- from: Jawornik (761 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '9'
+  pointsTo: 5 
+  to: Wernejówka
+- from: Jawornik (761 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '9'
+  pointsTo: 6 
+  to: Polany Surowiczne
+- from: Rozdroże pod Zrubaniem (749 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Wernejówka
+- from: Rozdroże pod Zrubaniem (749 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Dział (665 m)
+- from: Dział (665 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Wernejówka
+- from: Dział (665 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Polany Surowiczne
+- from: Polany Surowiczne
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Wernejówka
+- from: Przełęcz pod Tokarnią (778 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '11'
+  pointsTo: 10 
+  to: Rozdroże pod Zrubaniem (749 m)
+- from: Przełęcz pod Tokarnią (778 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '8'
+  pointsTo: 8 
+  to: Kamień (717 m)
+- from: Przełęcz pod Tokarnią (778 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '9'
+  pointsTo: 8 
+  to: Jasienina (667 m)
+- from: Kamień (717 m)
+  mount_group: Beskid Niski część wschodnia
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Jasienina (667 m)
+- from: Dyszowa (719 m)
+  mount_group: Bieszczady
+  pointsFrom: '7'
+  pointsTo: 5 
+  to: Schronisko PTTK Komańcza-Letnisko
+- from: Prełuki
+  mount_group: Bieszczady
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Schronisko PTTK Komańcza-Letnisko
+- from: Radoszowa (880 m)
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 9 
+  to: Wysoki Groń (905 m)
+- from: Maguryczne (884 m)
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Przełęcz Żebrak (816 m)
+- from: Dział (Hruń) (830 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Suliła (759 m)
+- from: Chryszczata (997 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Dział (Hruń) (830 m)
+- from: Chryszczata (997 m)
+  mount_group: Bieszczady
+  pointsFrom: '12'
+  pointsTo: 10 
+  to: Suliła (759 m)
+- from: Chryszczata (997 m)
+  mount_group: Bieszczady
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Przełęcz Żebrak (816 m)
+- from: Gabrów Wierch (742 m)
+  mount_group: Bieszczady
+  pointsFrom: '16'
+  pointsTo: 14 
+  to: Gruszka (583 m)
+- from: Hoczew
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 11 
+  to: Gruszka (583 m)
+- from: Markowska (748 m)
+  mount_group: Bieszczady
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Radziejowa
+- from: Berdo (890 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 2 
+  to: Radziejowa
+- from: Radziejowa
+  mount_group: Bieszczady
+  pointsFrom: '2'
+  pointsTo: 6 
+  to: Korbania (894 m)
+- from: Durna (979 m)
+  mount_group: Bieszczady
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Berdo (890 m)
+- from: Korbania (894 m)
+  mount_group: Bieszczady
+  pointsFrom: '10'
+  pointsTo: 8 
+  to: Berdo (890 m)
+- from: Korbania (894 m)
+  mount_group: Bieszczady
+  pointsFrom: '10'
+  pointsTo: 8 
+  to: Markowska (748 m)
+- from: Korbania (894 m)
+  mount_group: Bieszczady
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Kamień (618 m)
+- from: Połoma (776 m)
+  mount_group: Bieszczady
+  pointsFrom: '6'
+  pointsTo: 6 
+  to: Żołobina (780 m)
+- from: Łopiennik (1069 m)
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 5 
+  to: Durna (979 m)
+- from: Łopiennik (1069 m)
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 4 
+  to: Bacówka PTTK Hon w Cisnej
+- from: Jaworne (992 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Przełęcz Żebrak (816 m)
+- from: Jaworne (992 m)
+  mount_group: Bieszczady
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Krąglica (943 m)
+- from: Krąglica (943 m)
+  mount_group: Bieszczady
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Przełęcz Żebrak (816 m)
+- from: Wołosań (1071 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Jaworne (992 m)
+- from: Wołosań (1071 m)
+  mount_group: Bieszczady
+  pointsFrom: '13'
+  pointsTo: 8 
+  to: Bacówka PTTK Hon w Cisnej
+- from: Wołosań (1071 m)
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Przysłup
+- from: Przysłup
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 9 
+  to: Berdo (1041 m)
+- from: Matragona (990 m)
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 1 
+  to: Przysłup
+- from: Berdo (1041 m)
+  mount_group: Bieszczady
+  pointsFrom: '1'
+  pointsTo: 2 
+  to: Hyrlata (1103 m)
+- from: Hyrlata (1103 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Przełęcz pod Kiczerką (836 m)
+- from: Stryb (1011 m)
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 1 
+  to: Przełęcz pod Kiczerką (836 m)
+- from: Okrąglik (1101 m)
+  mount_group: Bieszczady
+  pointsFrom: '8'
+  pointsTo: 4 
+  to: Szpickiery
+- from: Jasło
+  mount_group: Bieszczady
+  pointsFrom: '14'
+  pointsTo: 8 
+  to: Bacówka PTTK Hon w Cisnej
+- from: Krzemienna (937 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Falowa (968 m)
+- from: Krzemienna (937 m)
+  mount_group: Bieszczady
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Przysłup
+- from: Falowa (968 m)
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 5 
+  to: Bacówka PTTK Jaworzec
+- from: Smerek (1222 m)
+  mount_group: Bieszczady
+  pointsFrom: '8'
+  pointsTo: 4 
+  to: Krysowa (840 m)
+- from: Smerek (1222 m)
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Przełęcz Orłowicza (1099 m)
+- from: Płasza (1162 m)
+  mount_group: Bieszczady
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Okrąglik (1101 m)
+- from: Płasza (1162 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Rabia Skala (1170 m)
+- from: Rabia Skala (1170 m)
+  mount_group: Bieszczady
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Przełęcz pod Bobrzakiem (808 m)
+- from: Krysowa (840 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 2 
+  to: Bacówka PTTK Jaworzec
+- from: Krysowa (840 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Żołobina (780 m)
+- from: Krysowa (840 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 7 
+  to: Przełęcz Orłowicza (1099 m)
+- from: Połonina Wetlińska (1255 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Przełęcz Orłowicza (1099 m)
+- from: Połonina Wetlińska (1255 m)
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Schronisko PTTK na Połoninie Wetlińskiej (1228 m)
+- from: Schronisko PTTK na Połoninie Wetlińskiej (1228 m)
+  mount_group: Bieszczady
+  pointsFrom: '17'
+  pointsTo: 10 
+  to: Zatwarnica
+- from: Schronisko PTTK na Połoninie Wetlińskiej (1228 m)
+  mount_group: Bieszczady
+  pointsFrom: '9'
+  pointsTo: 5 
+  to: Jaworzyna (1047 m)
+- from: Nad Wetliną
+  mount_group: Bieszczady
+  pointsFrom: '2'
+  pointsTo: 5 
+  to: Dział (1148 m)
+- from: Mała Rawka (1272 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Dział (1148 m)
+- from: Moczarne (1307 m)
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 11 
+  to: Mała Rawka (1272 m)
+- from: Wielka Rawka (1307 m)
+  mount_group: Bieszczady
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Mała Rawka (1272 m)
+- from: Połonina Caryńska (1297 m)
+  mount_group: Bieszczady
+  pointsFrom: '10'
+  pointsTo: 5 
+  to: Przełęcz Przysłup Caryński (785 m)
+- from: Magura Stuposiańska (1016 m)
+  mount_group: Bieszczady
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Przełęcz Przysłup Caryński (785 m)
+- from: Bukowe Berdo (1312 m)
+  mount_group: Bieszczady
+  pointsFrom: '7'
+  pointsTo: 5 
+  to: Widełki (1016 m)
+- from: Szeroki Wierch (1268 m)
+  mount_group: Bieszczady
+  pointsFrom: '1'
+  pointsTo: 1 
+  to: Przełęcz Siodło (1276 m)
+- from: Kinczyk Bukowski (1251 m)
+  mount_group: Bieszczady
+  pointsFrom: '6'
+  pointsTo: 4 
+  to: Przełęcz Bukowska (1107 m)
+- from: Dwernik-Kamień (1004 m) (Holica)
+  mount_group: Bieszczady
+  pointsFrom: '10'
+  pointsTo: 6 
+  to: Zatwarnica
+- from: Nasiczne
+  mount_group: Bieszczady
+  pointsFrom: '3'
+  pointsTo: 7 
+  to: Jaworzyna (1047 m)
+- from: Zatwarnica
+  mount_group: Bieszczady
+  pointsFrom: '5'
+  pointsTo: 9 
+  to: Hulskie (846 m)
+- from: Hulskie
+  mount_group: Bieszczady
+  pointsFrom: '8'
+  pointsTo: 9 
+  to: Grzbiet Otrytu
+- from: Hulskie (846 m)
+  mount_group: Bieszczady
+  pointsFrom: '10'
+  pointsTo: 10 
+  to: Grzbiet Otrytu
+- from: Kota nad Paniszczowem (584 m)
+  mount_group: Bieszczady
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Łabiska (615 m)
+- from: Jawor (741 m)
+  mount_group: Bieszczady
+  pointsFrom: '7'
+  pointsTo: 7 
+  to: Holnica (762 m)
+- from: Królewska Góra (554 m)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '14'
+  pointsTo: 13 
+  to: Czarnówka (592 m)
+- from: Sucha Góra (585 m)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '16'
+  pointsTo: 13 
+  to: Domaradz
+- from: Chełmanka ( m)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Kota nad Gwoździanką (445 m)
+- from: Wilcze (506 m) (Patria)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Kamienna (465 m)
+- from: Magierów (477 m)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '9'
+  pointsTo: 8 
+  to: Na Gratach ( m)
+- from: Czarna Góra (447 m)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Wierzchowina (466 m)
+- from: Grabówka (528 m)
+  mount_group: Pogórze Strzyżowsko-Dynowskie
+  pointsFrom: '7'
+  pointsTo: 6 
+  to: Wincentówka (448 m)
+- from: kota nad Nienadową ( m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '11'
+  pointsTo: 11 
+  to: Kopce ( m)
+- from: Kopce ( m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '11'
+  pointsTo: 11 
+  to: kota nad Nienadową ( m)
+- from: Kopce ( m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '10'
+  pointsTo: 10 
+  to: kota nad Kosztową i Laskówką ( m)
+- from: Czerteż (511 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '11'
+  pointsTo: 10 
+  to: Bosaczka (455 m)
+- from: Gródek (582 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '10'
+  pointsTo: 9 
+  to: Czerteż (511 m)
+- from: Słonny Wierch (wschód) (668 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '7'
+  pointsTo: 7 
+  to: Słonny Wierch (zachód) (667 m)
+- from: Roztoka
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '2'
+  pointsTo: 3 
+  to: Poręba Wysoka (618 m)
+- from: Szybenica (496 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '11'
+  pointsTo: 10 
+  to: Wapienica (394 m)
+- from: Kopystańka (541 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '5'
+  pointsTo: 3 
+  to: Kopystańka Zachodnia (504 m)
+- from: Suchy Obycz (618 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '9'
+  pointsTo: 8 
+  to: Na Opalonym (570 m)
+- from: Brańcowa (677 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Truszowskie (677 m)
+- from: Kamienna Laworta (769 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '10'
+  pointsTo: 9 
+  to: Brańcowa (677 m)
+- from: Kamienna Laworta (769 m)
+  mount_group: Pogórze Przemyskie
+  pointsFrom: '8'
+  pointsTo: 7 
+  to: Ostry Dział (723 m)
+- from: Kobyla Góra (391 m)
+  mount_group: Góry Świętokrzyskie
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Wał Małacentowski (397 m)
+- from: Ucisana (Hucisko) (347 m)
+  mount_group: Góry Świętokrzyskie
+  pointsFrom: '4'
+  pointsTo: 4 
+  to: Wysokówka (412 m)
+- from: Włochy (427 m)
+  mount_group: Góry Świętokrzyskie
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Ucisana (Hucisko) (347 m)
+- from: Włochy (427 m)
+  mount_group: Góry Świętokrzyskie
+  pointsFrom: '3'
+  pointsTo: 3 
+  to: Wysokówka (412 m)
+- from: Jaźwina (361 m)
+  mount_group: Góry Świętokrzyskie
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Igrzyczna (358 m)
+- from: Kiełków (452 m)
+  mount_group: Góry Świętokrzyskie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Sędek - Szabach (419 m)
+- from: Smrek (TPG Stóg Izerski) (1124 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '7'
+  pointsTo: '3'
+  to: Czerniawska Kopa (776 m)
+- from: Smrek (TPG Stóg Izerski) (1124 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Łącznik (1066 m)
+- from: Łącznik (1066 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Polana Izerska (965 m)
+- from: Stóg Izerski (1105 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Polana Izerska (965 m)
+- from: Wysoka (816 m) (Niedźwiednik)
+  mount_group: Góry Izerskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Sępia Góra (828 m)
+- from: Wysoka (816 m) (Niedźwiednik)
+  mount_group: Góry Izerskie
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Źródło św. Wolfganga
+- from: Wysoka (816 m) (Niedźwiednik)
+  mount_group: Góry Izerskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Dłużec (867 m)
+- from: Dłużec (867 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Rozdroże pod Kamienicą
+- from: Rozdroże pod Kamienicą
+  mount_group: Góry Izerskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Źródło św. Wolfganga
+- from: Źródło św. Wolfganga
+  mount_group: Góry Izerskie
+  pointsFrom: '7'
+  pointsTo: '7'
+  to: Rozdroże pod Świerkowcem
+- from: Rozdroże pod Świerkowcem
+  mount_group: Góry Izerskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Rozdroże pod Kozią Szyją
+- from: Rozdroże pod Kozią Szyją
+  mount_group: Góry Izerskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Babia Przełęcz (646 m)
+- from: Babia Przełęcz (646 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Bobrowe Skały (699 m)
+- from: Rozdroże pod Kopą (998 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Polana Izerska (965 m)
+- from: Rozdroże pod Cichą Równią
+  mount_group: Góry Izerskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Sklarska (886 m)
+- from: Rozdroże pod Cichą Równią
+  mount_group: Góry Izerskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Orle (825 m)
+- from: Orle (825 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Przełęcz Sklarska (886 m)
+- from: Orle (825 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Rozdroże pod Działem Izerskim
+- from: Rozdroże pod Działem Izerskim
+  mount_group: Góry Izerskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Przełęcz Sklarska (886 m)
+- from: Przełęcz Sklarska (886 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '7'
+  pointsTo: '10'
+  to: Schronisko PTTK Hala Szrenicka (1195 m)
+- from: Wysoki Kamień (1058 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Rozdroże pod Zwaliskiem (1005 m)
+- from: Wysoki Kamień (1058 m)
+  mount_group: Góry Izerskie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Zakręt Śmierci (775 m)
+- from: Witka
+  mount_group: Pogórze Izerskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Radomierz
+- from: Wojkowa (503 m)
+  mount_group: Pogórze Izerskie
+  pointsFrom: '8'
+  pointsTo: '6'
+  to: Zamek Czocha
+- from: Wojkowa (503 m)
+  mount_group: Pogórze Izerskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Jezioro Złotnickie - ośrodek
+- from: Zamek Czocha
+  mount_group: Pogórze Izerskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Jezioro Złotnickie - ośrodek
+- from: Gęsia Góra (440 m)
+  mount_group: Pogórze Izerskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Grudza
+- from: Oleszna Podgórska zach.
+  mount_group: Pogórze Izerskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Lubomierz
+- from: Kołodziej (448 m)
+  mount_group: Pogórze Izerskie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Lubomierz
+- from: Schronisko PTTK Hala Szrenicka (1195 m)
+  mount_group: Karkonosze
+  pointsFrom: '10'
+  pointsTo: '7'
+  to: Przełęcz Sklarska (886 m)
+- from: Schronisko PTTK Hala Szrenicka (1195 m)
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Przełęcz Mokra (940 m)
+- from: Szrenica (1362 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Schronisko PTTK Hala Szrenicka (1195 m)
+- from: Szrenica (1362 m)
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Mokra (940 m)
+- from: Przełęcz Mokra (940 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Schronisko PTTK Hala Szrenicka (1195 m)
+- from: Przełęcz Mokra (940 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Schronisko PTTK Hala pod Łabskim Szczytem (1168 m)
+- from: Schronisko PTTK Hala pod Łabskim Szczytem (1168 m)
+  mount_group: Karkonosze
+  pointsFrom: '11'
+  pointsTo: '5'
+  to: Schronisko PTTK Kochanówka Wodospad Szklarki (510 m)
+- from: Schronisko PTTK Hala pod Łabskim Szczytem (1168 m)
+  mount_group: Karkonosze
+  pointsFrom: '10'
+  pointsTo: '5'
+  to: Trzy Jawory (676 m)
+- from: Czarcia Ambona (1490 m) (Śnieżne Kotły)
+  mount_group: Karkonosze
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Schronisko PTTK Hala pod Łabskim Szczytem (1168 m)
+- from: Czarcia Ambona (1490 m) (Śnieżne Kotły)
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Śmielcem (1390 m)
+- from: Trzy Jawory (676 m)
+  mount_group: Karkonosze
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Schronisko PTTK Kochanówka Wodospad Szklarki (510 m)
+- from: Trzy Jawory (676 m)
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Michałowice
+- from: Michałowice
+  mount_group: Karkonosze
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Schronisko PTTK Kochanówka Wodospad Szklarki (510 m)
+- from: Hutniczy Grzbiet
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Rozdroże pod Śmielcem i Jaworem
+- from: Petrovka (Hutniczy Grzbiet)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Hutniczy Grzbiet
+- from: Petrovka (Hutniczy Grzbiet)
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Schronisko PTTK Odrodzenie Przełęcz Karkonoska (1236 m)
+- from: Schronisko PTTK Odrodzenie Przełęcz Karkonoska (1236 m)
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Hutniczy Grzbiet
+- from: Schronisko PTTK Odrodzenie Przełęcz Karkonoska (1236 m)
+  mount_group: Karkonosze
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Pielgrzym
+- from: Słonecznik (1423 m)
+  mount_group: Karkonosze
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Schronisko PTTK Odrodzenie Przełęcz Karkonoska (1236 m)
+- from: Słonecznik (1423 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Pielgrzym
+- from: Słonecznik (1423 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Spalona Strażnica
+- from: Spalona Strażnica
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz pod Śnieżką (TPG Śląski Dom) (1389 m)
+- from: Spalona Strażnica
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Schronisko PTTK Strzecha Akademicka (1258 m)
+- from: Schronisko PTTK Strzecha Akademicka (1258 m)
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Schronisko PTTK Błatnia (891 m)
+- from: Polana
+  mount_group: Karkonosze
+  pointsFrom: '1'
+  pointsTo: '2'
+  to: Pielgrzym
+- from: Polana
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Karpacz Górny (Wang)
+- from: Przełęcz pod Śnieżką (TPG Śląski Dom) (1389 m)
+  mount_group: Karkonosze
+  pointsFrom: '6'
+  pointsTo: '2'
+  to: Schronisko PTTK Nad Łomniczką (1002 m)
+- from: Przełęcz pod Śnieżką (TPG Śląski Dom) (1389 m)
+  mount_group: Karkonosze
+  pointsFrom: '8'
+  pointsTo: '6'
+  to: TPG Sowia Przełęcz (1164 m)
+- from: Śnieżka (1602 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Przełęcz pod Śnieżką (TPG Śląski Dom) (1389 m)
+- from: Śnieżka (1602 m)
+  mount_group: Karkonosze
+  pointsFrom: '9'
+  pointsTo: '4'
+  to: TPG Sowia Przełęcz (1164 m)
+- from: Karpacz Górny (Wang)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełączka
+- from: Kapliczka św. Anny
+  mount_group: Karkonosze
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Grzybowcem
+- from: Borowice
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przesieka - Złoty Widok
+- from: Przesieka - Złoty Widok
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz L. Różyciego
+- from: Przełęcz L. Różyciego
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Zachełmie
+- from: Zachełmie
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Podgórzyn Dolny
+- from: Schronisko PTTK Chojnik
+  mount_group: Karkonosze
+  pointsFrom: '1'
+  pointsTo: '2'
+  to: Piekielna Dolina
+- from: Wilcza Poręba
+  mount_group: Karkonosze
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Leśniczówka Jedlinki
+- from: Skalny Stół (1281 m)
+  mount_group: Karkonosze
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: TPG Sowia Przełęcz (1164 m)
+- from: Skalny Stół (1281 m)
+  mount_group: Karkonosze
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Schronisko PTTK Przełęcz Okraj (1046 m)
+- from: Schronisko PTTK Przełęcz Okraj (1046 m)
+  mount_group: Karkonosze
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Rozdroże pod Łysociną
+- from: Łysocina (1188 m)
+  mount_group: Karkonosze
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Schronisko PTTK Przełęcz Okraj (1046 m)
+- from: Czepiel (901 m)
+  mount_group: Karkonosze
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: kota (847 m) (TPG Niedamirów)
+- from: Stara Kamienica
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Rybnica ruiny zamku
+- from: Rybnica ruiny zamku
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Wrzeszczyn
+- from: Wrzeszczyn
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Siedlecin-Bóbr
+- from: Siedlecin-Bóbr
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '3'
+  pointsTo: '4'
+  to: Płoszczynka
+- from: Siedlecin-Bóbr
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Schronisko Perła Zachodu
+- from: Jeżów Sudecki
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '4'
+  pointsTo: '5'
+  to: Płoszczynka
+- from: Góra Gapa (ok. 470 m)
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Siedlecin-Bóbr
+- from: Góra Gapa (ok. 470 m)
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Schronisko Perła Zachodu
+- from: Rozdroże pod Rozłogiem
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rybnica ruiny zamku
+- from: Góra Skalica (501 m)
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Rozdroże pod Rozłogiem
+- from: Kopki (Skalista) (ok. 458 m)
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wzgórze Kościuszki (ok. 398 m)
+- from: Zamkowa Góra (449 m)
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Jelenia Góra PKP
+- from: Wzgórze Kościuszki (ok. 398 m)
+  mount_group: Kotlina Jeleniogórska
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Jelenia Góra PKP
+- from: Sokolik (642 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Przełączka
+- from: Przełęcz Przełączka
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Krzyżowa Góra (654 m)
+- from: Schronisko PTTK Szwajcarka (520 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz Przełączka
+- from: Rozdroże pod Jańską Górą
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Krowiarka
+- from: Strużnickie Skały
+  mount_group: Rudawy Janowickie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Jańską Górą
+- from: Zamek Bolczów (561 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Krowiarka
+- from: Głaziska Janowickie (646 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Zamek Bolczów (561 m)
+- from: Polana Mniszkowska (711 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Głaziska Janowickie (646 m)
+- from: Skalnik (945 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz pod Średnicą (595 m)
+- from: Skalnik (945 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Przełęcz Rudawska (740 m)
+- from: Skalnik (945 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Schronisko Czartak
+- from: Skalnik (945 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Bobrzakiem (808 m)
+- from: Przełęcz pod Bobrzakiem (808 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Schronisko Czartak
+- from: Przełęcz pod Bobrzakiem (808 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże pod Bobrzakiem (743 m)
+- from: Przełęcz Kowarska (727 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Rozdroże pod Bobrzakiem (743 m)
+- from: Rozdroże pod Bobrzakiem (743 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Schronisko Czartak
+- from: Rozdroże pod Bobrzakiem (743 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz pod Wilkowyją (724 m)
+- from: Przełęcz pod Wilkowyją (724 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Pisarzowice
+- from: Schronisko Czartak
+  mount_group: Rudawy Janowickie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz Rudawska (740 m)
+- from: Schronisko Czartak
+  mount_group: Rudawy Janowickie
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Pisarzowice
+- from: Przełęcz Rudawska (740 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz pod Średnicą (595 m)
+- from: Przełęcz Rudawska (740 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Bielcem (779 m)
+- from: Rozdroże pod Bielcem (779 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Rędzińska (727 m)
+- from: Wołek (878 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Rozdroże pod Bielcem (779 m)
+- from: Wołek (878 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Starościńskie Skały
+- from: Wołek (878 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Polana Mniszkowska (711 m)
+- from: Wołek (878 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Rędzińska (727 m)
+- from: Przełęcz Rędzińska (727 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Purpurowe Jeziorko (560 m)
+- from: Wielka Kopa (871 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Purpurowe Jeziorko (560 m)
+- from: Wielka Kopa (871 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Rędzińska (727 m)
+- from: Wielka Kopa (871 m)
+  mount_group: Rudawy Janowickie
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Pisarzowice
+- from: Strzyżowiec
+  mount_group: Góry Kaczawskie
+  pointsFrom: '8'
+  pointsTo: '7'
+  to: Płoszczynka
+- from: Płoszczynka
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Płoszczynka
+- from: Stromiec (551 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Szybowisko (561 m)
+- from: Tarczynka (422 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Rogatka (490 m)
+- from: Okole (718 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz pod Świerkami
+- from: Chrośnickie Kopy (Lastek) (638 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Chrośnicka (538 m)
+- from: Łysa Góra (708 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Chrośnicka (538 m)
+- from: Łysa Góra (708 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Widok (Kapella) (592 m)
+- from: Góra Świerki ( m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Świerkami
+- from: Przełęcz Widok (Kapella) (592 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Przełęcz pod Kobyłą (ok. 590 m)
+- from: Przełęcz pod Kobyłą (ok. 590 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '4'
+  to: Przełęcz Komarnicka (662 m)
+- from: Baraniec (723 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Komarnicka (662 m)
+- from: Baraniec (723 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Straconka (611 m)
+- from: Straconka (611 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Radomierz
+- from: Różanka (628 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Radomierz
+- from: Różanka (628 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Turzec (684 m)
+- from: Turzec (684 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Ciechanowice
+- from: Marciszów
+  mount_group: Góry Kaczawskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Ciechanowice
+- from: Marciszów
+  mount_group: Góry Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '6'
+  to: Bucza Góra (Góry Lisie) (671 m)
+- from: Miłek (569, 596, 573 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Radzimowice
+- from: Rozdroże pod Marcińcem (Czarci Zagajnik) (565 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Radzimowice
+- from: Żelaźniak (664 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Rozdroże pod Marcińcem (Czarci Zagajnik) (565 m)
+- from: Żelaźniak (664 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Radzimowice
+- from: Lubrza (666 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Czerwona Skała
+- from: Poręba (671 m)
+  mount_group: Góry Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Pastewnik (Przełęcz pod Długotką) (621 m)
+- from: Bolesławiec
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '10'
+  pointsTo: '10'
+  to: Kraszowice
+- from: Bolesławiec
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '9'
+  pointsTo: '9'
+  to: Wartowice
+- from: Kraszowice
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '10'
+  pointsTo: '10'
+  to: Bolesławiec
+- from: Nowe Jaroszowice
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Kraszowice
+- from: Nowe Jaroszowice
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '7'
+  pointsTo: '7'
+  to: Wartowice
+- from: Prusicka Góra (402 m)
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Leszczyny
+- from: Kondratów
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '6'
+  pointsTo: '7'
+  to: Rozdroże pod Zawadą
+- from: Kondratów
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '10'
+  pointsTo: '10'
+  to: Leszczyny
+- from: Złotoryja
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '8'
+  pointsTo: '8'
+  to: Leszczyny
+- from: Prusice
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Leszczyny
+- from: Czartowska Skała (463 m)
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Mszana (Muchowskie Wzgórza) (475 m)
+- from: Mszana (Muchowskie Wzgórza) (475 m)
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Wąwóz Myśliborski - zachód
+- from: Wąwóz Myśliborski - zachód
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Jakuszowa
+- from: Wąwóz Myśliborski - zachód
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wąwóz Myśliborski - zachód
+- from: Myślibórz
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wąwóz Myśliborski - zachód
+- from: Jakuszowa
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Wąwóz Myśliborski - zachód
+- from: Jakuszowa
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wąwóz Siedmicy - zachód
+- from: Wąwóz Siedmicy - zachód
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wąwóz Myśliborski - zachód
+- from: Wąwóz Siedmicy - zachód
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Wąwóz Siedmicy - zachód
+- from: Wąwóz Siedmicy - zachód
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Wąwóz Lipa
+- from: Radogost (398 m)
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Wąwóz Siedmicy - zachód
+- from: Grobla
+  mount_group: Pogórze Kaczawskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Wąwóz Siedmicy - zachód
+- from: Lubawka
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz Rudawska (740 m)
+- from: Kamienna Góra
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '5'
+  pointsTo: '6'
+  to: Pisarzowice
+- from: Krzeszowskie Wzgórza
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Żłób
+- from: Krzeszów
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '6'
+  pointsTo: '7'
+  to: Przełęcz Pośródka (605 m)
+- from: Drogosz (681 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Gorzeszowskie Skałki (538 m)
+- from: Róg (715 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Drogosz (681 m)
+- from: Róg (715 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Strażnicze Naroże (649 m)
+- from: Róg (715 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Gorzeszowskie Skałki (538 m)
+- from: Góra Zielonka (701 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Strażnicze Naroże (649 m)
+- from: Góra Zielonka (701 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Chełmska (571 m)
+- from: Góra Dziób (693 i 686 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: TPG Łączna
+- from: Mieroszowskie Ściany (638-664 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: TPG Łączna
+- from: Skałka (677 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Przełęcz Chełmska (571 m)
+- from: Skałka (677 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Bijakowa (533 m)
+- from: Bijakowa (533 m)
+  mount_group: Kotlina Kamiennogórska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Okrzeszyn
+- from: Jański Wierch (697 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Okrzeszyn
+- from: Bogaria (645 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Okrzeszyn
+- from: Końska (813 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Krzyżówka BHP
+- from: Krzyżówka BHP
+  mount_group: Góry Kamienne
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże Trzech Buków
+- from: Święta Góra (701 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Pośródka (605 m)
+- from: Miejska Górka (650 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Pośródka (605 m)
+- from: Lesista Wielka (851 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Polanka (683 m)
+- from: Mieroszów
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '7'
+  to: Mieroszowskie Ściany (638-664 m)
+- from: Garbatka (797 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Sokołowsko
+- from: Średniak (782 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '8'
+  pointsTo: '5'
+  to: Golińsk
+- from: Średniak (782 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Garbatka (797 m)
+- from: Średniak (782 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Brzeźnikiem
+- from: Golińsk
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '4'
+  to: Mieroszowskie Ściany (638-664 m)
+- from: Wielki Stożek (841 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Sokołowsko
+- from: Bukowiec (898 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Schronisko PTTK Andrzejówka (796 m)
+- from: Bukowiec (898 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Sokołowsko
+- from: Unisław Śląski
+  mount_group: Góry Kamienne
+  pointsFrom: '4'
+  pointsTo: '5'
+  to: Sokołowsko
+- from: Schronisko PTTK Andrzejówka (796 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Granicznik (801 m)
+- from: Schronisko PTTK Andrzejówka (796 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Sokołowsko
+- from: Waligóra (936 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Schronisko PTTK Andrzejówka (796 m)
+- from: Waligóra (936 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Suchawą
+- from: Rozdroże pod Suchawą
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Schronisko PTTK Andrzejówka (796 m)
+- from: Rozdroże pod Suchawą
+  mount_group: Góry Kamienne
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Sokołowsko
+- from: Granicznik (801 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Przełęcz pod Brzeźnikiem
+- from: Granicznik (801 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Sokołowsko
+- from: Sokołowsko
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Przełęcz pod Brzeźnikiem
+- from: Płoniec (771 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Granicznik (801 m)
+- from: Płoniec (771 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Słodna (790 m)
+- from: Rogowiec (870 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Schronisko PTTK Andrzejówka (796 m)
+- from: Leszczyniec (736 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Słoneczna Kopa (713 m)
+- from: Słoneczna Kopa (713 m)
+  mount_group: Góry Kamienne
+  pointsFrom: '9'
+  pointsTo: '7'
+  to: Ptasi Szczyt (535 m)
+- from: Długa Góra (635 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Wierzchosławice
+- from: Młynarka (539 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Długa Góra (635 m)
+- from: Młynarka (539 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Wierzchosławice
+- from: Wierzchosławice
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '7'
+  pointsTo: '10'
+  to: Pastewnik (Przełęcz pod Długotką) (621 m)
+- from: Bolków
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '6'
+  pointsTo: '9'
+  to: Pastewnik (Przełęcz pod Długotką) (621 m)
+- from: Kamienna Góra (643 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Gliniczek (653 m)
+- from: Zamek Cisy (350 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Wąwóz Szczawienka
+- from: Czerwone Wzgórze (456 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Wąwóz Szczawienka
+- from: Szczawno Zdrój
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Wąwóz Szczawienka
+- from: Stróżek (517 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Wzgórze Gedymina (532 m)
+- from: Wołowiec (776 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Kozia Przełęcz (2137 m)
+- from: Borowa (Czarna) (854 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Kozia Przełęcz (2137 m)
+- from: Borowa (Czarna) (854 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Borową (660 m)
+- from: Borowa (Czarna) (854 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Rozdroże nad Glinikiem Starym
+- from: Przełęcz pod Borową (660 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz Kozia (653 m)
+- from: Przełęcz między Jałowcami
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz pod Wawrzyniakiem (568 m)
+- from: Przełęcz pod Wawrzyniakiem (568 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Jedlina Zdrój PKP
+- from: Podlesie
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Zagórze Śląskie
+- from: Klasztorzysko (631 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Podlesie
+- from: Klasztorzysko (631 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: Zagórze Śląskie
+- from: Stary Książ
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Wąwóz Szczawienka
+- from: Borowiec Mały (412 m)
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Wąwóz Szczawienka
+- from: Wąwóz Szczawienka
+  mount_group: Góry Wałbrzyskie, Pogórze Bolkowsko-Wałbrzyskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Wąwóz Szczawienka
+- from: Góra Lipiec (511 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '8'
+  pointsTo: '6'
+  to: Zagórze Śląskie
+- from: Góra Lipiec (511 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Bojanicka Struga
+- from: Cerekwica (555 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Bojanicka Struga
+- from: Cerekwica (555 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Michałkowa
+- from: Michałkowa
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Zagórze Śląskie
+- from: Glinno
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Michałkowa
+- from: Glinno
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '11'
+  pointsTo: '9'
+  to: Zagórze Śląskie
+- from: Glinno
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Kroacka Studzienka
+- from: Rozdroże pod Kokotem
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Kroacka Studzienka
+- from: Przełęcz Walimska (755 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Rozdroże pod Kokotem
+- from: Moszna (771 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Marcowa (712 m)
+- from: Moszna (771 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Osówką
+- from: Wielka Sowa (1015 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Walimska (755 m)
+- from: Wielka Sowa (1015 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Młyńsko (777 m)
+- from: Przełęcz Kozie Siodło (885 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Młyńsko (777 m)
+- from: Przełęcz Kozie Siodło (885 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Jugowska (805 m)
+- from: Góra Wszystkich Świętych (648 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Góra św. Anny (647 m)
+- from: Przełęcz Trzy Buki (628 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Kamionki
+- from: Kalenica (964 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Jugowska (805 m)
+- from: Kalenica (964 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz Trzy Buki (628 m)
+- from: Kalenica (964 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Bielawska Polana (803 m)
+- from: Bielawska Polana (803 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Wigancicka Polana (780 m)
+- from: Wigancicka Polana (780 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Woliborska (711 m)
+- from: Szeroka (827 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Woliborska (711 m)
+- from: Szeroka (827 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Szeroką (741 m)
+- from: Przełęcz pod Szeroką (741 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Woliborska (711 m)
+- from: Przełęcz pod Gołębią (785 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Szeroką (741 m)
+- from: Przełęcz pod Gołębią (785 m)
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Rozdroże pod Chochołem Małym
+- from: Rozdroże pod Chochołem Małym
+  mount_group: Góry Sowie, Wzgórza Włodzickie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz Srebrna (586 m)
+- from: Stróża (636 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Przełęcz Srebrna (586 m)
+- from: Stróża (636 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Słup (667 m)
+- from: Kortunał (675 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Stróża (636 m)
+- from: Słup (667 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Kortunał (675 m)
+- from: Ostróg (627 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Srebrna (586 m)
+- from: Wilczak (637 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Wilcza (532 m)
+- from: Wilczak (637 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Leszek (546 m)
+- from: Leszek (546 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Różańcowa (380 m)
+- from: Kalwaria (582 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Przełęcz Łaszczowa (585 m)
+- from: Przełęcz Łaszczowa (585 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Laskówka
+- from: Kłodzka Góra (765 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Przełęcz Łaszczowa (585 m)
+- from: Kłodzka Góra (765 m)
+  mount_group: Góry Bardzkie
+  pointsFrom: '9'
+  pointsTo: '6'
+  to: Laskówka
+- from: Borowa (701 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Ptasznica (605 m)
+- from: Pstrążna
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Jakubowice
+- from: Jakubowice
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '5'
+  pointsTo: 5 
+  to: Krucza Kopa (723 m)
+- from: Błędne Skały (853 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Rozdroże pod Lelkową (720 m)
+- from: Rozdroże pod Lelkową (720 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Jakubowice
+- from: Grodziec skrzyżowanie
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '4'
+  pointsTo: 2 
+  to: Przełęcz Lewińska (525 m)
+- from: Grodziec (803 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Grodziec skrzyżowanie
+- from: Grodziec (803 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '3'
+  pointsTo: 2 
+  to: Gomoła (733 m)(Homole)
+- from: Gomoła (733 m)(Homole)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Przełęcz Polskie Wrota (660 m)
+- from: Łężyce
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '4'
+  pointsTo: 5 
+  to: Lisia Przełęcz (790 m)
+- from: Narożnik (851 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Lisia Przełęcz (790 m)
+- from: Narożnik (851 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Skały Puchacza (730 m)
+- from: Lisia Przełęcz (790 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Łężyckie Skałki (750-790 m)
+- from: Skalniak (915 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '4'
+  pointsTo: 3 
+  to: Błędne Skały (853 m)
+- from: Szczeliniec Wielki (919 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '6'
+  pointsTo: 3 
+  to: Schronisko PTTK Pasterka (700 m)
+- from: Karłówek
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '1'
+  pointsTo: 1 
+  to: Rozdroże nad Skalnymi Wrotami
+- from: Karłów
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '6'
+  pointsTo: 5 
+  to: Rozdroże nad Skalnymi Wrotami
+- from: Skalna Furta
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Skały Puchacza (730 m)
+- from: Skały Puchacza (730 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '5'
+  pointsTo: 4 
+  to: Skała Józefa
+- from: Zamek Leśna
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '2'
+  pointsTo: 2 
+  to: Piekielna Góra (Skrzyżowanie 505 m)
+- from: Piekielna Góra (Skrzyżowanie 505 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '2'
+  pointsTo: 1 
+  to: Piekielna Dolina
+- from: Piekielna Góra (Skrzyżowanie 505 m)
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '1'
+  pointsTo: 1 
+  to: Rozdroże pod Bukówką
+- from: Pielgrzym
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '8'
+  pointsTo: 5 
+  to: Wambierzyce
+- from: Słoneczne Skały
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '7'
+  pointsTo: 4 
+  to: Wambierzyce
+- from: Słoneczne Skały
+  mount_group: Góry Stołowe, Wzgórza Lewińskie
+  pointsFrom: '1'
+  pointsTo: 1 
+  to: Rozdroże pod Basztami
+- from: TPG Duszniki Zdrój
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Kozia Hala (700 do 740 m)
+- from: Sołtysia Kopa (896 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: TPG Duszniki Zdrój
+- from: Orlica (1084 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Sołtysia Kopa (896 m)
+- from: Orlica (1084 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: TPG Zieleniec
+- from: TPG Zieleniec
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Rozdroże pod Hutniczą Kopą
+- from: Schronisko PTTK Zieleniec (850 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Sołtysia Kopa (896 m)
+- from: Schronisko PTTK Zieleniec (850 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Rozdroże pod Hutniczą Kopą
+- from: Rozdroże pod Bieścem
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Rozdroże pod Hutniczą Kopą
+- from: Rozdroże pod Bieścem
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '11'
+  pointsTo: '10'
+  to: Rozdroże pod Uboczem
+- from: Rozdroże pod Hutniczą Kopą
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '7'
+  pointsTo: '7'
+  to: Rozdroże pod Uboczem
+- from: Łomnicka Równia (898 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '8'
+  pointsTo: '5'
+  to: Przełęcz Sokołowska ( m)
+- from: Huta
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '15'
+  pointsTo: '10'
+  to: Bystrzyca Kłodzka
+- from: Przełęcz Spalona Schronisko PTTK (800 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Rozdroże pod Uboczem
+- from: Przełęcz Spalona Schronisko PTTK (800 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '14'
+  pointsTo: '10'
+  to: Bystrzyca Kłodzka
+- from: Przełęcz Spalona Schronisko PTTK (800 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Mostowice
+- from: Jagodna (977 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przełęcz Spalona Schronisko PTTK (800 m)
+- from: Jagodna (977 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '16'
+  pointsTo: '10'
+  to: Bystrzyca Kłodzka
+- from: Jagodna (977 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Przełęcz nad Porębą (690 m)
+- from: Czerniec (891 m)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Leśniczówka Kolonia Lesica
+- from: Leśniczówka Kolonia Lesica
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Międzylesie
+- from: Różanka
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '7'
+  pointsTo: '6'
+  to: Międzylesie
+- from: Kamieńczyk (TPG Kamieńczyk)
+  mount_group: Góry Orlickie, Góry Bystrzyckie
+  pointsFrom: '8'
+  pointsTo: '5'
+  to: Międzylesie
+- from: Kłodzko
+  mount_group: Kotlina Kłodzka, Rów Górnej Nysy
+  pointsFrom: '7'
+  pointsTo: '9'
+  to: Przełęcz Łaszczowa (585 m)
+- from: Bystrzyca Kłodzka
+  mount_group: Kotlina Kłodzka, Rów Górnej Nysy
+  pointsFrom: '10'
+  pointsTo: '12'
+  to: Marianówka
+- from: Międzylesie
+  mount_group: Kotlina Kłodzka, Rów Górnej Nysy
+  pointsFrom: '4'
+  pointsTo: '6'
+  to: Leśniczówka Kolonia Lesica
+- from: Międzylesie
+  mount_group: Kotlina Kłodzka, Rów Górnej Nysy
+  pointsFrom: '5'
+  pointsTo: '8'
+  to: Kamieńczyk (TPG Kamieńczyk)
+- from: Międzylesie
+  mount_group: Kotlina Kłodzka, Rów Górnej Nysy
+  pointsFrom: '10'
+  pointsTo: '14'
+  to: Rozdroże pod Kamiennym Garbem
+- from: Wapniarka (532 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Mielnicka (405 m)
+- from: Przełęcz Mielnicka (405 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Romanowo
+- from: Mrówczyniec (487 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Mielnicka (405 m)
+- from: Suchoń (964 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Marcinków (Skowronia Góra (839 m)
+- from: Suchoń (964 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Przełęcz Puchaczówka (864 m)
+- from: Przełęcz Puchaczówka (864 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Marcinków (Skowronia Góra (839 m)
+- from: Przełęcz Puchaczówka (864 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przełęcz Pod Chłopkiem (733 m)
+- from: Przełęcz Puchaczówka (864 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Rozdroże pod Lesieńcem
+- from: Czarna Góra (1205 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Puchaczówka (864 m)
+- from: Czarna Góra (1205 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Jaworową Kopą (864 m)
+- from: Przełęcz pod Jaworową Kopą (864 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '2'
+  to: Rozdroże pod Lesieńcem
+- from: Rozdroże pod Lesieńcem
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Marianówka
+- from: Rozdroże pod Lesieńcem
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Igliczna (845 m)
+- from: Igliczna (845 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Marianówka
+- from: Żmijowa Polana (685 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Rozdroże pod Lesieńcem
+- from: Żmijowa Polana (685 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Janowa Góra (710-840 m)
+- from: Janowa Góra (710-840 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Jaskinia Niedźwiedzia
+- from: Hala Pod Śnieżnikiem Schronisko PTTK (1218 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Dzikie Zbocze
+- from: Hala Pod Śnieżnikiem Schronisko PTTK (1218 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże pod Żmijowcem
+- from: Hala Pod Śnieżnikiem Schronisko PTTK (1218 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '13'
+  pointsTo: '8'
+  to: Rozdroże pod Porębkiem
+- from: Śnieżnik (1425 m) (TPG Śnieżnik Kłodzki)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Hala Pod Śnieżnikiem Schronisko PTTK (1218 m)
+- from: Śnieżnik (1425 m) (TPG Śnieżnik Kłodzki)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '10'
+  pointsTo: '4'
+  to: Rozdroże pod Porębkiem
+- from: Śnieżnik (1425 m) (TPG Śnieżnik Kłodzki)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '13'
+  pointsTo: '6'
+  to: Kamienica
+- from: Śnieżnik (1425 m) (TPG Śnieżnik Kłodzki)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '5'
+  to: Mały Śnieżnik (1337 m)
+- from: Mały Śnieżnik (1337 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Hala Pod Śnieżnikiem Schronisko PTTK (1218 m)
+- from: Mały Śnieżnik (1337 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Przełęcz pod Puchaczem (1090 m)
+- from: Rozdroże pod Żmijowcem
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Jaskinia Niedźwiedzia
+- from: Rozdroże pod Żmijowcem
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Rozdroże pod Porębkiem
+- from: Dzikie Zbocze
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Jaworek Górny
+- from: Dzikie Zbocze
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Rozdroże pod Kamiennym Garbem
+- from: Przełęcz pod Puchaczem (1090 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Dzikie Zbocze
+- from: Przełęcz pod Puchaczem (1090 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Jasień (TPG Jodłów) (936 m)
+- from: Jasień (TPG Jodłów) (936 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Rozdroże pod Kamiennym Garbem
+- from: Jasień (TPG Jodłów) (936 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Opacz (741 m)
+- from: Jaskinia Niedźwiedzia
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Rozdroże pod Porębkiem
+- from: Rozdroże pod Porębkiem
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Kamienica
+- from: Młyńsko (991 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Rozdroże pod Porębkiem
+- from: Przełęcz Staromorawska (794 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Kamienica
+- from: Rykowisko (948 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Staromorawska (794 m)
+- from: Rykowisko (948 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Płaszczyna (817 m)(TPG Nowa Morawa)
+- from: Przełęcz Płaszczyna (817 m)(TPG Nowa Morawa)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Rykowisko (948 m)
+- from: Przełęcz Płaszczyna (817 m)(TPG Nowa Morawa)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Staromorawska (794 m)
+- from: Rude Krzyże (1053 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przełęcz Płaszczyna (817 m)(TPG Nowa Morawa)
+- from: Rude Krzyże (1053 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Sucha (1002 m)
+- from: Rudawiec (1112 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rude Krzyże (1053 m)
+- from: Rudawiec (1112 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Sucha (1002 m)
+- from: Rudawiec (1112 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Działowe Siodło (1008 m)
+- from: Postawna (1111 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz u Trzech Granic (1109 m)
+- from: Wielkie Rozdroże
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz Sucha (1002 m)
+- from: Czernica (1083 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Wielkie Rozdroże
+- from: Czernica (1083 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Dział (922 m)
+- from: Pośrednica (569 m)
+  mount_group: Masyw Śnieżnika, Góry Bialskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Rozdroże pod Kierzną
+- from: Jawornik Wielki (870 m)
+  mount_group: Góry Złote
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Jawornik Mały (756 m)
+- from: Jawornik Wielki (870 m)
+  mount_group: Góry Złote
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz pod Trzeboniem (679 m)
+- from: Jawornik Wielki (870 m)
+  mount_group: Góry Złote
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Jaworowa (707 m)
+- from: Przełęcz pod Trzeboniem (679 m)
+  mount_group: Góry Złote
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Haniak (540 m)
+- from: Ptasznik (719 m)
+  mount_group: Góry Złote
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz Leszczynowa (605 m)
+- from: Przełęcz Jaworowa (707 m)
+  mount_group: Góry Złote
+  pointsFrom: '11'
+  pointsTo: '8'
+  to: Jaskinia Radochowska
+- from: Gomoła Jesionowska (696 m)
+  mount_group: Góry Złote
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Jaskinia Radochowska
+- from: Jaskinia Radochowska
+  mount_group: Góry Złote
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Radochów PKP
+- from: Cierniak (592 m)
+  mount_group: Góry Złote
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Jaskinia Radochowska
+- from: Szwedzkie Szańce
+  mount_group: Góry Złote
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Lądecka (TPG Lutynia) (605 m)
+- from: Kobyla Kopa (851 m)
+  mount_group: Góry Złote
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przełęcz Lądecka (TPG Lutynia) (605 m)
+- from: Trojak (766 m)
+  mount_group: Góry Złote
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże Zamkowe (698 m)
+- from: Czernik (832 m)
+  mount_group: Góry Złote
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz Gierałtowska (684m)
+- from: Karpiak
+  mount_group: Góry Złote
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże Zamkowe (698 m)
+- from: Kowadło (989 m)
+  mount_group: Góry Złote
+  pointsFrom: '12'
+  pointsTo: '9'
+  to: Przełęcz Gierałtowska (684m)
+- from: Smrek (1125 m)
+  mount_group: Góry Złote
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz Trzech Granic (1111 m)
+- from: Przednia Kopa (467 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz Siodło (502 m)
+- from: Przełęcz Siodło (502 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Podlesie
+- from: Biskupia Kopa (889 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Schronisko pod Biskupią Kopą (850 m)
+- from: Biskupia Kopa (889 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Przełęcz pod Kopą (711 m)
+- from: Przełęcz pod Kopą (711 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: Dolina Bystrego Potoku
+- from: Schronisko pod Biskupią Kopą (850 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '7'
+  pointsTo: '3'
+  to: Jarnołtówek
+- from: Schronisko pod Biskupią Kopą (850 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '8'
+  pointsTo: '4'
+  to: Dolina Bystrego Potoku
+- from: Schronisko pod Biskupią Kopą (850 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Kopą (711 m)
+- from: Rozdroże pod Piekiełkiem
+  mount_group: Góry Opawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Jarnołtówek
+- from: Rozdroże pod Piekiełkiem
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Dolina Bystrego Potoku
+- from: Olszak (453 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Jarnołtówek
+- from: Przełęcz pod Zamkową Górą (508 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Dolina Bystrego Potoku
+- from: Długota (457 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Wieszczyna
+- from: Trupina
+  mount_group: Góry Opawskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Wieszczyna
+- from: Kobylica (pomnik J. Eichendorfa)
+  mount_group: Góry Opawskie
+  pointsFrom: '2'
+  pointsTo: '3'
+  to: Zbylut (353 m)
+- from: Zbylut (353 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Trzebina
+- from: Zbylut (353 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Sępik (365 m)
+- from: Sępik (365 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Trzebina
+- from: Klasztorne Wzgórze (Kozia Góra) (316 m)
+  mount_group: Góry Opawskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Trzebina
+- from: Czernicka Góra (514 m)
+  mount_group: Wzgórza Strzegomskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Paszowice
+- from: Czernicka Góra (514 m)
+  mount_group: Wzgórza Strzegomskie
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Czernica
+- from: Czeska Góra (321 m)
+  mount_group: Wzgórza Strzegomskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Czernica
+- from: Przełęcz Tapadła (384 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Rozdroże nad Sadami
+- from: Radunia (Sępia Góra)(573 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Przełęcz Tapadła (384 m)
+- from: Radunia (Sępia Góra)(573 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Przełęcz Słupicka (320 m)
+- from: Przełęcz Słupicka (320 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '4'
+  to: Radunia (Sępia Góra)(573 m)
+- from: Przełęcz Sulistrowicka (280 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz Słupicka (320 m)
+- from: Przełęcz Sulistrowicka (280 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Gozdnik (315 m)
+- from: Skalna
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Tapadła (384 m)
+- from: Polana pod Dębami
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Rozdroże nad Sadami
+- from: Polana pod Dębami
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz Tapadła (384 m)
+- from: Polana pod Dębami
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Bielskie Rozdroże
+- from: Ślęża (718 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Polana pod Dębami
+- from: Ślęża (718 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Rozdroże pod Kamiennym Krzyżem
+- from: Ślęża (718 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '1'
+  to: Bielskie Rozdroże
+- from: Ślęża (718 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże Holtei
+- from: Rozdroże Holtei
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Polana pod Dębami
+- from: Rozdroże Holtei
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Rozdroże pod Kamiennym Krzyżem
+- from: Rozdroże Holtei
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Skrzyżowanie z Drogą Dzikiej Świni
+- from: Rozdroże pod Kamiennym Krzyżem
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '3'
+  pointsTo: '1'
+  to: Przełęcz Dębowa
+- from: Rozdroże pod Kamiennym Krzyżem
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '2'
+  to: Rozdroże pod Stolną
+- from: Rozdroże pod Kamiennym Krzyżem
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Skrzyżowanie z Drogą Dzikiej Świni
+- from: Skrzyżowanie z Drogą Dzikiej Świni
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Rezerwat archeologiczny
+- from: Skrzyżowanie z Drogą Dzikiej Świni
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Stolną
+- from: Rozdroże pod Stolną
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz pod Wieżycą (280 m)(Schronisko)
+- from: Wieżyca (415 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Przełęcz Dębowa
+- from: Wieżyca (415 m)
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Przełęcz pod Wieżycą (280 m)(Schronisko)
+- from: Przełęcz Dębowa
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: Rozdroże pod Stolną
+- from: Rozdroże pod Górką
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Przełęcz pod Wieżycą (280 m)(Schronisko)
+- from: Bielskie Rozdroże
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Przełęcz pod Wieżycą (280 m)(Schronisko)
+- from: Bielskie Rozdroże
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże pod Górką
+- from: Bielskie Rozdroże
+  mount_group: Masyw Ślęży, Równina Świdnicka, Kotlina Dzierżoniowska
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Rozdroże nad Sadami
+- from: Gontowa (377 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Skrzyżowania pod Grzybowcem
+- from: Tylnia Dębowa Góra (334 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '7'
+  pointsTo: '7'
+  to: Ostra Góra (362 m)
+- from: Kamieńczyk (341 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Ostra Góra (362 m)
+- from: Twardziel (358 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Kamieńczyk (341 m)
+- from: Twardziel (358 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Ostra Góra (362 m)
+- from: Skrzyżowania pod Grzybowcem
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Puławy Górne
+- from: Skrzyżowania pod Grzybowcem
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Bukowiec (359 m)
+- from: Piława Dolna
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Puławy Górne
+- from: Bukowiec (359 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Puławy Górne
+- from: Suchań (448 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Góra Parkowa (451 m)
+- from: Grodziszcze
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '9'
+  to: Przełęcz pod Szeroką (741 m)
+- from: Brzeźnica (Kozie Chrapy) (429 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Przełęcz Grochowa
+- from: Cierniowa Kopa (384 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: Rezerwat Muszkowicki Las Bukowy
+- from: Kałków
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Kościelna Góra
+- from: Siestrzochowice
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '5'
+  pointsTo: '5'
+  to: Kościelna Góra
+- from: Kalwaria
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '4'
+  pointsTo: '4'
+  to: Uroczysko pod Czechami (318 m)
+- from: Kalwaria
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Marmurowa Dolina
+- from: Marmurowa Dolina
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '4'
+  to: Kalwaria
+- from: Starczówek
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '12'
+  pointsTo: '12'
+  to: Ziębice PKP
+- from: Skrzyżowanie pod Zuzanką
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '8'
+  pointsTo: '7'
+  to: Ziębice PKP
+- from: Mlecznik ( m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: Skrzyżowanie pod Zuzanką
+- from: Kalinka (386 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Witostowice
+- from: Kalinka (386 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Nowoleska Kopa (383 m)
+- from: Kalinka (386 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: Romanowo
+- from: Gromnik (393 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Kalinka (386 m)
+- from: Gromnik (393 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: Romanowo
+- from: Gromnik (393 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '6'
+  to: Nowoleska Kopa (383 m)
+- from: Gromnik (393 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Wąwóz Pogródki
+- from: Gromnik (393 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '6'
+  pointsTo: '4'
+  to: Rozdroże pod Dębem
+- from: Gromnik (393 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '7'
+  pointsTo: '5'
+  to: Przeworno
+- from: Kryształowa (198 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: Przeworno
+- from: Nowoleska Kopa (383 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Witostowice
+- from: Nowoleska Kopa (383 m)
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Wąwóz Pogródki
+- from: Rozdroże pod Dębem
+  mount_group: Wzgórza Niemczańsko-Strzelińskie, Przedgórze Paczkowskie
+  pointsFrom: '4'
+  pointsTo: '3'
+  to: Wąwóz Pogródki
+- from: 'Kláštorisko, chata (784) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '7'
+  pointsTo: '4'
+  to: 'Biely potok, ústie (510) z:'
+- from: 'Suchá Belá, záver (955) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: 'Piecky, vrch (940) z:'
+- from: 'Suchá Belá, záver (955) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '5'
+  pointsTo: '-'
+  to: 'Kyseľ, rázcestie (730) z:'
+- from: 'Sokol, horáreň (610) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: 'Pila, Piecky (585) z:'
+- from: 'Piecky, vrch (940) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '8'
+  pointsTo: '-'
+  to: 'Pila, Piecky (585) z:'
+- from: 'Malá polana, rázcestie (990) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '3'
+  pointsTo: '3'
+  to: 'Glac, bývalá horáreň (990) z:'
+- from: 'Glac, bývalá horáreň (990) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: 'Glacká cesta (895) z:'
+- from: 'Glacká cesta (895) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '9'
+  pointsTo: '-'
+  to: 'Sokol, horáreň (610) z:'
+- from: 'Kyseľ, rázcestie (730) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: 'Obrovský vodopád, mostik (705) z:'
+- from: 'Biskupske chyžky (1004) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '5'
+  pointsTo: '-'
+  to: 'Kyseľ, rázcestie (730) z:'
+- from: 'Biskupske chyžky (1004) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: 'Sokolia dolina, záver (1002) z:'
+- from: 'Sokolia dolina, záver (1002) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '7'
+  pointsTo: '-'
+  to: 'Sokolia dolina, ústie (569) z:'
+- from: 'Klauzy (630) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: 'Sokolia dolina, ústie (569) z:'
+- from: 'Tomášovský výhľad (650) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: 'Letanovský mlyn (513) z:'
+- from: 'Tomášovský výhľad (650) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: 'Čingov, Ďurkovec (565) z:'
+- from: 'Sedlo Medvedia hlava (815) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: 'Košiarny briežok (526) z:'
+- from: 'Medvedia hlava (903) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: 'Sedlo Medvedia hlava (815) z:'
+- from: 'Dobšinská Ľadová Jaskyňa (850) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: 'Stratenský kanon (815) z:'
+- from: 'Havrania skala (1153) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '6'
+  pointsTo: '3'
+  to: 'Stratenský kanon (815) z:'
+- from: 'Malé Zajfy (900) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '3'
+  pointsTo: '2'
+  to: 'Veľké a Malé Zajfy (818) z:'
+- from: 'Dedinky (795) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: 'Dedinky, vlak (800) z:'
+- from: 'Dedinky, vlak (800) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '2'
+  pointsTo: '2'
+  to: 'Prostredný Hámor (760) z:'
+- from: 'Pred Čuntavou (1166) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '1'
+  pointsTo: '1'
+  to: 'Pod Ondrejiskom (1150) z:'
+- from: 'Pod Ondrejiskom (1150) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '5'
+  pointsTo: '4'
+  to: 'Nižná záhrada (1086) z:'
+- from: 'Nižná záhrada (1086) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: 'Dobšinská Ľadová Jaskyňa (850) z:'
+- from: 'Dobšinská ľadová jaskyňa (969) z:'
+  mount_group: Słowacki Raj
+  pointsFrom: '2'
+  pointsTo: '1'
+  to: 'Dobšinská Ľadová Jaskyňa (850) z:'
+- from: MALE NOCLAHY (1000 m)(X N, Ż)
+  mount_group: Mała Fatra - Vrátna
+  pointsFrom: '6'
+  pointsTo: '2'
+  to: PODOLINA (Obšívanka) (600 m) (X N, Ż)
+- from: GRÚNIKY (KRAWCÓW WIERCH) (1080 m) (X N, Ż)
+  mount_group: Oravské Beskydy - Słowacja
+  pointsFrom: '5'
+  pointsTo: '3'
+  to: Przełęcz Glinne (809 m)

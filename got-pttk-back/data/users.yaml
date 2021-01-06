@@ -1,0 +1,94 @@
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$216000$TMKElCgQXyXd$u6byYPnxbBmIhZdcugMyoMRDO1JOMruSmkcxIQ00fYw=
+    last_login: 2021-01-07 09:27:03.978720+00:00
+    is_superuser: true
+    username: admin
+    first_name: ''
+    last_name: ''
+    email: admin@example.com
+    is_staff: true
+    is_active: true
+    date_joined: 2020-12-31 05:42:07.184672+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$216000$J50eKxbbNBuK$71MxpqXyf/YAZys/J2KZDdHEyE2FFEkEY7TZNwpZxnM=
+    last_login: null
+    is_superuser: false
+    username: user
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2021-01-07 05:46:35.020032+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$216000$TMKElCgQXyXd$u6byYPnxbBmIhZdcugMyoMRDO1JOMruSmkcxIQ00fYw=
+    last_login: null
+    is_superuser: true
+    username: admin2
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2021-01-07 05:47:21.300266+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 4
+  fields:
+    password: pbkdf2_sha256$216000$WHuvkem5Ri61$iriOBPGxg5aZxilqjwWzkyVg4Dp1anbQJHWp6fFJUiU=
+    last_login: null
+    is_superuser: false
+    username: przodownik
+    first_name: ''
+    last_name: ''
+    email: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2021-01-07 05:50:02.732202+00:00
+    groups: []
+    user_permissions: []
+- model: core.uzytkownik
+  pk: 1
+  fields:
+    jestniepelnosprawny: null
+    dataurodzenia: null
+    numerlegitymacji: '234'
+    rola: PRZODOWNIK
+- model: core.uzytkownik
+  pk: 2
+  fields:
+    jestniepelnosprawny: null
+    dataurodzenia: null
+    numerlegitymacji: null
+    rola: TURYSTA
+- model: core.uzytkownik
+  pk: 3
+  fields:
+    jestniepelnosprawny: null
+    dataurodzenia: 2006-01-11
+    numerlegitymacji: null
+    rola: TURYSTA
+- model: core.uzytkownik
+  pk: 4
+  fields:
+    jestniepelnosprawny: null
+    dataurodzenia: 1998-11-04
+    numerlegitymacji: '234983'
+    rola: PRZODOWNIK
+- model: core.rola
+  pk: PRZODOWNIK
+  fields: {}
+- model: core.rola
+  pk: TURYSTA
+  fields: {}
