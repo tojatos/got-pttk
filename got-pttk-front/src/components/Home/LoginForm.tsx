@@ -50,6 +50,7 @@ export default function LoginForm() {
           name="login"
           inputRef={register({ required: true })}
           error={!!errors.login}
+          helperText={errors.login && "Podaj login"}
           fullWidth
         />
         <CustomTextField
@@ -58,6 +59,7 @@ export default function LoginForm() {
           type="password"
           inputRef={register({ required: true })}
           error={!!errors.password}
+          helperText={errors.login && "Podaj hasło"}
           fullWidth
         />
         <CustomButton variant="contained" color="secondary" type="submit">
