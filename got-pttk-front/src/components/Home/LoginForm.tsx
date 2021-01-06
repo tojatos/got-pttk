@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import CustomTextField from "../CustomTextField";
 import CustomButton from "../CustomButton";
+import { useForm } from "react-hook-form";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,14 +28,38 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+interface IFormInput {
+  login: string;
+  password: string;
+}
+
 export default function LoginForm() {
   const classes = useStyles();
+  const { register, handleSubmit, errors } = useForm();
+
+  const onSubmit = ({ login, password }: IFormInput) => {
+    //TODO: sign in user
+    console.log({ login, password });
+  };
 
   return (
     <div className={classes.root}>
-      <form>
-        <CustomTextField label="Login" fullWidth />
-        <CustomTextField label="Hasło" type="password" fullWidth />
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <CustomTextField
+          label="Login"
+          name="login"
+          inputRef={register({ required: true })}
+          error={!!errors.login}
+          fullWidth
+        />
+        <CustomTextField
+          label="Hasło"
+          name="password"
+          type="password"
+          inputRef={register({ required: true })}
+          error={!!errors.password}
+          fullWidth
+        />
         <CustomButton variant="contained" color="secondary" type="submit">
           Zaloguj
         </CustomButton>
