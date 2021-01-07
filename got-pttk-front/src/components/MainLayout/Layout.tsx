@@ -1,3 +1,4 @@
+import makeStyles from "@material-ui/core/styles/makeStyles";
 import React from "react";
 import { useState } from "react";
 import AppBar from "./AppBar";
@@ -7,14 +8,24 @@ interface LayoutProps {
   children?: JSX.Element;
 }
 
+const useStyles = makeStyles((theme) => ({
+  main: {
+    margin: "auto",
+    display: "flex",
+    justifyContent: "center",
+    padding: theme.spacing(3),
+  },
+}));
+
 function Layout(props: LayoutProps) {
+  const classes = useStyles();
   const [navOpen, setNavOpen] = useState<boolean>(false);
 
   return (
     <div>
       <AppBar openNav={() => setNavOpen(true)} />
       <SideBar navIsOpen={navOpen} closeNav={() => setNavOpen(false)} />
-      <main>{props.children}</main>
+      <main className={classes.main}>{props.children}</main>
     </div>
   );
 }

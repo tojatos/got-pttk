@@ -8,19 +8,16 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import MenuIcon from "@material-ui/icons/Menu";
-import { NavConfig } from "../constant/NavConfig";
-import { UserRoles } from "../constant/User";
+import { NavConfig } from "../../constant/NavConfig";
+import { UserRoles } from "../../constant/User";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import { Link as RouterLink } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: theme.palette.primary.main,
-  },
   menuBox: {
     paddingLeft: theme.spacing(3),
-    borderBottom: `solid 1px ${theme.palette.secondary.main}`,
-    borderRight: `solid 1px ${theme.palette.secondary.main}`,
+    borderBottom: `solid 1px ${theme.palette.primary.main}`,
+    borderRight: `solid 1px ${theme.palette.primary.main}`,
     minHeight: "64px",
     display: "flex",
     alignItems: "center",
@@ -41,7 +38,7 @@ const SideBar = ({ closeNav, navIsOpen }: SideBarProps) => {
 
   return (
     <nav>
-      <Drawer anchor="left" open={navIsOpen} classes={{ paper: classes.root }}>
+      <Drawer anchor="left" open={navIsOpen}>
         <Box className={classes.menuBox}>
           <IconButton
             edge="start"

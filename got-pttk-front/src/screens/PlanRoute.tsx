@@ -1,6 +1,6 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/MainLayout/Layout";
 
 export default function PlanRoute() {
   return (
