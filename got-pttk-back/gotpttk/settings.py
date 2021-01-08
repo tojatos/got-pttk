@@ -11,6 +11,13 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+def get_env_value(env_variable, default):
+    try:
+        return os.environ[env_variable]
+    except KeyError:
+        return default
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,10 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=pz98@#qb8ow%urm=m8ek*@cu(vvkql*y0)n4dt4xm$(y6_uq*'
+SECRET_KEY = get_env_value('SECRET_KEY', '=pz98@#qb8ow%urm=m8ek*@cu(vvkql*y0)n4dt4xm$(y6_uq*')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = get_env_value('DEBUG', True)
+
 
 ALLOWED_HOSTS = []
 
@@ -78,9 +86,10 @@ WSGI_APPLICATION = 'gotpttk.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pttk',
-        'USER': 'pttk',
-        'PASSWORD': 'pttk',
+        'NAME': get_env_value('DATABASE_NAME', 'pttk'),
+        'USER': get_env_value('DATABASE_USER', 'pttk'),
+        'PASSWORD': get_env_value('DATABASE_PASSWORD', 'pttk'),
+        'HOST': get_env_value('DATABASE_HOST', 'localhost'),
     }
 }
 

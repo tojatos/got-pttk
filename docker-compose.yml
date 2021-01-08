@@ -1,11 +1,31 @@
 version: '3'
 
 services:
+  db:
+    image: mariadb
+    restart: always
+    command: ['--character-set-server=utf8', '--collation-server=utf8_general_ci']
+    environment:
+      MYSQL_DATABASE: "pttk"
+      MYSQL_USER: "pttk"
+      MYSQL_PASSWORD: "pttk"
+      MYSQL_ROOT_PASSWORD: "docker_root"
   django:
     build: ./got-pttk-back
-    command: python manage.py runserver 0.0.0.0:8028
+    command: bash -c "python manage.py migrate && python manage.py loaddata data.yaml && python manage.py runserver 0.0.0.0:8028"
     ports:
       - "8028:8028"
+    restart: always
+    depends_on:
+      - db
+    volumes:
+      - ./got-pttk-back:/got-pttk-back
+    environment:
+      DATABASE_HOST: "db"
+      DATABASE_NAME: "pttk"
+      DATABASE_USER: "pttk"
+      DATABASE_PASSWORD: "pttk"
+
         #frontend:
         #  build: ./frontend
         #  command: ["npm", "start"]
