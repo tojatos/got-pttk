@@ -3,6 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import CustomTextField from "../CustomTextField";
 import CustomButton from "../CustomButton";
 import { useForm } from "react-hook-form";
+import { useDispatch } from "react-redux";
+import { authenticate } from "../../app/authSlice";
+import { Login } from "../../constant/Login";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,17 +21,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-interface IFormInput {
-  login: string;
-  password: string;
-}
-
 export default function LoginForm() {
   const classes = useStyles();
   const { register, handleSubmit, errors } = useForm();
+  const dispatch = useDispatch();
 
-  const onSubmit = ({ login, password }: IFormInput) => {
-    //TODO: sign in user
+  const onSubmit = (login: Login) => {
+    dispatch(authenticate(login));
   };
 
   return (

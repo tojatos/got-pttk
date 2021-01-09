@@ -1,8 +1,8 @@
 import { Routes } from "./Routes";
-import { UserRoles } from "./User";
+import { UserRole } from "./User";
 
 type NavItem = {
-  user: UserRoles;
+  user: UserRole;
   routes: Array<{
     path: string;
     label: string;
@@ -11,7 +11,7 @@ type NavItem = {
 
 export const NavConfig: Array<NavItem> = [
   {
-    user: UserRoles.GUEST,
+    user: UserRole.GUEST,
     routes: [
       {
         path: Routes.HOME,
@@ -24,7 +24,7 @@ export const NavConfig: Array<NavItem> = [
     ],
   },
   {
-    user: UserRoles.TOURIST,
+    user: UserRole.TOURIST,
     routes: [
       {
         path: Routes.HOME,
@@ -45,7 +45,7 @@ export const NavConfig: Array<NavItem> = [
     ],
   },
   {
-    user: UserRoles.LEADER,
+    user: UserRole.LEADER,
     routes: [
       {
         path: Routes.HOME,
