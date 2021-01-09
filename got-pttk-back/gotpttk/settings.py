@@ -13,15 +13,16 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import os
 
+
 def get_env_value(env_variable, default):
     try:
         return os.environ[env_variable]
     except KeyError:
         return default
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -32,14 +33,13 @@ SECRET_KEY = get_env_value('SECRET_KEY', '=pz98@#qb8ow%urm=m8ek*@cu(vvkql*y0)n4d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = get_env_value('DEBUG', True)
 
-
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
 INSTALLED_APPS = [
     'rest_framework',
+    'corsheaders',
     'core.apps.CoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -79,7 +80,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'gotpttk.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -92,7 +92,6 @@ DATABASES = {
         'HOST': get_env_value('DATABASE_HOST', 'localhost'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -112,7 +111,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
@@ -126,7 +124,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
@@ -137,3 +134,6 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
 }
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
