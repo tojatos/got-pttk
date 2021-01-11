@@ -31,8 +31,8 @@ export const authSlice = createSlice({
 export const { authLogin, authLogout } = authSlice.actions;
 
 interface AuthTokens {
-  access: string,
-  refresh: string,
+  access: string;
+  refresh: string;
 }
 
 export const authenticate = ({ login, password }: Login): AppThunk => async (
@@ -45,12 +45,12 @@ export const authenticate = ({ login, password }: Login): AppThunk => async (
     });
     if (result.status === 200) {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const {access, refresh} : AuthTokens = result.data;
+      const { access, refresh }: AuthTokens = result.data;
       const roleResult = await axios.get(ROLE_URL, {
         headers: {
           Authorization: "Bearer " + access,
-        }
-      })
+        },
+      });
       const role = roleResult.data;
       dispatch(authLogin({ token: access, login, role }));
     }

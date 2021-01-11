@@ -9,7 +9,11 @@ export default function Home() {
   const authData = useSelector((state: RootState) => state.authData);
   return (
     <Layout>
-      {authData.login ? <Typography>Witaj, {authData.login}</Typography> : <LoginForm/>}
+      {authData.login ? (
+        <Typography>Witaj, {authData.login}</Typography>
+      ) : (
+        <LoginForm />
+      )}
     </Layout>
   );
 }
