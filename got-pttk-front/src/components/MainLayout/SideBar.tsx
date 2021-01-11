@@ -9,9 +9,11 @@ import {
 import React from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import { NavConfig } from "../../constant/NavConfig";
-import { UserRoles } from "../../constant/User";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import { Link as RouterLink } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { RootState } from "../../app/store";
+import { UserRole } from "../../constant/User";
 
 const useStyles = makeStyles((theme) => ({
   menuBox: {
@@ -34,7 +36,8 @@ interface SideBarProps {
 
 const SideBar = ({ closeNav, navIsOpen }: SideBarProps) => {
   const classes = useStyles();
-  const role = UserRoles.LEADER; //TODO: get role from store
+  const authData = useSelector((state: RootState) => state.authData);
+  const role = authData.role || UserRole.GUEST;
 
   return (
     <nav>

@@ -30,3 +30,12 @@ class PrzewodnikView(APIView):
         user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
         content = {'nr_legitymacji': user.numerlegitymacji}
         return Response(content)
+
+
+class RoleView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        user_id = request.auth.payload['user_id']
+        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
+        return Response(user.rola.nazwa)
