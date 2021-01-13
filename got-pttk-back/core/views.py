@@ -65,3 +65,16 @@ class UserSegmentsView(APIView):
         segments = Polaczenie.objects.filter(tworca=user_id)
         serializer = SegmentSerializer(segments, many=True)
         return Response(serializer.data)
+
+
+class RouteView(APIView):
+    permission_classes = (IsAuthenticated,)
+    """
+    List user routes
+    """
+
+    def get(self, request):
+        user_id = request.auth.payload['user_id']
+        routes = Trasa.objects.filter(turysta=user_id)
+        serializer = RouteSerializer(routes, many=True)
+        return Response(serializer.data)

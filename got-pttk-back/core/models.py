@@ -92,9 +92,9 @@ class Polaczenietrasy(models.Model):
     id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
     polaczenieid = models.ForeignKey(Polaczenie, models.DO_NOTHING,
                                      db_column='PolaczenieID')  # Field name made lowercase.
-    czypowrotne = models.IntegerField(db_column='CzyPowrotne')  # Field name made lowercase.
+    czypowrotne = models.BooleanField(db_column='CzyPowrotne')  # Field name made lowercase.
     kolejnosc = models.IntegerField(db_column='Kolejnosc')  # Field name made lowercase.
-    trasa = models.ForeignKey('Trasa', models.DO_NOTHING, db_column='Trasa')  # Field name made lowercase.
+    trasa = models.ForeignKey('Trasa', models.DO_NOTHING, db_column='Trasa', related_name='polaczeniatrasy')  # Field name made lowercase.
 
     class Meta:
         db_table = 'PolaczenieTrasy'

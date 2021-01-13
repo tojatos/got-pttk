@@ -1,4 +1,5 @@
 from rest_framework import serializers
+
 from core.models import *
 
 
@@ -10,6 +11,7 @@ class RoutePointSerializer(serializers.ModelSerializer):
 
 class SegmentPointSerializer(serializers.ModelSerializer):
     punkttrasy = RoutePointSerializer(read_only=True)
+
     class Meta:
         model = Punktpolaczenia
         fields = ['kolejnosc', 'punkttrasy']
@@ -23,7 +25,16 @@ class SegmentSerializer(serializers.ModelSerializer):
         fields = ['nazwa', 'punktyz', 'punktydo', 'grupagorska', 'punktypolaczenia']
 
 
-# class MountainGroupSerializer(serializers.HyperlinkedModelSerializer):
-#     class Meta:
-#         model = Grupagorska
-#         fields = 'nazwa'
+class RouteSegmentSerializer(serializers.ModelSerializer):
+    polaczenieid = SegmentSerializer(read_only=True)
+    class Meta:
+        model = Polaczenietrasy
+        fields = ['id', 'polaczenieid', 'czypowrotne', 'kolejnosc']
+
+
+class RouteSerializer(serializers.ModelSerializer):
+    polaczeniatrasy = RouteSegmentSerializer(many=True, read_only=True)
+
+    class Meta:
+        model = Trasa
+        fields = ['id', 'datarozpoczecia', 'datazakonczenia', 'nazwa', 'polaczeniatrasy']
