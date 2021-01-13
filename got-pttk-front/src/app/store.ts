@@ -17,6 +17,7 @@ import persistCombineReducers from "redux-persist/es/persistCombineReducers";
 
 import authReducer from "./authSlice";
 import pointsReducer from "./pointsSlice";
+import segmentsReducer from "./segmentsSlice";
 
 const persistConfig = {
   key: "root",
@@ -27,6 +28,7 @@ const persistConfig = {
 const persistedRootReducer = persistCombineReducers(persistConfig, {
   authData: authReducer,
   pointsData: pointsReducer,
+  segmentsData: segmentsReducer,
 });
 
 export const store = configureStore({

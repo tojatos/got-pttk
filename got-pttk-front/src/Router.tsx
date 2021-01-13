@@ -9,6 +9,7 @@ import VerifyRoute from "./screens/VerifyRoute";
 import { useDispatch, useSelector } from "react-redux";
 import { initPoints } from "./app/pointsSlice";
 import { RootState } from "./app/store";
+import { initSegments } from "./app/segmentsSlice";
 
 const routes = [
   {
@@ -42,13 +43,25 @@ export default function Router() {
   //TODO: move into background service
   const dispatch = useDispatch();
   const pointsData = useSelector((state: RootState) => state.pointsData);
+  const segmentsData = useSelector((state: RootState) => state.segmentsData);
   useEffect(() => {
     if (!pointsData.pointsInitialized) {
       dispatch(initPoints());
     } else {
       console.log(pointsData.points);
     }
-  }, [dispatch, pointsData.points, pointsData.pointsInitialized]);
+    if (!segmentsData.segmentsInitialized) {
+      dispatch(initSegments());
+    } else {
+      console.log(segmentsData.segments);
+    }
+  }, [
+    dispatch,
+    pointsData.points,
+    pointsData.pointsInitialized,
+    segmentsData.segments,
+    segmentsData.segmentsInitialized,
+  ]);
 
   return (
     <BrowserRouter>
