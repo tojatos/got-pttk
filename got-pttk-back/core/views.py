@@ -1,10 +1,12 @@
 # Create your views here.
-from rest_framework import permissions
+from rest_framework import permissions, viewsets
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from typing import List
 
-from core.models import Uzytkownik
+from core.models import *
+from core.serializers import *
 
 
 class HelloView(APIView):
@@ -39,3 +41,14 @@ class RoleView(APIView):
         user_id = request.auth.payload['user_id']
         user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
         return Response(user.rola.nazwa)
+
+
+class SegmentsView(APIView):
+    """
+    List all system segments
+    """
+
+    def get(self, request, format=None):
+        segments = Polaczenie.objects.filter(tworca=None)
+        serializer = SegmentSerializer(segments, many=True)
+        return Response(serializer.data)
