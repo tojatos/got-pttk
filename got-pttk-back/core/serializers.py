@@ -22,7 +22,7 @@ class SegmentSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Polaczenie
-        fields = ['nazwa', 'punktyz', 'punktydo', 'grupagorska', 'punktypolaczenia']
+        fields = ['id', 'nazwa', 'punktyz', 'punktydo', 'grupagorska', 'punktypolaczenia']
 
 
 class RouteSegmentSerializer(serializers.ModelSerializer):
