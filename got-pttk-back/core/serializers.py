@@ -27,6 +27,7 @@ class SegmentSerializer(serializers.ModelSerializer):
 
 class RouteSegmentSerializer(serializers.ModelSerializer):
     polaczenieid = SegmentSerializer(read_only=True)
+
     class Meta:
         model = Polaczenietrasy
         fields = ['id', 'polaczenieid', 'czypowrotne', 'kolejnosc']

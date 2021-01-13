@@ -78,3 +78,14 @@ class RouteView(APIView):
         routes = Trasa.objects.filter(turysta=user_id)
         serializer = RouteSerializer(routes, many=True)
         return Response(serializer.data)
+
+
+class PointView(APIView):
+    """
+    List system points
+    """
+
+    def get(self, request):
+        points = Punkttrasy.objects.filter(tworca=None)
+        serializer = RoutePointSerializer(points, many=True)
+        return Response(serializer.data)
