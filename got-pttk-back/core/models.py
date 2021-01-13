@@ -63,6 +63,10 @@ class Polaczenie(models.Model):
         db_table = 'Polaczenie'
         unique_together = ('nazwa', 'tworca')
 
+    def __str__(self):
+        tworcaString = f' ({self.tworca.user.username})' if self.tworca is not None else ''
+        return f'{self.nazwa}{tworcaString}'
+
 
 class Polaczenietrasy(models.Model):
     id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
@@ -101,10 +105,13 @@ class Punkttrasy(models.Model):
     nazwa = models.CharField(db_column='Nazwa', max_length=255)  # Field name made lowercase.
     tworca = models.ForeignKey('Uzytkownik', models.DO_NOTHING, db_column='Tworca', blank=True, null=True)  # Field name made lowercase.
 
-
     class Meta:
         db_table = 'PunktTrasy'
         unique_together = ('nazwa', 'tworca')
+
+    def __str__(self):
+        return self.nazwa
+
 
 
 class Rola(models.Model):

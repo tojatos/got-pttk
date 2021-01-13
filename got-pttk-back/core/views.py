@@ -53,6 +53,7 @@ class SegmentsView(APIView):
         serializer = SegmentSerializer(segments, many=True)
         return Response(serializer.data)
 
+
 class UserSegmentsView(APIView):
     permission_classes = (IsAuthenticated,)
     """
