@@ -48,7 +48,19 @@ class SegmentsView(APIView):
     List all system segments
     """
 
-    def get(self, request, format=None):
+    def get(self, request):
         segments = Polaczenie.objects.filter(tworca=None)
+        serializer = SegmentSerializer(segments, many=True)
+        return Response(serializer.data)
+
+class UserSegmentsView(APIView):
+    permission_classes = (IsAuthenticated,)
+    """
+    List all user segments
+    """
+
+    def get(self, request):
+        user_id = request.auth.payload['user_id']
+        segments = Polaczenie.objects.filter(tworca=user_id)
         serializer = SegmentSerializer(segments, many=True)
         return Response(serializer.data)
