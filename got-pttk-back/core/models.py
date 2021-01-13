@@ -120,6 +120,7 @@ class Trasa(models.Model):
     datazakonczenia = models.DateField(db_column='DataZakonczenia', blank=True, null=True)  # Field name made lowercase. This field type is a guess.
     nazwa = models.CharField(db_column='Nazwa', max_length=255)  # Field name made lowercase.
     turysta = models.ForeignKey('Uzytkownik', models.DO_NOTHING, db_column='Turysta')  # Field name made lowercase.
+    odznakaturysty = models.ForeignKey('Odznakaturysty', models.DO_NOTHING, db_column='OdznakaTurysty', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         db_table = 'Trasa'
