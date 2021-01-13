@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Routes } from "./constant/Routes";
 import HomePage from "./screens/Home";
@@ -6,6 +6,9 @@ import ManageRoutes from "./screens/ManageRoutes";
 import ManageSegments from "./screens/ManageSegments";
 import PlanRoute from "./screens/PlanRoute";
 import VerifyRoute from "./screens/VerifyRoute";
+import { useDispatch, useSelector } from "react-redux";
+import { initPoints } from "./app/pointsSlice";
+import { RootState } from "./app/store";
 
 const routes = [
   {
@@ -36,6 +39,17 @@ const routes = [
 ];
 
 export default function Router() {
+  //TODO: move into background service
+  const dispatch = useDispatch();
+  const pointsData = useSelector((state: RootState) => state.pointsData);
+  useEffect(() => {
+    if (!pointsData.pointsInitialized) {
+      dispatch(initPoints());
+    } else {
+      console.log(pointsData.points);
+    }
+  }, [dispatch, pointsData.points, pointsData.pointsInitialized]);
+
   return (
     <BrowserRouter>
       <Switch>

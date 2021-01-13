@@ -4,7 +4,6 @@ import {
   Action,
   getDefaultMiddleware,
 } from "@reduxjs/toolkit";
-import authReducer from "./authSlice";
 import storage from "redux-persist/lib/storage";
 import {
   FLUSH,
@@ -16,6 +15,9 @@ import {
 } from "redux-persist";
 import persistCombineReducers from "redux-persist/es/persistCombineReducers";
 
+import authReducer from "./authSlice";
+import pointsReducer from "./pointsSlice";
+
 const persistConfig = {
   key: "root",
   version: 1,
@@ -24,6 +26,7 @@ const persistConfig = {
 
 const persistedRootReducer = persistCombineReducers(persistConfig, {
   authData: authReducer,
+  pointsData: pointsReducer,
 });
 
 export const store = configureStore({
