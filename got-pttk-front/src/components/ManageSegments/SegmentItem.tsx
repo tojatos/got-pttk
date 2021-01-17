@@ -52,7 +52,7 @@ export default function SegmentItem({
         </Grid>
         <Grid item className={classes.grid}>
           <Typography>
-            {segment.punktydo + "/" + segment.punktydo + "pkt."}
+            {segment.punktyz + "/" + segment.punktydo + "pkt."}
           </Typography>
         </Grid>
         <Grid item className={classes.grid}>
