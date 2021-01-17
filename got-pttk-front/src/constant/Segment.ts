@@ -2,7 +2,7 @@ import { SegmentPoint } from "./SegmentPoint";
 
 export interface Segment {
   id: number;
-  name: string;
+  nazwa: string;
   punktyz: number;
   punktydo: number;
   grupagorska: string;
