@@ -1,14 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {
-  Button,
-  ListItem,
-  ButtonProps,
-  Typography,
-  ListItemText,
-  Grid,
-  IconButton,
-} from "@material-ui/core";
+import { ListItem, Typography, Grid, IconButton } from "@material-ui/core";
 import { Segment } from "../../constant/Segment";
 import { SegmentPoint } from "../../constant/SegmentPoint";
 import EditIcon from "@material-ui/icons/Edit";
@@ -28,6 +20,8 @@ const useStyles = makeStyles((theme) => ({
 
 interface SegmentItemProps {
   segment: Segment;
+  onDelete: (id: number) => void;
+  onEdit?: () => void;
 }
 
 const pointsToString = (points: Array<SegmentPoint>) =>
@@ -35,7 +29,11 @@ const pointsToString = (points: Array<SegmentPoint>) =>
   " - " +
   points.find((p) => p.kolejnosc === points.length)?.punkttrasy.nazwa;
 
-export default function SegmentItem({ segment, ...props }: SegmentItemProps) {
+export default function SegmentItem({
+  segment,
+  onEdit,
+  onDelete,
+}: SegmentItemProps) {
   const classes = useStyles();
 
   return (
@@ -58,10 +56,10 @@ export default function SegmentItem({ segment, ...props }: SegmentItemProps) {
           </Typography>
         </Grid>
         <Grid item className={classes.grid}>
-          <IconButton aria-label="edit">
+          <IconButton aria-label="edit" onClick={onEdit}>
             <EditIcon fontSize="small" />
           </IconButton>
-          <IconButton aria-label="delete">
+          <IconButton aria-label="delete" onClick={() => onDelete(segment.id)}>
             <DeleteIcon fontSize="small" />
           </IconButton>
         </Grid>

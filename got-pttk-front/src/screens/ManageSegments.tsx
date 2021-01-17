@@ -1,5 +1,5 @@
 import { Grid, makeStyles, Typography, Container } from "@material-ui/core";
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/MainLayout/Layout";
 import CustomSearchBar from "../components/CustomSearchBar";
 import CustomButton from "../components/CustomButton";
@@ -9,6 +9,7 @@ import { RootState } from "../app/store";
 import { useEffect } from "react";
 import { initSegments } from "../app/segmentsSlice";
 import SegmentItem from "../components/ManageSegments/SegmentItem";
+import CustomConfirmDialog from "../components/CustomConfirmDialog";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -30,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ManageSegments() {
   const classes = useStyles();
+  const [toDeleteId, setToDeleteId] = useState<number | undefined>();
   //TODO: Replace with segments of current user
   const dispatch = useDispatch();
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
@@ -41,6 +43,16 @@ export default function ManageSegments() {
       console.log(segmentsData.segments);
     }
   }, [dispatch, segmentsData.segments, segmentsData.segmentsInitialized]);
+
+  const handleCloseDialog = () => {
+    console.log("Anulowano");
+    setToDeleteId(undefined);
+  };
+
+  const handleConfirmDialog = () => {
+    console.log("Usunieto połączenie: " + toDeleteId);
+    setToDeleteId(undefined);
+  };
 
   return (
     <Layout>
@@ -56,7 +68,7 @@ export default function ManageSegments() {
             <CustomSearchBar />
           </Grid>
           <Grid item xs={2} className={classes.center}>
-            <CustomButton variant="contained" color="action">
+            <CustomButton variant="contained" color="action" size="large">
               Dodaj
             </CustomButton>
           </Grid>
@@ -64,7 +76,11 @@ export default function ManageSegments() {
             {segmentsData.segments && segmentsData.segments.length > 0 ? (
               <CustomList
                 itemsJSX={segmentsData.segments.map((segm) => (
-                  <SegmentItem segment={segm} key={segm.id} />
+                  <SegmentItem
+                    segment={segm}
+                    key={segm.id}
+                    onDelete={setToDeleteId}
+                  />
                 ))}
               />
             ) : (
@@ -72,6 +88,12 @@ export default function ManageSegments() {
             )}
           </Grid>
         </Grid>
+        <CustomConfirmDialog
+          open={!!toDeleteId}
+          content="Czy na pewno chcesz usunąć to połączenie?"
+          onConfirm={handleConfirmDialog}
+          onCancel={handleCloseDialog}
+        />
       </Container>
     </Layout>
   );

@@ -5,7 +5,6 @@ import { Button, ButtonProps } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   root: {
     borderRadius: "22px",
-    minWidth: "64px",
     textTransform: "none",
   },
   green: {
