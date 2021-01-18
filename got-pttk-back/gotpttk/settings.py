@@ -13,6 +13,10 @@ from datetime import timedelta
 from pathlib import Path
 import os
 
+# https://stackoverflow.com/a/65186947/7136056
+import _locale
+_locale._getdefaultlocale = (lambda *args: ['en_US', 'utf8'])
+
 
 def get_env_value(env_variable, default):
     try:
@@ -142,3 +146,4 @@ CORS_ALLOW_CREDENTIALS = True
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=50),
 }
+

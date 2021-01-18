@@ -1,0 +1,16 @@
+- model: core.trasa
+  pk: 1
+  fields:
+    datarozpoczecia: 2021-01-13
+    datazakonczenia: null
+    nazwa: Testowa trasa 1
+    turysta: 2
+    odznakaturysty: null
+- model: core.trasa
+  pk: 2
+  fields:
+    datarozpoczecia: null
+    datazakonczenia: null
+    nazwa: Testowa trasa 2
+    turysta: 2
+    odznakaturysty: null

@@ -1,0 +1,14 @@
+- model: core.polaczenietrasy
+  pk: 1
+  fields:
+    polaczenieid: 4
+    czypowrotne: false
+    kolejnosc: 1
+    trasa: 1
+- model: core.polaczenietrasy
+  pk: 2
+  fields:
+    polaczenieid: 3
+    czypowrotne: true
+    kolejnosc: 2
+    trasa: 1
