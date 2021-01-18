@@ -26,7 +26,7 @@ urlpatterns = [
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
 
     path('api/role/', views.RoleView.as_view(), name='role'),
-    path('api/segments/', views.SegmentsView.as_view(), name='segments'),
+    path('api/segments/', views.SegmentsList.as_view(), name='segments'),
     path('api/user_segments/', views.UserSegmentsView.as_view(), name='user_segments'),
     path('api/route/', views.RouteView.as_view(), name='route'),
     path('api/points/', views.PointView.as_view(), name='points'),
