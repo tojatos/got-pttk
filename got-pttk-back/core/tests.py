@@ -2,6 +2,7 @@ from django.test import TestCase
 
 from rest_framework import status
 from rest_framework.test import APIClient
+from typing import List
 
 from core.models import Polaczenie, Punktpolaczenia
 
@@ -57,6 +58,34 @@ test_segment = {
     ]
 }
 
+nonexistent_points_test_segment = {
+    "id": 1234,
+    "nazwa": "Testowe połączenie POST 2",
+    "punktyz": 3,
+    "punktydo": 5,
+    "grupagorska": "Bieszczady",
+    "punktypolaczenia": [
+        {
+            "kolejnosc": 1,
+            "punkttrasy": {
+                "nazwa": "Adam i Ewa"
+            }
+        },
+        {
+            "kolejnosc": 2,
+            "punkttrasy": {
+                "nazwa": "Babica (728 m)"
+            }
+        },
+        {
+            "kolejnosc": 3,
+            "punkttrasy": {
+                "nazwa": "Nieistniejący"
+            }
+        }
+    ]
+}
+
 
 class UnauthorizedSegmentsApiTest(ApiClientTestCase):
     def test_unauthorized_add(self):
@@ -74,7 +103,7 @@ class UserSegmentsApiTest(UserApiClientTestCase):
         res = self.client.post('/api/segments/', test_segment, format='json')
         self.assertEqual(res.status_code, status.HTTP_201_CREATED)
         conn = Polaczenie.objects.get(tworca__user__username=self.username, nazwa=test_segment['nazwa'])
-        self.assertEqual(conn.id, 974)
+        # self.assertEqual(conn.id, 974)
         self.assertEqual(conn.nazwa, test_segment['nazwa'])
         self.assertEqual(conn.punktyz, test_segment['punktyz'])
         self.assertEqual(conn.punktydo, test_segment['punktydo'])
@@ -82,3 +111,20 @@ class UserSegmentsApiTest(UserApiClientTestCase):
         self.assertEqual(conn.tworca.user.username, self.username)
         conn_points = Punktpolaczenia.objects.filter(polaczenieid=conn)
         self.assertEqual(len(conn_points), 2)
+
+    def test_add_nonexistent_points_user_segment(self):
+        test_segment = nonexistent_points_test_segment
+        res = self.client.post('/api/segments/', test_segment, format='json')
+        self.assertEqual(res.status_code, status.HTTP_201_CREATED)
+        conn = Polaczenie.objects.get(tworca__user__username=self.username, nazwa=test_segment['nazwa'])
+        # self.assertEqual(conn.id, 974)
+        self.assertEqual(conn.nazwa, test_segment['nazwa'])
+        self.assertEqual(conn.punktyz, test_segment['punktyz'])
+        self.assertEqual(conn.punktydo, test_segment['punktydo'])
+        self.assertEqual(conn.grupagorska.nazwa, test_segment['grupagorska'])
+        self.assertEqual(conn.tworca.user.username, self.username)
+        conn_points: List[Punktpolaczenia] = Punktpolaczenia.objects.filter(polaczenieid=conn)
+        self.assertEqual(len(conn_points), 3)
+        pt = conn_points[2].punkttrasy
+        self.assertIsNotNone(pt.tworca)
+        self.assertEqual(pt.tworca.user.username, self.username)

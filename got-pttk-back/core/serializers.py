@@ -31,7 +31,7 @@ class SegmentSerializer(serializers.ModelSerializer):
         polaczenie = Polaczenie.objects.create(**validated_data)
         for punktpolaczenia_data in punktypolaczenia_data:
             punkttrasy = punktpolaczenia_data.pop('punkttrasy')
-            punkttrasy_instance = Punkttrasy.objects.get(nazwa=punkttrasy['nazwa'])
+            punkttrasy_instance, _ = Punkttrasy.objects.get_or_create(nazwa=punkttrasy['nazwa'], defaults={'tworca': validated_data['tworca']})
             Punktpolaczenia.objects.create(polaczenieid=polaczenie, punkttrasy=punkttrasy_instance, **punktpolaczenia_data)
         return polaczenie
 
