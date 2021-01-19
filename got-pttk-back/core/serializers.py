@@ -10,7 +10,7 @@ class RoutePointSerializer(serializers.ModelSerializer):
 
 
 class SegmentPointSerializer(serializers.ModelSerializer):
-    punkttrasy = RoutePointSerializer(read_only=True)
+    punkttrasy = RoutePointSerializer()
 
     class Meta:
         model = Punktpolaczenia
@@ -18,11 +18,22 @@ class SegmentPointSerializer(serializers.ModelSerializer):
 
 
 class SegmentSerializer(serializers.ModelSerializer):
-    punktypolaczenia = SegmentPointSerializer(many=True, read_only=True)
+    # id = serializers.IntegerField(read_only=True)
+    punktypolaczenia = SegmentPointSerializer(many=True)
+    tworca = serializers.ReadOnlyField(source='tworca.user.username')
 
     class Meta:
         model = Polaczenie
-        fields = ['id', 'nazwa', 'punktyz', 'punktydo', 'grupagorska', 'punktypolaczenia']
+        fields = ['id', 'nazwa', 'punktyz', 'punktydo', 'grupagorska', 'punktypolaczenia', 'tworca']
+
+    def create(self, validated_data):
+        punktypolaczenia_data = validated_data.pop('punktypolaczenia')
+        polaczenie = Polaczenie.objects.create(**validated_data)
+        for punktpolaczenia_data in punktypolaczenia_data:
+            punkttrasy = punktpolaczenia_data.pop('punkttrasy')
+            punkttrasy_instance = Punkttrasy.objects.get(nazwa=punkttrasy['nazwa'])
+            Punktpolaczenia.objects.create(polaczenieid=polaczenie, punkttrasy=punkttrasy_instance, **punktpolaczenia_data)
+        return polaczenie
 
 
 class RouteSegmentSerializer(serializers.ModelSerializer):
