@@ -58,6 +58,27 @@ test_segment = {
     ]
 }
 
+updated_segment = {
+    "nazwa": "Lepsze Testowe połączenie",
+    "punktyz": 4,
+    "punktydo": 6,
+    "grupagorska": "Bieszczady",
+    "punktypolaczenia": [
+        {
+            "kolejnosc": 2,
+            "punkttrasy": {
+                "nazwa": "Adam i Ewa"
+            }
+        },
+        {
+            "kolejnosc": 1,
+            "punkttrasy": {
+                "nazwa": "Babica (728 m)"
+            }
+        }
+    ]
+}
+
 nonexistent_points_test_segment = {
     "id": 1234,
     "nazwa": "Testowe połączenie POST 2",
@@ -128,3 +149,31 @@ class UserSegmentsApiTest(UserApiClientTestCase):
         pt = conn_points[2].punkttrasy
         self.assertIsNotNone(pt.tworca)
         self.assertEqual(pt.tworca.user.username, self.username)
+
+    def test_delete_user_segment(self):
+        res = self.client.post('/api/segments/', test_segment, format='json')
+        self.assertEqual(res.status_code, status.HTTP_201_CREATED)
+        conn: Polaczenie = Polaczenie.objects.get(tworca__user__username=self.username, nazwa=test_segment['nazwa'])
+        del_res = self.client.delete(f'/api/segments/{conn.id}/')
+        self.assertEqual(del_res.status_code, status.HTTP_204_NO_CONTENT)
+
+        with self.assertRaises(Polaczenie.DoesNotExist):
+            Polaczenie.objects.get(tworca__user__username=self.username, nazwa=test_segment['nazwa'])
+
+    def test_update_user_segment(self):
+        res = self.client.post('/api/segments/', test_segment, format='json')
+        self.assertEqual(res.status_code, status.HTTP_201_CREATED)
+        c: Polaczenie = Polaczenie.objects.get(tworca__user__username=self.username, nazwa=test_segment['nazwa'])
+        del_res = self.client.put(f'/api/segments/{c.id}/', updated_segment, format='json')
+        conn: Polaczenie = Polaczenie.objects.get(tworca__user__username=self.username, nazwa=updated_segment['nazwa'])
+        self.assertEqual(del_res.status_code, status.HTTP_200_OK)
+        self.assertEqual(conn.nazwa, updated_segment['nazwa'])
+        self.assertEqual(conn.punktyz, updated_segment['punktyz'])
+        self.assertEqual(conn.punktydo, updated_segment['punktydo'])
+        self.assertEqual(conn.grupagorska.nazwa, updated_segment['grupagorska'])
+        self.assertEqual(conn.tworca.user.username, self.username)
+        conn_points: List[Punktpolaczenia] = Punktpolaczenia.objects.filter(polaczenieid=conn)
+        self.assertEqual(len(conn_points), 2)
+        self.assertEqual([x for x in conn_points if x.kolejnosc == 2][0].punkttrasy.nazwa, "Adam i Ewa")
+
+

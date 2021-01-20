@@ -27,6 +27,7 @@ urlpatterns = [
 
     path('api/role/', views.RoleView.as_view(), name='role'),
     path('api/segments/', views.SegmentsList.as_view(), name='segments'),
+    path('api/segments/<int:pk>/', views.SegmentsDetail.as_view(), name='segment_detail'),
     path('api/user_segments/', views.UserSegmentsView.as_view(), name='user_segments'),
     path('api/route/', views.RouteView.as_view(), name='route'),
     path('api/points/', views.PointView.as_view(), name='points'),

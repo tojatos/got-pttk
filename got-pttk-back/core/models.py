@@ -121,7 +121,7 @@ class Punktpolaczenia(models.Model):
     kolejnosc = models.IntegerField(db_column='Kolejnosc')  # Field name made lowercase.
     punkttrasy = models.ForeignKey('Punkttrasy', models.DO_NOTHING,
                                    db_column='PunktTrasy')  # Field name made lowercase.
-    polaczenieid = models.ForeignKey(Polaczenie, models.DO_NOTHING, db_column='PolaczenieID',
+    polaczenieid = models.ForeignKey(Polaczenie, models.CASCADE, db_column='PolaczenieID',
                                      related_name='punktypolaczenia')  # Field name made lowercase.
 
     class Meta:

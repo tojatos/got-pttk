@@ -51,6 +51,16 @@ class SegmentsList(generics.ListCreateAPIView):
         serializer.save(tworca=user)
 
 
+class SegmentsDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Polaczenie.objects.all()
+    serializer_class = SegmentSerializer
+
+    def perform_update(self, serializer):
+        user_id = self.request.auth.payload['user_id']
+        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
+        serializer.save(tworca=user)
+
+
 class UserSegmentsView(APIView):
     """
     List all user segments
