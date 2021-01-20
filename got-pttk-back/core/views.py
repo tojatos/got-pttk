@@ -7,6 +7,11 @@ from rest_framework.views import APIView
 from core.serializers import *
 
 
+def get_jwt_user(request) -> Uzytkownik:
+    user_id = request.auth.payload['user_id']
+    return Uzytkownik.objects.get(user_id=user_id)
+
+
 class HelloView(APIView):
     permission_classes = (IsAuthenticated,)
 
@@ -17,39 +22,21 @@ class HelloView(APIView):
 
 class IsPrzodownik(permissions.BasePermission):
     def has_permission(self, request, view):
-        user_id = request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        return user.rola.nazwa == 'PRZODOWNIK'
+        return get_jwt_user(request).rola.nazwa == 'PRZODOWNIK'
 
 
 class IsSegmentOwner(permissions.BasePermission):
     def has_permission(self, request, view):
-        user_id = request.auth.payload['user_id']
         segment_id = request.parser_context['kwargs']['pk']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
         segment: Polaczenie = Polaczenie.objects.get(id=segment_id)
-        if segment.tworca is None:
-            return False
-        return segment.tworca.user == user.user
-
-
-# class PrzewodnikView(APIView):
-#     permission_classes = (IsAuthenticated, IsPrzodownik)
-#
-#     def get(self, request):
-#         user_id = request.auth.payload['user_id']
-#         user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-#         content = {'nr_legitymacji': user.numerlegitymacji}
-#         return Response(content)
+        return segment.tworca == get_jwt_user(request)
 
 
 class RoleView(APIView):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        user_id = request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        return Response(user.rola.nazwa)
+        return Response(get_jwt_user(request).rola.nazwa)
 
 
 class SegmentsList(generics.ListCreateAPIView):
@@ -58,9 +45,7 @@ class SegmentsList(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticatedOrReadOnly]
 
     def perform_create(self, serializer):
-        user_id = self.request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        serializer.save(tworca=user)
+        serializer.save(tworca=get_jwt_user(self.request))
 
 
 class SegmentsDetail(generics.RetrieveUpdateDestroyAPIView):
@@ -69,43 +54,34 @@ class SegmentsDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsAuthenticated, IsSegmentOwner]
 
     def perform_update(self, serializer):
-        user_id = self.request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        serializer.save(tworca=user)
+        serializer.save(tworca=get_jwt_user(self.request))
 
 
-class UserSegmentsView(APIView):
+class UserSegmentsList(generics.ListAPIView):
     """
     List all user segments
     """
-    permission_classes = (IsAuthenticated,)
+    serializer_class = SegmentSerializer
+    permission_classes = [IsAuthenticated]
 
-    def get(self, request):
-        user_id = request.auth.payload['user_id']
-        segments = Polaczenie.objects.filter(tworca=user_id)
-        serializer = SegmentSerializer(segments, many=True)
-        return Response(serializer.data)
+    def get_queryset(self):
+        return Polaczenie.objects.filter(tworca=get_jwt_user(self.request))
 
 
-class RouteView(APIView):
+class RouteList(generics.ListAPIView):
     """
     List user routes
     """
-    permission_classes = (IsAuthenticated,)
+    permission_classes = [IsAuthenticated]
+    serializer = RouteSerializer
 
-    def get(self, request):
-        user_id = request.auth.payload['user_id']
-        routes = Trasa.objects.filter(turysta=user_id)
-        serializer = RouteSerializer(routes, many=True)
-        return Response(serializer.data)
+    def get_queryset(self):
+        return Trasa.objects.filter(turysta=get_jwt_user(self.request))
 
 
-class PointView(APIView):
+class PointList(generics.ListAPIView):
     """
     List system points
     """
-
-    def get(self, request):
-        points = Punkttrasy.objects.filter(tworca=None)
-        serializer = RoutePointSerializer(points, many=True)
-        return Response(serializer.data)
+    queryset = Punkttrasy.objects.filter(tworca=None)
+    serializer = RoutePointSerializer
