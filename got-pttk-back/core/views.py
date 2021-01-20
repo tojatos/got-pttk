@@ -73,7 +73,7 @@ class RouteList(generics.ListAPIView):
     List user routes
     """
     permission_classes = [IsAuthenticated]
-    serializer = RouteSerializer
+    serializer_class = RouteSerializer
 
     def get_queryset(self):
         return Trasa.objects.filter(turysta=get_jwt_user(self.request))
