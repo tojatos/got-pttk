@@ -37,7 +37,7 @@ SECRET_KEY = get_env_value('SECRET_KEY', '=pz98@#qb8ow%urm=m8ek*@cu(vvkql*y0)n4d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = get_env_value('DEBUG', True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['got-pttk.icu']
 
 # Application definition
 
