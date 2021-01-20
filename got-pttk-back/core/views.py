@@ -103,4 +103,4 @@ class PointList(generics.ListAPIView):
     List system points
     """
     queryset = Punkttrasy.objects.filter(tworca=None)
-    serializer = RoutePointSerializer
+    serializer_class = RoutePointSerializer
