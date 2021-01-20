@@ -23,6 +23,15 @@ class UserApiClientTestCase(ApiClientTestCase):
         self.client.credentials(HTTP_AUTHORIZATION='Bearer ' + tokens['access'])
 
 
+class PrzodownikApiClientTestCase(ApiClientTestCase):
+    def setUp(self):
+        super(PrzodownikApiClientTestCase, self).setUp()
+
+        self.username = 'user'
+        tokens = self.client.post('/api/token/', {'username': 'przodownik', 'password': 'przodownik'}).data
+        self.client.credentials(HTTP_AUTHORIZATION='Bearer ' + tokens['access'])
+
+
 class SegmentsApiTest(ApiClientTestCase):
     def test_retrieve_segment_list(self):
         res = self.client.get('/api/segments/')
@@ -110,8 +119,22 @@ nonexistent_points_test_segment = {
 
 class UnauthorizedSegmentsApiTest(ApiClientTestCase):
     def test_unauthorized_add(self):
-        res = self.client.post('/api/user_segments/', test_segment, format='json')
+        res = self.client.post('/api/segments/', test_segment, format='json')
         self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)
+
+    def test_unauthorized_delete(self):
+        del_res = self.client.delete(f'/api/segments/{1}/')
+        self.assertEqual(del_res.status_code, status.HTTP_401_UNAUTHORIZED)
+
+
+class UnauthorizedPrzodownikSegmentsApiTest(PrzodownikApiClientTestCase):
+    def test_unauthorized_delete_system(self):
+        del_res = self.client.delete(f'/api/segments/{1}/')
+        self.assertEqual(del_res.status_code, status.HTTP_403_FORBIDDEN)
+
+    def test_unauthorized_delete_other(self):
+        del_res = self.client.delete(f'/api/segments/{972}/')
+        self.assertEqual(del_res.status_code, status.HTTP_403_FORBIDDEN)
 
 
 class UserSegmentsApiTest(UserApiClientTestCase):
