@@ -10,6 +10,7 @@ import { CssBaseline } from "@material-ui/core";
 import Router from "./Router";
 import { PersistGate } from "redux-persist/integration/react";
 import persistStore from "redux-persist/es/persistStore";
+import BackgroundService from "./components/BackgroundService";
 
 const theme = createMuiTheme({
   palette: {
@@ -34,6 +35,7 @@ ReactDOM.render(
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         <ThemeProvider theme={theme}>
+          <BackgroundService />
           <CssBaseline />
           <Router />
         </ThemeProvider>
