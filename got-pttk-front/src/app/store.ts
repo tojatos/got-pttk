@@ -19,6 +19,7 @@ import authReducer from "./authSlice";
 import pointsReducer from "./pointsSlice";
 import segmentsReducer from "./segmentsSlice";
 import userSegmentsReducer from "./userSegmentsSlice";
+import routesReducer from "./routesSlice";
 
 const persistConfig = {
   key: "root",
@@ -31,6 +32,7 @@ const persistedRootReducer = persistCombineReducers(persistConfig, {
   pointsData: pointsReducer,
   segmentsData: segmentsReducer,
   userSegmentsData: userSegmentsReducer,
+  routesData: routesReducer,
 });
 
 export const store = configureStore({

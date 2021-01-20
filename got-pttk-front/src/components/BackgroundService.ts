@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { initPoints } from "../app/pointsSlice";
 import { initSegments } from "../app/segmentsSlice";
 import { initUserSegments } from "../app/userSegmentsSlice";
+import { initRoutes } from "../app/routesSlice";
 
 export default function BackgroundService() {
   const dispatch = useDispatch();
@@ -13,17 +14,20 @@ export default function BackgroundService() {
   const userSegmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
+  const routesData = useSelector((state: RootState) => state.routesData);
   useEffect(() => {
     if (!pointsData.pointsInitialized) dispatch(initPoints());
     if (!segmentsData.segmentsInitialized) dispatch(initSegments());
     if (authData.login !== null) {
       if (!userSegmentsData.segmentsInitialized) dispatch(initUserSegments());
+      if (!routesData.routesInitialized) dispatch(initRoutes());
     }
   }, [
     authData.login,
     dispatch,
     pointsData.points,
     pointsData.pointsInitialized,
+    routesData.routesInitialized,
     segmentsData.segments,
     segmentsData.segmentsInitialized,
     userSegmentsData.segmentsInitialized,
