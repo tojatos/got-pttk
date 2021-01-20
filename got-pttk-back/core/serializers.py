@@ -18,7 +18,6 @@ class SegmentPointSerializer(serializers.ModelSerializer):
 
 
 class SegmentSerializer(serializers.ModelSerializer):
-    # id = serializers.IntegerField(read_only=True)
     punktypolaczenia = SegmentPointSerializer(many=True)
     tworca = serializers.ReadOnlyField(source='tworca.user.username')
 
@@ -53,16 +52,34 @@ class SegmentSerializer(serializers.ModelSerializer):
 
 
 class RouteSegmentSerializer(serializers.ModelSerializer):
-    polaczenieid = SegmentSerializer(read_only=True)
-
     class Meta:
         model = Polaczenietrasy
         fields = ['id', 'polaczenieid', 'czypowrotne', 'kolejnosc']
 
 
 class RouteSerializer(serializers.ModelSerializer):
-    polaczeniatrasy = RouteSegmentSerializer(many=True, read_only=True)
+    polaczeniatrasy = RouteSegmentSerializer(many=True)
 
     class Meta:
         model = Trasa
         fields = ['id', 'datarozpoczecia', 'datazakonczenia', 'nazwa', 'polaczeniatrasy']
+
+    def create(self, validated_data):
+        polaczeniatrasy_data = validated_data.pop('polaczeniatrasy')
+        trasa = Trasa.objects.create(**validated_data)
+        for polaczenietrasy_data in polaczeniatrasy_data:
+            Polaczenietrasy.objects.create(trasa=trasa, **polaczenietrasy_data)
+        return trasa
+
+    def update(self, instance, validated_data):
+        instance.nazwa = validated_data.get('nazwa', instance.nazwa)
+        instance.datarozpoczecia = validated_data.get('datarozpoczecia', instance.datarozpoczecia)
+        instance.datazakonczenia = validated_data.get('datazakonczenia', instance.datazakonczenia)
+        instance.save()
+
+        trasa = Trasa.objects.get(id=instance.id)
+        polaczeniatrasy_data = validated_data.pop('polaczeniatrasy', instance.polaczeniatrasy)
+        Polaczenietrasy.objects.filter(trasa=trasa).delete()
+        for polaczenietrasy_data in polaczeniatrasy_data:
+            Polaczenietrasy.objects.create(trasa=trasa, **polaczenietrasy_data)
+        return instance

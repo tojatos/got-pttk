@@ -30,5 +30,6 @@ urlpatterns = [
     path('api/segments/<int:pk>/', views.SegmentsDetail.as_view(), name='segment_detail'),
     path('api/user_segments/', views.UserSegmentsList.as_view(), name='user_segments'),
     path('api/route/', views.RouteList.as_view(), name='route'),
+    path('api/route/<int:pk>/', views.RouteDetail.as_view(), name='route_detail'),
     path('api/points/', views.PointList.as_view(), name='points'),
 ]

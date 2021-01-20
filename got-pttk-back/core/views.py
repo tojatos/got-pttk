@@ -32,6 +32,13 @@ class IsSegmentOwner(permissions.BasePermission):
         return segment.tworca == get_jwt_user(request)
 
 
+class IsRouteOwner(permissions.BasePermission):
+    def has_permission(self, request, view):
+        pk = request.parser_context['kwargs']['pk']
+        route: Trasa = Trasa.objects.get(id=pk)
+        return route.turysta == get_jwt_user(request)
+
+
 class RoleView(APIView):
     permission_classes = [IsAuthenticated]
 
@@ -68,7 +75,7 @@ class UserSegmentsList(generics.ListAPIView):
         return Polaczenie.objects.filter(tworca=get_jwt_user(self.request))
 
 
-class RouteList(generics.ListAPIView):
+class RouteList(generics.ListCreateAPIView):
     """
     List user routes
     """
@@ -77,6 +84,18 @@ class RouteList(generics.ListAPIView):
 
     def get_queryset(self):
         return Trasa.objects.filter(turysta=get_jwt_user(self.request))
+
+    def perform_create(self, serializer):
+        serializer.save(turysta=get_jwt_user(self.request))
+
+
+class RouteDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Trasa.objects.all()
+    serializer_class = RouteSerializer
+    permission_classes = [IsAuthenticated, IsRouteOwner]
+
+    def perform_update(self, serializer):
+        serializer.save(turysta=get_jwt_user(self.request))
 
 
 class PointList(generics.ListAPIView):

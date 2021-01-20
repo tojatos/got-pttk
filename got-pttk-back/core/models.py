@@ -94,7 +94,7 @@ class Polaczenietrasy(models.Model):
                                      db_column='PolaczenieID')  # Field name made lowercase.
     czypowrotne = models.BooleanField(db_column='CzyPowrotne')  # Field name made lowercase.
     kolejnosc = models.IntegerField(db_column='Kolejnosc')  # Field name made lowercase.
-    trasa = models.ForeignKey('Trasa', models.DO_NOTHING, db_column='Trasa', related_name='polaczeniatrasy')  # Field name made lowercase.
+    trasa = models.ForeignKey('Trasa', models.CASCADE, db_column='Trasa', related_name='polaczeniatrasy')  # Field name made lowercase.
 
     class Meta:
         db_table = 'PolaczenieTrasy'

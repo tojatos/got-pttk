@@ -69,3 +69,26 @@ nonexistent_points_test_segment = {
     ]
 }
 
+test_route = {
+    "datarozpoczecia": "2021-01-13",
+    "datazakonczenia": None,
+    "nazwa": "Testowa trasa 123",
+    "polaczeniatrasy": [
+        {
+            "polaczenieid": 4,
+            "czypowrotne": False,
+            "kolejnosc": 1
+        },
+        {
+            "polaczenieid": 3,
+            "czypowrotne": True,
+            "kolejnosc": 2
+        }
+    ]
+}
+test_route_empty = {
+    "datarozpoczecia": None,
+    "datazakonczenia": None,
+    "nazwa": "Testowa trasa 234",
+    "polaczeniatrasy": []
+}
