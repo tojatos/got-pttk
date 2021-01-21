@@ -94,7 +94,7 @@ class Polaczenietrasy(models.Model):
                                      db_column='PolaczenieID')  # Field name made lowercase.
     czypowrotne = models.BooleanField(db_column='CzyPowrotne')  # Field name made lowercase.
     kolejnosc = models.IntegerField(db_column='Kolejnosc')  # Field name made lowercase.
-    trasa = models.ForeignKey('Trasa', models.DO_NOTHING, db_column='Trasa', related_name='polaczeniatrasy')  # Field name made lowercase.
+    trasa = models.ForeignKey('Trasa', models.CASCADE, db_column='Trasa', related_name='polaczeniatrasy')  # Field name made lowercase.
 
     class Meta:
         db_table = 'PolaczenieTrasy'
@@ -121,7 +121,7 @@ class Punktpolaczenia(models.Model):
     kolejnosc = models.IntegerField(db_column='Kolejnosc')  # Field name made lowercase.
     punkttrasy = models.ForeignKey('Punkttrasy', models.DO_NOTHING,
                                    db_column='PunktTrasy')  # Field name made lowercase.
-    polaczenieid = models.ForeignKey(Polaczenie, models.DO_NOTHING, db_column='PolaczenieID',
+    polaczenieid = models.ForeignKey(Polaczenie, models.CASCADE, db_column='PolaczenieID',
                                      related_name='punktypolaczenia')  # Field name made lowercase.
 
     class Meta:

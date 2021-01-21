@@ -1,12 +1,15 @@
 # Create your views here.
-from rest_framework import permissions, viewsets
-from rest_framework.permissions import IsAuthenticated
+from rest_framework import permissions, generics
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from typing import List
 
-from core.models import *
 from core.serializers import *
+
+
+def get_jwt_user(request) -> Uzytkownik:
+    user_id = request.auth.payload['user_id']
+    return Uzytkownik.objects.get(user_id=user_id)
 
 
 class HelloView(APIView):
@@ -19,73 +22,85 @@ class HelloView(APIView):
 
 class IsPrzodownik(permissions.BasePermission):
     def has_permission(self, request, view):
-        user_id = request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        return user.rola.nazwa == 'PRZODOWNIK'
+        return get_jwt_user(request).rola.nazwa == 'PRZODOWNIK'
 
 
-class PrzewodnikView(APIView):
-    permission_classes = (IsAuthenticated, IsPrzodownik)
+class IsSegmentOwner(permissions.BasePermission):
+    def has_permission(self, request, view):
+        segment_id = request.parser_context['kwargs']['pk']
+        segment: Polaczenie = Polaczenie.objects.get(id=segment_id)
+        return segment.tworca == get_jwt_user(request)
 
-    def get(self, request):
-        user_id = request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        content = {'nr_legitymacji': user.numerlegitymacji}
-        return Response(content)
+
+class IsRouteOwner(permissions.BasePermission):
+    def has_permission(self, request, view):
+        pk = request.parser_context['kwargs']['pk']
+        route: Trasa = Trasa.objects.get(id=pk)
+        return route.turysta == get_jwt_user(request)
 
 
 class RoleView(APIView):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        user_id = request.auth.payload['user_id']
-        user: Uzytkownik = Uzytkownik.objects.get(user_id=user_id)
-        return Response(user.rola.nazwa)
+        return Response(get_jwt_user(request).rola.nazwa)
 
 
-class SegmentsView(APIView):
-    """
-    List all system segments
-    """
+class SegmentsList(generics.ListCreateAPIView):
+    queryset = Polaczenie.objects.filter(tworca=None)
+    serializer_class = SegmentSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
 
-    def get(self, request):
-        segments = Polaczenie.objects.filter(tworca=None)
-        serializer = SegmentSerializer(segments, many=True)
-        return Response(serializer.data)
+    def perform_create(self, serializer):
+        serializer.save(tworca=get_jwt_user(self.request))
 
 
-class UserSegmentsView(APIView):
-    permission_classes = (IsAuthenticated,)
+class SegmentsDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Polaczenie.objects.all()
+    serializer_class = SegmentSerializer
+    permission_classes = [IsAuthenticated, IsSegmentOwner]
+
+    def perform_update(self, serializer):
+        serializer.save(tworca=get_jwt_user(self.request))
+
+
+class UserSegmentsList(generics.ListAPIView):
     """
     List all user segments
     """
+    serializer_class = SegmentSerializer
+    permission_classes = [IsAuthenticated]
 
-    def get(self, request):
-        user_id = request.auth.payload['user_id']
-        segments = Polaczenie.objects.filter(tworca=user_id)
-        serializer = SegmentSerializer(segments, many=True)
-        return Response(serializer.data)
+    def get_queryset(self):
+        return Polaczenie.objects.filter(tworca=get_jwt_user(self.request))
 
 
-class RouteView(APIView):
-    permission_classes = (IsAuthenticated,)
+class RouteList(generics.ListCreateAPIView):
     """
     List user routes
     """
+    permission_classes = [IsAuthenticated]
+    serializer_class = RouteSerializer
 
-    def get(self, request):
-        user_id = request.auth.payload['user_id']
-        routes = Trasa.objects.filter(turysta=user_id)
-        serializer = RouteSerializer(routes, many=True)
-        return Response(serializer.data)
+    def get_queryset(self):
+        return Trasa.objects.filter(turysta=get_jwt_user(self.request))
+
+    def perform_create(self, serializer):
+        serializer.save(turysta=get_jwt_user(self.request))
 
 
-class PointView(APIView):
+class RouteDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Trasa.objects.all()
+    serializer_class = RouteSerializer
+    permission_classes = [IsAuthenticated, IsRouteOwner]
+
+    def perform_update(self, serializer):
+        serializer.save(turysta=get_jwt_user(self.request))
+
+
+class PointList(generics.ListAPIView):
     """
     List system points
     """
-
-    def get(self, request):
-        points = Punkttrasy.objects.filter(tworca=None)
-        serializer = RoutePointSerializer(points, many=True)
-        return Response(serializer.data)
+    queryset = Punkttrasy.objects.filter(tworca=None)
+    serializer_class = RoutePointSerializer

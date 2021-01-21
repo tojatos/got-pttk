@@ -6,8 +6,6 @@ import CustomButton from "../components/CustomButton";
 import CustomList from "../components/CustomList";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../app/store";
-import { useEffect } from "react";
-import { initSegments } from "../app/segmentsSlice";
 import SegmentItem from "../components/ManageSegments/SegmentItem";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
 
@@ -32,18 +30,10 @@ const useStyles = makeStyles((theme) => ({
 export default function ManageSegments() {
   const classes = useStyles();
   const [toDeleteId, setToDeleteId] = useState<number | undefined>();
-  //TODO: Replace with segments of current user
   const dispatch = useDispatch();
-  const segmentsData = useSelector((state: RootState) => state.segmentsData);
-
-  useEffect(() => {
-    if (!segmentsData.segmentsInitialized) {
-      dispatch(initSegments());
-    } else {
-      console.log(segmentsData.segments);
-    }
-  }, [dispatch, segmentsData.segments, segmentsData.segmentsInitialized]);
-
+  const segmentsData = useSelector(
+    (state: RootState) => state.userSegmentsData
+  );
   const handleCloseDialog = () => {
     console.log("Anulowano");
     setToDeleteId(undefined);
