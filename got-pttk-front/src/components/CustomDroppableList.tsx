@@ -30,12 +30,14 @@ interface CustomDroppableListProps {
   list: Array<Segment>;
   droppableId: string;
   type?: "source" | "destination" | "single";
+  onDelete?: (id: number) => void;
 }
 
 export default function CustomDroppableList({
   list,
   droppableId,
   type,
+  onDelete,
 }: CustomDroppableListProps) {
   const classes = useStyles();
 
@@ -61,9 +63,16 @@ export default function CustomDroppableList({
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
                     >
-                      <DraggableSegment segment={element} />
+                      {type === "source" || !onDelete ? (
+                        <DraggableSegment segment={element} />
+                      ) : (
+                        <DraggableSegment
+                          segment={element}
+                          onDelete={() => onDelete(index)}
+                        />
+                      )}
                     </div>
-                    {snapshot.isDragging && (
+                    {snapshot.isDragging && type === "source" && (
                       <div className={classes.clone}>
                         <DraggableSegment segment={element} />
                       </div>

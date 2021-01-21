@@ -1,8 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Grid } from "@material-ui/core";
+import { Typography, Grid, IconButton, Box } from "@material-ui/core";
 import { Segment } from "../../constant/Segment";
 import { SegmentPoint } from "../../constant/SegmentPoint";
+import CloseIcon from "@material-ui/icons/Close";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -11,13 +12,17 @@ const useStyles = makeStyles((theme) => ({
     border: `1px solid ${theme.palette.primary.main}`,
     margin: theme.spacing(1.2, 0),
   },
-  grid: {
+  gridContainer: {
+    margin: theme.spacing(1.2),
+  },
+  spacing: {
     margin: "auto",
   },
 }));
 
 interface SegmentItemProps {
   segment: Segment;
+  onDelete?: () => void;
 }
 
 const pointsToString = (points: Array<SegmentPoint>) =>
@@ -25,32 +30,41 @@ const pointsToString = (points: Array<SegmentPoint>) =>
   " - " +
   points.find((p) => p.kolejnosc === points.length)?.punkttrasy.nazwa;
 
-export default function DraggableSegment({ segment }: SegmentItemProps) {
+export default function DraggableSegment({
+  segment,
+  onDelete,
+}: SegmentItemProps) {
   const classes = useStyles();
 
   return (
-    <Grid
-      container
-      spacing={2}
-      justify="space-between"
-      className={classes.root}
-    >
-      <Grid item xs={12} md={6}>
-        <Typography variant="body1" color="textPrimary">
-          {segment.nazwa}
-        </Typography>
-        <Typography variant="body2" color="textSecondary">
-          {pointsToString(segment.punktypolaczenia)}
-        </Typography>
+    <Box display="flex" justifyContent="space-between" className={classes.root}>
+      <Grid container justify="space-between" className={classes.gridContainer}>
+        <Grid item xs={12} md={7}>
+          <Typography variant="body1" color="textPrimary">
+            {segment.nazwa}
+          </Typography>
+          <Typography variant="body2" color="textSecondary">
+            {pointsToString(segment.punktypolaczenia)}
+          </Typography>
+        </Grid>
+        <Grid item xs={3} className={classes.spacing}>
+          <Typography>{segment.grupagorska}</Typography>
+        </Grid>
+        <Grid item className={classes.spacing} xs={2}>
+          <Typography>
+            {segment.punktyz + "/" + segment.punktydo + "pkt."}
+          </Typography>
+        </Grid>
       </Grid>
-      <Grid item xs={6} md={2} className={classes.grid}>
-        <Typography>{segment.grupagorska}</Typography>
-      </Grid>
-      <Grid item className={classes.grid}>
-        <Typography>
-          {segment.punktyz + "/" + segment.punktydo + "pkt."}
-        </Typography>
-      </Grid>
-    </Grid>
+      {onDelete && (
+        <IconButton
+          aria-label="delete"
+          onClick={onDelete}
+          className={classes.spacing}
+        >
+          <CloseIcon fontSize="small" />
+        </IconButton>
+      )}
+    </Box>
   );
 }

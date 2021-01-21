@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
   warningIcon: {
     color: theme.palette.warning.main,
+    margin: theme.spacing(0, 1, 0, 0),
   },
 }));
 
@@ -100,6 +101,15 @@ export default function PlanRoute() {
     }
   };
 
+  const handleDeleteSegment = (id: number) => {
+    const routeClone = Array.from(lists.route);
+    routeClone.splice(id, 1);
+    setLists({
+      route: routeClone,
+      segments: lists.segments,
+    });
+  };
+
   const pointsForroute = 15;
 
   return (
@@ -112,11 +122,13 @@ export default function PlanRoute() {
               droppableId="route"
               list={lists.route}
               type="destination"
+              onDelete={handleDeleteSegment}
             />
             <Box
               display="flex"
               flexDirection="columns"
               justifyContent="space-between"
+              alignItems="center"
             >
               <Typography variant="caption">
                 <WarningIcon className={classes.warningIcon} fontSize="small" />

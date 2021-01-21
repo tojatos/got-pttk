@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
   inputRoot: {
     color: "inherit",
     width: "100%",
+
+    "& :hover": {
+      borderColor: theme.palette.common.white,
+    },
   },
   inputInput: {
     padding: theme.spacing(2, 1, 2, 1),
