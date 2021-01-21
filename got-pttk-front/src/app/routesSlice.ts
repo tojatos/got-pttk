@@ -39,4 +39,7 @@ export const initRoutes = (): AppThunk => async (dispatch, getState) => {
   }
 };
 
+export const clearRoutes = (): AppThunk => async (dispatch) =>
+  dispatch(setRoutes({ routes: null, routesInitialized: false }));
+
 export default routesSlice.reducer;

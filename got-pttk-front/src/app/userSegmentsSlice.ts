@@ -39,4 +39,7 @@ export const initUserSegments = (): AppThunk => async (dispatch, getState) => {
   }
 };
 
+export const clearUserSegments = (): AppThunk => async (dispatch) =>
+  dispatch(setUserSegments({ segments: null, segmentsInitialized: false }));
+
 export default userSegmentsSlice.reducer;

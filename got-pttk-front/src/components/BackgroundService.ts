@@ -3,8 +3,8 @@ import { RootState } from "../app/store";
 import { useEffect } from "react";
 import { initPoints } from "../app/pointsSlice";
 import { initSegments } from "../app/segmentsSlice";
-import { initUserSegments } from "../app/userSegmentsSlice";
-import { initRoutes } from "../app/routesSlice";
+import { clearUserSegments, initUserSegments } from "../app/userSegmentsSlice";
+import { clearRoutes, initRoutes } from "../app/routesSlice";
 
 export default function BackgroundService() {
   const dispatch = useDispatch();
@@ -21,6 +21,9 @@ export default function BackgroundService() {
     if (authData.login !== null) {
       if (!userSegmentsData.segmentsInitialized) dispatch(initUserSegments());
       if (!routesData.routesInitialized) dispatch(initRoutes());
+    } else {
+      if (userSegmentsData.segmentsInitialized) dispatch(clearUserSegments());
+      if (routesData.routesInitialized) dispatch(clearRoutes());
     }
   }, [
     authData.login,

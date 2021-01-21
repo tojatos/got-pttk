@@ -1,5 +1,5 @@
 export interface RouteSegment {
-  id: string;
+  id: number;
   polaczenieid: number;
   czypowrotne: boolean;
   kolejnosc: number;
