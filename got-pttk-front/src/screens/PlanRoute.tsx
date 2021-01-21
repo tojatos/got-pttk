@@ -1,12 +1,6 @@
 import { Box, Grid, makeStyles } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
-import {
-  DragDropContext,
-  Draggable,
-  DraggableLocation,
-  Droppable,
-  DropResult,
-} from "react-beautiful-dnd";
+import { DragDropContext, DropResult } from "react-beautiful-dnd";
 import { useDispatch, useSelector } from "react-redux";
 import { initSegments } from "../app/segmentsSlice";
 import { RootState } from "../app/store";
@@ -14,10 +8,10 @@ import CustomButton from "../components/CustomButton";
 import CustomSearch from "../components/CustomSearchBar";
 import CustomTextField from "../components/CustomTextField";
 import Layout from "../components/MainLayout/Layout";
-import DraggableSegment from "../components/PlanRoutes/DraggableSegment";
 import { Segment } from "../constant/Segment";
 import { Typography } from "@material-ui/core";
 import WarningIcon from "@material-ui/icons/Warning";
+import CustomDroppableList from "../components/CustomDroppableList";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -54,21 +48,6 @@ const reorder = (
   return result;
 };
 
-const moveSegment = (
-  source: Segment[],
-  destination: Segment[],
-  droppableSource: DraggableLocation,
-  droppableDestination: DraggableLocation
-) => {
-  const sourceClone = Array.from(source);
-  const destClone = Array.from(destination);
-  const [removed] = sourceClone.splice(droppableSource.index, 1);
-
-  destClone.splice(droppableDestination.index, 0, removed);
-
-  return { source: sourceClone, destination: destClone };
-};
-
 export default function PlanRoute() {
   const classes = useStyles();
   const authData = useSelector((state: RootState) => state.authData);
@@ -77,7 +56,7 @@ export default function PlanRoute() {
     segments: Segment[];
     route: Segment[];
   }>({
-    segments: segmentsData.segments?.slice(0, 20) || [],
+    segments: segmentsData.segments?.slice(0, 3) || [],
     route: [],
   });
   //TODO: Add segments of current user
@@ -90,9 +69,6 @@ export default function PlanRoute() {
       console.log(segmentsData.segments);
     }
   }, [dispatch, segmentsData.segments, segmentsData.segmentsInitialized]);
-
-  const getListById = (id: string) =>
-    id === "segments" ? lists.segments : lists.route;
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) {
@@ -110,18 +86,17 @@ export default function PlanRoute() {
 
       setLists({ route: route, segments: lists.segments });
     } else {
-      const listAfterDrag = moveSegment(
-        getListById(result.source.droppableId),
-        getListById(result.destination.droppableId),
-        result.source,
-        result.destination
-      );
+      if (result.source.droppableId === "routes") return;
 
-      setLists(
-        result.source.droppableId === "segments"
-          ? { route: listAfterDrag.destination, segments: listAfterDrag.source }
-          : { route: listAfterDrag.source, segments: listAfterDrag.destination }
-      );
+      const sourceClone = Array.from(lists.segments);
+      const destClone = Array.from(lists.route);
+      const [removed] = sourceClone.splice(result.source.index, 1);
+
+      destClone.splice(result.destination.index, 0, removed);
+      setLists({
+        route: destClone,
+        segments: lists.segments,
+      });
     }
   };
 
@@ -133,36 +108,11 @@ export default function PlanRoute() {
         <Grid container justify="space-between" spacing={3}>
           <Grid item xs={6}>
             <CustomTextField label="Nazwa trasy" name="routeName" fullWidth />
-            <div className={classes.listBox}>
-              <Droppable droppableId="route">
-                {(provided) => (
-                  <div
-                    ref={provided.innerRef}
-                    {...provided.droppableProps}
-                    className={classes.draggeble}
-                  >
-                    {lists.route?.map((segment: Segment, index: number) => (
-                      <Draggable
-                        draggableId={segment.id.toString()}
-                        index={index}
-                        key={segment.id}
-                      >
-                        {(provided) => (
-                          <div
-                            ref={provided.innerRef}
-                            {...provided.draggableProps}
-                            {...provided.dragHandleProps}
-                          >
-                            <DraggableSegment segment={segment} />
-                          </div>
-                        )}
-                      </Draggable>
-                    ))}
-                    {provided.placeholder}
-                  </div>
-                )}
-              </Droppable>
-            </div>
+            <CustomDroppableList
+              droppableId="route"
+              list={lists.route}
+              type="destination"
+            />
             <Box
               display="flex"
               flexDirection="columns"
@@ -173,43 +123,23 @@ export default function PlanRoute() {
                 Nieprawidłowe połączenie w trasie
               </Typography>
               <Typography>{pointsForroute} pkt.</Typography>
-              <CustomButton variant="contained" color="action" size="large">
+              <CustomButton
+                variant="contained"
+                color="action"
+                size="large"
+                disabled={!authData.login}
+              >
                 Zapisz
               </CustomButton>
             </Box>
           </Grid>
           <Grid item xs={6}>
             <CustomSearch className={classes.searchbar} />
-            <div className={classes.listBox}>
-              <Droppable droppableId="segments">
-                {(provided) => (
-                  <div
-                    ref={provided.innerRef}
-                    {...provided.droppableProps}
-                    className={classes.draggeble}
-                  >
-                    {lists.segments?.map((segment: Segment, index: number) => (
-                      <Draggable
-                        draggableId={segment.id.toString()}
-                        index={index}
-                        key={segment.id}
-                      >
-                        {(provided) => (
-                          <div
-                            ref={provided.innerRef}
-                            {...provided.draggableProps}
-                            {...provided.dragHandleProps}
-                          >
-                            <DraggableSegment segment={segment} />
-                          </div>
-                        )}
-                      </Draggable>
-                    ))}
-                    {provided.placeholder}
-                  </div>
-                )}
-              </Droppable>
-            </div>
+            <CustomDroppableList
+              droppableId="segments"
+              list={lists.segments}
+              type="source"
+            />
           </Grid>
         </Grid>
       </DragDropContext>
