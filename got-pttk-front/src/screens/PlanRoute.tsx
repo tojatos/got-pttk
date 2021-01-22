@@ -1,8 +1,7 @@
 import { Box, Grid, makeStyles } from "@material-ui/core";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { DragDropContext, DropResult } from "react-beautiful-dnd";
 import { useDispatch, useSelector } from "react-redux";
-import { initSegments } from "../app/segmentsSlice";
 import { RootState } from "../app/store";
 import CustomButton from "../components/CustomButton";
 import CustomSearch from "../components/CustomSearchBar";
@@ -12,8 +11,14 @@ import { Segment } from "../constant/Segment";
 import { Typography } from "@material-ui/core";
 import WarningIcon from "@material-ui/icons/Warning";
 import CustomDroppableList from "../components/PlanRoutes/CustomDroppableList";
-import { RouteSegmentData } from "../constant/RouteSegment";
+import { dataToRouteSegment, RouteSegmentData } from "../constant/RouteSegment";
 import { calculatePointsFromData, checkRouteConsistency } from "../lib/utils";
+import axios from "axios";
+import { ROUTE_URL } from "../constant/Api";
+import { Route } from "../constant/Route";
+import { invalidateRoutes } from "../app/routesSlice";
+import CustomInfoDialog from "../components/CustomInfoDialog";
+import CustomConfirmDialog from "../components/CustomConfirmDialog";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -58,22 +63,19 @@ export default function PlanRoute() {
   const classes = useStyles();
   const authData = useSelector((state: RootState) => state.authData);
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
-  const [lists, setLists] = useState<{
-    segments: Segment[];
-    route: RouteSegmentData[];
-  }>({
-    segments: segmentsData.segments || [],
-    route: [],
-  });
+  const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
+    segmentsData.segments || []
+  );
+  const [routeSegments, setRouteSegments] = useState<RouteSegmentData[]>([]);
+  const [routeName, setRouteName] = useState<string>("");
+  const [openSavedModal, setOpenSavedModal] = useState<boolean>(false);
+  const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
+  const [openInconsistencyModal, setOpenInconsistencyModal] = useState<boolean>(
+    false
+  );
 
   //TODO: Add segments of current user
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (!segmentsData.segmentsInitialized) {
-      dispatch(initSegments());
-    }
-  }, [dispatch, segmentsData.segmentsInitialized]);
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) {
@@ -84,17 +86,17 @@ export default function PlanRoute() {
       if (result.source.droppableId === "segments") return;
 
       const route = reorder(
-        lists.route,
+        routeSegments,
         result.source.index,
         result.destination.index
       );
 
-      setLists({ route: route, segments: lists.segments });
+      setRouteSegments(route);
     } else {
       if (result.source.droppableId === "routes") return;
 
-      const sourceClone = Array.from(lists.segments);
-      const destClone = Array.from(lists.route);
+      const sourceClone = Array.from(filteredSegments);
+      const destClone = Array.from(routeSegments);
       const [removed] = sourceClone.splice(result.source.index, 1);
 
       destClone.splice(result.destination.index, 0, {
@@ -102,40 +104,92 @@ export default function PlanRoute() {
         czypowrotne: false,
         kolejnosc: result.destination.index,
       });
-      setLists({
-        route: destClone,
-        segments: lists.segments,
-      });
+      setRouteSegments(destClone);
     }
   };
 
   const handleDeleteSegment = (id: number) => {
-    const routeClone = Array.from(lists.route);
+    const routeClone = Array.from(routeSegments);
     routeClone.splice(id, 1);
-    setLists({
-      route: routeClone,
-      segments: lists.segments,
-    });
+    setRouteSegments(routeClone);
   };
 
   const handleCheckAsWayBack = (id: number) => {
-    const routeClone = Array.from(lists.route);
+    const routeClone = Array.from(routeSegments);
     routeClone[id].czypowrotne = !routeClone[id].czypowrotne;
-    setLists({
-      route: routeClone,
-      segments: lists.segments,
-    });
+    setRouteSegments(routeClone);
+  };
+
+  const saveRouteButtonClick = () => {
+    if (!checkRouteConsistency(routeSegments)) {
+      setOpenInconsistencyModal(true);
+    } else {
+      saveRoute();
+    }
+  };
+
+  const saveRoute = async () => {
+    const s = routeSegments.map(dataToRouteSegment);
+    const route = {
+      id: 0,
+      nazwa: routeName,
+      datarozpoczecia: null,
+      datazakonczenia: null,
+      polaczeniatrasy: s,
+    } as Route;
+    console.log(route);
+    try {
+      const result = await axios.post(ROUTE_URL, route, {
+        headers: {
+          Authorization: "Bearer " + authData.token,
+        },
+      });
+      if (result.status === 201) {
+        dispatch(invalidateRoutes());
+        setOpenSavedModal(true);
+      }
+    } catch (error) {
+      console.warn(error);
+      setOpenErrorModal(true);
+    }
   };
 
   return (
     <Layout>
+      <CustomInfoDialog
+        open={openSavedModal}
+        onCancel={() => setOpenSavedModal(false)}
+        content={"Pomyślnie zapisano trasę."}
+      />
+      <CustomInfoDialog
+        open={openErrorModal}
+        onCancel={() => setOpenErrorModal(false)}
+        content={"Nastąpił błąd przy zapisywaniu."}
+      />
+      <CustomConfirmDialog
+        open={openInconsistencyModal}
+        onCancel={() => setOpenInconsistencyModal(false)}
+        onConfirm={() => {
+          setOpenInconsistencyModal(false);
+          saveRoute();
+        }}
+        content={
+          "Trasa zawiera niespójne połączenia. Czy mimo to zapisać trasę?"
+        }
+      />
       <DragDropContext onDragEnd={onDragEnd}>
         <Grid container justify="space-between" spacing={3}>
           <Grid item xs={6}>
-            <CustomTextField label="Nazwa trasy" name="routeName" fullWidth />
+            <CustomTextField
+              label="Nazwa trasy"
+              name="routeName"
+              value={routeName}
+              onChange={(e) => setRouteName(e.target.value)}
+              fullWidth
+            />
             <CustomDroppableList
               droppableId="route"
-              list={lists.route}
+              list={routeSegments}
               type="destination"
               onDelete={handleDeleteSegment}
               onCheck={handleCheckAsWayBack}
@@ -149,21 +203,21 @@ export default function PlanRoute() {
               <Typography
                 variant="caption"
                 className={
-                  checkRouteConsistency(lists.route) ? classes.hide : ""
+                  checkRouteConsistency(routeSegments) ? classes.hide : ""
                 }
               >
                 <WarningIcon className={classes.warningIcon} fontSize="small" />
                 Nieprawidłowe połączenie w trasie
               </Typography>
               <Typography>
-                {calculatePointsFromData(lists.route)} pkt.
+                {calculatePointsFromData(routeSegments)} pkt.
               </Typography>
               <CustomButton
                 variant="contained"
                 color="action"
                 size="large"
                 disabled={!authData.login}
-                onClick={() => console.log(lists.route)}
+                onClick={saveRouteButtonClick}
               >
                 Zapisz
               </CustomButton>
@@ -173,7 +227,7 @@ export default function PlanRoute() {
             <CustomSearch className={classes.searchbar} />
             <CustomDroppableList
               droppableId="segments"
-              list={lists.segments}
+              list={filteredSegments}
               type="source"
             />
           </Grid>

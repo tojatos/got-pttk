@@ -18,10 +18,13 @@ export const routesSlice = createSlice({
       state.routes = action.payload.routes;
       state.routesInitialized = action.payload.routesInitialized;
     },
+    invalidateRoutes: (state) => {
+      state.routesInitialized = false;
+    },
   },
 });
 
-export const { setRoutes } = routesSlice.actions;
+export const { setRoutes, invalidateRoutes } = routesSlice.actions;
 
 export const initRoutes = (): AppThunk => async (dispatch, getState) => {
   try {
