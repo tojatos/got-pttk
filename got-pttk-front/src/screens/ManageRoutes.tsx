@@ -8,6 +8,10 @@ import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../app/store";
 import RouteItem from "../components/ManageRoutes/RouteItem";
+import axios from "axios";
+import { ROUTE_URL_ID } from "../constant/Api";
+import { invalidateRoutes } from "../app/routesSlice";
+import CustomInfoDialog from "../components/CustomInfoDialog";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -32,18 +36,46 @@ export default function ManageRoutes() {
   const [toDeleteId, setToDeleteId] = useState<number | undefined>();
   const dispatch = useDispatch();
   const routesData = useSelector((state: RootState) => state.routesData);
+  const authData = useSelector((state: RootState) => state.authData);
+  const [openDeletedModal, setOpenDeletedModal] = useState<boolean>(false);
+  const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
 
   const handleCloseDialog = () => {
     console.log("Anulowano");
     setToDeleteId(undefined);
   };
 
-  const handleConfirmDialog = () => {
-    console.log("Usunieto połączenie: " + toDeleteId);
+  const handleConfirmDialog = async () => {
+    try {
+      const result = await axios.delete(ROUTE_URL_ID(toDeleteId!), {
+        headers: {
+          Authorization: "Bearer " + authData.token,
+        },
+      });
+      if (result.status === 204) {
+        dispatch(invalidateRoutes());
+        setOpenDeletedModal(true);
+      }
+    } catch (error) {
+      console.warn(error);
+      setOpenErrorModal(true);
+    }
     setToDeleteId(undefined);
   };
   return (
     <Layout>
+      <CustomInfoDialog
+        open={openDeletedModal}
+        onCancel={() => {
+          setOpenDeletedModal(false);
+        }}
+        content={"Pomyślnie usunięto trasę."}
+      />
+      <CustomInfoDialog
+        open={openErrorModal}
+        onCancel={() => setOpenErrorModal(false)}
+        content={"Nastąpił błąd przy usuwaniu trasy."}
+      />
       <Container className={classes.cointainer}>
         <Grid
           container

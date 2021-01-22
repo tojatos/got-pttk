@@ -146,7 +146,6 @@ export default function PlanRoute() {
       datazakonczenia: null,
       polaczeniatrasy: s,
     } as Route;
-    console.log(route);
     try {
       const result = await axios.post(ROUTE_URL, route, {
         headers: {

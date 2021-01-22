@@ -6,3 +6,4 @@ export const POINTS_URL = `${API_URL}/points/`;
 export const SEGMENTS_URL = `${API_URL}/segments/`;
 export const USER_SEGMENTS_URL = `${API_URL}/user_segments/`;
 export const ROUTE_URL = `${API_URL}/route/`;
+export const ROUTE_URL_ID = (id: number) => `${API_URL}/route/${id}/`;
