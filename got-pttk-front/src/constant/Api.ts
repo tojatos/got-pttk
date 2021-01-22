@@ -3,6 +3,7 @@ export const API_URL =
 export const TOKEN_URL = `${API_URL}/token/`;
 export const ROLE_URL = `${API_URL}/role/`;
 export const POINTS_URL = `${API_URL}/points/`;
+export const MOUNTAIN_GROUPS_URL = `${API_URL}/mountain_groups/`;
 export const SEGMENTS_URL = `${API_URL}/segments/`;
 export const USER_SEGMENTS_URL = `${API_URL}/user_segments/`;
 export const ROUTE_URL = `${API_URL}/route/`;

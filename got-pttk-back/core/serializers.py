@@ -3,6 +3,12 @@ from rest_framework import serializers
 from core.models import *
 
 
+class MountainGroupSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Grupagorska
+        fields = ['nazwa']
+
+
 class RoutePointSerializer(serializers.ModelSerializer):
     class Meta:
         model = Punkttrasy

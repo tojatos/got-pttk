@@ -20,6 +20,7 @@ import pointsReducer from "./pointsSlice";
 import segmentsReducer from "./segmentsSlice";
 import userSegmentsReducer from "./userSegmentsSlice";
 import routesReducer from "./routesSlice";
+import mountainGroupReducer from "./mountainGroupSlice";
 
 const persistConfig = {
   key: "root",
@@ -33,6 +34,7 @@ const persistedRootReducer = persistCombineReducers(persistConfig, {
   segmentsData: segmentsReducer,
   userSegmentsData: userSegmentsReducer,
   routesData: routesReducer,
+  mountainGroupsData: mountainGroupReducer,
 });
 
 export const store = configureStore({

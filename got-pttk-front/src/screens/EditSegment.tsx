@@ -58,6 +58,9 @@ export default function EditSegment() {
   const segmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
+  const mountainGroupsData = useSelector(
+    (state: RootState) => state.mountainGroupsData
+  );
 
   const pointsData = useSelector((state: RootState) => state.pointsData);
 
@@ -156,7 +159,7 @@ export default function EditSegment() {
               label="Grupa górska"
               defaultValue={userSegment.grupagorska}
               name="grupagorska"
-              options={["Bieszczady", "Tatry wysokie", "Tatry zachodnie"]}
+              options={mountainGroupsData.groups}
               inputRef={registerSegment({ required: true })}
               helperText={errorsSegment.grupagorska && "Podaj grupę górską"}
               error={!!errorsSegment.grupagorska}

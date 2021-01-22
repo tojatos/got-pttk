@@ -104,3 +104,11 @@ class PointList(generics.ListAPIView):
     """
     queryset = Punkttrasy.objects.filter(tworca=None)
     serializer_class = RoutePointSerializer
+
+
+class MountainGroupList(generics.ListAPIView):
+    """
+    List mountain groups
+    """
+    queryset = Grupagorska.objects.all()
+    serializer_class = MountainGroupSerializer
