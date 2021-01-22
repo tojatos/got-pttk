@@ -8,6 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../app/store";
 import SegmentItem from "../components/ManageSegments/SegmentItem";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
+import { Link } from "react-router-dom";
+import { Routes } from "../constant/Routes";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -58,9 +60,11 @@ export default function ManageSegments() {
             <CustomSearchBar />
           </Grid>
           <Grid item xs={2} className={classes.center}>
-            <CustomButton variant="contained" color="action" size="large">
-              Dodaj
-            </CustomButton>
+            <Link to={Routes.ADD_SEGMENT}>
+              <CustomButton variant="contained" color="action" size="large">
+                Dodaj
+              </CustomButton>
+            </Link>
           </Grid>
           <Grid item xs={12} className={classes.listBox}>
             {segmentsData.segments && segmentsData.segments.length > 0 ? (

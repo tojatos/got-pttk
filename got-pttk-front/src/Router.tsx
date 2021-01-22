@@ -39,6 +39,11 @@ const routes = [
     component: EditSegment,
     exact: false,
   },
+  {
+    path: Routes.ADD_SEGMENT,
+    component: EditSegment,
+    exact: false,
+  },
 ];
 
 export default function Router() {
