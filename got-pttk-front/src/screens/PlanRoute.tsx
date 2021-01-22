@@ -19,6 +19,8 @@ import { Route } from "../constant/Route";
 import { invalidateRoutes } from "../app/routesSlice";
 import CustomInfoDialog from "../components/CustomInfoDialog";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
+import { Routes } from "../constant/Routes";
+import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -61,6 +63,7 @@ const reorder = (
 
 export default function PlanRoute() {
   const classes = useStyles();
+  let history = useHistory();
   const authData = useSelector((state: RootState) => state.authData);
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
   const userSegmentsData = useSelector(
@@ -164,7 +167,10 @@ export default function PlanRoute() {
     <Layout>
       <CustomInfoDialog
         open={openSavedModal}
-        onCancel={() => setOpenSavedModal(false)}
+        onCancel={() => {
+          setOpenSavedModal(false);
+          history.push(Routes.MANAGE_ROUTES);
+        }}
         content={"Pomyślnie zapisano trasę."}
       />
       <CustomInfoDialog
