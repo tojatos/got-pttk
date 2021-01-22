@@ -11,7 +11,9 @@ import Layout from "../components/MainLayout/Layout";
 import { Segment } from "../constant/Segment";
 import { Typography } from "@material-ui/core";
 import WarningIcon from "@material-ui/icons/Warning";
-import CustomDroppableList from "../components/CustomDroppableList";
+import CustomDroppableList from "../components/PlanRoutes/CustomDroppableList";
+import { RouteSegmentData } from "../constant/RouteSegment";
+import { calculatePointsFromData, checkRouteConsistency } from "../lib/utils";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -35,10 +37,13 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.warning.main,
     margin: theme.spacing(0, 1, 0, 0),
   },
+  hide: {
+    visibility: "hidden",
+  },
 }));
 
 const reorder = (
-  list: Iterable<Segment> | ArrayLike<Segment>,
+  list: Iterable<RouteSegmentData>,
   startIndex: number,
   endIndex: number
 ) => {
@@ -55,21 +60,20 @@ export default function PlanRoute() {
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
   const [lists, setLists] = useState<{
     segments: Segment[];
-    route: Segment[];
+    route: RouteSegmentData[];
   }>({
-    segments: segmentsData.segments?.slice(0, 3) || [],
+    segments: segmentsData.segments || [],
     route: [],
   });
+
   //TODO: Add segments of current user
   const dispatch = useDispatch();
 
   useEffect(() => {
     if (!segmentsData.segmentsInitialized) {
       dispatch(initSegments());
-    } else {
-      console.log(segmentsData.segments);
     }
-  }, [dispatch, segmentsData.segments, segmentsData.segmentsInitialized]);
+  }, [dispatch, segmentsData.segmentsInitialized]);
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) {
@@ -93,7 +97,12 @@ export default function PlanRoute() {
       const destClone = Array.from(lists.route);
       const [removed] = sourceClone.splice(result.source.index, 1);
 
-      destClone.splice(result.destination.index, 0, removed);
+      destClone.splice(result.destination.index, 0, {
+        polaczenie: removed,
+        czypowrotne: false,
+        kolejnosc: result.destination.index,
+      });
+      console.log(destClone);
       setLists({
         route: destClone,
         segments: lists.segments,
@@ -110,7 +119,14 @@ export default function PlanRoute() {
     });
   };
 
-  const pointsForroute = 15;
+  const handleCheckAsWayBack = (id: number) => {
+    const routeClone = Array.from(lists.route);
+    routeClone[id].czypowrotne = !routeClone[id].czypowrotne;
+    setLists({
+      route: routeClone,
+      segments: lists.segments,
+    });
+  };
 
   return (
     <Layout>
@@ -123,6 +139,7 @@ export default function PlanRoute() {
               list={lists.route}
               type="destination"
               onDelete={handleDeleteSegment}
+              onCheck={handleCheckAsWayBack}
             />
             <Box
               display="flex"
@@ -130,16 +147,24 @@ export default function PlanRoute() {
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="caption">
+              <Typography
+                variant="caption"
+                className={
+                  checkRouteConsistency(lists.route) ? classes.hide : ""
+                }
+              >
                 <WarningIcon className={classes.warningIcon} fontSize="small" />
                 Nieprawidłowe połączenie w trasie
               </Typography>
-              <Typography>{pointsForroute} pkt.</Typography>
+              <Typography>
+                {calculatePointsFromData(lists.route)} pkt.
+              </Typography>
               <CustomButton
                 variant="contained"
                 color="action"
                 size="large"
                 disabled={!authData.login}
+                onClick={() => console.log(lists.route)}
               >
                 Zapisz
               </CustomButton>

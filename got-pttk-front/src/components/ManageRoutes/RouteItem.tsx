@@ -7,6 +7,7 @@ import { Route } from "../../constant/Route";
 import { useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import { RouteSegment } from "../../constant/RouteSegment";
+import { calculatePoints } from "../../lib/utils";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,14 +41,6 @@ export default function RouteItem({ route, onEdit, onDelete }: RouteItemProps) {
     );
   };
 
-  const calculatePoints = (segments: Array<RouteSegment>) =>
-    segments
-      .map((s) => {
-        const segment = segmentsData.segments?.find((se) => se.id === s.id);
-        return s.czypowrotne ? segment?.punktyz || 0 : segment?.punktydo || 0;
-      })
-      .reduce((a, b) => a + b, 0);
-
   return (
     <ListItem classes={{ root: classes.root }}>
       <Grid item xs={12} md={10}>
@@ -60,7 +53,8 @@ export default function RouteItem({ route, onEdit, onDelete }: RouteItemProps) {
       </Grid>
       <Grid item className={classes.grid}>
         <Typography>
-          {calculatePoints(route.polaczeniatrasy) + "pkt."}
+          {calculatePoints(route.polaczeniatrasy, segmentsData.segments || []) +
+            "pkt."}
         </Typography>
       </Grid>
       <Grid item className={classes.grid}>

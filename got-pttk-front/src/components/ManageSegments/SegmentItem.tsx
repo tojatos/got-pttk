@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { ListItem, Typography, Grid, IconButton } from "@material-ui/core";
 import { Segment } from "../../constant/Segment";
-import { SegmentPoint } from "../../constant/SegmentPoint";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
+import { pointsToString } from "../../lib/converter";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,11 +23,6 @@ interface SegmentItemProps {
   onDelete: (id: number) => void;
   onEdit?: () => void;
 }
-
-const pointsToString = (points: Array<SegmentPoint>) =>
-  (points.find((p) => p.kolejnosc === 1)?.punkttrasy.nazwa || "") +
-  " - " +
-  points.find((p) => p.kolejnosc === points.length)?.punkttrasy.nazwa;
 
 export default function SegmentItem({
   segment,
