@@ -12,3 +12,10 @@ export interface RouteSegmentData {
   czypowrotne: boolean;
   kolejnosc: number;
 }
+
+export const dataToRouteSegment = (rsd: RouteSegmentData): RouteSegment => ({
+  id: 0,
+  polaczenieid: rsd.polaczenie.id,
+  czypowrotne: rsd.czypowrotne,
+  kolejnosc: rsd.kolejnosc,
+});

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { List, makeStyles, Divider, Box } from "@material-ui/core";
 import Pagination from "@material-ui/lab/Pagination";
 
@@ -17,7 +17,15 @@ export default function CustomList({ itemsJSX }: CustomListProps) {
   const classes = useStyles();
   const pageItems = 5;
   const [page, setPage] = useState(1);
-  const [pagesNum] = useState(Math.ceil(itemsJSX.length / pageItems));
+  const [pagesNum, setPagesNum] = useState(
+    Math.ceil(itemsJSX.length / pageItems)
+  );
+
+  // set correct page num if we delete last item on last page
+  useEffect(() => {
+    setPagesNum(Math.ceil(itemsJSX.length / pageItems));
+    if (page > pagesNum) setPage(pagesNum);
+  }, [itemsJSX.length, page, pagesNum]);
 
   const onChangePage = (e: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);
