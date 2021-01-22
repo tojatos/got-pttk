@@ -1,5 +1,3 @@
-import { initUserSegments } from "../app/userSegmentsSlice";
-import { RouteSegmentData } from "../constant/RouteSegment";
 import { SegmentPoint } from "../constant/SegmentPoint";
 
 export const pointsToString = (points: Array<SegmentPoint>) =>

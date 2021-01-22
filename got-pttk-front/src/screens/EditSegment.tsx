@@ -5,13 +5,16 @@ import React, { useState } from "react";
 import { DragDropContext, DropResult } from "react-beautiful-dnd";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import { RootState } from "../app/store";
 import CustomButton from "../components/CustomButton";
+import CustomConfirmDialog from "../components/CustomConfirmDialog";
+import CustomInfoDialog from "../components/CustomInfoDialog";
 import CustomSelect from "../components/CustomSelect";
 import CustomTextField from "../components/CustomTextField";
 import Layout from "../components/MainLayout/Layout";
 import DroppablePoints from "../components/ManageSegments/DroppablePoints";
+import { Routes } from "../constant/Routes";
 import { Segment, SegmentData } from "../constant/Segment";
 import { SegmentPoint } from "../constant/SegmentPoint";
 
@@ -50,6 +53,7 @@ const reorder = (
 
 export default function EditSegment() {
   let { id } = useParams<{ id: string }>();
+  let history = useHistory();
   const classes = useStyles();
   const segmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
@@ -72,6 +76,8 @@ export default function EditSegment() {
   } = useForm();
 
   const [newPoint, setNewPoint] = useState<string>();
+  const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
+  const [openSaveModal, setOpenSaveModal] = useState<boolean>(false);
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) {
@@ -104,49 +110,79 @@ export default function EditSegment() {
     setUserSegment({ ...userSegment, punktypolaczenia: segmentPoints });
   };
 
-  const onSave = (segment: Segment) => {
-    console.log(segment);
+  const onConfirm = (data: Segment) => {
+    setUserSegment({ ...userSegment, ...data });
+    setOpenSaveModal(true);
+  };
+
+  const onSave = () => {
+    //TODO: walidacja
+    if (userSegment.punktypolaczenia.length < 2) {
+      setOpenSaveModal(false);
+      setOpenErrorModal(true);
+      return;
+    } else {
+      console.log("zapisano punkt:", userSegment);
+      history.push(Routes.MANAGE_SEGMENTS);
+    }
   };
 
   return (
     <Layout>
+      <CustomInfoDialog
+        open={openErrorModal}
+        onCancel={() => setOpenErrorModal(false)}
+        content={"Nie poprawne dane"}
+      />
+      <CustomConfirmDialog
+        open={openSaveModal}
+        onCancel={() => history.push(Routes.HOME)}
+        onConfirm={() => onSave()}
+        content={"Czy chcesz zapisać?"}
+      />
       <Grid container justify="space-between" spacing={4} alignItems="center">
         <Grid item xs={6}>
-          <form onSubmit={handleSubmitSegment(onSave)}>
+          <form onSubmit={handleSubmitSegment(onConfirm)}>
             <CustomTextField
               label="Nazwa połączenia"
-              name="segmentName"
+              name="nazwa"
               defaultValue={userSegment.nazwa}
               fullWidth
               inputRef={registerSegment({ required: true })}
-              error={!!errorsSegment.segmentName}
+              helperText={errorsSegment.nazwa && "Podaj nazwę połączenia"}
+              error={!!errorsSegment.nazwa}
             />
             <CustomSelect
               label="Grupa górska"
               defaultValue={userSegment.grupagorska}
-              name="mountainGroup"
-              options={["Tatry wysokie", "Tatry zachodnie"]}
+              name="grupagorska"
+              options={["Bieszczady", "Tatry wysokie", "Tatry zachodnie"]}
               inputRef={registerSegment({ required: true })}
-              error={!!errorsSegment.mountainGroup}
+              helperText={errorsSegment.grupagorska && "Podaj grupę górską"}
+              error={!!errorsSegment.grupagorska}
             />
             <CustomTextField
               label="Punkty do"
-              name="segmentPointsTo"
+              name="punktydo"
               type="number"
               defaultValue={userSegment.punktydo}
               InputProps={{ inputProps: { min: 0 } }}
               inputRef={registerSegment({ required: true })}
-              error={!!errorsSegment.segmentPointsTo}
+              helperText={
+                errorsSegment.punktydo && "Podaj punkty za połączenie"
+              }
+              error={!!errorsSegment.punktydo}
               fullWidth
             />
             <CustomTextField
               label="Punkty z"
-              name="segmentPointsFrom"
+              name="punktyz"
               type="number"
               defaultValue={userSegment.punktyz}
               InputProps={{ inputProps: { min: 0 } }}
               inputRef={registerSegment({ required: true })}
-              error={!!errorsSegment.segmentPointsFrom}
+              helperText={errorsSegment.punktyz && "Podaj punkty za połączenie"}
+              error={!!errorsSegment.punktyz}
               fullWidth
             />
             <CustomButton
@@ -180,7 +216,7 @@ export default function EditSegment() {
                 clearOnBlur={false}
               />
             </Grid>
-            <Grid item xs={8} lg={2}>
+            <Grid item xs={4} lg={2}>
               <CustomButton
                 variant="contained"
                 color="action"

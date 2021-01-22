@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import InputLabel from "@material-ui/core/FormLabel";
 import { MenuItem, TextField } from "@material-ui/core";
+import { OutlinedTextFieldProps } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   textField: {
@@ -27,14 +28,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-interface CustomSelectProps {
-  label: string;
-  name: string;
-  defaultValue: string;
+interface CustomSelectProps extends Omit<OutlinedTextFieldProps, "variant"> {
   options: string[];
-  inputRef?: ((instance: any) => void) | React.RefObject<any>;
-  handleChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  error?: boolean;
 }
 
 export default function CustomSelect({
@@ -42,7 +37,6 @@ export default function CustomSelect({
   name,
   defaultValue,
   options,
-  handleChange,
   inputRef,
   ...props
 }: CustomSelectProps) {
@@ -56,7 +50,6 @@ export default function CustomSelect({
         name={name}
         defaultValue={defaultValue}
         variant="outlined"
-        onChange={handleChange}
         className={classes.textField}
         fullWidth
         {...props}
