@@ -30,6 +30,7 @@ interface DroppablePointsProps {
 export default function DroppablePoints({
   list,
   droppableId,
+  onDelete,
 }: DroppablePointsProps) {
   const classes = useStyles();
 
@@ -55,7 +56,10 @@ export default function DroppablePoints({
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
                     >
-                      <PointItem point={element.punkttrasy} />
+                      <PointItem
+                        point={element.punkttrasy}
+                        onDelete={() => onDelete(index)}
+                      />
                     </div>
                   </React.Fragment>
                 )}

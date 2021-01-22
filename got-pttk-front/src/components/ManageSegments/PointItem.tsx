@@ -12,13 +12,13 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
     margin: theme.spacing(1.2, 0),
   },
-  gridContainer: {
-    margin: theme.spacing(1.2),
+  buttonSpacing: {
+    margin: theme.spacing(0),
   },
-  spacing: {
+  nameSpacing: {
     margin: "auto",
+    marginLeft: theme.spacing(1),
   },
-  checkbox: {},
 }));
 
 interface PointItemProps {
@@ -31,14 +31,18 @@ export default function PointItem({ point, onDelete }: PointItemProps) {
 
   return (
     <Box display="flex" justifyContent="space-between" className={classes.root}>
-      <Typography variant="body1" color="textPrimary">
+      <Typography
+        variant="body1"
+        color="textPrimary"
+        className={classes.nameSpacing}
+      >
         {point.nazwa}
       </Typography>
       {onDelete && (
         <IconButton
           aria-label="delete"
           onClick={onDelete}
-          className={classes.spacing}
+          className={classes.buttonSpacing}
         >
           <CloseIcon fontSize="small" />
         </IconButton>
