@@ -1,5 +1,5 @@
 import { Box, makeStyles } from "@material-ui/core";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Draggable, Droppable } from "react-beautiful-dnd";
 import DraggableSegment from "./DraggableSegment";
 import { RouteSegmentData } from "../../constant/RouteSegment";
@@ -54,11 +54,17 @@ export default function CustomDroppableList({
 
   const pageItems = 5;
   const [page, setPage] = useState(1);
-  const [pagesNum] = useState(Math.ceil(list.length / pageItems));
+  const [pagesNum, setPageNum] = useState(Math.ceil(list.length / pageItems));
 
   const onChangePage = (e: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);
   };
+
+  useEffect(() => {
+    setPageNum(Math.ceil(list.length / pageItems));
+  }, [list]);
+
+  console.log(list.slice((page - 1) * pageItems, page * pageItems));
 
   return (
     <div className={classes.listBox}>
