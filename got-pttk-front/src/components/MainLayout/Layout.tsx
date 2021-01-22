@@ -5,7 +5,7 @@ import AppBar from "./AppBar";
 import SideBar from "./SideBar";
 
 interface LayoutProps {
-  children?: JSX.Element;
+  children?: React.ReactNode;
 }
 
 const useStyles = makeStyles((theme) => ({
