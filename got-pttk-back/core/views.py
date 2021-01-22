@@ -1,4 +1,6 @@
 # Create your views here.
+from typing import List
+
 from rest_framework import permissions, generics
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
@@ -112,3 +114,16 @@ class MountainGroupList(generics.ListAPIView):
     """
     queryset = Grupagorska.objects.all()
     serializer_class = MountainGroupSerializer
+
+
+class RoutesToVerifyList(generics.ListAPIView):
+    """
+    List all routes that can be verified
+    """
+    serializer_class = RouteSerializer
+    permission_classes = [IsAuthenticated, IsPrzodownik]
+
+    def get_queryset(self):
+        grupy_gorskie_przodownika: List[Grupagorskaprzodownika] = get_jwt_user(self.request).grupagorskaprzodownika_set.all()
+        grupy_gorskie = [g.grupagorska for g in grupy_gorskie_przodownika]
+        return Trasa.objects.filter(polaczeniatrasy__polaczenieid__grupagorska__in=grupy_gorskie, datarozpoczecia__isnull=False, datazakonczenia__isnull=False)
