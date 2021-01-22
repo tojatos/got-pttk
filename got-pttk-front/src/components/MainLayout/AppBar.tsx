@@ -21,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
     width: "3em",
   },
+  spacing: {
+    margin: "auto",
+  },
 }));
 
 interface MenuAppBarProps {
@@ -60,6 +63,7 @@ export default function MenuAppBar({ openNav }: MenuAppBarProps) {
               color="inherit"
               aria-label="menu"
               onClick={openNav}
+              className={classes.spacing}
             >
               <MenuIcon />
             </IconButton>

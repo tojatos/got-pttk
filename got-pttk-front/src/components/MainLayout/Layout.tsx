@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     display: "flex",
     justifyContent: "center",
-    padding: theme.spacing(3),
+    padding: `${theme.spacing(2)}px 10vw`,
   },
 }));
 

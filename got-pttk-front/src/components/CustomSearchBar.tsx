@@ -24,9 +24,13 @@ const useStyles = makeStyles((theme) => ({
   inputRoot: {
     color: "inherit",
     width: "100%",
+
+    "& :hover": {
+      borderColor: theme.palette.common.white,
+    },
   },
   inputInput: {
-    padding: theme.spacing(1, 1, 1, 1),
+    padding: theme.spacing(2, 1, 2, 1),
     paddingRight: `calc(1em + ${theme.spacing(4)}px)`,
     width: "100%",
     background: theme.palette.background.paper,
@@ -36,11 +40,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CustomSearch() {
+interface CustomSearchProps {
+  className?: string;
+}
+
+export default function CustomSearch(props: CustomSearchProps) {
   const classes = useStyles();
 
   return (
-    <div className={classes.search}>
+    <div className={props.className + " " + classes.search}>
       <InputBase
         classes={{
           root: classes.inputRoot,

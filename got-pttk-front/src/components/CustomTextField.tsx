@@ -5,7 +5,7 @@ import TextField, { OutlinedTextFieldProps } from "@material-ui/core/TextField";
 
 const useStyles = makeStyles((theme) => ({
   textField: {
-    padding: `${theme.spacing(1)}px 0 ${theme.spacing(2)}px 0`,
+    padding: `${theme.spacing(2)}px 0 ${theme.spacing(2)}px 0`,
     "& fieldset": {
       borderColor: theme.palette.primary.main,
       borderRadius: "17px",
@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     "& input": {
       background: theme.palette.background.paper,
       borderRadius: "17px",
+      padding: theme.spacing(2, 1, 2, 1),
     },
   },
   label: {
