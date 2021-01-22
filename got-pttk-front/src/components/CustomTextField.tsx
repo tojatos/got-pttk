@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 interface CustomTextFieldProps extends Omit<OutlinedTextFieldProps, "variant"> {
-  label: string;
+  label?: string;
 }
 
 export default function CustomTextField({

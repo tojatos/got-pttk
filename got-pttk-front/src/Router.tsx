@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Routes } from "./constant/Routes";
+import EditSegment from "./screens/EditSegment";
 import HomePage from "./screens/Home";
 import ManageRoutes from "./screens/ManageRoutes";
 import ManageSegments from "./screens/ManageSegments";
@@ -31,6 +32,11 @@ const routes = [
   {
     path: Routes.VERIFY_ROUTE,
     component: VerifyRoute,
+    exact: false,
+  },
+  {
+    path: Routes.EDIT_SEGMENT,
+    component: EditSegment,
     exact: false,
   },
 ];

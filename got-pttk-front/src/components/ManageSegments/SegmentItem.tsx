@@ -5,6 +5,7 @@ import { Segment } from "../../constant/Segment";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { pointsToString } from "../../lib/converter";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,14 +22,9 @@ const useStyles = makeStyles((theme) => ({
 interface SegmentItemProps {
   segment: Segment;
   onDelete: (id: number) => void;
-  onEdit?: () => void;
 }
 
-export default function SegmentItem({
-  segment,
-  onEdit,
-  onDelete,
-}: SegmentItemProps) {
+export default function SegmentItem({ segment, onDelete }: SegmentItemProps) {
   const classes = useStyles();
 
   return (
@@ -51,7 +47,11 @@ export default function SegmentItem({
           </Typography>
         </Grid>
         <Grid item className={classes.grid}>
-          <IconButton aria-label="edit" onClick={onEdit}>
+          <IconButton
+            aria-label="edit"
+            component={Link}
+            to={"/edit-segment/" + segment.id}
+          >
             <EditIcon fontSize="small" />
           </IconButton>
           <IconButton aria-label="delete" onClick={() => onDelete(segment.id)}>
