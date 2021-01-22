@@ -102,7 +102,6 @@ export default function PlanRoute() {
         czypowrotne: false,
         kolejnosc: result.destination.index,
       });
-      console.log(destClone);
       setLists({
         route: destClone,
         segments: lists.segments,

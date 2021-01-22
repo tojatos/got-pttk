@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   checkbox: {},
 }));
 
-interface SegmentItemProps {
+interface DraggableSegmentProps {
   segment: Segment;
   onDelete?: () => void;
   onCheck?: () => void;
@@ -41,7 +41,7 @@ export default function DraggableSegment({
   onDelete,
   onCheck,
   isWayBack,
-}: SegmentItemProps) {
+}: DraggableSegmentProps) {
   const classes = useStyles();
 
   return (

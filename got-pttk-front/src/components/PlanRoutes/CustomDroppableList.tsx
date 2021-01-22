@@ -38,7 +38,7 @@ type ElementDraggable = Segment | RouteSegmentData;
 interface CustomDroppableListProps {
   list: Array<ElementDraggable>;
   droppableId: string;
-  type?: "source" | "destination" | "single";
+  type?: "source" | "destination";
   onDelete?: (id: number) => void;
   onCheck?: (id: number) => void;
 }
@@ -63,8 +63,6 @@ export default function CustomDroppableList({
   useEffect(() => {
     setPageNum(Math.ceil(list.length / pageItems));
   }, [list]);
-
-  console.log(list.slice((page - 1) * pageItems, page * pageItems));
 
   return (
     <div className={classes.listBox}>
