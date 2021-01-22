@@ -1,9 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
 import { AppThunk } from "./store";
-import { MOUNTAIN_GROUPS_URL, POINTS_URL } from "../constant/Api";
-import { PointsState } from "../constant/PointsState";
-import { Point } from "../constant/Point";
+import { MOUNTAIN_GROUPS_URL } from "../constant/Api";
 import { MountainGroupState } from "../constant/MountainGroupState";
 
 const initialState: MountainGroupState = {

@@ -43,6 +43,7 @@ export default function DroppablePoints({
             {...provided.droppableProps}
             className={classes.draggeble}
           >
+            {provided.placeholder}
             {list.map((element: SegmentPoint, index: number) => (
               <Draggable
                 draggableId={droppableId + index.toString()}

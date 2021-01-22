@@ -73,6 +73,7 @@ export default function CustomDroppableList({
             {...provided.droppableProps}
             className={classes.draggeble}
           >
+            {provided.placeholder}
             {list
               .slice((page - 1) * pageItems, page * pageItems)
               .map((element: ElementDraggable, index: number) => (

@@ -126,7 +126,7 @@ export default function EditSegment() {
       return;
     } else {
       console.log("zapisano punkt:", userSegment);
-      history.push(Routes.MANAGE_SEGMENTS);
+      // history.push(Routes.MANAGE_SEGMENTS);
     }
   };
 
@@ -139,7 +139,7 @@ export default function EditSegment() {
       />
       <CustomConfirmDialog
         open={openSaveModal}
-        onCancel={() => history.push(Routes.HOME)}
+        onCancel={() => setOpenSaveModal(false)}
         onConfirm={() => onSave()}
         content={"Czy chcesz zapisać?"}
       />
