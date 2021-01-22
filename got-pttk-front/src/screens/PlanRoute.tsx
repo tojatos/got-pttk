@@ -63,8 +63,15 @@ export default function PlanRoute() {
   const classes = useStyles();
   const authData = useSelector((state: RootState) => state.authData);
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
+  const userSegmentsData = useSelector(
+    (state: RootState) => state.userSegmentsData
+  );
+  const allSegments = [
+    ...(segmentsData.segments || []),
+    ...(userSegmentsData.segments || []),
+  ];
   const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
-    segmentsData.segments || []
+    allSegments
   );
   const [routeSegments, setRouteSegments] = useState<RouteSegmentData[]>([]);
   const [routeName, setRouteName] = useState<string>("");
@@ -74,7 +81,6 @@ export default function PlanRoute() {
     false
   );
 
-  //TODO: Add segments of current user
   const dispatch = useDispatch();
 
   const onDragEnd = (result: DropResult) => {
