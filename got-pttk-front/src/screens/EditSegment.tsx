@@ -1,7 +1,9 @@
+import { makeStyles } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
 import { Autocomplete } from "@material-ui/lab";
 import React, { useState } from "react";
 import { DragDropContext, DropResult } from "react-beautiful-dnd";
+import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { RootState } from "../app/store";
@@ -12,6 +14,14 @@ import Layout from "../components/MainLayout/Layout";
 import DroppablePoints from "../components/ManageSegments/DroppablePoints";
 import { Segment, SegmentData } from "../constant/Segment";
 import { SegmentPoint } from "../constant/SegmentPoint";
+
+const useStyles = makeStyles((theme) => ({
+  autocomplete: {
+    borderColor: theme.palette.primary.main,
+    borderRadius: "17px",
+    background: theme.palette.background.paper,
+  },
+}));
 
 const startSegmentData = {
   nazwa: "",
@@ -40,6 +50,7 @@ const reorder = (
 
 export default function EditSegment() {
   let { id } = useParams<{ id: string }>();
+  const classes = useStyles();
   const segmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
@@ -53,6 +64,14 @@ export default function EditSegment() {
   const [userSegment, setUserSegment] = useState<SegmentData>(
     initSegment || startSegmentData
   );
+
+  const {
+    register: registerSegment,
+    handleSubmit: handleSubmitSegment,
+    errors: errorsSegment,
+  } = useForm();
+
+  const [newPoint, setNewPoint] = useState<string>();
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) {
@@ -73,82 +92,105 @@ export default function EditSegment() {
     setUserSegment({ ...userSegment, punktypolaczenia: pointsClone });
   };
 
-  const handleAddPoint = () => {};
+  const handleAddPoint = () => {
+    if (!newPoint) return;
+    const segmentPoints = Array.from(userSegment.punktypolaczenia);
+    segmentPoints.push({
+      kolejnosc: userSegment.punktypolaczenia.length,
+      punkttrasy: {
+        nazwa: newPoint,
+      },
+    });
+    setUserSegment({ ...userSegment, punktypolaczenia: segmentPoints });
+  };
+
+  const onSave = (segment: Segment) => {
+    console.log(segment);
+  };
 
   return (
     <Layout>
       <Grid container justify="space-between" spacing={4} alignItems="center">
         <Grid item xs={6}>
-          <form>
+          <form onSubmit={handleSubmitSegment(onSave)}>
             <CustomTextField
               label="Nazwa połączenia"
               name="segmentName"
+              defaultValue={userSegment.nazwa}
               fullWidth
+              inputRef={registerSegment({ required: true })}
+              error={!!errorsSegment.segmentName}
             />
             <CustomSelect
               label="Grupa górska"
-              value={userSegment.grupagorska}
-              handleChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                setUserSegment({ ...userSegment, grupagorska: e.target.value })
-              }
-              name="group"
+              defaultValue={userSegment.grupagorska}
+              name="mountainGroup"
               options={["Tatry wysokie", "Tatry zachodnie"]}
+              inputRef={registerSegment({ required: true })}
+              error={!!errorsSegment.mountainGroup}
             />
             <CustomTextField
               label="Punkty do"
-              name="segmentName"
+              name="segmentPointsTo"
               type="number"
+              defaultValue={userSegment.punktydo}
               InputProps={{ inputProps: { min: 0 } }}
+              inputRef={registerSegment({ required: true })}
+              error={!!errorsSegment.segmentPointsTo}
               fullWidth
             />
             <CustomTextField
               label="Punkty z"
-              name="segmentName"
+              name="segmentPointsFrom"
               type="number"
+              defaultValue={userSegment.punktyz}
               InputProps={{ inputProps: { min: 0 } }}
+              inputRef={registerSegment({ required: true })}
+              error={!!errorsSegment.segmentPointsFrom}
               fullWidth
             />
             <CustomButton
               variant="contained"
               color="action"
               size="large"
-              onClick={() => console.log("zapisz")}
+              type="submit"
             >
               Zakończ
             </CustomButton>
           </form>
         </Grid>
         <Grid item xs={6}>
-          <form onSubmit={handleAddPoint}>
-            <Grid
-              container
-              direction="row"
-              justify="space-between"
-              alignItems="center"
-              spacing={2}
-            >
-              <Grid item xs={10}>
-                <Autocomplete
-                  id="newPoint"
-                  options={pointsData.points || []}
-                  getOptionLabel={(option) => option.nazwa}
-                  renderInput={(params) => (
-                    <CustomTextField {...params} label="" />
-                  )}
-                />
-              </Grid>
-              <Grid item xs={2}>
-                <CustomButton
-                  variant="contained"
-                  color="action"
-                  size="large"
-                  type="submit"
-                >
-                  Dodaj
-                </CustomButton>
-              </Grid>
+          <Grid
+            container
+            direction="row"
+            justify="space-between"
+            alignItems="center"
+            spacing={2}
+          >
+            <Grid item xs={8} lg={10}>
+              <Autocomplete
+                id="newPoint"
+                options={pointsData.points?.map((p) => p.nazwa) || []}
+                onInputChange={(e, value) => setNewPoint(value || "")}
+                getOptionLabel={(option) => option}
+                renderInput={(params) => (
+                  <CustomTextField {...params} label="" />
+                )}
+                classes={{ inputRoot: classes.autocomplete }}
+                clearOnBlur={false}
+              />
             </Grid>
-          </form>
+            <Grid item xs={8} lg={2}>
+              <CustomButton
+                variant="contained"
+                color="action"
+                size="large"
+                onClick={handleAddPoint}
+              >
+                Dodaj
+              </CustomButton>
+            </Grid>
+          </Grid>
           <DragDropContext onDragEnd={onDragEnd}>
             <DroppablePoints
               droppableId="points"

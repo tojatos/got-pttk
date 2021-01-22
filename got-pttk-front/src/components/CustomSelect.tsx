@@ -30,17 +30,20 @@ const useStyles = makeStyles((theme) => ({
 interface CustomSelectProps {
   label: string;
   name: string;
-  value: string;
+  defaultValue: string;
   options: string[];
-  handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  inputRef?: ((instance: any) => void) | React.RefObject<any>;
+  handleChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  error?: boolean;
 }
 
 export default function CustomSelect({
   label,
   name,
-  value,
+  defaultValue,
   options,
   handleChange,
+  inputRef,
   ...props
 }: CustomSelectProps) {
   const classes = useStyles();
@@ -51,7 +54,7 @@ export default function CustomSelect({
       <TextField
         select
         name={name}
-        value={value}
+        defaultValue={defaultValue}
         variant="outlined"
         onChange={handleChange}
         className={classes.textField}
