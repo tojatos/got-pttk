@@ -17,7 +17,7 @@ import DroppablePoints from "../components/ManageSegments/DroppablePoints";
 import { Segment, SegmentData } from "../constant/Segment";
 import { SegmentPoint } from "../constant/SegmentPoint";
 import axios from "axios";
-import { SEGMENTS_URL } from "../constant/Api";
+import { SEGMENTS_URL, SEGMENTS_URL_ID } from "../constant/Api";
 import { invalidateUserSegments } from "../app/userSegmentsSlice";
 import { Routes } from "../constant/Routes";
 
@@ -135,12 +135,21 @@ export default function EditSegment() {
       return;
     } else {
       try {
-        const result = await axios.post(SEGMENTS_URL, userSegment, {
-          headers: {
-            Authorization: "Bearer " + authData.token,
-          },
-        });
-        if (result.status === 201) {
+        let result;
+        if (id === undefined) {
+          result = await axios.post(SEGMENTS_URL, userSegment, {
+            headers: {
+              Authorization: "Bearer " + authData.token,
+            },
+          });
+        } else {
+          result = await axios.put(SEGMENTS_URL_ID(parseInt(id)), userSegment, {
+            headers: {
+              Authorization: "Bearer " + authData.token,
+            },
+          });
+        }
+        if ([200, 201].includes(result.status)) {
           dispatch(invalidateUserSegments());
           history.push(Routes.MANAGE_SEGMENTS);
         }
