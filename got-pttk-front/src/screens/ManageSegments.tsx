@@ -10,6 +10,11 @@ import SegmentItem from "../components/ManageSegments/SegmentItem";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { Link } from "react-router-dom";
 import { Routes } from "../constant/Routes";
+import axios from "axios";
+import { ROUTE_URL_ID, SEGMENTS_URL_ID } from "../constant/Api";
+import { invalidateRoutes } from "../app/routesSlice";
+import CustomInfoDialog from "../components/CustomInfoDialog";
+import { invalidateUserSegments } from "../app/userSegmentsSlice";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -32,22 +37,49 @@ const useStyles = makeStyles((theme) => ({
 export default function ManageSegments() {
   const classes = useStyles();
   const [toDeleteId, setToDeleteId] = useState<number | undefined>();
+  const [openDeletedModal, setOpenDeletedModal] = useState<boolean>(false);
+  const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
   const dispatch = useDispatch();
+  const authData = useSelector((state: RootState) => state.authData);
   const segmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
   const handleCloseDialog = () => {
-    console.log("Anulowano");
     setToDeleteId(undefined);
   };
 
-  const handleConfirmDialog = () => {
-    console.log("Usunieto połączenie: " + toDeleteId);
+  const handleConfirmDialog = async () => {
+    try {
+      const result = await axios.delete(SEGMENTS_URL_ID(toDeleteId!), {
+        headers: {
+          Authorization: "Bearer " + authData.token,
+        },
+      });
+      if (result.status === 204) {
+        dispatch(invalidateUserSegments());
+        setOpenDeletedModal(true);
+      }
+    } catch (error) {
+      console.warn(error);
+      setOpenErrorModal(true);
+    }
     setToDeleteId(undefined);
   };
 
   return (
     <Layout>
+      <CustomInfoDialog
+        open={openDeletedModal}
+        onCancel={() => {
+          setOpenDeletedModal(false);
+        }}
+        content={"Pomyślnie usunięto połączenie."}
+      />
+      <CustomInfoDialog
+        open={openErrorModal}
+        onCancel={() => setOpenErrorModal(false)}
+        content={"Nastąpił błąd przy usuwaniu połączenia."}
+      />
       <Container className={classes.cointainer}>
         <Grid
           container
