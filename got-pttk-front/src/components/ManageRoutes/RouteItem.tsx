@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import { RouteSegment } from "../../constant/RouteSegment";
 import { calculatePoints } from "../../lib/utils";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,21 +25,28 @@ const useStyles = makeStyles((theme) => ({
 interface RouteItemProps {
   route: Route;
   onDelete: (id: number) => void;
-  onEdit?: () => void;
 }
 
-export default function RouteItem({ route, onEdit, onDelete }: RouteItemProps) {
+export default function RouteItem({ route, onDelete }: RouteItemProps) {
   const classes = useStyles();
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
+  const userSegmentsData = useSelector(
+    (state: RootState) => state.userSegmentsData
+  );
+  const allSegments = [
+    ...(segmentsData.segments || []),
+    ...(userSegmentsData.segments || []),
+  ];
 
   const segmentsToString = (s: Array<RouteSegment>) => {
-    const id1 = route.polaczeniatrasy.find((p) => p.kolejnosc === 1)?.id;
-    const id2 = route.polaczeniatrasy.find((p) => p.kolejnosc === s.length)?.id;
-    return (
-      (segmentsData.segments?.find((s) => s.id === id1)?.nazwa || "") +
-      " - " +
-      (segmentsData.segments?.find((s) => s.id === id2)?.nazwa || "")
-    );
+    const id1 = route.polaczeniatrasy.find((p) => p.kolejnosc === 1)
+      ?.polaczenieid;
+    const n1 = allSegments?.find((s) => s.id === id1)?.nazwa || "";
+    if (s.length === 1) return n1;
+    const id2 = route.polaczeniatrasy.find((p) => p.kolejnosc === s.length)
+      ?.polaczenieid;
+    const n2 = allSegments?.find((s) => s.id === id2)?.nazwa || "";
+    return `${n1} - ${n2}`;
   };
 
   return (
@@ -58,7 +66,11 @@ export default function RouteItem({ route, onEdit, onDelete }: RouteItemProps) {
         </Typography>
       </Grid>
       <Grid item className={classes.grid}>
-        <IconButton aria-label="edit" onClick={onEdit}>
+        <IconButton
+          aria-label="edit"
+          component={Link}
+          to={"/edit-route/" + route.id}
+        >
           <EditIcon fontSize="small" />
         </IconButton>
         <IconButton aria-label="delete" onClick={() => onDelete(route.id)}>

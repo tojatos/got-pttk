@@ -11,16 +11,20 @@ import { Segment } from "../constant/Segment";
 import { Typography } from "@material-ui/core";
 import WarningIcon from "@material-ui/icons/Warning";
 import CustomDroppableList from "../components/PlanRoutes/CustomDroppableList";
-import { dataToRouteSegment, RouteSegmentData } from "../constant/RouteSegment";
+import {
+  dataToRouteSegment,
+  RouteSegment,
+  RouteSegmentData,
+} from "../constant/RouteSegment";
 import { calculatePointsFromData, checkRouteConsistency } from "../lib/utils";
 import axios from "axios";
-import { ROUTE_URL } from "../constant/Api";
+import { ROUTE_URL, ROUTE_URL_ID } from "../constant/Api";
 import { Route } from "../constant/Route";
 import { invalidateRoutes } from "../app/routesSlice";
 import CustomInfoDialog from "../components/CustomInfoDialog";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { Routes } from "../constant/Routes";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -61,23 +65,39 @@ const reorder = (
   return result;
 };
 
-export default function PlanRoute() {
+export default function EditRoute() {
   const classes = useStyles();
   let history = useHistory();
   const authData = useSelector((state: RootState) => state.authData);
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
+  const routesData = useSelector((state: RootState) => state.routesData);
   const userSegmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
+
   const allSegments = [
     ...(segmentsData.segments || []),
     ...(userSegmentsData.segments || []),
   ];
+
+  const routeSegmentTodata = (rs: RouteSegment): RouteSegmentData => ({
+    polaczenie: allSegments.find((s: Segment) => s.id === rs.polaczenieid)!,
+    czypowrotne: rs.czypowrotne,
+    kolejnosc: rs.kolejnosc,
+  });
+
+  const { id } = useParams<{ id: string }>();
+  const initRoute = routesData.routes?.find(
+    (e: Route) => e.id === parseInt(id)
+  )!;
+
   const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
     allSegments
   );
-  const [routeSegments, setRouteSegments] = useState<RouteSegmentData[]>([]);
-  const [routeName, setRouteName] = useState<string>("");
+  const [routeSegments, setRouteSegments] = useState<RouteSegmentData[]>(
+    initRoute.polaczeniatrasy.map(routeSegmentTodata)
+  );
+  const [routeName, setRouteName] = useState<string>(initRoute.nazwa);
   const [openSavedModal, setOpenSavedModal] = useState<boolean>(false);
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
   const [openInconsistencyModal, setOpenInconsistencyModal] = useState<boolean>(
@@ -140,19 +160,19 @@ export default function PlanRoute() {
   const saveRoute = async () => {
     const s = routeSegments.map(dataToRouteSegment);
     const route = {
-      id: 0,
+      id: parseInt(id),
       nazwa: routeName,
       datarozpoczecia: null,
       datazakonczenia: null,
       polaczeniatrasy: s,
     } as Route;
     try {
-      const result = await axios.post(ROUTE_URL, route, {
+      const result = await axios.put(ROUTE_URL_ID(parseInt(id)), route, {
         headers: {
           Authorization: "Bearer " + authData.token,
         },
       });
-      if (result.status === 201) {
+      if (result.status === 200) {
         dispatch(invalidateRoutes());
         setOpenSavedModal(true);
       }

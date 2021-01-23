@@ -9,6 +9,7 @@ import PlanRoute from "./screens/PlanRoute";
 import VerifyRoute from "./screens/VerifyRoute";
 import CustomRoute from "./components/CustomRoute";
 import { UserRole } from "./constant/User";
+import EditRoute from "./screens/EditRoute";
 
 const routes = [
   {
@@ -50,6 +51,12 @@ const routes = [
   {
     path: Routes.ADD_SEGMENT,
     component: EditSegment,
+    exact: false,
+    allowedRoles: [UserRole.TOURIST, UserRole.LEADER],
+  },
+  {
+    path: Routes.EDIT_ROUTE,
+    component: EditRoute,
     exact: false,
     allowedRoles: [UserRole.TOURIST, UserRole.LEADER],
   },
