@@ -48,7 +48,7 @@ const reorder = (
 
   return result.map((e, index) => {
     return {
-      kolejnosc: index,
+      kolejnosc: index + 1,
       punkttrasy: e.punkttrasy,
     };
   });
@@ -113,7 +113,7 @@ export default function EditSegment() {
     if (!newPoint) return;
     const segmentPoints = Array.from(userSegment.punktypolaczenia);
     segmentPoints.push({
-      kolejnosc: userSegment.punktypolaczenia.length,
+      kolejnosc: userSegment.punktypolaczenia.length + 1,
       punkttrasy: {
         nazwa: newPoint,
       },

@@ -11,8 +11,7 @@ import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { Link } from "react-router-dom";
 import { Routes } from "../constant/Routes";
 import axios from "axios";
-import { ROUTE_URL_ID, SEGMENTS_URL_ID } from "../constant/Api";
-import { invalidateRoutes } from "../app/routesSlice";
+import { SEGMENTS_URL_ID } from "../constant/Api";
 import CustomInfoDialog from "../components/CustomInfoDialog";
 import { invalidateUserSegments } from "../app/userSegmentsSlice";
 
