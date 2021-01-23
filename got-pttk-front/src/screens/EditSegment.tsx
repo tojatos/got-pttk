@@ -4,7 +4,7 @@ import { Autocomplete } from "@material-ui/lab";
 import React, { useState } from "react";
 import { DragDropContext, DropResult } from "react-beautiful-dnd";
 import { useForm } from "react-hook-form";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 import { RootState } from "../app/store";
 import CustomButton from "../components/CustomButton";
@@ -14,9 +14,13 @@ import CustomSelect from "../components/CustomSelect";
 import CustomTextField from "../components/CustomTextField";
 import Layout from "../components/MainLayout/Layout";
 import DroppablePoints from "../components/ManageSegments/DroppablePoints";
-import { Routes } from "../constant/Routes";
 import { Segment, SegmentData } from "../constant/Segment";
 import { SegmentPoint } from "../constant/SegmentPoint";
+import axios from "axios";
+import { ROUTE_URL, SEGMENTS_URL, SEGMENTS_URL_ID } from "../constant/Api";
+import { invalidateRoutes } from "../app/routesSlice";
+import { invalidateUserSegments } from "../app/userSegmentsSlice";
+import { Routes } from "../constant/Routes";
 
 const useStyles = makeStyles((theme) => ({
   autocomplete: {
@@ -61,6 +65,7 @@ export default function EditSegment() {
   const mountainGroupsData = useSelector(
     (state: RootState) => state.mountainGroupsData
   );
+  const authData = useSelector((state: RootState) => state.authData);
 
   const pointsData = useSelector((state: RootState) => state.pointsData);
 
@@ -77,10 +82,14 @@ export default function EditSegment() {
     handleSubmit: handleSubmitSegment,
     errors: errorsSegment,
   } = useForm();
+  const dispatch = useDispatch();
 
   const [newPoint, setNewPoint] = useState<string>();
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
   const [openSaveModal, setOpenSaveModal] = useState<boolean>(false);
+  const [grupaGorska, setGrupaGorska] = useState<string>(
+    userSegment.grupagorska || mountainGroupsData.groups[0]
+  );
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) {
@@ -114,19 +123,32 @@ export default function EditSegment() {
   };
 
   const onConfirm = (data: Segment) => {
+    data.grupagorska = grupaGorska; //TODO: this is a workaround
     setUserSegment({ ...userSegment, ...data });
     setOpenSaveModal(true);
   };
 
-  const onSave = () => {
+  const onSave = async () => {
     //TODO: walidacja
+    setOpenSaveModal(false);
     if (userSegment.punktypolaczenia.length < 2) {
-      setOpenSaveModal(false);
       setOpenErrorModal(true);
       return;
     } else {
-      console.log("zapisano punkt:", userSegment);
-      // history.push(Routes.MANAGE_SEGMENTS);
+      try {
+        const result = await axios.post(SEGMENTS_URL, userSegment, {
+          headers: {
+            Authorization: "Bearer " + authData.token,
+          },
+        });
+        if (result.status === 201) {
+          dispatch(invalidateUserSegments());
+          history.push(Routes.MANAGE_SEGMENTS);
+        }
+      } catch (error) {
+        console.warn(error);
+        setOpenErrorModal(true);
+      }
     }
   };
 
@@ -135,7 +157,7 @@ export default function EditSegment() {
       <CustomInfoDialog
         open={openErrorModal}
         onCancel={() => setOpenErrorModal(false)}
-        content={"Nie poprawne dane"}
+        content={"Niepoprawne dane."}
       />
       <CustomConfirmDialog
         open={openSaveModal}
@@ -157,12 +179,16 @@ export default function EditSegment() {
             />
             <CustomSelect
               label="Grupa górska"
-              defaultValue={userSegment.grupagorska}
               name="grupagorska"
+              value={grupaGorska}
+              // defaultValue={
+              //   userSegment.grupagorska || mountainGroupsData.groups[0]
+              // }
+              // inputRef={registerSegment({ required: true })}
+              onChange={(e) => setGrupaGorska(e.target.value)}
               options={mountainGroupsData.groups}
-              inputRef={registerSegment({ required: true })}
-              helperText={errorsSegment.grupagorska && "Podaj grupę górską"}
-              error={!!errorsSegment.grupagorska}
+              // helperText={errorsSegment.grupagorska && "Podaj grupę górską"}
+              // error={!!errorsSegment.grupagorska}
             />
             <CustomTextField
               label="Punkty do"

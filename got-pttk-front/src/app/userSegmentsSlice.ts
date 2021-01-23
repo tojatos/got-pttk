@@ -18,10 +18,16 @@ export const userSegmentsSlice = createSlice({
       state.segments = action.payload.segments;
       state.segmentsInitialized = action.payload.segmentsInitialized;
     },
+    invalidateUserSegments: (state) => {
+      state.segmentsInitialized = false;
+    },
   },
 });
 
-export const { setUserSegments } = userSegmentsSlice.actions;
+export const {
+  setUserSegments,
+  invalidateUserSegments,
+} = userSegmentsSlice.actions;
 
 export const initUserSegments = (): AppThunk => async (dispatch, getState) => {
   try {
