@@ -17,8 +17,7 @@ import DroppablePoints from "../components/ManageSegments/DroppablePoints";
 import { Segment, SegmentData } from "../constant/Segment";
 import { SegmentPoint } from "../constant/SegmentPoint";
 import axios from "axios";
-import { ROUTE_URL, SEGMENTS_URL, SEGMENTS_URL_ID } from "../constant/Api";
-import { invalidateRoutes } from "../app/routesSlice";
+import { SEGMENTS_URL } from "../constant/Api";
 import { invalidateUserSegments } from "../app/userSegmentsSlice";
 import { Routes } from "../constant/Routes";
 
