@@ -18,7 +18,7 @@ import {
 } from "../constant/RouteSegment";
 import { calculatePointsFromData, checkRouteConsistency } from "../lib/utils";
 import axios from "axios";
-import { ROUTE_URL, ROUTE_URL_ID } from "../constant/Api";
+import { ROUTE_URL_ID } from "../constant/Api";
 import { Route } from "../constant/Route";
 import { invalidateRoutes } from "../app/routesSlice";
 import CustomInfoDialog from "../components/CustomInfoDialog";
@@ -91,9 +91,7 @@ export default function EditRoute() {
     (e: Route) => e.id === parseInt(id)
   )!;
 
-  const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
-    allSegments
-  );
+  const [filteredSegments] = useState<Segment[]>(allSegments);
   const [routeSegments, setRouteSegments] = useState<RouteSegmentData[]>(
     initRoute.polaczeniatrasy.map(routeSegmentTodata)
   );

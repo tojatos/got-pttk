@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch } from "react-router-dom";
 import { Routes } from "./constant/Routes";
 import EditSegment from "./screens/EditSegment";
 import HomePage from "./screens/Home";
@@ -10,6 +10,7 @@ import VerifyRoute from "./screens/VerifyRoute";
 import CustomRoute from "./components/CustomRoute";
 import { UserRole } from "./constant/User";
 import EditRoute from "./screens/EditRoute";
+import VerifyUserRoute from "./screens/VerifyUserRoute";
 
 const routes = [
   {
@@ -39,6 +40,12 @@ const routes = [
   {
     path: Routes.VERIFY_ROUTE,
     component: VerifyRoute,
+    exact: true,
+    allowedRoles: [UserRole.LEADER],
+  },
+  {
+    path: Routes.VERIFY_ROUTE_OF_USER,
+    component: VerifyUserRoute,
     exact: false,
     allowedRoles: [UserRole.LEADER],
   },
