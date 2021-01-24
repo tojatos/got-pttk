@@ -74,6 +74,9 @@ class UserSegmentsList(generics.ListAPIView):
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
+        if get_jwt_user(self.request).rola.nazwa == 'PRZODOWNIK':
+            # all segments are needed to verify foreign routes
+            return Polaczenie.objects.filter(tworca__isnull=False)
         return Polaczenie.objects.filter(tworca=get_jwt_user(self.request))
 
 
