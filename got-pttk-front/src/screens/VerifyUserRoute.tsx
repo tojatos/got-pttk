@@ -6,9 +6,8 @@ import {
   makeStyles,
   Typography,
 } from "@material-ui/core";
-import { flatten, uniqBy } from "lodash";
-import React, { useEffect } from "react";
-import { useState } from "react";
+import { uniqBy } from "lodash";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { RootState } from "../app/store";
@@ -20,20 +19,10 @@ import ScrollableList from "../components/VerifyRoute/ScrollableList";
 import { Route } from "../constant/Route";
 import { RouteSegment, RouteSegmentData } from "../constant/RouteSegment";
 import { Segment } from "../constant/Segment";
-import {
-  VerificationMountainGroup,
-  VerificationOfRoute,
-} from "../constant/Verifications";
+import { VerificationMountainGroup } from "../constant/Verifications";
 import { calculatePoints } from "../lib/utils";
 import axios from "axios";
-import {
-  ROUTES_TO_VERIFY_URL,
-  SEGMENTS_URL_ID,
-  VERIFIED_MOUNTAIN_GROUPS_URL,
-  VERIFY_URL,
-} from "../constant/Api";
-import { invalidateUserSegments } from "../app/userSegmentsSlice";
-import { Routes } from "../constant/Routes";
+import { VERIFIED_MOUNTAIN_GROUPS_URL, VERIFY_URL } from "../constant/Api";
 import { invalidateRoutesToVerify } from "../app/routesToVerifySlice";
 import CustomInfoDialog from "../components/CustomInfoDialog";
 
