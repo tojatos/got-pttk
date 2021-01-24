@@ -16,7 +16,11 @@ import {
   RouteSegment,
   RouteSegmentData,
 } from "../constant/RouteSegment";
-import { calculatePointsFromData, checkRouteConsistency } from "../lib/utils";
+import {
+  calculatePointsFromData,
+  checkRouteConsistency,
+  filtredSegments,
+} from "../lib/utils";
 import axios from "axios";
 import { ROUTE_URL_ID } from "../constant/Api";
 import { Route } from "../constant/Route";
@@ -93,7 +97,9 @@ export default function EditRoute() {
     (e: Route) => e.id === parseInt(id)
   )!;
 
-  const [filteredSegments] = useState<Segment[]>(allSegments);
+  const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
+    allSegments
+  );
   const [routeSegments, setRouteSegments] = useState<RouteSegmentData[]>(
     initRoute.polaczeniatrasy.map(routeSegmentTodata)
   );
@@ -304,7 +310,14 @@ export default function EditRoute() {
             </Box>
           </Grid>
           <Grid item xs={6}>
-            <CustomSearch className={classes.searchbar} />
+            <CustomSearch
+              className={classes.searchbar}
+              onChange={(e) =>
+                setFilteredSegments(
+                  filtredSegments(e.target.value, allSegments)
+                )
+              }
+            />
             <CustomDroppableList
               droppableId="segments"
               list={filteredSegments}

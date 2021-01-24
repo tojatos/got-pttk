@@ -12,6 +12,8 @@ import axios from "axios";
 import { ROUTE_URL_ID } from "../constant/Api";
 import { invalidateRoutes } from "../app/routesSlice";
 import CustomInfoDialog from "../components/CustomInfoDialog";
+import { filtredRoutes } from "../lib/utils";
+import { Route } from "../constant/Route";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -39,6 +41,20 @@ export default function ManageRoutes() {
   const authData = useSelector((state: RootState) => state.authData);
   const [openDeletedModal, setOpenDeletedModal] = useState<boolean>(false);
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
+
+  const segmentsData = useSelector((state: RootState) => state.segmentsData);
+  const userSegmentsData = useSelector(
+    (state: RootState) => state.userSegmentsData
+  );
+
+  const allSegments = [
+    ...(segmentsData.segments || []),
+    ...(userSegmentsData.segments || []),
+  ];
+
+  const [filteredRoutes, setFilteredRoutes] = useState<Route[]>(
+    routesData.routes || []
+  );
 
   const handleCloseDialog = () => {
     setToDeleteId(undefined);
@@ -84,12 +100,22 @@ export default function ManageRoutes() {
           spacing={2}
         >
           <Grid item xs={12}>
-            <CustomSearchBar />
+            <CustomSearchBar
+              onChange={(e) =>
+                setFilteredRoutes(
+                  filtredRoutes(
+                    e.target.value,
+                    routesData.routes || [],
+                    allSegments
+                  )
+                )
+              }
+            />
           </Grid>
           <Grid item xs={12} className={classes.listBox}>
-            {routesData.routes && routesData.routes.length > 0 ? (
+            {filteredRoutes && filteredRoutes.length > 0 ? (
               <CustomList
-                itemsJSX={routesData.routes.map((r) => (
+                itemsJSX={filteredRoutes.map((r) => (
                   <RouteItem route={r} key={r.id} onDelete={setToDeleteId} />
                 ))}
               />

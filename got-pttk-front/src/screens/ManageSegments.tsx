@@ -14,6 +14,8 @@ import axios from "axios";
 import { SEGMENTS_URL_ID } from "../constant/Api";
 import CustomInfoDialog from "../components/CustomInfoDialog";
 import { invalidateUserSegments } from "../app/userSegmentsSlice";
+import { Segment } from "../constant/Segment";
+import { filtredSegments } from "../lib/utils";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -43,6 +45,11 @@ export default function ManageSegments() {
   const segmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
+
+  const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
+    segmentsData.segments || []
+  );
+
   const handleCloseDialog = () => {
     setToDeleteId(undefined);
   };
@@ -88,7 +95,13 @@ export default function ManageSegments() {
           spacing={2}
         >
           <Grid item xs={10}>
-            <CustomSearchBar />
+            <CustomSearchBar
+              onChange={(e) =>
+                setFilteredSegments(
+                  filtredSegments(e.target.value, segmentsData.segments || [])
+                )
+              }
+            />
           </Grid>
           <Grid item xs={2} className={classes.center}>
             <Link to={Routes.ADD_SEGMENT}>
@@ -98,9 +111,9 @@ export default function ManageSegments() {
             </Link>
           </Grid>
           <Grid item xs={12} className={classes.listBox}>
-            {segmentsData.segments && segmentsData.segments.length > 0 ? (
+            {filteredSegments && filteredSegments.length > 0 ? (
               <CustomList
-                itemsJSX={segmentsData.segments.map((segm) => (
+                itemsJSX={filteredSegments.map((segm) => (
                   <SegmentItem
                     segment={segm}
                     key={segm.id}

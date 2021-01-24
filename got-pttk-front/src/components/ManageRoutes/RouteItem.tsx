@@ -9,6 +9,7 @@ import { RootState } from "../../app/store";
 import { RouteSegment } from "../../constant/RouteSegment";
 import { calculatePoints } from "../../lib/utils";
 import { Link } from "react-router-dom";
+import { segmentsToString } from "../../lib/converter";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,17 +39,6 @@ export default function RouteItem({ route, onDelete }: RouteItemProps) {
     ...(userSegmentsData.segments || []),
   ];
 
-  const segmentsToString = (s: Array<RouteSegment>) => {
-    const id1 = route.polaczeniatrasy.find((p) => p.kolejnosc === 1)
-      ?.polaczenieid;
-    const n1 = allSegments?.find((s) => s.id === id1)?.nazwa || "";
-    if (s.length === 1) return n1;
-    const id2 = route.polaczeniatrasy.find((p) => p.kolejnosc === s.length)
-      ?.polaczenieid;
-    const n2 = allSegments?.find((s) => s.id === id2)?.nazwa || "";
-    return `${n1} - ${n2}`;
-  };
-
   return (
     <ListItem classes={{ root: classes.root }}>
       <Grid item xs={12} md={10}>
@@ -56,7 +46,7 @@ export default function RouteItem({ route, onDelete }: RouteItemProps) {
           {route.nazwa}
         </Typography>
         <Typography variant="body2" color="textSecondary">
-          {segmentsToString(route.polaczeniatrasy)}
+          {segmentsToString(route.polaczeniatrasy, allSegments, route)}
         </Typography>
       </Grid>
       <Grid item className={classes.grid}>

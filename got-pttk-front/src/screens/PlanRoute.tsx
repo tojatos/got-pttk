@@ -12,7 +12,11 @@ import { Typography } from "@material-ui/core";
 import WarningIcon from "@material-ui/icons/Warning";
 import CustomDroppableList from "../components/PlanRoutes/CustomDroppableList";
 import { dataToRouteSegment, RouteSegmentData } from "../constant/RouteSegment";
-import { calculatePointsFromData, checkRouteConsistency } from "../lib/utils";
+import {
+  calculatePointsFromData,
+  checkRouteConsistency,
+  filtredSegments,
+} from "../lib/utils";
 import axios from "axios";
 import { ROUTE_URL } from "../constant/Api";
 import { Route } from "../constant/Route";
@@ -245,7 +249,14 @@ export default function PlanRoute() {
             </Box>
           </Grid>
           <Grid item xs={6}>
-            <CustomSearch className={classes.searchbar} />
+            <CustomSearch
+              className={classes.searchbar}
+              onChange={(e) =>
+                setFilteredSegments(
+                  filtredSegments(e.target.value, allSegments)
+                )
+              }
+            />
             <CustomDroppableList
               droppableId="segments"
               list={filteredSegments}

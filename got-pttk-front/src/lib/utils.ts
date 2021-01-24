@@ -1,6 +1,8 @@
 import { RouteSegment, RouteSegmentData } from "../constant/RouteSegment";
 import { Segment } from "../constant/Segment";
 import { last, head } from "lodash";
+import { Route } from "../constant/Route";
+import { pointsToString, segmentsToString } from "./converter";
 
 export const calculatePoints = (
   segments: Array<RouteSegment>,
@@ -40,4 +42,29 @@ export const checkRouteConsistency = (polaczeniatrasy: RouteSegmentData[]) => {
   return !polaczeniatrasy.some(
     (e, i) => i !== lastIndex && !isConnected(e, polaczeniatrasy[i + 1])
   );
+};
+
+export const filtredSegments = (searchedText: string, list: Segment[]) => {
+  const searched = searchedText.toLowerCase();
+  const searchPredicate = (item: Segment) =>
+    item.nazwa.toLowerCase().includes(searched) ||
+    pointsToString(item.punktypolaczenia).toLowerCase().includes(searched) ||
+    item.grupagorska.toLowerCase().includes(searched);
+
+  return list.filter(searchPredicate);
+};
+
+export const filtredRoutes = (
+  searchedText: string,
+  list: Route[],
+  allSegments: Segment[]
+) => {
+  const searched = searchedText.toLowerCase();
+  const searchPredicate = (item: Route) =>
+    item.nazwa.toLowerCase().includes(searched) ||
+    segmentsToString(item.polaczeniatrasy, allSegments, item)
+      .toLowerCase()
+      .includes(searched);
+
+  return list.filter(searchPredicate);
 };

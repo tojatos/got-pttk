@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import SearchIcon from "@material-ui/icons/Search";
 import InputBase from "@material-ui/core/InputBase";
+import { InputBaseProps } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   search: {
@@ -40,21 +41,25 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-interface CustomSearchProps {
+interface CustomSearchProps extends InputBaseProps {
   className?: string;
 }
 
-export default function CustomSearch(props: CustomSearchProps) {
+export default function CustomSearch({
+  className,
+  ...props
+}: CustomSearchProps) {
   const classes = useStyles();
 
   return (
-    <div className={props.className + " " + classes.search}>
+    <div className={className + " " + classes.search}>
       <InputBase
         classes={{
           root: classes.inputRoot,
           input: classes.inputInput,
         }}
         inputProps={{ "aria-label": "search" }}
+        {...props}
       />
       <div className={classes.searchIcon}>
         <SearchIcon />
