@@ -9,3 +9,4 @@ export const SEGMENTS_URL_ID = (id: number) => `${API_URL}/segments/${id}/`;
 export const USER_SEGMENTS_URL = `${API_URL}/user_segments/`;
 export const ROUTE_URL = `${API_URL}/route/`;
 export const ROUTE_URL_ID = (id: number) => `${API_URL}/route/${id}/`;
+export const ROUTES_TO_VERIFY_URL = `${API_URL}/routes_to_verify/`;

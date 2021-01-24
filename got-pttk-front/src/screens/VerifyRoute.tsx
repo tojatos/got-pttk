@@ -26,7 +26,9 @@ const useStyles = makeStyles((theme) => ({
 
 export default function VerifyRoute() {
   const classes = useStyles();
-  const routesData = useSelector((state: RootState) => state.routesData);
+  const routesToVerifyData = useSelector(
+    (state: RootState) => state.routesToVerifyData
+  );
 
   return (
     <Layout>
@@ -39,9 +41,10 @@ export default function VerifyRoute() {
           spacing={2}
         >
           <Grid item xs={12} className={classes.listBox}>
-            {routesData.routes && routesData.routes.length > 0 ? (
+            {routesToVerifyData.routes &&
+            routesToVerifyData.routes.length > 0 ? (
               <CustomList
-                itemsJSX={routesData.routes.map((r) => (
+                itemsJSX={routesToVerifyData.routes.map((r) => (
                   <RouteItem route={r} key={r.id} />
                 ))}
               />
