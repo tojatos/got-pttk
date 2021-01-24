@@ -10,7 +10,6 @@ import { Pagination } from "@material-ui/lab";
 const useStyles = makeStyles((theme) => ({
   listBox: {
     width: "100%",
-    height: "60vh",
     background: theme.palette.background.paper,
     borderRadius: "17px",
     border: `1px solid ${theme.palette.primary.main}`,
@@ -41,6 +40,7 @@ interface CustomDroppableListProps {
   type?: "source" | "destination";
   onDelete?: (id: number) => void;
   onCheck?: (id: number) => void;
+  height?: string;
 }
 
 export default function CustomDroppableList({
@@ -49,6 +49,7 @@ export default function CustomDroppableList({
   type,
   onDelete,
   onCheck,
+  height = "60vh",
 }: CustomDroppableListProps) {
   const classes = useStyles();
 
@@ -65,7 +66,7 @@ export default function CustomDroppableList({
   }, [list]);
 
   return (
-    <div className={classes.listBox}>
+    <Box className={classes.listBox} height={height}>
       <Droppable droppableId={droppableId} isDropDisabled={type === "source"}>
         {(provided) => (
           <div
@@ -145,12 +146,12 @@ export default function CustomDroppableList({
           onChange={onChangePage}
           defaultPage={1}
           color="primary"
-          size="large"
+          size="small"
           showFirstButton
           showLastButton
           classes={{ ul: classes.paginator }}
         />
       </Box>
-    </div>
+    </Box>
   );
 }

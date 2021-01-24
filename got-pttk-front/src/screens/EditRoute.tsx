@@ -25,6 +25,8 @@ import CustomInfoDialog from "../components/CustomInfoDialog";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { Routes } from "../constant/Routes";
 import { useHistory, useParams } from "react-router-dom";
+import CustomDatePicker from "../components/CustomDatePicker";
+import PublishIcon from "@material-ui/icons/Publish";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -96,6 +98,13 @@ export default function EditRoute() {
     initRoute.polaczeniatrasy.map(routeSegmentTodata)
   );
   const [routeName, setRouteName] = useState<string>(initRoute.nazwa);
+  const [startData, setStartData] = useState<string>(
+    initRoute.datarozpoczecia || ""
+  );
+  const [endData, setEndData] = useState<string>(
+    initRoute.datazakonczenia || ""
+  );
+
   const [openSavedModal, setOpenSavedModal] = useState<boolean>(false);
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
   const [openInconsistencyModal, setOpenInconsistencyModal] = useState<boolean>(
@@ -160,8 +169,8 @@ export default function EditRoute() {
     const route = {
       id: parseInt(id),
       nazwa: routeName,
-      datarozpoczecia: null,
-      datazakonczenia: null,
+      datarozpoczecia: startData,
+      datazakonczenia: endData,
       polaczeniatrasy: s,
     } as Route;
     try {
@@ -216,13 +225,46 @@ export default function EditRoute() {
               onChange={(e) => setRouteName(e.target.value)}
               fullWidth
             />
+            <Grid container justify="space-between" xs={12} spacing={2}>
+              <Grid item xs={6}>
+                <CustomDatePicker
+                  label="Data rozpoczęcia"
+                  name="startDate"
+                  value={startData}
+                  onChange={(e) => setStartData(e.target.value)}
+                  fullWidth
+                />
+              </Grid>
+              <Grid item xs={6}>
+                <CustomDatePicker
+                  label="Data zakończenia"
+                  name="endDate"
+                  value={endData}
+                  onChange={(e) => setEndData(e.target.value)}
+                  fullWidth
+                />
+              </Grid>
+            </Grid>
             <CustomDroppableList
               droppableId="route"
               list={routeSegments}
+              height="45vh"
               type="destination"
               onDelete={handleDeleteSegment}
               onCheck={handleCheckAsWayBack}
             />
+            <Box display="flex" justifyContent="flex-end" marginY={2}>
+              <CustomButton
+                variant="contained"
+                color="secondary"
+                size="large"
+                disabled={!authData.login}
+                onClick={saveRouteButtonClick}
+              >
+                <PublishIcon />
+                Załącz dokumentację
+              </CustomButton>
+            </Box>
             <Box
               display="flex"
               flexDirection="columns"
