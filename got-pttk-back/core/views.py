@@ -1,5 +1,5 @@
 # Create your views here.
-from typing import List
+from typing import List, Set
 
 from rest_framework import permissions, generics
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
@@ -133,7 +133,7 @@ class RoutesToVerifyList(generics.ListAPIView):
         return Trasa.objects.filter(datarozpoczecia__isnull=False, datazakonczenia__isnull=False) #TODO: not verified
 
 
-class RouteVerificationsList(generics.RetrieveAPIView):
+class RouteVerificationsList(generics.ListAPIView):
     """
     List all route verifications for route
     """
@@ -144,6 +144,29 @@ class RouteVerificationsList(generics.RetrieveAPIView):
         pk = self.request.parser_context['kwargs']['pk']
         route: Trasa = Trasa.objects.get(id=pk)
         return Potwierdzenieprzebyciatrasy.objects.filter(trasa=route)
+
+
+class RouteVerifiedGroups(generics.ListAPIView):
+    """
+    List all verified mountain groups
+    """
+
+    serializer_class = MountainGroupSerializer
+    permission_classes = [IsPrzodownik | IsRouteOwner]
+
+    def get_queryset(self):
+        pk = self.request.parser_context['kwargs']['pk']
+        route: Trasa = Trasa.objects.get(id=pk)
+        grupy_trasy = set([p.polaczenieid.grupagorska for p in route.polaczeniatrasy.all()])
+
+        flatten = lambda t: [item for sublist in t for item in sublist]
+
+        potw: List[Potwierdzenieprzebyciatrasy] = Potwierdzenieprzebyciatrasy.objects.filter(trasa=route)
+        if any([x.czyprzodownikuczestniczyl for x in potw]):
+            return grupy_trasy
+        grupy_gorskie_przodownika: Set[Grupagorskaprzodownika] = set(flatten([p.przodownik.grupagorskaprzodownika_set.all() for p in potw]))
+        grupy_gorskie = set(g.grupagorska for g in grupy_gorskie_przodownika)
+        return grupy_trasy.intersection(grupy_gorskie)
 
 
 class RouteVerificationCreate(generics.CreateAPIView):
