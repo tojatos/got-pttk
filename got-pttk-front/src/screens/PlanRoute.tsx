@@ -126,7 +126,7 @@ export default function PlanRoute() {
       );
     }
   };
-  console.log(routeSegments);
+
   const handleDeleteSegment = (id: number) => {
     const routeClone = Array.from(routeSegments);
     routeClone.splice(id, 1);

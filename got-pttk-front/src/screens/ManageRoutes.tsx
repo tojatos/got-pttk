@@ -41,7 +41,6 @@ export default function ManageRoutes() {
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
 
   const handleCloseDialog = () => {
-    console.log("Anulowano");
     setToDeleteId(undefined);
   };
 

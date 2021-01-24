@@ -182,7 +182,6 @@ export default function EditRoute() {
       polaczeniatrasy: s,
     } as Route;
 
-    console.log(route);
     try {
       const result = await axios.put(ROUTE_URL_ID(parseInt(id)), route, {
         headers: {
