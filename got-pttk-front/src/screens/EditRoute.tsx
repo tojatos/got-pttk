@@ -25,6 +25,8 @@ import CustomInfoDialog from "../components/CustomInfoDialog";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { Routes } from "../constant/Routes";
 import { useHistory, useParams } from "react-router-dom";
+import CustomDatePicker from "../components/CustomDatePicker";
+import PublishIcon from "@material-ui/icons/Publish";
 
 const useStyles = makeStyles((theme) => ({
   listBox: {
@@ -96,6 +98,13 @@ export default function EditRoute() {
     initRoute.polaczeniatrasy.map(routeSegmentTodata)
   );
   const [routeName, setRouteName] = useState<string>(initRoute.nazwa);
+  const [startData, setStartData] = useState<string>(
+    initRoute.datarozpoczecia || ""
+  );
+  const [endData, setEndData] = useState<string>(
+    initRoute.datazakonczenia || ""
+  );
+
   const [openSavedModal, setOpenSavedModal] = useState<boolean>(false);
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
   const [openInconsistencyModal, setOpenInconsistencyModal] = useState<boolean>(
@@ -117,8 +126,12 @@ export default function EditRoute() {
         result.source.index,
         result.destination.index
       );
-
-      setRouteSegments(route);
+      setRouteSegments(
+        route.map((route, index) => ({
+          ...route,
+          kolejnosc: index + 1,
+        }))
+      );
     } else {
       if (result.source.droppableId === "routes") return;
 
@@ -131,7 +144,12 @@ export default function EditRoute() {
         czypowrotne: false,
         kolejnosc: result.destination.index + 1,
       });
-      setRouteSegments(destClone);
+      setRouteSegments(
+        destClone.map((route, index) => ({
+          ...route,
+          kolejnosc: index + 1,
+        }))
+      );
     }
   };
 
@@ -154,16 +172,16 @@ export default function EditRoute() {
       saveRoute();
     }
   };
-
   const saveRoute = async () => {
     const s = routeSegments.map(dataToRouteSegment);
     const route = {
       id: parseInt(id),
       nazwa: routeName,
-      datarozpoczecia: null,
-      datazakonczenia: null,
+      datarozpoczecia: startData || null,
+      datazakonczenia: endData || null,
       polaczeniatrasy: s,
     } as Route;
+
     try {
       const result = await axios.put(ROUTE_URL_ID(parseInt(id)), route, {
         headers: {
@@ -216,13 +234,46 @@ export default function EditRoute() {
               onChange={(e) => setRouteName(e.target.value)}
               fullWidth
             />
+            <Grid container justify="space-between" spacing={2}>
+              <Grid item xs={6}>
+                <CustomDatePicker
+                  label="Data rozpoczęcia"
+                  name="startDate"
+                  value={startData}
+                  onChange={(e) => setStartData(e.target.value)}
+                  fullWidth
+                />
+              </Grid>
+              <Grid item xs={6}>
+                <CustomDatePicker
+                  label="Data zakończenia"
+                  name="endDate"
+                  value={endData}
+                  onChange={(e) => setEndData(e.target.value)}
+                  fullWidth
+                />
+              </Grid>
+            </Grid>
             <CustomDroppableList
               droppableId="route"
               list={routeSegments}
+              height="45vh"
               type="destination"
               onDelete={handleDeleteSegment}
               onCheck={handleCheckAsWayBack}
             />
+            <Box display="flex" justifyContent="flex-end" marginY={2}>
+              <CustomButton
+                variant="contained"
+                color="secondary"
+                size="large"
+                disabled={!authData.login}
+                onClick={saveRouteButtonClick}
+              >
+                <PublishIcon />
+                Załącz dokumentację
+              </CustomButton>
+            </Box>
             <Box
               display="flex"
               flexDirection="columns"

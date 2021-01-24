@@ -21,7 +21,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 interface CustomButtonProps extends Omit<ButtonProps, "color"> {
-  children: React.ReactChild;
   color?: "inherit" | "primary" | "secondary" | "default" | "action";
   className?: string;
 }
