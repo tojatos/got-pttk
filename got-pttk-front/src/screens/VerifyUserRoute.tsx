@@ -46,10 +46,14 @@ export default function VerifyUserRoute() {
   const [present, setPresent] = useState<boolean>(false);
   //TODO replace with correct data
   const verificationsOfRoute: VerificationOfRoute[] = [];
-  const routesData = useSelector((state: RootState) => state.routesData);
+  const routesToVerifyData = useSelector(
+    (state: RootState) => state.routesToVerifyData
+  );
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
   const { id } = useParams<{ id: string }>();
-  const route = routesData.routes?.find((e: Route) => e.id === parseInt(id))!;
+  const route = routesToVerifyData.routes?.find(
+    (e: Route) => e.id === parseInt(id)
+  )!;
   const userSegmentsData = useSelector(
     (state: RootState) => state.userSegmentsData
   );
@@ -149,7 +153,7 @@ export default function VerifyUserRoute() {
               size="large"
               className={classes.spacingY}
             >
-              Dokumantacja
+              Dokumentacja
             </CustomButton>
             <ScrollableList
               itemsJSX={getGroupsFromRoute(route, verificationsOfRoute).map(
