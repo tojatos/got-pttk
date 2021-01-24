@@ -23,11 +23,13 @@ const useStyles = makeStyles((theme) => ({
 interface CustomButtonProps extends Omit<ButtonProps, "color"> {
   children: React.ReactChild;
   color?: "inherit" | "primary" | "secondary" | "default" | "action";
+  className?: string;
 }
 
 export default function CustomButton({
   children,
   color,
+  className,
   ...props
 }: CustomButtonProps) {
   const classes = useStyles();
@@ -35,9 +37,12 @@ export default function CustomButton({
   return (
     <>
       <Button
-        color={color && color !== "action" ? color : "inherit"}
+        color={color && color !== "action" ? color : "primary"}
         className={
-          classes.root + (color === "action" ? ` ${classes.green}` : "")
+          className +
+          " " +
+          classes.root +
+          (color === "action" ? ` ${classes.green}` : "")
         }
         {...props}
       >

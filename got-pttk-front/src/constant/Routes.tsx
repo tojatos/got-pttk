@@ -7,4 +7,5 @@ export enum Routes {
   PLAN_ROUTE = "/plan-route",
   EDIT_ROUTE = "/edit-route/:id",
   VERIFY_ROUTE = "/verification",
+  VERIFY_ROUTE_OF_USER = "/verification/:id",
 }

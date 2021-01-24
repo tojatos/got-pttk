@@ -1,6 +1,4 @@
 import { Segment } from "./Segment";
-import { useSelector } from "react-redux";
-import { RootState } from "../app/store";
 
 export interface RouteSegment {
   id: number;
