@@ -89,3 +89,11 @@ class RouteSerializer(serializers.ModelSerializer):
         for polaczenietrasy_data in polaczeniatrasy_data:
             Polaczenietrasy.objects.create(trasa=trasa, **polaczenietrasy_data)
         return instance
+
+
+class RouteVerificationSerializer(serializers.ModelSerializer):
+    # needed, because serializer fails without perform_create
+    przodownik = serializers.ReadOnlyField(source='przodownik.id')
+    class Meta:
+        model = Potwierdzenieprzebyciatrasy
+        fields = ['id', 'czyprzodownikuczestniczyl', 'trasa', 'przodownik']

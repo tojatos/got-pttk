@@ -131,3 +131,28 @@ class RoutesToVerifyList(generics.ListAPIView):
         # grupy_gorskie = [g.grupagorska for g in grupy_gorskie_przodownika]
         # return Trasa.objects.filter(polaczeniatrasy__polaczenieid__grupagorska__in=grupy_gorskie, datarozpoczecia__isnull=False, datazakonczenia__isnull=False)
         return Trasa.objects.filter(datarozpoczecia__isnull=False, datazakonczenia__isnull=False) #TODO: not verified
+
+
+class RouteVerificationsList(generics.RetrieveAPIView):
+    """
+    List all route verifications for route
+    """
+    serializer_class = RouteVerificationSerializer
+    permission_classes = [IsPrzodownik | IsRouteOwner]
+
+    def get_queryset(self):
+        pk = self.request.parser_context['kwargs']['pk']
+        route: Trasa = Trasa.objects.get(id=pk)
+        return Potwierdzenieprzebyciatrasy.objects.filter(trasa=route)
+
+
+class RouteVerificationCreate(generics.CreateAPIView):
+    """
+    Create route verification for route
+    """
+    serializer_class = RouteVerificationSerializer
+    permission_classes = [IsPrzodownik]
+    queryset = Potwierdzenieprzebyciatrasy.objects.all()
+
+    def perform_create(self, serializer):
+        serializer.save(przodownik=get_jwt_user(self.request))

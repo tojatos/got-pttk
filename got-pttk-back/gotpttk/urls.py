@@ -34,4 +34,6 @@ urlpatterns = [
     path('api/points/', views.PointList.as_view(), name='points'),
     path('api/mountain_groups/', views.MountainGroupList.as_view(), name='mountain_groups'),
     path('api/routes_to_verify/', views.RoutesToVerifyList.as_view(), name='routes_to_verify'),
+    path('api/route_verifications/<int:pk>/', views.RouteVerificationsList.as_view(), name='route_verifications'),
+    path('api/verify/', views.RouteVerificationCreate.as_view(), name='verify'),
 ]

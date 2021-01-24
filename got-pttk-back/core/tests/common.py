@@ -23,6 +23,6 @@ class PrzodownikApiClientTestCase(ApiClientTestCase):
     def setUp(self):
         super(PrzodownikApiClientTestCase, self).setUp()
 
-        self.username = 'user'
+        self.username = 'przodownik'
         tokens = self.client.post('/api/token/', {'username': 'przodownik', 'password': 'przodownik'}).data
         self.client.credentials(HTTP_AUTHORIZATION='Bearer ' + tokens['access'])

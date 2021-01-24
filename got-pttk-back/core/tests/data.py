@@ -92,3 +92,8 @@ test_route_empty = {
     "nazwa": "Testowa trasa 234",
     "polaczeniatrasy": []
 }
+
+test_verification = {
+    "czyprzodownikuczestniczyl": 0,
+    "trasa": 2,
+}
