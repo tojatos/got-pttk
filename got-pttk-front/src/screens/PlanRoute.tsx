@@ -100,7 +100,12 @@ export default function PlanRoute() {
         result.destination.index
       );
 
-      setRouteSegments(route);
+      setRouteSegments(
+        route.map((route, index) => ({
+          ...route,
+          kolejnosc: index + 1,
+        }))
+      );
     } else {
       if (result.source.droppableId === "routes") return;
 
@@ -113,10 +118,15 @@ export default function PlanRoute() {
         czypowrotne: false,
         kolejnosc: result.destination.index + 1,
       });
-      setRouteSegments(destClone);
+      setRouteSegments(
+        destClone.map((route, index) => ({
+          ...route,
+          kolejnosc: index + 1,
+        }))
+      );
     }
   };
-
+  console.log(routeSegments);
   const handleDeleteSegment = (id: number) => {
     const routeClone = Array.from(routeSegments);
     routeClone.splice(id, 1);

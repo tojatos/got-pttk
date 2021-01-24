@@ -84,13 +84,8 @@ export default function ManageRoutes() {
           alignItems="center"
           spacing={2}
         >
-          <Grid item xs={10}>
+          <Grid item xs={12}>
             <CustomSearchBar />
-          </Grid>
-          <Grid item xs={2} className={classes.center}>
-            <CustomButton variant="contained" color="action" size="large">
-              Dodaj
-            </CustomButton>
           </Grid>
           <Grid item xs={12} className={classes.listBox}>
             {routesData.routes && routesData.routes.length > 0 ? (

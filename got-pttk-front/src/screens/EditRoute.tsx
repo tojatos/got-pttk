@@ -126,8 +126,12 @@ export default function EditRoute() {
         result.source.index,
         result.destination.index
       );
-
-      setRouteSegments(route);
+      setRouteSegments(
+        route.map((route, index) => ({
+          ...route,
+          kolejnosc: index + 1,
+        }))
+      );
     } else {
       if (result.source.droppableId === "routes") return;
 
@@ -140,7 +144,12 @@ export default function EditRoute() {
         czypowrotne: false,
         kolejnosc: result.destination.index + 1,
       });
-      setRouteSegments(destClone);
+      setRouteSegments(
+        destClone.map((route, index) => ({
+          ...route,
+          kolejnosc: index + 1,
+        }))
+      );
     }
   };
 
@@ -163,16 +172,17 @@ export default function EditRoute() {
       saveRoute();
     }
   };
-
   const saveRoute = async () => {
     const s = routeSegments.map(dataToRouteSegment);
     const route = {
       id: parseInt(id),
       nazwa: routeName,
-      datarozpoczecia: startData,
-      datazakonczenia: endData,
+      datarozpoczecia: startData || null,
+      datazakonczenia: endData || null,
       polaczeniatrasy: s,
     } as Route;
+
+    console.log(route);
     try {
       const result = await axios.put(ROUTE_URL_ID(parseInt(id)), route, {
         headers: {
@@ -225,7 +235,7 @@ export default function EditRoute() {
               onChange={(e) => setRouteName(e.target.value)}
               fullWidth
             />
-            <Grid container justify="space-between" xs={12} spacing={2}>
+            <Grid container justify="space-between" spacing={2}>
               <Grid item xs={6}>
                 <CustomDatePicker
                   label="Data rozpoczęcia"
