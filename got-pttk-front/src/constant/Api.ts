@@ -10,3 +10,6 @@ export const USER_SEGMENTS_URL = `${API_URL}/user_segments/`;
 export const ROUTE_URL = `${API_URL}/route/`;
 export const ROUTE_URL_ID = (id: number) => `${API_URL}/route/${id}/`;
 export const ROUTES_TO_VERIFY_URL = `${API_URL}/routes_to_verify/`;
+export const VERIFY_URL = `${API_URL}/verify/`;
+export const VERIFIED_MOUNTAIN_GROUPS_URL = (id: number) =>
+  `${API_URL}/route_verified_groups/${id}`;

@@ -1,9 +1,6 @@
-import { Route } from "react-router-dom";
-
 export interface VerificationOfRoute {
   czyPrzodownikUczestniczyl: boolean;
-  trasa: Route;
-  grupygorskiePrzodownika: string[];
+  trasa: number;
 }
 
 export interface VerificationMountainGroup {

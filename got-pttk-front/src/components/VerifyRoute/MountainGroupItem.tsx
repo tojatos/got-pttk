@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     border: `1px solid ${theme.palette.error.main}`,
   },
   verified: {
-    border: `1px solid ${theme.palette.grey}`,
+    border: `1px solid ${theme.palette.success.main}`,
   },
 }));
 
