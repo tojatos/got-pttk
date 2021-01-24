@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
   gridContainer: {
     margin: theme.spacing(1.2),
   },
+  fullwith: {
+    width: "100%",
+  },
   spacing: {
     margin: "auto",
   },
@@ -46,7 +49,11 @@ export default function DraggableSegment({
 
   return (
     <Box display="flex" className={classes.root}>
-      <Box display="flex" justifyContent="space-between">
+      <Box
+        display="flex"
+        justifyContent="space-between"
+        className={!onCheck ? classes.fullwith : ""}
+      >
         <Grid
           container
           justify="space-between"
