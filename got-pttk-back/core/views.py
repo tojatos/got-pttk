@@ -124,6 +124,7 @@ class RoutesToVerifyList(generics.ListAPIView):
     permission_classes = [IsAuthenticated, IsPrzodownik]
 
     def get_queryset(self):
-        grupy_gorskie_przodownika: List[Grupagorskaprzodownika] = get_jwt_user(self.request).grupagorskaprzodownika_set.all()
-        grupy_gorskie = [g.grupagorska for g in grupy_gorskie_przodownika]
-        return Trasa.objects.filter(polaczeniatrasy__polaczenieid__grupagorska__in=grupy_gorskie, datarozpoczecia__isnull=False, datazakonczenia__isnull=False)
+        # grupy_gorskie_przodownika: List[Grupagorskaprzodownika] = get_jwt_user(self.request).grupagorskaprzodownika_set.all()
+        # grupy_gorskie = [g.grupagorska for g in grupy_gorskie_przodownika]
+        # return Trasa.objects.filter(polaczeniatrasy__polaczenieid__grupagorska__in=grupy_gorskie, datarozpoczecia__isnull=False, datazakonczenia__isnull=False)
+        return Trasa.objects.filter(datarozpoczecia__isnull=False, datazakonczenia__isnull=False) #TODO: not verified
