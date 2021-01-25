@@ -6,7 +6,6 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import { Route } from "../../constant/Route";
 import { useSelector } from "react-redux";
 import { RootState } from "../../app/store";
-import { RouteSegment } from "../../constant/RouteSegment";
 import { calculatePoints } from "../../lib/utils";
 import { Link } from "react-router-dom";
 import { segmentsToString } from "../../lib/converter";

@@ -59,6 +59,7 @@ export default function RouteItem({ route }: RouteItemProps) {
   return (
     <ListItem classes={{ root: classes.root }} component="li">
       <Grid
+        container
         component={Link}
         to={"/verification/" + route.id}
         justify="space-between"

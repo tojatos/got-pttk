@@ -10,7 +10,7 @@ export const calculatePoints = (
 ) =>
   segments
     .map((s) => {
-      const segment = segmentsData?.find((se) => se.id === s.id);
+      const segment = segmentsData?.find((se) => se.id === s.polaczenieid);
       return s.czypowrotne ? segment?.punktyz || 0 : segment?.punktydo || 0;
     })
     .reduce((a, b) => a + b, 0);

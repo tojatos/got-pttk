@@ -2,7 +2,6 @@ import { Container, Grid, makeStyles, Typography } from "@material-ui/core";
 import React, { useState } from "react";
 import Layout from "../components/MainLayout/Layout";
 import CustomSearchBar from "../components/CustomSearchBar";
-import CustomButton from "../components/CustomButton";
 import CustomList from "../components/CustomList";
 import CustomConfirmDialog from "../components/CustomConfirmDialog";
 import { useDispatch, useSelector } from "react-redux";
