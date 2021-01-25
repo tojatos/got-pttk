@@ -60,7 +60,7 @@ export default function ManageRoutes() {
     setFilteredRoutes(
       filtredRoutes(filterText, routesData.routes || [], allSegments)
     );
-  }, [allSegments, filterText, routesData]);
+  }, [filterText, routesData]);
 
   const handleCloseDialog = () => {
     setToDeleteId(undefined);
