@@ -50,8 +50,7 @@ export default function RouteItem({ route, onDelete }: RouteItemProps) {
       </Grid>
       <Grid item className={classes.grid}>
         <Typography>
-          {calculatePoints(route.polaczeniatrasy, segmentsData.segments || []) +
-            "pkt."}
+          {calculatePoints(route.polaczeniatrasy, allSegments || []) + "pkt."}
         </Typography>
       </Grid>
       <Grid item className={classes.grid}>
