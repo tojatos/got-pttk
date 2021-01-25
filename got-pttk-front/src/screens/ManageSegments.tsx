@@ -1,5 +1,5 @@
 import { Grid, makeStyles, Typography, Container } from "@material-ui/core";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../components/MainLayout/Layout";
 import CustomSearchBar from "../components/CustomSearchBar";
 import CustomButton from "../components/CustomButton";
@@ -40,6 +40,7 @@ export default function ManageSegments() {
   const [toDeleteId, setToDeleteId] = useState<number | undefined>();
   const [openDeletedModal, setOpenDeletedModal] = useState<boolean>(false);
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
+  const [filterText, setFilterText] = useState<string>("");
   const dispatch = useDispatch();
   const authData = useSelector((state: RootState) => state.authData);
   const segmentsData = useSelector(
@@ -49,6 +50,12 @@ export default function ManageSegments() {
   const [filteredSegments, setFilteredSegments] = useState<Segment[]>(
     segmentsData.segments || []
   );
+
+  useEffect(() => {
+    setFilteredSegments(
+      filtredSegments(filterText, segmentsData.segments || [])
+    );
+  }, [filterText, segmentsData]);
 
   const handleCloseDialog = () => {
     setToDeleteId(undefined);
@@ -95,13 +102,7 @@ export default function ManageSegments() {
           spacing={2}
         >
           <Grid item xs={10}>
-            <CustomSearchBar
-              onChange={(e) =>
-                setFilteredSegments(
-                  filtredSegments(e.target.value, segmentsData.segments || [])
-                )
-              }
-            />
+            <CustomSearchBar onChange={(e) => setFilterText(e.target.value)} />
           </Grid>
           <Grid item xs={2} className={classes.center}>
             <Link to={Routes.ADD_SEGMENT}>

@@ -1,5 +1,5 @@
 import { Container, Grid, makeStyles, Typography } from "@material-ui/core";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../components/MainLayout/Layout";
 import CustomSearchBar from "../components/CustomSearchBar";
 import CustomList from "../components/CustomList";
@@ -11,7 +11,7 @@ import axios from "axios";
 import { ROUTE_URL_ID } from "../constant/Api";
 import { invalidateRoutes } from "../app/routesSlice";
 import CustomInfoDialog from "../components/CustomInfoDialog";
-import { filtredRoutes } from "../lib/utils";
+import { filtredRoutes, filtredSegments } from "../lib/utils";
 import { Route } from "../constant/Route";
 
 const useStyles = makeStyles((theme) => ({
@@ -40,6 +40,7 @@ export default function ManageRoutes() {
   const authData = useSelector((state: RootState) => state.authData);
   const [openDeletedModal, setOpenDeletedModal] = useState<boolean>(false);
   const [openErrorModal, setOpenErrorModal] = useState<boolean>(false);
+  const [filterText, setFilterText] = useState<string>("");
 
   const segmentsData = useSelector((state: RootState) => state.segmentsData);
   const userSegmentsData = useSelector(
@@ -54,6 +55,12 @@ export default function ManageRoutes() {
   const [filteredRoutes, setFilteredRoutes] = useState<Route[]>(
     routesData.routes || []
   );
+
+  useEffect(() => {
+    setFilteredRoutes(
+      filtredRoutes(filterText, routesData.routes || [], allSegments)
+    );
+  }, [allSegments, filterText, routesData]);
 
   const handleCloseDialog = () => {
     setToDeleteId(undefined);
@@ -99,17 +106,7 @@ export default function ManageRoutes() {
           spacing={2}
         >
           <Grid item xs={12}>
-            <CustomSearchBar
-              onChange={(e) =>
-                setFilteredRoutes(
-                  filtredRoutes(
-                    e.target.value,
-                    routesData.routes || [],
-                    allSegments
-                  )
-                )
-              }
-            />
+            <CustomSearchBar onChange={(e) => setFilterText(e.target.value)} />
           </Grid>
           <Grid item xs={12} className={classes.listBox}>
             {filteredRoutes && filteredRoutes.length > 0 ? (

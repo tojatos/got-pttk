@@ -3,7 +3,7 @@ export enum Routes {
   ADD_SEGMENT = "/edit-segment",
   EDIT_SEGMENT = "/edit-segment/:id",
   MANAGE_ROUTES = "/manage-routes",
-  MANAGE_SEGMENTS = "/manage-segemnts",
+  MANAGE_SEGMENTS = "/manage-segments",
   PLAN_ROUTE = "/plan-route",
   EDIT_ROUTE = "/edit-route/:id",
   VERIFY_ROUTE = "/verification",
